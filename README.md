@@ -41,7 +41,12 @@
     <td>Fabricio Gabriel Iparraguirre Quintero</td>
     <td>Modificación de la estructura del documento</td>
   </tr>
-
+  <tr>
+    <td>version 0.1</td>
+    <td>26/03/2024</td>
+    <td>Paolo Gonzalo Párraga Gamarra</td>
+    <td>Modificación de la estructura del documento</td>
+  </tr>
 </table>
 
 ## <span style="color:red">Project Report Collaboration Insights </span>
