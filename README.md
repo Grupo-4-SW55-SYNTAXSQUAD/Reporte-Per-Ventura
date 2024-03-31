@@ -238,7 +238,7 @@ Imforme: <https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Reporte-Per-Ventura>
     <tr>
       <th>¿Porque hacer este análisis?</th>
       <th colspan="3" style="text-align: center;">
-        <span style="border-bottom: 1px solid #30363db3;">¿Cómo identificar a nuestros principales competidores?</span>
+        <p style="border-bottom: 1px solid #30363d; background-color:#161b22;">¿Cómo identificar a nuestros principales competidores?</p>
         <p>[agregar respuesta]</p>
       </th>
     </tr>
