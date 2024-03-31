@@ -227,6 +227,61 @@ Imforme: <https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Reporte-Per-Ventura>
 ### <span id="21-competidores">2.1. Competidores.</span>
 
 ### <span id="211-análisis-competitivo">2.1.1. Análisis competitivo.</span>
+<table>
+  <thead>
+    <tr>
+      <th colspan="4" style="text-align: center;">Competitive Analysis Landscape
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>¿Porque hacer este análisis?</th>
+      <th colspan="3" style="text-align: center;">
+        <p style="border-bottom: 1px solid #30363d; background-color:#161b22;">¿Cómo identificar a nuestros principales competidores?</p>
+        <p>[agregar respuesta]</p>
+      </th>
+    </tr>
+    <tr>
+      <th>
+        Imagenes de Competidores
+      </th>
+      <td>[agregar respuesta]</td>
+      <td>[agregar respuesta]</td>
+      <td>[agregar respuesta]</td>
+    </tr>
+    <tr>
+      <th>Overview</th>
+      <td>[agregar respuesta]</td>
+      <td>[agregar respuesta]</td>
+      <td>[agregar respuesta]</td>
+    </tr>
+    <tr>
+      <th>Ventajas de los competidores</th>
+      <td>[agregar respuesta]</td>
+      <td>[agregar respuesta]</td>
+      <td>[agregar respuesta]</td>
+    </tr>
+    <tr>
+      <th>Mercado Objetivo</th>
+      <td>[agregar respuesta]</td>
+      <td>[agregar respuesta]</td>
+      <td>[agregar respuesta]</td>
+    </tr>
+    <tr>
+      <th>Estrategias de Marketing</th>
+      <td>[agregar respuesta]</td>
+      <td>[agregar respuesta]</td>
+      <td>[agregar respuesta]</td>
+    </tr>
+    <tr>
+      <th>Precios y costos</th>
+      <td>[agregar respuesta]</td>
+      <td>[agregar respuesta]</td>
+      <td>[agregar respuesta]</td>
+    </tr>
+  </tbody>
+</table>
 
 ### <span id="212-estrategias-y-tácticas-frente-a-competidores">2.1.2. Estrategias y tácticas frente a competidores.</span>
 
