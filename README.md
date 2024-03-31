@@ -236,10 +236,10 @@ Imforme: <https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Reporte-Per-Ventura>
   <tbody>
     <tr>
       <th scope="col">¿Porque hacer este análisis?</th>
-      <th scope="col" style="display:flex; flex-direction:column">
+      <!-- <th scope="col" style="display:flex; flex-direction:column"> -->
         <span >¿Cómo identificar a nuestros principales competidores?</span>
         <p>[agregar respuesta]</p>
-      </th>
+      <!-- </th> -->
     </tr>
     <tr>
       <th>
