@@ -47,6 +47,12 @@
     <td>Paolo Gonzalo Párraga Gamarra</td>
     <td>Modificación de la estructura del documento</td>
   </tr>
+  <tr>
+    <td>version 0.2</td>
+    <td>01/04/2024</td>
+    <td>Lynn Jeeferzon Meza Camayo</td>
+    <td>Modificación de startup profile, descripcion de la Startup y antecedentes y problemáticas</td>
+  </tr>
 </table>
 
 ## <span style="color:red">Project Report Collaboration Insights </span>
@@ -283,6 +289,7 @@ Los clientes prefieren acceder a nuestro producto a través de una plataforma en
 ***¿Qué llevó al cliente a llegar a esta situación?*** 
 
 La situación del cliente surge de la creciente demanda de experiencias auténticas y significativas por parte de los viajeros que visitan Perú. A medida que más personas buscan sumergirse en la cultura y las tradiciones locales durante sus viajes, se enfrentan a la limitada disponibilidad de opciones fuera de los destinos turísticos convencionales. Como resultado, los viajeros tienen dificultades para encontrar y reservar actividades auténticas, lo que los lleva a buscar soluciones que les permitan acceder más fácilmente a estas experiencias únicas durante su visita a Perú.
+
 
 
 ### <span id="122-lean-ux-process">1.2.2 Lean UX Process.</span>
