@@ -45,7 +45,7 @@
     <td>version 0.1</td>
     <td>26/03/2024</td>
     <td>Paolo Gonzalo Párraga Gamarra</td>
-    <td>Modificación de la estructura del documento</td>
+    <td>Modificación de los puntos del Capítulo 3</td>
   </tr>
   <tr>
     <td>version 0.2</td>
@@ -218,6 +218,7 @@ SyntaxSquad brinda servicios que incluyen desarrollo de software personalizado, 
 ### <span id="112-perfiles-de-integrantes-del-equipo">1.1.2. Perfiles de integrantes del equipo</span>
 
 ![Imagen 1: perfil-Lynn](./resources-img/Perfil-Lynn.png)
+
 
 ### <span id="12-solution-profile">1.2. Solution Profile</span>
 ### <span id="121-antecedentes-y-problemática">1.2.1 Antecedentes y problemática</span>
@@ -393,13 +394,679 @@ La situación del cliente surge de la creciente demanda de experiencias auténti
 
 ### <span id="31-to-be-scenario-mapping">3.1. To-Be Scenario Mapping.</span>
 
+Segmento objetivo 1: Turistas
+
+![to_be](./resources-img/tobe-turista.jpg)
+Segmento objetivo 2: Dueños de local
+![to_be](./resources-img/tobe-duenio.jpg)
+
+
+
 ### <span id="32-user-stories">3.2. User Stories.</span>
+<table>
+  <tr>
+    <th>Epic/ Story ID</th>
+    <th>Titulo</th>
+    <th>Descripción</th>
+    <th>Criterios de Aceptación</th> 
+    <th>Relacionado con (Epic ID)</th> 
+  </tr>
+  <tr>
+    <td>US01</td>
+    <td>Búsqueda y Reserva de Talleres</td>
+    <td>Como turista, quiero poder buscar talleres de arte y cocina tradicional en Perú para poder reservar actividades auténticas ofrecidas por comunidades locales. </td>
+    <td>
+Escenario 1:
+Dado que el turista desea buscar talleres 
+Cuando el usuario busca "talleres de arte en Lima" en la aplicación
+Entonces la aplicación muestra una lista de talleres de arte disponibles en Lima
+Y el usuario puede ver detalles de cada taller, incluyendo la descripción, ubicación, horarios y precios
+
+Escenario 2:
+Dado que el usuario ha seleccionado un taller and está listo para reservar una actividad
+Cuando el usuario selecciona una fecha and hora para la actividad
+Entonces la aplicación confirma la reserva 
+    </td>
+    <td>EP01</td>
+  </tr>
+  <tr>
+        <td>US02</td>
+    <td>Promoción de Talleres</td>
+    <td>Como dueño de un local, quiero poder promocionar mi taller en la aplicación para atraer turistas interesados en experiencias auténticas. </td>
+    <td>
+Escenario 1:
+Dado una conexión a internet estable
+Cuando el dueño del local accede a su cuenta en la aplicación
+Entonces el dueño del local puede crear un perfil para su taller, incluyendo descripción, fotos, horarios and precios
+
+Escenario 2:
+Dado que el dueño del local ha recibido una reserva
+Cuando el dueño del local accede a su cuenta en la aplicación
+Entonces el dueño del local puede ver un resumen de las reservas realizadas
+    </td>
+    <td>EP02</td>
+  </tr>
+  <tr>
+          <td>US03</td>
+    <td>Gestión de Reservas para Talleres</td>
+    <td>Como dueño de un local en Perú, quiero poder gestionar las reservas realizadas en mi taller de arte o cocina tradicional a través de la aplicación.</td>
+    <td>
+Escenario 1:
+Dado que el usuario quiere gestionar sus reservas
+Cuando el dueño del local accede a su cuenta en la aplicación
+Entonces el dueño del local puede ver un registro de las reservas realizadas en su taller
+and el dueño del local puede confirmar o rechazar las reservas según la disponibilidad de su taller
+and el dueño del local puede comunicarse con los turistas a través de la aplicación para coordinar detalles adicionales
+
+Escenario 2:
+Dado que el dueño del local ha rechazado una reserva
+Cuando el turista accede a la aplicación
+Entonces el turista recibe notificaciones sobre la disponibilidad actualizada del taller
+and el turista puede buscar and reservar otra actividad disponible en la aplicación
+    </td>
+    <td>EP02</td>
+  </tr>
+  <tr>
+             <td>US04</td>
+    <td>Recomendaciones Personalizadas de Talleres</td>
+    <td>Como turista, quiero recibir recomendaciones personalizadas sobre talleres basadas en mis preferencias y ubicación.</td>
+    <td>
+Escenario 1:
+Dado una conexión a internet estable
+Cuando el usuario inicia sesión en la aplicación
+Entonces la aplicación utiliza información sobre las preferencias del usuario y su ubicación para recomendar talleres relevantes
+Y el usuario puede ver las recomendaciones personalizadas en su feed principal
+
+
+Escenario 2:
+Dado que el usuario ha participado en un taller
+Cuando el usuario proporciona una reseña y calificación sobre la experiencia
+Entonces la aplicación utiliza esta calificación para refinar las recomendaciones personalizadas
+    </td>
+    <td>EP01</td>
+  </tr>
+    <tr>
+             <td>US05</td>
+    <td>Evaluación de Reseñas y Calificaciones para Talleres</td>
+    <td>Como turista, quiero poder ver reseñas y calificaciones de otros usuarios sobre los talleres para tomar decisiones informadas.</td>
+    <td>
+Escenario 1:
+Dado que el turista quiere ver las opiniones de otros turistas
+Cuando el usuario selecciona un taller en la aplicación
+Entonces la aplicación muestra reseñas y calificaciones de otros usuarios sobre el taller
+Y el usuario puede leer comentarios detallados sobre la experiencia de otros usuarios
+
+
+Escenario 2:Dado que el usuario ha participado en un taller
+Cuando el usuario accede a su cuenta en la aplicación
+Entonces el usuario puede dejar una reseña y calificación sobre su experiencia en el taller
+Y la aplicación muestra la reseña y calificación del usuario junto con las demás reseñas
+    </td>
+    <td>EP01</td>
+  </tr>
+    <tr>
+             <td>US06</td>
+    <td>Análisis de Popularidad y Estadísticas para Talleres</td>
+    <td>Como dueño de un local, quiero poder acceder a estadísticas y análisis sobre la popularidad de mi taller en la aplicación.</td>
+    <td>
+Escenario 1:
+Dado que el usuario quiere ver sus estadísticas
+Cuando el dueño del local accede a su cuenta en la aplicación
+Entonces el dueño del local puede ver estadísticas sobre la cantidad de visitas a su perfil y reservas realizadas.
+
+Escenario 2:
+Dado que el dueño del local ha realizado ajustes en su estrategia de marketing
+Cuando el dueño del local accede a las estadísticas en la aplicación
+Entonces el dueño del local puede comparar el rendimiento antes y después de los cambios.
+    </td>
+    <td>EP02</td>
+  </tr>
+    <tr>
+             <td>US07</td>
+    <td>Pago Seguro y Conveniente para Reservas de Talleres</td>
+    <td>Como turista, quiero poder pagar de forma segura y conveniente por las reservas de talleres en Perú a través de la aplicación.</td>
+    <td>
+Escenario 1:
+Dado que el usuario quiere poder pagar
+Cuando el usuario realiza una reserva en la aplicación
+Entonces la aplicación ofrece opciones de pago seguras and convenientes, como tarjeta de crédito, PayPal, u otros métodos confiables
+
+Escenario 2:
+Dado que el usuario ha completado una reserva
+Cuando el usuario accede a su cuenta en la aplicación
+Entonces el usuario puede solicitar recibos y facturas para sus pagos 
+    </td>
+    <td>EP01</td>
+  </tr>
+    <tr>
+             <td>US08</td>
+    <td>Recepción Segura de Pagos por Reservas en Talleres</td>
+    <td>Como dueño de un local, quiero poder recibir pagos de forma segura por las reservas realizadas en mi taller para no tener dudas.</td>
+    <td>
+Escenario 1:
+Dado que el dueño quiere recibir pagos de forma segura
+Cuando el dueño del local accede a su cuenta en la aplicación
+Entonces el dueño del local puede configurar opciones de pago seguras, como transferencia bancaria o PayPal
+Y el dueño del local recibe notificaciones sobre pagos realizados por las reservas en su taller
+
+Escenario 2:
+Dado que el dueño del local ha recibido un pago por una reserva
+Cuando el dueño del local accede a la aplicación
+Entonces el dueño del local puede generar informes de ingresos and transacciones para su taller en un período específico
+and el dueño del local puede descargar estos informes para su contabilidad and registros financieros 
+    </td>
+    <td>EP02</td>
+  </tr>
+    <tr>
+             <td>US09</td>
+    <td>Compartir Experiencias en Talleres de Arte</td>
+    <td>Como turista, quiero poder compartir mis experiencias en los talleres de arte a través de la aplicación para inspirar a otros viajeros.</td>
+    <td>
+Escenario 1:
+Dado que el usuario quiere compartir su experiencia
+Cuando el usuario completa un taller en la aplicación
+Entonces la aplicación ofrece la opción de compartir la experiencia a través de redes sociales u otros medios
+Y el usuario puede agregar fotos, comentarios and calificaciones a su experiencia
+
+Escenario 2:
+Dado que el usuario ha compartido su experiencia en un taller
+Cuando otros usuarios acceden a la aplicación
+Entonces los demás usuarios pueden ver las publicaciones de experiencias en un feed dedicado a compartir vivencias y recomendaciones
+    </td>
+    <td>EP01</td>
+  </tr>
+    <tr>
+             <td>US10</td>
+    <td>Recepción de Comentarios y Calificaciones</td>
+    <td>Como dueño de un local, quiero poder recibir comentarios y calificaciones de los turistas que han participado en mi taller para tener un feedback</td>
+    <td>
+Escenario 1:
+Dado que el usuario quiere recibir un feedback
+Cuando el dueño del local accede a su cuenta en la aplicación
+Entonces el dueño del local puede ver comentarios and calificaciones dejados por los turistas que han participado en su taller
+Y el dueño del local puede responder a los comentarios
+
+Escenario 2:
+Dado que el dueño del local ha respondido a un comentario de un turista
+Cuando el turista accede a la aplicación
+Entonces el turista recibe una notificación sobre la respuesta del dueño del local
+    </td>
+    <td>EP02</td>
+  </tr>
+    <tr>
+             <td>US11</td>
+    <td>Información de Comunidades Locales para Talleres</td>
+    <td>Como turista, quiero poder acceder a información detallada sobre las comunidades locales que ofrecen talleres.</td>
+    <td>
+Escenario 1:
+Dado que el usuario quiere información
+Cuando el usuario selecciona una comunidad local en la aplicación
+Entonces la aplicación muestra información detallada sobre la comunidad
+
+Escenario 2:
+Dado que el usuario ha explorado la información sobre una comunidad local
+Cuando el usuario participa en un taller de esa comunidad
+Entonces la aplicación proporciona la opción de realizar donaciones o contribuir al desarrollo sostenible de la comunidad
+    </td>
+    <td>EP03</td>
+  </tr>
+    <tr>
+             <td>US12</td>
+    <td>Destacar la Contribución de la Comunidad</td>
+    <td>Como dueño de un local, quiero poder destacar la contribución de mi comunidad al turismo sostenible en la aplicación para atraer turistas.</td>
+    <td>
+Escenario 1:
+Dado que el dueño quiere destacar
+Cuando el dueño del local accede a su cuenta en la aplicación
+Entonces el dueño del local puede agregar información sobre la contribución de su comunidad al turismo sostenible en su perfil
+
+
+Escenario 2:
+Dado que el dueño del local ha destacado la contribución de su comunidad 
+Cuando los turistas acceden a la aplicación
+Entonces los turistas pueden ver información destacada sobre las iniciativas sostenibles implementadas en el taller y la comunidad
+    </td>
+    <td>EP05</td>
+  </tr>
+    <tr>
+             <td>US13</td>
+    <td>Mapa Interactivo</td>
+    <td>Como turista, quiero poder acceder a un mapa interactivo en la aplicación que muestre la ubicación de los talleres para planificar mi itinerario de viaje.</td>
+    <td>
+Escenario 1:
+Dado una conexión a internet estable
+Cuando el usuario accede a la sección de mapas en la aplicación
+Entonces la aplicación muestra un mapa interactivo con marcadores que representan la ubicación de los talleres disponibles en Perú
+Y el usuario puede hacer clic en un marcador para ver detalles del taller y reservar actividades desde el mapa
+
+Escenario 2:
+Dado que el usuario ha completado una reserva desde el mapa interactivo
+Cuando el usuario accede a su cuenta en la aplicación
+Entonces el usuario puede ver un resumen de sus reservas realizadas 
+    </td>
+    <td>EP03</td>
+  </tr>
+    <tr>
+             <td>US14</td>
+    <td>Disponibilidad para Actualizar Horarios del Taller</td>
+    <td>Como dueño de un local, quiero poder actualizar la disponibilidad de mi taller en la aplicación para reflejar cambios en horarios.</td>
+    <td>
+Escenario 1:
+Dado que el dueño quiere actualizar sus horarios
+Cuando el dueño del local accede a su cuenta en la aplicación
+Entonces el dueño del local puede editar la disponibilidad de su taller, incluyendo horarios and fechas de actividades
+
+Escenario 2:
+Dado que el dueño del local ha actualizado la disponibilidad de su taller
+Cuando se realiza una reserva en un período actualizado
+Entonces la aplicación notifica al dueño del local sobre la reserva 
+    </td>
+    <td>EP05</td>
+  </tr>
+    <tr>
+             <td>US15</td>
+    <td>Notificaciones de Ofertas Especiales y Eventos en Talleres</td>
+    <td>Como turista, quiero poder recibir notificaciones sobre ofertas especiales y eventos en los talleres a través de la aplicación para estar informado sobre promociones</td>
+    <td>
+Escenario 1:
+Dado que el turista quiere recibir notificaciones
+Cuando el usuario activa las notificaciones en la aplicación
+Entonces la aplicación envía notificaciones sobre ofertas especiales and eventos en talleres cercanos
+
+Escenario 2:
+Dado que el usuario ha desactivado las notificaciones
+Cuando el usuario accede a la aplicación
+Entonces el usuario no podrá recibir más notificaciones 
+    </td>
+    <td>EP03</td>
+  </tr>
+    <tr>
+             <td>US16</td>
+    <td>Creación y Gestión de Ofertas Especiales y Eventos</td>
+    <td>Como dueño de un local, quiero poder crear y gestionar ofertas especiales y eventos en mi taller para atraer turistas.</td>
+    <td>
+Escenario 1:
+Dado que el dueño quiere notificar sobre ofertas
+Cuando el dueño del local accede a su cuenta en la aplicación
+Entonces el dueño del local puede crear ofertas especiales and eventos, incluyendo descripción, fechas
+
+Escenario 2:
+Dado que el dueño del local ha creado una oferta especial o evento
+Cuando la oferta especial o evento está activa
+Entonces la aplicación destaca la promoción en áreas relevantes para atraer la atención de los turistas
+    </td>
+    <td>EP05</td>
+  </tr>
+    <tr>
+             <td>US17</td>
+    <td>Acceso a Información para Llegar a los Talleres</td>
+    <td>Como turista, quiero poder acceder a información práctica sobre cómo llegar a los talleres para estar presente en el tiempo indicado.</td>
+    <td>
+Escenario 1:
+Dado una conexión a internet estable
+Cuando el usuario selecciona un taller en la aplicación
+Entonces la aplicación muestra información detallada sobre cómo llegar al taller, incluyendo direcciones
+    </td>
+    <td>EP03</td>
+  </tr>
+    <tr>
+             <td>US18</td>
+    <td>Notificaciones automáticas para consultas de taller</td>
+    <td>Como dueño de un local, quiero poder recibir notificaciones sobre consultas de los turistas interesados en participar en mi taller para informar a posibles clientes.</td>
+    <td>
+Escenario 1:
+Dado que el dueño quiere ser notificado de mensajes entrantes 
+Cuando el dueño del local accede a su cuenta en la aplicación
+Entonces el dueño del local recibe notificaciones sobre consultas 
+Y el dueño del local puede responder a las consultas
+
+
+Escenario 2:
+Dado que el dueño del local ha respondido a una consulta o mensaje
+Cuando el turista accede a la aplicación
+Entonces el turista recibe una notificación sobre la respuesta del dueño del local
+    </td>
+    <td>EP05</td>
+  </tr>
+    <tr>
+             <td>US19</td>
+    <td>Agregar contenido multimedia</td>
+    <td>Como turista, quiero poder acceder a contenido multimedia en la aplicación, como fotos y videos, que muestren las experiencias ofrecidas en los talleres para tener una mejor vista sobre el taller.</td>
+    <td>
+Escenario 1:
+Dado que el turista desea ver contenido multimedia
+Cuando el usuario navega por la aplicación
+Entonces la aplicación muestra contenido multimedia atractivo que presenta las experiencias en los talleres
+Y el usuario puede ver fotos and videos sobre el taller
+
+Escenario 2:
+Dado que el usuario ha participado en un taller
+Cuando el usuario accede a la aplicación
+Entonces la aplicación ofrece la opción de compartir sus propias fotos y videos de la experiencia en el taller
+    </td>
+    <td>EP03</td>
+  </tr>
+    <tr>
+             <td>US20</td>
+    <td>Compartir información del taller</td>
+    <td>Como dueño de un local, quiero poder compartir contenido multimedia, como fotos y videos, que muestren las experiencias en mi taller para atraer turistas.</td>
+    <td>
+Escenario 1:
+Dado que el dueño desea compartir más información sobre su taller
+Cuando el dueño del local accede a su cuenta en la aplicación
+Entonces el dueño del local puede agregar and gestionar contenido multimedia que presente las experiencias en su taller
+
+Escenario 2:
+Dado que el dueño del local ha compartido contenido multimedia
+Cuando los turistas acceden a la aplicación
+Entonces los turistas pueden ver el contenido multimedia cuando entren a la descripción del taller
+    </td>
+    <td>EP05</td>
+  </tr>
+    <tr>
+             <td>US21</td>
+    <td>Información de medidas de seguridad en talleres</td>
+    <td>Como turista, quiero poder acceder a información sobre medidas de seguridad implementados en los talleres en el Perú a través de la aplicación para cumplir con las reglas sanitarias.</td>
+    <td>
+Escenario 1:
+Dado que el turista desea saber sobre normativas
+Cuando el usuario selecciona un taller en la aplicación
+Entonces la aplicación muestra información detallada sobre las medidas de seguridad y protocolos sanitarios implementados en el taller
+
+Escenario 2:
+Dado que el usuario ha participado en un taller
+Cuando el usuario accede a la aplicación
+Entonces la aplicación ofrece la opción de proporcionar retroalimentación sobre la efectividad de las medidas de seguridad 
+    </td>
+    <td>EP04</td>
+  </tr>
+    <tr>
+             <td>US22</td>
+    <td>Inclusión de medidas de seguridad en talleres</td>
+    <td>Como dueño de un local, quiero poder informar sobre medidas de seguridad y protocolos sanitarios implementados en mi taller para generar confianza en los turistas.</td>
+    <td>
+Escenario 1:
+Dado que el dueño quiere informar
+Cuando el dueño del local accede a su cuenta en la aplicación
+Entonces el dueño del local puede agregar información detallada sobre las medidas de seguridad and protocolos sanitarios implementados en su taller
+
+Escenario 2:
+Dado que el dueño del local ha actualizado las medidas de seguridad and protocolos sanitarios
+Cuando se realizan reservas en el taller
+Entonces la aplicación notifica a los turistas sobre las actualizaciones en las prácticas de seguridad
+    </td>
+    <td>EP04</td>
+  </tr>
+    <tr>
+             <td>US23</td>
+    <td>Apartado de servicio al cliente</td>
+    <td>Como turista, quiero poder acceder a un servicio de atención al cliente en la aplicación para recibir asistencia y soporte</td>
+    <td>
+Escenario 1:
+Dado que el turista quiere un servicio de soporte 
+Cuando el usuario necesita asistencia durante su experiencia en un taller
+Entonces la aplicación ofrece un servicio de atención al cliente accesible desde la aplicación llamado “Atención al cliente”
+Y el usuario puede recibir asistencia and soporte
+
+Escenario 2:
+Dado que el usuario ha recibido asistencia a través del servicio de atención al cliente
+Cuando el usuario completa su experiencia en el taller
+Entonces la aplicación ofrece la opción de proporcionar retroalimentación sobre la calidad del servicio de atención al cliente
+    </td>
+    <td>EP04</td>
+  </tr>
+    <tr>
+             <td>US24</td>
+    <td>Apoyo sobre dudas </td>
+    <td>Como dueño de un local, quiero poder acceder a un servicio de atención al cliente en la aplicación para recibir asistencia y soporte en la gestión de mi taller</td>
+    <td>
+Escenario 1:
+Dado que el dueño necesita soporte
+Cuando el dueño del local necesita asistencia en la gestión de su taller
+Entonces la aplicación ofrece un servicio de atención al cliente accesible desde la aplicación
+
+Escenario 2:
+Dado que el dueño del local ha recibido asistencia a través del servicio de atención al cliente
+Cuando el dueño del local completa la interacción
+Entonces la aplicación ofrece la opción de proporcionar retroalimentación sobre la calidad del servicio de atención al cliente
+    </td>
+    <td>EP04</td>
+  </tr>
+    <tr>
+             <td>US25</td>
+    <td>Alojamientos cercanos al taller</td>
+    <td>Como turista, quiero poder acceder a información sobre opciones de alojamiento cercanas a los talleres para facilitar la planificación de mi viaje.</td>
+    <td>
+Escenario 1:
+Dado una conexión a internet estable
+Cuando el usuario busca información sobre un taller en la aplicación
+Entonces la aplicación muestra opciones de alojamiento cercanas
+
+Escenario 2:
+Dado que el usuario ha seleccionado un taller and necesita alojamiento cercano
+Cuando el usuario accede a la información sobre alojamiento en la aplicación
+Entonces la aplicación ofrece la opción de reservar alojamiento directamente desde la aplicación
+    </td>
+    <td>EP04</td>
+  </tr>
+</table>
 
 ### <span id="33-impact-mapping">3.3. Impact Mapping.</span>
 
+![to_be](./resources-img/impactmap.jpg)
 ### <span id="34-product-backlog">3.4. Product Backlog.</span>
+<table>
+  <tr>
+    <th># Orden</th>
+    <th>User Story Id</th>
+    <th>Titulo</th>
+    <th>Descripción</th> 
+    <th>Story points (1/2/3/5/8)</th>
+    <th>Priority</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>US01</td>
+    <td>úsqueda y Reserva de Talleres</td>
+    <td>Como turista, quiero poder buscar talleres de arte y cocina tradicional en Perú para poder reservar actividades auténticas ofrecidas por comunidades locales.</td>
+    <td>5</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>US02</td>
+    <td>Promoción de Talleres</td>
+    <td>Como dueño de un local, quiero poder promocionar mi taller en la aplicación para atraer turistas interesados en experiencias auténticas.</td>
+    <td>3</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>US03</td>
+    <td>Gestión de Reservas para Talleres</td>
+    <td>Como dueño de un local en Perú, quiero poder gestionar las reservas realizadas en mi taller de arte o cocina tradicional a través de la aplicación.</td>
+    <td>1</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+  <td>4</td>
+    <td>US04</td>
+    <td>Recomendaciones Personalizadas de Talleres</td>
+    <td>Como turista, quiero recibir recomendaciones personalizadas sobre talleres basadas en mis preferencias y ubicación.</td>
+    <td>3</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+  <td>5</td>
+    <td>US05</td>
+    <td>Evaluación de Reseñas y Calificaciones para Talleres</td>
+    <td>Como turista, quiero poder ver reseñas y calificaciones de otros usuarios sobre los talleres para tomar decisiones informadas.</td>
+    <td>1</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+  <td>6</td>
+    <td>US06</td>
+    <td>Análisis de Popularidad y Estadísticas para Talleres</td>
+    <td>Como dueño de un local, quiero poder acceder a estadísticas y análisis sobre la popularidad de mi taller en la aplicación.</td>
+    <td>3</td>
+    <td>Baja</td>
+  </tr>
+  <tr>
+  <td>7</td>
+    <td>US07</td>
+    <td>Pago Seguro y Conveniente para Reservas de Talleres</td>
+    <td>Como turista, quiero poder pagar de forma segura y conveniente por las reservas de talleres en Perú a través de la aplicación.</td>
+    <td>3</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+  <td>8</td>
+    <td>US08</td>
+    <td>Recepción Segura de Pagos por Reservas en Talleres</td>
+    <td>Como dueño de un local, quiero poder recibir pagos de forma segura por las reservas realizadas en mi taller para no tener dudas.</td>
+    <td>3</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+  <td>9</td>
+    <td>US09</td>
+    <td>Compartir Experiencias en Talleres de Arte</td>
+    <td>Como turista, quiero poder compartir mis experiencias en los talleres de arte a través de la aplicación para inspirar a otros viajeros.</td>
+    <td>1</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+  <td>10</td>
+    <td>US10</td>
+    <td>Recepción de Comentarios y Calificaciones</td>
+    <td>Como dueño de un local, quiero poder recibir comentarios y calificaciones de los turistas que han participado en mi taller para tener un feedback.</td>
+    <td>3</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+  <td>11</td>
+    <td>US11</td>
+    <td>Información de Comunidades Locales para Talleres</td>
+    <td>Como turista, quiero poder acceder a información detallada sobre las comunidades locales que ofrecen talleres.</td>
+    <td>2</td>
+    <td>Baja</td>
+  </tr>
+  <tr>
+  <td>12</td>
+    <td>US12</td>
+    <td>Destacar la Contribución de la Comunidad</td>
+    <td>Como dueño de un local, quiero poder destacar la contribución de mi comunidad al turismo sostenible en la aplicación para atraer turistas.</td>
+    <td>2</td>
+    <td>Baja</td>
+  </tr>
+  <tr>
+  <td>13</td>
+    <td>US13</td>
+    <td>Mapa Interactivo</td>
+    <td>Como turista, quiero poder acceder a un mapa interactivo en la aplicación que muestre la ubicación de los talleres para planificar mi itinerario de viaje.</td>
+    <td>3</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+  <td>14</td>
+    <td>US14</td>
+    <td>Disponibilidad para Actualizar Horarios del Taller</td>
+    <td>Como dueño de un local, quiero poder actualizar la disponibilidad de mi taller en la aplicación para reflejar cambios en horarios.</td>
+    <td>3</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+  <td>15</td>
+    <td>US15</td>
+    <td>Notificaciones de Ofertas Especiales y Eventos en Talleres</td>
+    <td>Como turista, quiero poder recibir notificaciones sobre ofertas especiales y eventos en los talleres a través de la aplicación para estar informado sobre promociones.</td>
+    <td>3</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+  <td>16</td>
+    <td>US16</td>
+    <td>Creación y Gestión de Ofertas Especiales y Eventos</td>
+    <td>Como dueño de un local, quiero poder crear y gestionar ofertas especiales y eventos en mi taller para atraer turistas.</td>
+    <td>3</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+  <td>17</td>
+    <td>US17</td>
+    <td>Acceso a Información para Llegar a los Talleres</td>
+    <td>Como turista, quiero poder acceder a información práctica sobre cómo llegar a los talleres para estar presente en el tiempo indicado.</td>
+    <td>2</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+  <td>18</td>
+    <td>US18</td>
+    <td>Notificaciones automáticas para consultas de taller</td>
+    <td>Como dueño de un local, quiero poder recibir notificaciones sobre consultas de los turistas interesados en participar en mi taller para informar a posibles clientes.</td>
+    <td>2</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+  <td>19</td>
+    <td>US19</td>
+    <td>Agregar contenido multimedia</td>
+    <td>Como turista, quiero poder acceder a contenido multimedia en la aplicación, como fotos y videos, que muestren las experiencias ofrecidas en los talleres para tener una mejor vista sobre el taller.</td>
+    <td>2</td>
+    <td>Baja</td>
+  </tr>
+  <tr>
+  <td>20</td>
+    <td>US20</td>
+    <td>Compartir información del taller</td>
+    <td>Como dueño de un local, quiero poder compartir contenido multimedia, como fotos y videos, que muestren las experiencias en mi taller para atraer turistas.</td>
+    <td>1</td>
+    <td>Baja</td>
+  </tr>
+  <tr>
+  <td>21</td>
+    <td>US21</td>
+    <td>Información de medidas de seguridad en talleres</td>
+    <td>Como turista, quiero poder acceder a información sobre medidas de seguridad implementados en los talleres en el Perú a través de la aplicación para cumplir con las reglas sanitarias.</td>
+    <td>3</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+  <td>22</td>
+    <td>US22</td>
+    <td>Inclusión de medidas de seguridad en talleres</td>
+    <td>Como dueño de un local, quiero poder informar sobre medidas de seguridad y protocolos sanitarios implementados en mi taller para generar confianza en los turistas.</td>
+    <td>3</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+  <td>23</td>
+    <td>US23</td>
+    <td>Apartado de servicio al cliente</td>
+    <td>Como turista, quiero poder acceder a un servicio de atención al cliente en la aplicación para recibir asistencia y soporte.</td>
+    <td>2</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+  <td>24</td>
+    <td>US24</td>
+    <td>Apoyo sobre dudas </td>
+    <td>Como dueño de un local, quiero poder acceder a un servicio de atención al cliente en la aplicación para recibir asistencia y soporte en la gestión de mi taller.</td>
+    <td>2</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+  <td>25</td>
+    <td>US25</td>
+    <td>Alojamientos cercanos al taller</td>
+    <td>Como turista, quiero poder acceder a información sobre opciones de alojamiento cercanas a los talleres para facilitar la planificación de mi viaje.</td>
+    <td>3</td>
+    <td>Media</td>
+  </tr>
+</table>
 
-# <span id="capítulo-iv-product-design">Capítulo IV: Product Design</span>
+# <span id="capítulo-iv-product-design" style="color:red"> Capítulo IV: Product Design</span>
 
 ### <span id="41-style-guidelines">4.1. Style Guidelines.</span>
 
