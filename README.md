@@ -218,6 +218,7 @@ SyntaxSquad brinda servicios que incluyen desarrollo de software personalizado, 
 ### <span id="112-perfiles-de-integrantes-del-equipo">1.1.2. Perfiles de integrantes del equipo</span>
 
 ![Imagen 1: perfil-Lynn](./resources-img/Perfil-Lynn.png)
+![Imagen 2: perfil-Bryan](./resources-img/Perfil-Bryan.png)
 
 
 ### <span id="12-solution-profile">1.2. Solution Profile</span>
@@ -384,6 +385,8 @@ información recolectada, a nuestro segmento objetivo.
 ### <span id="231-user-personas">2.3.1. User Personas.</span>
 
 Para cada segmento objetivo, se crearon cinco perfiles de usuario (user personas) con el propósito de obtener un profundo entendimiento del cliente potencial, identificar sus características comunes y comprender el contexto específico de la problemática que se busca resolver.
+
+![to_be](./resources-img/user-persona/userpersona1.png)
 
 ### <span id="232-user-task-matrix">2.3.2. User Task Matrix.</span>
 
