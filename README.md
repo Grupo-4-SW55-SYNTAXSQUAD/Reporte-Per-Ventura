@@ -378,11 +378,27 @@ La situación del cliente surge de la creciente demanda de experiencias auténti
 
 ### <span id="23-needfinding">2.3. Needfinding.</span>
 
+En esta sección analizamos las entrevistas realizadas e
+información recolectada, a nuestro segmento objetivo.
+
 ### <span id="231-user-personas">2.3.1. User Personas.</span>
+
+Para cada segmento objetivo, se crearon cinco perfiles de usuario (user personas) con el propósito de obtener un profundo entendimiento del cliente potencial, identificar sus características comunes y comprender el contexto específico de la problemática que se busca resolver.
 
 ### <span id="232-user-task-matrix">2.3.2. User Task Matrix.</span>
 
+| USER TASK        | Segmento: Turista               | Segmento: Turista                | Segmento: Dueño de local         | Segmento: Dueño de local         |
+|------------------|---------------------------------|----------------------------------|----------------------------------|----------------------------------|
+| Buscar proveedor |                                 |                                  |                                  |                                  |
+| Buscar clientes  |                                 |                                  |                                  |                                  |
+| Preguntar por contactos/recomendaciones |          |                                  |                                  |                                  |
+| Publicar o buscar servicios en redes sociales/internet |                              |                                  |                                  |
+| Publicar o buscar servicios en revistas o periódicos |                                |                                  |                                  |
+| Contactar con el proveedor en caso de algún producto en mal estado |                  |                                  |                                  |
+| Contactar con el posible cliente de manera online/presencial y firmar un contrato |   |                                  |                                  |  
+
 ### <span id="233-user-journey-mapping">2.3.3. User Journey Mapping.</span>
+
 
 ### <span id="234-empathy-mapping">2.3.4. Empathy Mapping.</span>
 
