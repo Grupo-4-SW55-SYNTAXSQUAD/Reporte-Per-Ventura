@@ -379,8 +379,7 @@ La situación del cliente surge de la creciente demanda de experiencias auténti
 
 ### <span id="23-needfinding">2.3. Needfinding.</span>
 
-En esta sección analizamos las entrevistas realizadas e
-información recolectada, a nuestro segmento objetivo.
+En esta sección, llevamos a cabo un análisis detallado de las entrevistas realizadas y la información recolectada correspondiente a nuestro segmento objetivo.
 
 ### <span id="231-user-personas">2.3.1. User Personas.</span>
 
@@ -402,10 +401,15 @@ Para cada segmento objetivo, se crearon cinco perfiles de usuario (user personas
 
 ### <span id="233-user-journey-mapping">2.3.3. User Journey Mapping.</span>
 
+En esta sección, detallamos el recorrido integral de nuestro segmento objetivo, examinando cuidadosamente la secuencia de pasos que tanto vendedores como proveedores deben seguir actualmente para alcanzar sus metas
 
 ### <span id="234-empathy-mapping">2.3.4. Empathy Mapping.</span>
 
+Se desarrollaron mapas de empatía para cada uno de nuestros segmentos objetivos. Este proceso nos permitió no solo complementar sino también confirmar los detalles de los user personas de cada segmento. 
+
 ### <span id="235-as-is-scenario-mapping">2.3.5. As-is Scenario Mapping.</span>
+
+En esta parte, mostramos un resumen de lo que hemos encontrado. Hacemos un mapa de cómo están las cosas ahora para nuestro grupo objetivo. Esto incluye una tabla que explica qué están haciendo, cómo lo hacen, qué piensan mientras lo hacen y cómo se sienten.
 
 ### <span id="24-ubiquitous-language">2.4. Ubiquitous Language.</span>
 
