@@ -385,7 +385,7 @@ En esta sección, llevamos a cabo un análisis detallado de las entrevistas real
 
 Para cada segmento objetivo, se crearon cinco perfiles de usuario (user personas) con el propósito de obtener un profundo entendimiento del cliente potencial, identificar sus características comunes y comprender el contexto específico de la problemática que se busca resolver.
 
-![to_be](./resources-img/user-persona/userpersona1.png)
+![user_persona_1](./resources-img/user-persona/userpersona1.png)
 
 ### <span id="232-user-task-matrix">2.3.2. User Task Matrix.</span>
 
@@ -403,11 +403,39 @@ Para cada segmento objetivo, se crearon cinco perfiles de usuario (user personas
 
 En esta sección, detallamos el recorrido integral de nuestro segmento objetivo, examinando cuidadosamente la secuencia de pasos que tanto vendedores como proveedores deben seguir actualmente para alcanzar sus metas
 
+#### Segmento Turista:
+
+![user_journey_persona1](./resources-img/user-journey-map/user-journey-persona1.png)
+
+#### Segmento Dueño de Local:
+
+![user_journey_persona1](./resources-img/user-journey-map/user-journey-persona1.png)
+
+
 ### <span id="234-empathy-mapping">2.3.4. Empathy Mapping.</span>
 
 Se desarrollaron mapas de empatía para cada uno de nuestros segmentos objetivos. Este proceso nos permitió no solo complementar sino también confirmar los detalles de los user personas de cada segmento. 
 
+#### Segmento Turista:
+
+![empathy_persona_1](./resources-img/empathy-map/empathypersona1.png)
+
+#### Segmento Dueño de Local:
+
+![empathy_persona_1](./resources-img/empathy-map/empathypersona1.png)
+
+
 ### <span id="235-as-is-scenario-mapping">2.3.5. As-is Scenario Mapping.</span>
+
+#### Segmento Turista:
+
+![empathy_persona_1](./resources-img/as-is-scenario-mapping/scenario-mapping1.jpg)
+
+#### Segmento Dueño de Local:
+
+![empathy_persona_1](./resources-img/as-is-scenario-mapping/scenario-mapping1.jpg)
+
+
 
 En esta parte, mostramos un resumen de lo que hemos encontrado. Hacemos un mapa de cómo están las cosas ahora para nuestro grupo objetivo. Esto incluye una tabla que explica qué están haciendo, cómo lo hacen, qué piensan mientras lo hacen y cómo se sienten.
 
