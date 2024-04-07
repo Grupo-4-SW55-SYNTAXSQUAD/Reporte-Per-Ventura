@@ -1236,7 +1236,7 @@ Entonces la aplicación ofrece la opción de reservar alojamiento directamente d
     <td>
       Nombre del taller
     </td>
-    <td rowspan="8">verinformacionTaller()<br>
+    <td rowspan="10">verinformacionTaller()<br>
     setNombreTaller()<br>
     getNombreTaller()<br>
     verEstadísticas()<br>
