@@ -1115,12 +1115,330 @@ Entonces la aplicación ofrece la opción de reservar alojamiento directamente d
 ### <span id="47-software-object-oriented-design">4.7. Software Object-Oriented Design.</span>
 
 ### <span id="471-class-diagrams">4.7.1. Class Diagrams.</span>
+![alt text](./resources-img/PERUVENTURA.jpg)
 
 ### <span id="472-class-dictionary">4.7.2. Class Dictionary.</span>
+
+- **Clase usuario_Turista**
+
+<table>
+  <tr>
+    <th>Atributo</th>
+    <th>Descripción</th>
+    <th >Método</th>
+  </tr>
+  <tr>
+    <td>
+      nombre
+    </td>
+    <td>
+      Nombre del Turista 
+    </td>
+    <td rowspan="8">buscarTaller(string)<br>
+    verDetallesTaller(string)<br>
+    reservar(string)<br>
+    pagar(string)<br>
+    editarPerfil()<br>
+    comparitrExp()
+    </td>
+  </tr>
+  <tr>
+    <td>correoElectrónico</td>
+    <td>El correo electrónico del turista, cuando se registró</td> 
+   
+  </tr>
+  <tr>
+    <td>contraseña</td>
+    <td>La contraseña con la cual se registró el usuario</td> 
+  </tr>
+  <tr>
+    <td>ubicación</td>
+    <td>La actual del usuario</td> 
+  </tr>
+  <tr>
+    <td>intereses</td>
+    <td>Un arreglo que contiene los interese del usuario</td> 
+  </tr>
+  <tr>
+    <td>historial_de_Reservas</td>
+    <td>Un arreglo de objetos tipo Reserva</td> 
+  </tr>
+  <tr>
+    <td>tipoReserva</td>
+    <td>Para saber si el usuario reservó un alojamiento o un taller</td>
+  </tr>
+</table>
+
+- **Clase usuario_Duenio_Local**
+
+<table>
+  <tr>
+    <th>Atributo</th>
+    <th>Descripción</th>
+    <th>Método</th>
+  </tr>
+  <tr>
+    <td>
+      nombre
+    </td>
+    <td>
+      Nombre del Turista 
+    </td>
+    <td rowspan="8">buscarTaller(string)<br>
+    verDetallesTaller(string)<br>
+    reservar(string)<br>
+    pagar(string)<br>
+    mostrarTaller(taller)<br>
+    enviarPromocion()<br>
+    editarPerfil()<br>
+    comparitrExp()
+    </td>
+  </tr>
+  <tr>
+    <td>correoElectrónico</td>
+    <td>El correo electrónico del turista, cuando se registró</td> 
+   
+  </tr>
+  <tr>
+    <td>contraseña</td>
+    <td>La contraseña con la cual se registró el usuario</td> 
+  </tr>
+  <tr>
+    <td>ubicación</td>
+    <td>La actual del usuario</td> 
+  </tr>
+  <tr>
+    <td>intereses</td>
+    <td>Un arreglo que contiene los interese del usuario</td> 
+  </tr>
+  <tr>
+    <td>historial_de_Reservas</td>
+    <td>Un arreglo de objetos tipo Reserva</td> 
+  </tr>
+  <tr>
+    <td>nombreTaller</td>
+    <td>Nombre del taller del que es dueño(a)</td>
+  </tr>
+</table>
+
+- **Clase taller**
+
+<table>
+  <tr>
+    <th>Atributo</th>
+    <th>Descripción</th>
+    <th>Método</th>
+  </tr>
+  <tr>
+    <td>
+      nombre
+    </td>
+    <td>
+      Nombre del taller
+    </td>
+    <td rowspan="8">verinformacionTaller()<br>
+    setNombreTaller()<br>
+    getNombreTaller()<br>
+    verEstadísticas()<br>
+    cantReservas(reserva)<br>
+    verComunidad(comunidad)<br>
+    enviarNotifiacion(usuario_Duenio_Local*)<br>
+    </td>
+  </tr>
+  <tr>
+    <td>descripcion</td>
+    <td>Una descripción corta de lo que trata el taller</td> 
+   
+  </tr>
+  <tr>
+    <td>ubiación</td>
+    <td>Ubiacion del taller</td> 
+  </tr>
+  <tr>
+    <td>categoria</td>
+    <td>La catagoria del taller (cocina, cerámica,etc)</td> 
+  </tr>
+  <tr>
+    <td>horario</td>
+    <td>Horario de apertura y cierre del local</td> 
+  </tr>
+  <tr>
+    <td>precio</td>
+    <td>Precio de la reserva</td> 
+  </tr>
+  <tr>
+    <td>cupo_máximo_</td>
+    <td>Límite de cuántas reservas pueden haber</td>
+  </tr>
+    <tr>
+    <td>medidas_de_seguridad</td>
+    <td>Las medidas que tiene el local para sehuir con las relgas sanitarias</td>
+  </tr>
+    <tr>
+    <td>propietario</td>
+    <td>Mostrará el dueño del taller</td>
+  </tr>
+      <tr>
+    <td>comunidad</td>
+    <td>Mostrará la comuniadd a la que pertenece el local</td>
+  </tr>
+</table>
+
+- **Clase alojamiento**
+
+<table>
+  <tr>
+    <th>Atributo</th>
+    <th>Descripción</th>
+    <th>Método</th>
+  </tr>
+  <tr>
+    <td>
+      nombre
+    </td>
+    <td>
+      Nombre del establecimiento donde descansará el usuario
+    </td>
+    <td rowspan="8">verInformacion()<br>
+    </td>
+  </tr>
+  <tr>
+    <td>descripcion</td>
+    <td>Una descripción corta del alojamiento</td> 
+   
+  </tr>
+  <tr>
+    <td>ubiación</td>
+    <td>Ubiacion del alojamiento</td> 
+  </tr>
+  <tr>
+    <td>tipo</td>
+    <td>El tipo de alojmaineto(hotel, hostal, etc)</td> 
+  </tr>
+  <tr>
+    <td>servicios</td>
+    <td>Los servicios que ofrece el alojamiento</td> 
+  </tr>
+  <tr>
+    <td>precio</td>
+    <td>Precio del alojamiento</td> 
+  </tr>
+
+</table>
+
+- **Clase comunidad**
+
+<table>
+  <tr>
+    <th>Atributo</th>
+    <th>Descripción</th>
+    <th>Método</th>
+  </tr>
+  <tr>
+    <td>
+      nombre
+    </td>
+    <td>
+      Nombre de la comunidad
+    </td>
+    <td rowspan="8">verInformacion()<br>
+    </td>
+  </tr>
+  <tr>
+    <td>descripcion</td>
+    <td>Una descripción corta de la comunidad</td> 
+   
+  </tr>
+  <tr>
+    <td>ubiación</td>
+    <td>Ubiacion de la comunidad</td> 
+  </tr>
+  <tr>
+    <td>cultura</td>
+    <td>Un poco de información de su cultura</td> 
+  </tr>
+
+</table>
+
+- **Clase reserva**
+
+<table>
+  <tr>
+    <th>Atributo</th>
+    <th>Descripción</th>
+    <th>Método</th>
+  </tr>
+  <tr>
+    <td>
+      fecha
+    </td>
+    <td>
+      La fecha donde se hizo la reserva
+    </td>
+    <td rowspan="8">confirmarReserva()<br>
+    cancelarReserva()
+    </td>
+  </tr>
+  <tr>
+    <td>hora</td>
+    <td>Hora donde se hizo la reserva</td> 
+   
+  </tr>
+  <tr>
+    <td>usuario</td>
+    <td>EL usuario que hizo la reserva</td> 
+  </tr>
+  <tr>
+    <td>estado</td>
+    <td>El estado de la reserva</td> 
+  </tr>
+
+</table>
+
+- **Clase pago**
+
+<table>
+  <tr>
+    <th>Atributo</th>
+    <th>Descripción</th>
+    <th>Método</th>
+  </tr>
+  <tr>
+    <td>
+      monto
+    </td>
+    <td>
+      El precio a pagar
+    </td>
+    <td rowspan="8">realizarPago(bool)<br>
+    confirmarPago()<br>
+    mostrarReserva()
+    </td>
+  </tr>
+  <tr>
+    <td>fecha</td>
+    <td>fecha donde se realizó el pago</td> 
+   
+  </tr>
+  <tr>
+    <td>tipo_pago</td>
+    <td>Si el pago fue hecho por tarjeta o Paypal</td> 
+  </tr>
+  <tr>
+    <td>estado</td>
+    <td>El estado del pago</td> 
+  </tr>
+  <tr>
+    <td>reserva</td>
+    <td>Objeto reserva</td> 
+  </tr>
+</table>
 
 ### <span id="48-database-design">4.8. Database Design.</span>
 
 ### <span id="481-database-diagram">4.8.1. Database Diagram.</span>
+
+![alt text](./resources-img/PeruVentura-2024-04-06_22-15.png)
 
 # <span id="capítulo-v-product-implementation-validation--deployment">Capítulo V: Product Implementation, Validation & Deployment</span>
 
