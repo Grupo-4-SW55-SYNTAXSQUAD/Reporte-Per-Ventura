@@ -45,7 +45,7 @@
     <td>version 0.1</td>
     <td>26/03/2024</td>
     <td>Paolo Gonzalo Párraga Gamarra</td>
-    <td>Modificación de los puntos del Capítulo 3</td>
+    <td>Modificación de los puntos del Capítulo 3 y Capítulo 4</td>
   </tr>
   <tr>
     <td>version 0.2</td>
@@ -218,7 +218,9 @@ SyntaxSquad brinda servicios que incluyen desarrollo de software personalizado, 
 ### <span id="112-perfiles-de-integrantes-del-equipo">1.1.2. Perfiles de integrantes del equipo</span>
 
 ![Imagen 1: perfil-Lynn](./resources-img/Perfil-Lynn.png)
-
+#
+#
+![Imagen 2: perfil-Paolo](./resources-img/Paolo_Párraga_Perfil.png)
 
 ### <span id="12-solution-profile">1.2. Solution Profile</span>
 ### <span id="121-antecedentes-y-problemática">1.2.1 Antecedentes y problemática</span>
