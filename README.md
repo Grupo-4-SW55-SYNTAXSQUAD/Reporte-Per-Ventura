@@ -849,6 +849,90 @@ Entonces la aplicación ofrece la opción de reservar alojamiento directamente d
     </td>
     <td>EP04</td>
   </tr>
+    <tr>
+             <td>US26</td>
+    <td>Apartado de Servicios</td>
+    <td>Como turista, quiero tener acceso a un apartado de Servicios para poder saber que ofrece el aplicativo junto a una pequeña descripción.</td>
+    <td>
+Escenario 1:
+Dado que el turista desea saber sobre los servicios
+Cando esté en el pantalla pricipal y de click sobre "Servicios"
+Entonces se le llevará a donde están y brindrará una pequeña descripcion sobre qué hace cada cosa.
+
+Escenario 2:
+Dado que el usuario está en otro apartado diferente al inicial
+Cuando el usuario acceda a la barra principal
+Entonces podrá encontrar ingresar a Servicios y ver la descipción de estos.
+    </td>
+    <td>EP06</td>
+  </tr>
+             <td>US27</td>
+    <td>Apartado de About the Team</td>
+    <td>Como turista, quiero acceder a una sección de "Acerca de nosotros" para conocer a los creadores del aplicativo junto a una foto de ellos</td>
+    <td>
+Escenario 1:
+Dado que el usuario está interesado en conocer a los creadores del aplicativo
+Cuando accede a la sección de "About the Team" desde la pantalla principal
+Entonces se mostrará información sobre los creadores del aplicativo, incluyendo sus nombres y una foto de ellos.
+
+Escenario 2:
+Dado que el usaurio está en Servicios
+Cuando el usuario acceda al menú princiapl o vaya al final de la página
+Entonces podrá encontrar la sección que le llevará a About the Team
+    </td>
+    <td>EP06</td>
+  </tr>
+  </tr>
+             <td>US28</td>
+    <td>Apartado de Inicio</td>
+    <td>Como usuario, quiero poder visualizar una pantalla de inicio agradable a la vista y fácil de interactuar para que gane mi interés de usarla</td>
+    <td>
+Escenario 1:
+Dado que  el usuario quiere una interfaz agradable a la vista
+Cuando ingrese al aplicativo podrá visualizar cada apartado que ofrece
+Entonces podrá navegar por el aplicativo y valorar si es de s interés.
+
+Escenario 2:
+Dado que el usuario encuentra nuestra página web
+Cuando abre el enlace par aingresar 
+Entonces se le mostrará cada apartado que hay, entre otras funcionalidades
+    </td>
+    <td>EP06</td>
+  </tr>
+  </tr>
+             <td>US29</td>
+    <td>Apartado de About Us</td>
+    <td>Como turista, quiero saber sobre qué trata el aplicativo de una mejor forma por medio de una descripción corta y concisa para saber si puede serme de utilidad</td>
+    <td>
+Escenario 1:
+Dado que el usuario desea conocer sobr ele aplicativo
+Cuando accede a la sección de "About Us" desde la pantalla principal
+Entonces se mostrará una pequeña información sobre el aplicativo, así como un botón que lo llevará a una de nuestras redes sociales principales.
+
+Escenario 2:
+Dado que el usaurio accede a About us por medio del final de la página
+Cuando le de clic al apartado de About Us ubicado ahí
+Entonces lo llevará a una descipción del aplicativo y así saber si es de su interés.
+    </td>
+    <td>EP06</td>
+  </tr>
+ </tr>
+             <td>US30</td>
+    <td>Redes Sociales</td>
+    <td>Como usuario, quiero saber si el aplicativo cuenta con algún botón que me lleve a alguna red social para tener una mejor interacción con el equipo que hizo el aplicativo</td>
+    <td>
+Escenario 1:
+Dado que el usuario desea saber si tenemos redes sociales
+Cuando se encuentre en la pantlla inicial 
+Entonces podrá visualizar nuestras redes sociales
+
+Escenario 2:
+Dado que el usuario desea saber si tenemos redes sociales
+Cuando se encuentre en la sección de About Us o Contacto
+Entonces podrá visualizar una de nuestras redes sociales
+    </td>
+    <td>EP06</td>
+  </tr>
 </table>
 
 ### <span id="33-impact-mapping">3.3. Impact Mapping.</span>
@@ -1061,6 +1145,43 @@ Entonces la aplicación ofrece la opción de reservar alojamiento directamente d
     <td>US25</td>
     <td>Alojamientos cercanos al taller</td>
     <td>Como turista, quiero poder acceder a información sobre opciones de alojamiento cercanas a los talleres para facilitar la planificación de mi viaje.</td>
+    <td>3</td>
+    <td>Media</td>
+  </tr>
+  <td>26</td>
+    <td>US26</td>
+    <td>Apartado de Servicios</td>
+    <td>Como turista, quiero tener acceso a un apartado de Servicios para poder saber que ofrece el aplicativo junto a una pequeña descripción.</td>
+    <td>3</td>
+    <td>Media</td>
+  </tr>
+  </tr>
+    <td>27</td>
+    <td>US27</td>
+    <td>Apartado de About the Team</td>
+    <td>Como turista, quiero acceder a una sección de "Acerca de nosotros" para conocer a los creadores del aplicativo junto a una foto de ellos.</td>
+    <td>3</td>
+    <td>Media</td>
+  </tr>
+    <td>28</td>
+    <td>US28</td>
+    <td>Apartado de Inicio</td>
+    <td>Como usuario, quiero poder visualizar una pantalla de inicio agradable a la vista y fácil de interactuar para que gane mi interés de usarla.</td>
+    <td>3</td>
+    <td>Media</td>
+  </tr>
+    <td>29</td>
+    <td>US29</td>
+    <td>Apartado de About Us</td>
+    <td>Como turista, quiero saber sobre qué trata el aplicativo de una mejor forma por medio de una descripción corta y concisa para saber si puede serme de utilidad.</td>
+    <td>3</td>
+    <td>Media</td>
+  </tr>
+    </tr>
+    <td>30</td>
+    <td>US30</td>
+    <td>Redes Sociales</td>
+    <td>Como usuario, quiero saber si el aplicativo cuenta con algún botón que me lleve a alguna red social para tener una mejor interacción con el equipo que hizo el aplicativo.</td>
     <td>3</td>
     <td>Media</td>
   </tr>
