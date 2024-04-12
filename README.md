@@ -295,9 +295,18 @@ La situación del cliente surge de la creciente demanda de experiencias auténti
 
 
 
-### <span id="122-lean-ux-process">1.2.2 Lean UX Process.</span>
+### <span id="122-lean-ux-process">1.2.2 Lean UX Process.</span> 
+<hr><p>El mercado actual de aplicaciones de viajes se centra en ofrecer información estándar sobre destinos turísticos populares, sin destacar las experiencias únicas y auténticas que pueden ofrecer las comunidades locales en Perú. Las aplicaciones existentes no facilitan a los viajeros la búsqueda y reserva de actividades culturales específicas, como talleres de arte y cocina tradicional, organizadas por comunidades locales. Además, la falta de opciones para interactuar con los lugareños y contribuir al turismo sostenible limita la experiencia de viaje de los usuarios.</p><p>Nuestro nuevo producto “Per-Ventura “solucionará los problemas antes mencionados dando nuevas maneras de conocer el Perú a los usuarios que abarcan nuestra aplicación, tanto para personas extranjeras como locales. El segmento inicial que estamos tomando en consideración son los extranjeros, ya que creemos que son los que más se pueden perder de las experiencias únicas de las comunidades locales del país.</p>  
 
-### <span id="1221-lean-ux-problem-statements">1.2.2.1. Lean UX Problem Statements.</span>
+### <span id="1221-lean-ux-problem-statements">1.2.2.1. Lean UX Problem Statements.</span> 
+<p style="text-align:center;">BUSINESS ASSUMPTIONS </p>
+<ol>
+<li>Los viajeros están interesados en experiencias auténticas y únicas ofrecidas por comunidades locales en Perú.</li>
+<li>Hay una demanda de una plataforma que facilite la búsqueda y reserva de actividades culturales específicas en Perú.</li>
+<li>Los viajeros estarán dispuestos a utilizar una aplicación que les permita interactuar con los lugareños y contribuir al turismo sostenible en Perú.</li>
+<li>La publicidad en línea y las asociaciones con organizaciones turísticas serán efectivas para promocionar nuestra aplicación.</li>
+<li>Las empresas locales estarán interesadas en promocionar sus actividades a través de nuestra plataforma para llegar a una audiencia comprometida con el turismo sostenible.</li>
+</ol>
 
 ### <span id="1222-lean-ux-assumptions">1.2.2.2. Lean UX Assumptions.</span>
 
