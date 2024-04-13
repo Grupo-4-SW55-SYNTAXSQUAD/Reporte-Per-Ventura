@@ -1581,10 +1581,15 @@ Entonces podrá visualizar una de nuestras redes sociales
 
 ### <span id="5211-sprint-planning-1">5.2.1.1. Sprint Planning 1.</span>
 
+![Sprint1](./resources-img/Sprint1.png)
+
 ### <span id="5212-sprint-backlog-1">5.2.1.2. Sprint Backlog 1.</span>
+En esta sección se mostrará el objetivo principal del sprint
 
+link: https://trello.com/invite/b/AEWJNjeU/ATTI790e2fb751a1c4d5f5d2495f57b9fe9dFE2326E9/sprint-backlog-peruventura
+
+![SprintBacklog1](./resources-img/SprintBacklog1.png)
 ### <span id="5213-development-evidence-for-sprint-review">5.2.1.3. Development Evidence for Sprint Review.</span>
-
 ### <span id="5214-testing-suite-evidence-for-sprint-review">5.2.1.4. Testing Suite Evidence for Sprint Review.</span>
 
 ### <span id="5215-execution-evidence-for-sprint-review">5.2.1.5. Execution Evidence for Sprint Review.</span>
