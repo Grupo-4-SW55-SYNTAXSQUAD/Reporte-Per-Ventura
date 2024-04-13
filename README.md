@@ -386,18 +386,19 @@ En esta sección, llevamos a cabo un análisis detallado de las entrevistas real
 Para cada segmento objetivo, se crearon cinco perfiles de usuario (user personas) con el propósito de obtener un profundo entendimiento del cliente potencial, identificar sus características comunes y comprender el contexto específico de la problemática que se busca resolver.
 
 ![user_persona_1](./resources-img/user-persona/userpersona1.png)
+![user_persona_2](./resources-img/user-persona/userpersona2.png)
 
 ### <span id="232-user-task-matrix">2.3.2. User Task Matrix.</span>
 
-| USER TASK        | Segmento: Turista               | Segmento: Turista                | Segmento: Dueño de local         | Segmento: Dueño de local         |
-|------------------|---------------------------------|----------------------------------|----------------------------------|----------------------------------|
-| Buscar proveedor |                                 |                                  |                                  |                                  |
-| Buscar clientes  |                                 |                                  |                                  |                                  |
-| Preguntar por contactos/recomendaciones |          |                                  |                                  |                                  |
-| Publicar o buscar servicios en redes sociales/internet |                              |                                  |                                  |
-| Publicar o buscar servicios en revistas o periódicos |                                |                                  |                                  |
-| Contactar con el proveedor en caso de algún producto en mal estado |                  |                                  |                                  |
-| Contactar con el posible cliente de manera online/presencial y firmar un contrato |   |                                  |                                  |  
+| USER TASK        | Segmento: Turista (Frecuencia)                    | Segmento: Turista (Importancia) | Segmento: Dueño de local (Frecuencia)    | Segmento: Dueño de local (Importancia) |
+|------------------|-------------------------------------------------- |---------------------------------|------------------------------------------|----------------------------------------|
+| Buscar experiencias auténticas |            Siempre                  |        Alto                     |           Siempre                        |             Alto                       |
+| Reservar actividades culturales  |    A menudo                       |        Alto                     |           Siempre                        |             Alto                       | 
+| Leer reseñas de otros viajeros |        Generalmente                 |        Alto                     |           Generalmente                   |             Alto                       |
+| Publicar o buscar información en redes sociales/internet |   Siempre |        Alto                     |           A menudo                       |             Alto                       |
+| Contactar con comunidades locales |       A veces                    |        Medio                    |           A menudo                       |             Alto                       |
+| Planificar itinerarios sostenibles |      A menudo                   |        Alto                     |           Siempre                        |             Alto                       |
+| Recibir recomendaciones personalizadas |   A menudo                  |        Alto                     |           A veces                        |             Medio                      |
 
 ### <span id="233-user-journey-mapping">2.3.3. User Journey Mapping.</span>
 
@@ -409,7 +410,7 @@ En esta sección, detallamos el recorrido integral de nuestro segmento objetivo,
 
 #### Segmento Dueño de Local:
 
-![user_journey_persona1](./resources-img/user-journey-map/user-journey-persona1.png)
+![user_journey_persona1](./resources-img/user-journey-map/user-journey-persona2.png)
 
 
 ### <span id="234-empathy-mapping">2.3.4. Empathy Mapping.</span>
@@ -422,7 +423,7 @@ Se desarrollaron mapas de empatía para cada uno de nuestros segmentos objetivos
 
 #### Segmento Dueño de Local:
 
-![empathy_persona_1](./resources-img/empathy-map/empathypersona1.png)
+![empathy_persona_1](./resources-img/empathy-map/empathypersona2.png)
 
 
 ### <span id="235-as-is-scenario-mapping">2.3.5. As-is Scenario Mapping.</span>
@@ -433,13 +434,26 @@ Se desarrollaron mapas de empatía para cada uno de nuestros segmentos objetivos
 
 #### Segmento Dueño de Local:
 
-![empathy_persona_1](./resources-img/as-is-scenario-mapping/scenario-mapping1.jpg)
+![empathy_persona_1](./resources-img/as-is-scenario-mapping/scenario-mapping2.jpg)
 
 
 
 En esta parte, mostramos un resumen de lo que hemos encontrado. Hacemos un mapa de cómo están las cosas ahora para nuestro grupo objetivo. Esto incluye una tabla que explica qué están haciendo, cómo lo hacen, qué piensan mientras lo hacen y cómo se sienten.
 
 ### <span id="24-ubiquitous-language">2.4. Ubiquitous Language.</span>
+
+El "Ubiquitous Language" es el  lenguaje común que es utilizado y entendido por todos los participantes de un proyecto, desde el equipo de desarrollo hasta los stakeholders y usuarios finales. Es crucial para la metodología de desarrollo de software Domain-Driven Design (DDD), ya que asegura que todos comprendan los términos y conceptos de la misma manera.
+
+Viajero Auténtico: Un turista que busca experiencias culturales genuinas más allá de las atracciones principales.
+Cultura Local: Tradiciones, arte, artesanías y conocimientos de las comunidades dentro de las regiones de Perú que son de interés para los viajeros auténticos.
+Experiencia Auténtica: Una actividad turística que permite a los viajeros una inmersión significativa en la cultura y tradiciones locales.
+Socio Local: Una tienda, artesano o institución cultural que ofrece productos o experiencias culturales a los viajeros.
+Plataforma de Conexión: El producto de software (aplicación web o móvil) que conecta viajeros con experiencias auténticas.
+Reserva Cultural: Un sistema para que los viajeros reserven y paguen por experiencias culturales a través de la Plataforma de Conexión.
+Sostenibilidad Turística: Una forma de turismo en la que tanto los viajeros como las comunidades locales se benefician equitativamente, sin sacrificar el patrimonio cultural o natural.
+Recomendación Personalizada: Una función de la plataforma que sugiere experiencias basadas en las preferencias e intereses del viajero.
+Soporte Continuo: Servicios de mantenimiento y asistencia técnica para asegurar el funcionamiento óptimo de la Plataforma de Conexión.
+Escala: La capacidad de la Plataforma de Conexión para manejar un número creciente de transacciones y usuarios sin comprometer el rendimiento.
 
 # <span id="capítulo-iii-requirements-specification">Capítulo III: Requirements Specification</span>
 
@@ -1157,11 +1171,31 @@ Entonces la aplicación ofrece la opción de reservar alojamiento directamente d
 
 ### <span id="46-domain-driven-software-architecture">4.6. Domain-Driven Software Architecture.</span>
 
+En esta parte se mostrara tres niveles del modelo C4 para proporcionar una visión más clara y enfocada del desarrollo de la aplicacion en curso.
+
 ### <span id="461-software-architecture-context-diagram">4.6.1. Software Architecture Context Diagram.</span>
+
+Nuestro diagrama de contexto muestra las interacciones clave de PeruVentura, estableciendo relaciones fundamentales con 
+sus principales grupos de usuarios: turistas y propietarios de establecimientos. Además, se destaca su conexión con dos 
+sistemas externos para su funcionamiento. El primero, el sistema 'Workshop System', almacena información detallada 
+sobre los talleres. El segundo, denominado 'Workshop Recommendation System', se encarga de sugerir talleres a los turistas
+basándose en sus preferencias personales, utilizando para ello los datos recopilados en el primer sistema mencionado.
+
+![context-diagram](./resources-img/context-diagram.png)
+
 
 ### <span id="462-software-architecture-container-diagrams">4.6.2. Software Architecture Container Diagrams.</span>
 
+El diagrama revela la estructura del proyecto, destacando la conexión entre la aplicación web, con el landing page. El dueño de local/turista hace una interacción se realiza a través de peticiones API que permiten el registro o la búsqueda de talleres, subrayando la funcionalidad clave dentro del esquema de arquitectura de contenedores.
+
+![container-diagram](./resources-img/container-diagram.png)
+
+
 ### <span id="463-software-architecture-components-diagrams">4.6.3. Software Architecture Components Diagrams.</span>
+
+Este diagrama detalla los componentes de software implicados en las operaciones realizadas tanto por los propietarios de talleres como por los usuarios. Ilustra cómo se procesan las solicitudes para buscar y publicar talleres, mostrando las interacciones y flujos de datos entre los diferentes componentes del sistema.
+
+![container-diagram](./resources-img/container-diagram.png)
 
 ### <span id="47-software-object-oriented-design">4.7. Software Object-Oriented Design.</span>
 
