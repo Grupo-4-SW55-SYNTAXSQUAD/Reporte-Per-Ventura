@@ -221,6 +221,10 @@ SyntaxSquad brinda servicios que incluyen desarrollo de software personalizado, 
 #
 #
 ![Imagen 2: perfil-Paolo](./resources-img/Paolo_Párraga_Perfil.png)
+#
+#
+![Imagen 3: perfil-Felix](./resources-img/Perfil-Felix.png)
+
 
 ### <span id="12-solution-profile">1.2. Solution Profile</span>
 ### <span id="121-antecedentes-y-problemática">1.2.1 Antecedentes y problemática</span>
@@ -1324,6 +1328,42 @@ Entonces podrá visualizar una de nuestras redes sociales
 ### <span id="441-web-applications-wireframes">4.4.1. Web Applications Wireframes.</span>
 
 ### <span id="442-web-applications-wireflow-diagrams">4.4.2. Web Applications Wireflow Diagrams.</span>
+<h>User Goal:</h>
+<p>Como usuario quiero conocer acerca de la aplicación mediante la página web.</p>
+<h>Descripción:</h>
+<p>En este wireflow primero entrará a la página web y luego en la parte superior le dará click al botón de About us y llegará a conocer acerca de la aplicación.</p>
+
+![Imagen 1: Home](./resources-img/LandingP1.png)
+![Imagen 2: AboutUs](./resources-img/LandingP2.png)
+
+<h>User Goal:</h>
+<p>Como usuario quiero conocer que servicios realiza la aplicación..</p>
+<h>Descripción:</h>
+<p>En este wireflow primero entrará a la página web y luego en la parte superior le dará click al botón de Servicios y llegara a conocer acerca de los servicios que ofrece la aplicación.</p>
+
+![Imagen 1: Home](./resources-img/LandingP1.png)
+![Imagen 2: Servicios](./resources-img/LandingP3.png)
+
+<h>User Goal:</h>
+<p>Como Dueño de local quiero contactarme con los dueños de la aplicación para poder publicitar mi local.</h>
+<p>En este wireflow primero entrara a la página web y luego en la parte superior le dará click al botón de Contacto el cual lo llevara a un apartado para llenar sus datos personales , al terminar de llenar sus datos le podrá dar click al botón de “Enviar” y podrá contactarse con nosotros.</p>
+
+![Imagen 1: Home](./resources-img/LandingP1.png)
+![Imagen 3: Contacto](./resources-img/LandingP4.png)
+
+<h>User Goal:</h>
+<p>Como Turista quiero contactarme con los dueños de la aplicación para poder conocer mejor el Perú y realizar actividades únicas..</h>
+<p>En este wireflow primero entrara a la página web y luego en la parte superior le dará click al botón de Contacto el cual lo llevara a un apartado para llenar sus datos personales , al terminar de llenar sus datos le podrá dar click al botón de “Enviar” y podrá contactarse con nosotros.</p>
+
+![Imagen 1: Home](./resources-img/LandingP1.png)
+![Imagen 3: Contacto](./resources-img/LandingP4.png)
+
+
+
+
+
+
+
 
 ### <span id="443-web-applications-mock-ups">4.4.2. Web Applications Mock-ups.</span>
 
