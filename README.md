@@ -1559,7 +1559,7 @@ Detalles y Reserva: Consulta la información completa de la actividad y, si est�
 
 Confirmación: Finaliza el proceso al completar la reserva y recibir una confirmación
 
-![user-flow](./resources-img/user-flow.png)
+![user-flow](./resources-img/user-flow.jpg)
 
 
 ### <span id="45-web-applications-prototyping">4.5. Web Applications Prototyping.</span>
