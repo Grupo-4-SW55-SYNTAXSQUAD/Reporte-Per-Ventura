@@ -2261,6 +2261,40 @@ Este diagrama detalla los componentes de software implicados en las operaciones 
 
 ### <span id="511-software-development-environment-configuration">5.1.1. Software Development Environment Configuration.</span>
 
+En esta seccion hace referencia a la configuración de las herramientas necesarias para el desarrollo del software.
+
+#### Project Management
+
+Enfocado en las prácticas y herramientas utilizadas para planificar y organizar el desarrollo de software como la asignación de tareas, el seguimiento del progreso y la coordinación de equipos. La herramienta que se uso para el proyecto fue Trello:
+
+- Trello: Esta plataforma para la gestión de proyectos basada en tableros nos permite organizar tareas y colaborar en tiempo real, por ello se utilizó para gestionar este proyecto.
+
+#### Diseño UX/UI
+
+Se enfoca en la elaboración de interfaces intuitivas y atractivas para los usuarios, teniendo en cuenta sus necesidades y preferencias. Las herramientas que se utilizaron en este apartado fueron:
+
+- Figma: Esta plataforma se uso porque es de diseño colaborativo que permite crear y compartir diseños de interfaces de usuario.
+
+- LucidChart: Esta herramienta se utilizó para la creación de diagramas UML en tiempo real y diagramas de flujo.
+
+- Miro: Se hizo uso de la pizarra colaborativa para la lluvia de ideas, la definición de problemas y necesidades de los clientes, y la identificación de los Bounded Contexts del proyecto.
+
+- UXpressia: Esta herramienta se utilizó para la creación de User Personas, Empathy Maps, Journey Maps e Impact Maps que facilita la comprensión de los usuarios y sus necesidades.
+
+#### Software Development
+
+Se refiere al proceso de creación y programacion de la landing page. Para este proyecto, se utilizaron las siguientes herramientas y tecnologías:
+
+- Visual Studio Code: Es un entorno de desarrollo integrado (IDE) popular y potente que ofrece características como resaltado de sintaxis, depuración y control de versiones integrado. Se utilizó para escribir y editar el código fuente.
+
+- GitHub: Se utilizó esta plataforma de desarrollo colaborativo, para alojar el repositorio del proyecto y gestionar el control de versiones del código fuente y la documentación.
+
+#### Documentación de Software
+
+Es la creación de la documentación técnica para el software.La herramienta que se utilizó fue:
+
+- Markdown: Este es un lenguaje de marcado ligero y fácil de usar para crear documentos con formato, por ello utilizó para la creación de la documentación del proyecto.
+
 ### <span id="512-source-code-management">5.1.2. Source Code Management.</span>
 
 ### <span id="513-source-code-style-guide--conventions">5.1.3. Source Code Style Guide & Conventions.</span>
