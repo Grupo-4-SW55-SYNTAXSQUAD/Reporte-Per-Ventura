@@ -1753,6 +1753,11 @@ link de figma: https://www.figma.com/file/BfzCppVfeK0kuuAicPUJCp/Style-Guideline
 
 ### <span id="423-seo-tags-and-meta-tags">4.2.3. SEO Tags and Meta Tags</span>
 
+- El SEO se utiliza para el posicionamiento de la página web en los motores de búsqueda como google, bing, yahoo, entre otros. Para mejorar el SEO de la landing page se utilizaron las siguientes etiquetas:
+
+![code](https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Landing-page/assets/133163553/8b053be8-79fc-49a2-b71d-a6c8906afe13)
+
+
 ### <span id="424-searching-systems">4.2.4. Searching Systems.</span>
 
 ### <span id="425-navigation-systems">4.2.5. Navigation Systems.</span>
