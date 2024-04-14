@@ -1253,6 +1253,43 @@ Este diagrama detalla los componentes de software implicados en las operaciones 
 
 ### <span id="5226-services-documentation-evidence-for-sprint-review">5.2.2.6. Services Documentation Evidence for Sprint Review.</span>
 
+
+En este sprint, nos centramos en la implementación y mejora de los servicios que permiten la interacción de los usuarios turistas y dueños de locales con la plataforma PerúVentura. Los endpoints específicos se han diseñado para soportar las operaciones definidas en las clases usuario_turista, usuario_dueño_local, taller, alojamiento, comunidad, reserva y pago.
+
+Endpoints y métodos asociados:
+
+    Usuario turista:
+        GET /api/talleres: Busca talleres según los intereses del usuario turista.
+        GET /api/talleres/{id}/detalles: Visualiza detalles de un taller específico.
+        POST /api/reservas: Realiza una reserva en un taller.
+        POST /api/pagos: Procesa un pago de reserva.
+        PUT /api/usuarios/turista/perfil: Permite al turista editar su perfil.
+        POST /api/experiencias/compartir: Comparte una experiencia de taller.
+
+    Usuario dueño de local:
+        GET /api/talleres/mios: Muestra talleres del dueño local.
+        POST /api/talleres/promocion: Envía una promoción de un taller.
+        PUT /api/usuarios/duenio_local/perfil: Edita el perfil del dueño del local.
+
+    Taller:
+        GET /api/taller/{nombre}/informacion: Devuelve información sobre un taller específico.
+        GET /api/taller/{nombre}/estadisticas: Muestra estadísticas de reservas y visitas.
+        POST /api/taller/notificaciones: Envía notificaciones a los usuarios.
+
+    Alojamiento:
+        GET /api/alojamientos/{nombre}: Muestra información de un alojamiento específico.
+
+    Comunidad:
+        GET /api/comunidades/{nombre}: Ofrece información sobre una comunidad específica.
+
+    Reserva:
+        PUT /api/reservas/{id}/confirmar: Confirma una reserva realizada.
+        DELETE /api/reservas/{id}/cancelar: Cancela una reserva existente.
+
+    Pago:
+        POST /api/pagos/realizar: Inicia el proceso de pago.
+        GET /api/pagos/{id}/estado: Consulta el estado de un pago.
+
 ### <span id="5227-software-deployment-evidence-for-sprint-review">5.2.2.7. Software Deployment Evidence for Sprint Review.</span>
 
 ### <span id="5228-team-collaboration-insights-during-sprint">5.2.2.8. Team Collaboration Insights during Sprint.</span>
