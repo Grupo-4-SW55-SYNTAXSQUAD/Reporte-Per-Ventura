@@ -225,7 +225,13 @@ Imforme: <https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Reporte-Per-Ventura>
         </td>
         <td>
             Lynn Jeeferzon Meza Camayo <br>
-            <em>TB1</em>
+            <em>TB1</em><br>
+            Paolo Gonzalo Párraga Gamarra<br>
+            <em>TB1</em><br>
+            <em>Se reliazó el capítulo 3, así comolos diagramas <br>de clases y de base de datos y el <br>sprint planning 1 y sprint backlog
+        </td>
+        <td>
+        En conclusión, los elementos usados para la realización del tb1 fueron importantes como los sprint ayudaron a la eficacia del grupo.
         </td>
     </tr>
     <tr>
@@ -236,9 +242,12 @@ Imforme: <https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Reporte-Per-Ventura>
         </td>
         <td>
             Lynn Jeeferzon Meza Camayo <br>
-            <em>TB1</em>
+            <em>TB1</em><br>
+            Paolo Gonzalo Párraga Gamarra<br>
+            <em>TB1</em><br>
+            <em>Se reliazó el capítulo 3, así comolos diagramas <br>de clases y de base de datos y el <br>sprint planning 1 y sprint backlog
         </td>
-        <td></td>
+        <td>En conclusión, lo realizado a lo largo del trabajo fue algo crucial para conocer del sector empresairal al que apuntabamos y así aplicar soluciones de software efectivas.</td>
     </tr>
 </table>
 
