@@ -100,6 +100,40 @@ Imforme: <https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Reporte-Per-Ventura>
   - [2.3.5. As-is Scenario Mapping.](#235-as-is-scenario-mapping)
   - [2.4. Ubiquitous Language.](#24-ubiquitous-language)
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+    - [3.1. To-Be Scenario Mapping.](#31-to-be-scenario-mapping)
+    - [3.2. User Stories.](#32-user-stories)
+    - [3.3. Impact Mapping.](#33-impact-mapping)
+    - [3.4. Product Backlog.](#34-product-backlog)
+- [Capítulo IV: Product Design](#capítulo-iv-product-design)
+    - [4.1. Style Guidelines.](#41-style-guidelines)
+    - [4.1.1. General Style Guidelines.](#411-general-style-guidelines)
+    - [4.1.2. Web Style Guidelines.](#412-web-style-guidelines)
+    - [4.2. Information Architecture.](#42-information-architecture)
+    - [4.2.1. Organization Systems.](#421-organization-systems)
+    - [4.2.2. Labeling Systems.](#422-labeling-systems)
+    - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+    - [4.2.4. Searching Systems.](#424-searching-systems)
+    - [4.2.5. Navigation Systems.](#425-navigation-systems)
+    - [4.3. Landing Page UI Design.](#43-landing-page-ui-design)
+    - [4.3.1. Landing Page Wireframe.](#431-landing-page-wireframe)
+    - [4.3.2. Landing Page Mock-up.](#432-landing-page-mock-up)
+    - [4.4.3 Web Applications UX/UI Design.](#443-web-applications-uxui-design)
+    - [4.4.1. Web Applications Wireframes.](#441-web-applications-wireframes)
+    - [4.4.2. Web Applications Wireflow Diagrams.](#442-web-applications-wireflow-diagrams)
+    - [4.4.2. Web Applications Mock-ups.](#442-web-applications-mock-ups)
+    - [4.4.3. Web Applications User Flow Diagrams.](#443-web-applications-user-flow-diagrams)
+
+
+    - [4.5. Web Applications Prototyping.](#45-web-applications-prototyping)
+    - [4.6. Domain-Driven Software Architecture.](#46-domain-driven-software-architecture)
+    - [4.6.1. Software Architecture Context Diagram.](#461-software-architecture-context-diagram)
+    - [4.6.2. Software Architecture Container Diagrams.](#462-software-architecture-container-diagrams)
+    - [4.6.3. Software Architecture Components Diagrams.](#463-software-architecture-components-diagrams)
+    - [4.7. Software Object-Oriented Design.](#47-software-object-oriented-design)
+    - [4.7.1. Class Diagrams.](#471-class-diagrams)
+    - [4.7.2. Class Dictionary.](#472-class-dictionary)
+    - [4.8. Database Design.](#48-database-design)
+    - [4.8.1. Database Diagram.](#481-database-diagram)
   - [3.1. To-Be Scenario Mapping.](#31-to-be-scenario-mapping)
   - [3.2. User Stories.](#32-user-stories)
   - [3.3. Impact Mapping.](#33-impact-mapping)
@@ -1950,6 +1984,22 @@ Aprovechando el contacto directo que tendremos con los ususario, estos mismo pue
 
 ### <span id="444-web-applications-user-flow-diagrams">4.4.3. Web Applications User Flow Diagrams.</span>
 
+En Peruventura, la sección "Servicios" se detalla los siguientes pasos clave:
+El usuario inicia en la página de inicio de PerúVentura.
+
+Servicios: Selecciona la sección de "Servicios" para explorar las actividades turísticas disponibles.
+
+Buscar y Filtrar Actividades: Utiliza herramientas de búsqueda para encontrar actividades que se alineen con sus preferencias.
+
+Comunicación con Anfitriones: Si es necesario, el usuario puede contactar a los anfitriones para obtener más detalles.
+
+Detalles y Reserva: Consulta la información completa de la actividad y, si está conforme, procede a realizar una reserva.
+
+Confirmación: Finaliza el proceso al completar la reserva y recibir una confirmación
+
+![user-flow](./resources-img/user-flow.jpg)
+
+
 ### <span id="45-web-applications-prototyping">4.5. Web Applications Prototyping.</span>
 
 ![Proto](./resources-img/WebApplicationPrototyping.png)
@@ -2411,17 +2461,18 @@ Este modelo da una estructura clara y organizada para que los desarrolladores pu
 
 ### <span id="513-source-code-style-guide--conventions">5.1.3. Source Code Style Guide & Conventions.</span>
 
-Para mantener un código limpio y fácil de leer, se establecieron las siguientes convenciones y guías de estilo para el código fuente de la landing page:
+### <span id="514-software-deployment-configuration">5.1.4. Software Deployment Configuration.</span>
 
 #### _CSS_
 
-- Se utilizó CSS para definir los estilos de la página. A continuación se muestra un ejemplo de cómo se guardaron los estilos de colores en la variable `:root` para un uso general en la página:
+### <span id="521-sprint-1">5.2.1. Sprint 1</span>
 
 <img src="https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Landing-page/assets/133163553/2d158972-4d22-4bae-82be-d7f5316c9557"/>
 
-#### _JSON_
+![Sprint1](./resources-img/Sprint1.png)
 
-- El uso de ParticleJS es una biblioteca de JavaScript que permite generar y animar partículas en un lienzo HTML. Para configurar ParticleJS, se utiliza un archivo JSON que contiene los parámetros de configuración necesarios.
+### <span id="5212-sprint-backlog-1">5.2.1.2. Sprint Backlog 1.</span>
+En esta sección se mostrará el objetivo principal del sprint
 
 <img src="https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Landing-page/assets/133163553/eb575c2c-d635-427a-9253-7e7eadf59637"/>
 
@@ -2642,6 +2693,24 @@ Endpoints y métodos asociados:
     Pago:
         POST /api/pagos/realizar: Inicia el proceso de pago.
         GET /api/pagos/{id}/estado: Consulta el estado de un pago.
+        
+### <span id="5217-software-deployment-evidence-for-sprint-review">5.2.1.7. Software Deployment Evidence for Sprint Review.</span>
+
+### <span id="5218-team-collaboration-insights-during-sprint">5.2.1.8. Team Collaboration Insights during Sprint.</span>
+
+### <span id="522-sprint-2">5.2.2 Sprint 2</span>
+
+### <span id="5221-sprint-planning-2">5.2.2.1. Sprint Planning 2.</span>
+
+### <span id="5212-sprint-backlog-1">5.2.2.2. Sprint Backlog 2.</span>
+
+### <span id="5223-development-evidence-for-sprint-review">5.2.2.3. Development Evidence for Sprint Review.</span>
+
+### <span id="5224-testing-suite-evidence-for-sprint-review">5.2.2.4. Testing Suite Evidence for Sprint Review.</span>
+
+### <span id="5225-execution-evidence-for-sprint-review">5.2.2.5. Execution Evidence for Sprint Review.</span>
+
+### <span id="5226-services-documentation-evidence-for-sprint-review">5.2.2.6. Services Documentation Evidence for Sprint Review.</span>
 
 ### <span id="5217-software-deployment-evidence-for-sprint-review">5.2.1.7. Software Deployment Evidence for Sprint Review.</span>
 <h3>Durante el Sprint 1, llevamos a cabo el despliegue de nuestra landing page en GitHub Pages. A continuación, detallamos los pasos realizados:</h3>
