@@ -39,7 +39,7 @@
     <td>version 0.1</td>
     <td>25/03/2024</td>
     <td>Fabricio Gabriel Iparraguirre Quintero</td>
-    <td>Modificación de la estructura del documento</td>
+    <td>Modificación en el capitulo 2 y el capitulo 5, y algunas del capitulo 4</td>
   </tr>
   <tr>
     <td>version 0.1</td>
