@@ -45,7 +45,7 @@
     <td>version 0.1</td>
     <td>26/03/2024</td>
     <td>Paolo Gonzalo Párraga Gamarra</td>
-    <td>Modificación de los puntos del Capítulo 3</td>
+    <td>Modificación de los puntos del Capítulo 3 y Capítulo 4</td>
   </tr>
   <tr>
     <td>version 0.2</td>
@@ -218,7 +218,8 @@ SyntaxSquad brinda servicios que incluyen desarrollo de software personalizado, 
 ### <span id="112-perfiles-de-integrantes-del-equipo">1.1.2. Perfiles de integrantes del equipo</span>
 
 ![Imagen 1: perfil-Lynn](./resources-img/Perfil-Lynn.png)
-![Imagen 2: perfil-Bryan](./resources-img/Perfil-Bryan.png)
+![Imagen 2: perfil-Lynn](./resources-img/Perfil-Bryan.png)
+![Imagen 3: perfil-Lynn](./resources-img/Paolo_Párraga_Perfil.png)
 
 
 ### <span id="12-solution-profile">1.2. Solution Profile</span>
@@ -463,7 +464,7 @@ Segmento objetivo 1: Turistas
 
 ![to_be](./resources-img/tobe-turista.jpg)
 Segmento objetivo 2: Dueños de local
-![to_be](./resources-img/tobe-duenio.jpg)
+![to_be](./resources-img/tobe-dueñol.jpg)
 
 
 
@@ -914,6 +915,90 @@ Entonces la aplicación ofrece la opción de reservar alojamiento directamente d
     </td>
     <td>EP04</td>
   </tr>
+    <tr>
+             <td>US26</td>
+    <td>Apartado de Servicios</td>
+    <td>Como turista, quiero tener acceso a un apartado de Servicios para poder saber que ofrece el aplicativo junto a una pequeña descripción.</td>
+    <td>
+Escenario 1:
+Dado que el turista desea saber sobre los servicios
+Cando esté en el pantalla pricipal y de click sobre "Servicios"
+Entonces se le llevará a donde están y brindrará una pequeña descripcion sobre qué hace cada cosa.
+
+Escenario 2:
+Dado que el usuario está en otro apartado diferente al inicial
+Cuando el usuario acceda a la barra principal
+Entonces podrá encontrar ingresar a Servicios y ver la descipción de estos.
+    </td>
+    <td>EP06</td>
+  </tr>
+             <td>US27</td>
+    <td>Apartado de About the Team</td>
+    <td>Como turista, quiero acceder a una sección de "Acerca de nosotros" para conocer a los creadores del aplicativo junto a una foto de ellos</td>
+    <td>
+Escenario 1:
+Dado que el usuario está interesado en conocer a los creadores del aplicativo
+Cuando accede a la sección de "About the Team" desde la pantalla principal
+Entonces se mostrará información sobre los creadores del aplicativo, incluyendo sus nombres y una foto de ellos.
+
+Escenario 2:
+Dado que el usaurio está en Servicios
+Cuando el usuario acceda al menú princiapl o vaya al final de la página
+Entonces podrá encontrar la sección que le llevará a About the Team
+    </td>
+    <td>EP06</td>
+  </tr>
+  </tr>
+             <td>US28</td>
+    <td>Apartado de Inicio</td>
+    <td>Como usuario, quiero poder visualizar una pantalla de inicio agradable a la vista y fácil de interactuar para que gane mi interés de usarla</td>
+    <td>
+Escenario 1:
+Dado que  el usuario quiere una interfaz agradable a la vista
+Cuando ingrese al aplicativo podrá visualizar cada apartado que ofrece
+Entonces podrá navegar por el aplicativo y valorar si es de s interés.
+
+Escenario 2:
+Dado que el usuario encuentra nuestra página web
+Cuando abre el enlace par aingresar 
+Entonces se le mostrará cada apartado que hay, entre otras funcionalidades
+    </td>
+    <td>EP06</td>
+  </tr>
+  </tr>
+             <td>US29</td>
+    <td>Apartado de About Us</td>
+    <td>Como turista, quiero saber sobre qué trata el aplicativo de una mejor forma por medio de una descripción corta y concisa para saber si puede serme de utilidad</td>
+    <td>
+Escenario 1:
+Dado que el usuario desea conocer sobr ele aplicativo
+Cuando accede a la sección de "About Us" desde la pantalla principal
+Entonces se mostrará una pequeña información sobre el aplicativo, así como un botón que lo llevará a una de nuestras redes sociales principales.
+
+Escenario 2:
+Dado que el usaurio accede a About us por medio del final de la página
+Cuando le de clic al apartado de About Us ubicado ahí
+Entonces lo llevará a una descipción del aplicativo y así saber si es de su interés.
+    </td>
+    <td>EP06</td>
+  </tr>
+ </tr>
+             <td>US30</td>
+    <td>Redes Sociales</td>
+    <td>Como usuario, quiero saber si el aplicativo cuenta con algún botón que me lleve a alguna red social para tener una mejor interacción con el equipo que hizo el aplicativo</td>
+    <td>
+Escenario 1:
+Dado que el usuario desea saber si tenemos redes sociales
+Cuando se encuentre en la pantlla inicial 
+Entonces podrá visualizar nuestras redes sociales
+
+Escenario 2:
+Dado que el usuario desea saber si tenemos redes sociales
+Cuando se encuentre en la sección de About Us o Contacto
+Entonces podrá visualizar una de nuestras redes sociales
+    </td>
+    <td>EP06</td>
+  </tr>
 </table>
 
 ### <span id="33-impact-mapping">3.3. Impact Mapping.</span>
@@ -1129,6 +1214,296 @@ Entonces la aplicación ofrece la opción de reservar alojamiento directamente d
     <td>3</td>
     <td>Media</td>
   </tr>
+  <td>26</td>
+    <td>US26</td>
+    <td>Apartado de Servicios</td>
+    <td>Como turista, quiero tener acceso a un apartado de Servicios para poder saber que ofrece el aplicativo junto a una pequeña descripción.</td>
+    <td>3</td>
+    <td>Media</td>
+  </tr>
+  </tr>
+    <td>27</td>
+    <td>US27</td>
+    <td>Apartado de About the Team</td>
+    <td>Como turista, quiero acceder a una sección de "Acerca de nosotros" para conocer a los creadores del aplicativo junto a una foto de ellos.</td>
+    <td>3</td>
+    <td>Media</td>
+  </tr>
+    <td>28</td>
+    <td>US28</td>
+    <td>Apartado de Inicio</td>
+    <td>Como usuario, quiero poder visualizar una pantalla de inicio agradable a la vista y fácil de interactuar para que gane mi interés de usarla.</td>
+    <td>3</td>
+    <td>Media</td>
+  </tr>
+    <td>29</td>
+    <td>US29</td>
+    <td>Apartado de About Us</td>
+    <td>Como turista, quiero saber sobre qué trata el aplicativo de una mejor forma por medio de una descripción corta y concisa para saber si puede serme de utilidad.</td>
+    <td>3</td>
+    <td>Media</td>
+  </tr>
+    </tr>
+    <td>30</td>
+    <td>US30</td>
+    <td>Redes Sociales</td>
+    <td>Como usuario, quiero saber si el aplicativo cuenta con algún botón que me lleve a alguna red social para tener una mejor interacción con el equipo que hizo el aplicativo.</td>
+    <td>3</td>
+    <td>Media</td>
+  </tr>
+</table>
+
+
+### <span id="33-impact-mapping">3.3. Impact Mapping.</span>
+
+![to_be](./resources-img/impactmap.jpg)
+### <span id="34-product-backlog">3.4. Product Backlog.</span>
+<table>
+  <tr>
+    <th># Orden</th>
+    <th>User Story Id</th>
+    <th>Titulo</th>
+    <th>Descripción</th> 
+    <th>Story points (1/2/3/5/8)</th>
+    <th>Priority</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>US01</td>
+    <td>úsqueda y Reserva de Talleres</td>
+    <td>Como turista, quiero poder buscar talleres de arte y cocina tradicional en Perú para poder reservar actividades auténticas ofrecidas por comunidades locales.</td>
+    <td>5</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>US02</td>
+    <td>Promoción de Talleres</td>
+    <td>Como dueño de un local, quiero poder promocionar mi taller en la aplicación para atraer turistas interesados en experiencias auténticas.</td>
+    <td>3</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>US03</td>
+    <td>Gestión de Reservas para Talleres</td>
+    <td>Como dueño de un local en Perú, quiero poder gestionar las reservas realizadas en mi taller de arte o cocina tradicional a través de la aplicación.</td>
+    <td>1</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+  <td>4</td>
+    <td>US04</td>
+    <td>Recomendaciones Personalizadas de Talleres</td>
+    <td>Como turista, quiero recibir recomendaciones personalizadas sobre talleres basadas en mis preferencias y ubicación.</td>
+    <td>3</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+  <td>5</td>
+    <td>US05</td>
+    <td>Evaluación de Reseñas y Calificaciones para Talleres</td>
+    <td>Como turista, quiero poder ver reseñas y calificaciones de otros usuarios sobre los talleres para tomar decisiones informadas.</td>
+    <td>1</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+  <td>6</td>
+    <td>US06</td>
+    <td>Análisis de Popularidad y Estadísticas para Talleres</td>
+    <td>Como dueño de un local, quiero poder acceder a estadísticas y análisis sobre la popularidad de mi taller en la aplicación.</td>
+    <td>3</td>
+    <td>Baja</td>
+  </tr>
+  <tr>
+  <td>7</td>
+    <td>US07</td>
+    <td>Pago Seguro y Conveniente para Reservas de Talleres</td>
+    <td>Como turista, quiero poder pagar de forma segura y conveniente por las reservas de talleres en Perú a través de la aplicación.</td>
+    <td>3</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+  <td>8</td>
+    <td>US08</td>
+    <td>Recepción Segura de Pagos por Reservas en Talleres</td>
+    <td>Como dueño de un local, quiero poder recibir pagos de forma segura por las reservas realizadas en mi taller para no tener dudas.</td>
+    <td>3</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+  <td>9</td>
+    <td>US09</td>
+    <td>Compartir Experiencias en Talleres de Arte</td>
+    <td>Como turista, quiero poder compartir mis experiencias en los talleres de arte a través de la aplicación para inspirar a otros viajeros.</td>
+    <td>1</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+  <td>10</td>
+    <td>US10</td>
+    <td>Recepción de Comentarios y Calificaciones</td>
+    <td>Como dueño de un local, quiero poder recibir comentarios y calificaciones de los turistas que han participado en mi taller para tener un feedback.</td>
+    <td>3</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+  <td>11</td>
+    <td>US11</td>
+    <td>Información de Comunidades Locales para Talleres</td>
+    <td>Como turista, quiero poder acceder a información detallada sobre las comunidades locales que ofrecen talleres.</td>
+    <td>2</td>
+    <td>Baja</td>
+  </tr>
+  <tr>
+  <td>12</td>
+    <td>US12</td>
+    <td>Destacar la Contribución de la Comunidad</td>
+    <td>Como dueño de un local, quiero poder destacar la contribución de mi comunidad al turismo sostenible en la aplicación para atraer turistas.</td>
+    <td>2</td>
+    <td>Baja</td>
+  </tr>
+  <tr>
+  <td>13</td>
+    <td>US13</td>
+    <td>Mapa Interactivo</td>
+    <td>Como turista, quiero poder acceder a un mapa interactivo en la aplicación que muestre la ubicación de los talleres para planificar mi itinerario de viaje.</td>
+    <td>3</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+  <td>14</td>
+    <td>US14</td>
+    <td>Disponibilidad para Actualizar Horarios del Taller</td>
+    <td>Como dueño de un local, quiero poder actualizar la disponibilidad de mi taller en la aplicación para reflejar cambios en horarios.</td>
+    <td>3</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+  <td>15</td>
+    <td>US15</td>
+    <td>Notificaciones de Ofertas Especiales y Eventos en Talleres</td>
+    <td>Como turista, quiero poder recibir notificaciones sobre ofertas especiales y eventos en los talleres a través de la aplicación para estar informado sobre promociones.</td>
+    <td>3</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+  <td>16</td>
+    <td>US16</td>
+    <td>Creación y Gestión de Ofertas Especiales y Eventos</td>
+    <td>Como dueño de un local, quiero poder crear y gestionar ofertas especiales y eventos en mi taller para atraer turistas.</td>
+    <td>3</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+  <td>17</td>
+    <td>US17</td>
+    <td>Acceso a Información para Llegar a los Talleres</td>
+    <td>Como turista, quiero poder acceder a información práctica sobre cómo llegar a los talleres para estar presente en el tiempo indicado.</td>
+    <td>2</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+  <td>18</td>
+    <td>US18</td>
+    <td>Notificaciones automáticas para consultas de taller</td>
+    <td>Como dueño de un local, quiero poder recibir notificaciones sobre consultas de los turistas interesados en participar en mi taller para informar a posibles clientes.</td>
+    <td>2</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+  <td>19</td>
+    <td>US19</td>
+    <td>Agregar contenido multimedia</td>
+    <td>Como turista, quiero poder acceder a contenido multimedia en la aplicación, como fotos y videos, que muestren las experiencias ofrecidas en los talleres para tener una mejor vista sobre el taller.</td>
+    <td>2</td>
+    <td>Baja</td>
+  </tr>
+  <tr>
+  <td>20</td>
+    <td>US20</td>
+    <td>Compartir información del taller</td>
+    <td>Como dueño de un local, quiero poder compartir contenido multimedia, como fotos y videos, que muestren las experiencias en mi taller para atraer turistas.</td>
+    <td>1</td>
+    <td>Baja</td>
+  </tr>
+  <tr>
+  <td>21</td>
+    <td>US21</td>
+    <td>Información de medidas de seguridad en talleres</td>
+    <td>Como turista, quiero poder acceder a información sobre medidas de seguridad implementados en los talleres en el Perú a través de la aplicación para cumplir con las reglas sanitarias.</td>
+    <td>3</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+  <td>22</td>
+    <td>US22</td>
+    <td>Inclusión de medidas de seguridad en talleres</td>
+    <td>Como dueño de un local, quiero poder informar sobre medidas de seguridad y protocolos sanitarios implementados en mi taller para generar confianza en los turistas.</td>
+    <td>3</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+  <td>23</td>
+    <td>US23</td>
+    <td>Apartado de servicio al cliente</td>
+    <td>Como turista, quiero poder acceder a un servicio de atención al cliente en la aplicación para recibir asistencia y soporte.</td>
+    <td>2</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+  <td>24</td>
+    <td>US24</td>
+    <td>Apoyo sobre dudas </td>
+    <td>Como dueño de un local, quiero poder acceder a un servicio de atención al cliente en la aplicación para recibir asistencia y soporte en la gestión de mi taller.</td>
+    <td>2</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+  <td>25</td>
+    <td>US25</td>
+    <td>Alojamientos cercanos al taller</td>
+    <td>Como turista, quiero poder acceder a información sobre opciones de alojamiento cercanas a los talleres para facilitar la planificación de mi viaje.</td>
+    <td>3</td>
+    <td>Media</td>
+  </tr>
+  <td>26</td>
+    <td>US26</td>
+    <td>Apartado de Servicios</td>
+    <td>Como turista, quiero tener acceso a un apartado de Servicios para poder saber que ofrece el aplicativo junto a una pequeña descripción.</td>
+    <td>3</td>
+    <td>Media</td>
+  </tr>
+  </tr>
+    <td>27</td>
+    <td>US27</td>
+    <td>Apartado de About the Team</td>
+    <td>Como turista, quiero acceder a una sección de "Acerca de nosotros" para conocer a los creadores del aplicativo junto a una foto de ellos.</td>
+    <td>3</td>
+    <td>Media</td>
+  </tr>
+    <td>28</td>
+    <td>US28</td>
+    <td>Apartado de Inicio</td>
+    <td>Como usuario, quiero poder visualizar una pantalla de inicio agradable a la vista y fácil de interactuar para que gane mi interés de usarla.</td>
+    <td>3</td>
+    <td>Media</td>
+  </tr>
+    <td>29</td>
+    <td>US29</td>
+    <td>Apartado de About Us</td>
+    <td>Como turista, quiero saber sobre qué trata el aplicativo de una mejor forma por medio de una descripción corta y concisa para saber si puede serme de utilidad.</td>
+    <td>3</td>
+    <td>Media</td>
+  </tr>
+    </tr>
+    <td>30</td>
+    <td>US30</td>
+    <td>Redes Sociales</td>
+    <td>Como usuario, quiero saber si el aplicativo cuenta con algún botón que me lleve a alguna red social para tener una mejor interacción con el equipo que hizo el aplicativo.</td>
+    <td>3</td>
+    <td>Media</td>
+  </tr>
 </table>
 
 # <span id="capítulo-iv-product-design" style="color:red"> Capítulo IV: Product Design</span>
@@ -1200,12 +1575,330 @@ Este diagrama detalla los componentes de software implicados en las operaciones 
 ### <span id="47-software-object-oriented-design">4.7. Software Object-Oriented Design.</span>
 
 ### <span id="471-class-diagrams">4.7.1. Class Diagrams.</span>
+![alt text](./resources-img/PERUVENTURA.jpg)
 
 ### <span id="472-class-dictionary">4.7.2. Class Dictionary.</span>
+
+- **Clase usuario_Turista**
+
+<table>
+  <tr>
+    <th>Atributo</th>
+    <th>Descripción</th>
+    <th >Método</th>
+  </tr>
+  <tr>
+    <td>
+      nombre
+    </td>
+    <td>
+      Nombre del Turista 
+    </td>
+    <td rowspan="8">buscarTaller(string)<br>
+    verDetallesTaller(string)<br>
+    reservar(string)<br>
+    pagar(string)<br>
+    editarPerfil()<br>
+    comparitrExp()
+    </td>
+  </tr>
+  <tr>
+    <td>correoElectrónico</td>
+    <td>El correo electrónico del turista, cuando se registró</td> 
+   
+  </tr>
+  <tr>
+    <td>contraseña</td>
+    <td>La contraseña con la cual se registró el usuario</td> 
+  </tr>
+  <tr>
+    <td>ubicación</td>
+    <td>La actual del usuario</td> 
+  </tr>
+  <tr>
+    <td>intereses</td>
+    <td>Un arreglo que contiene los interese del usuario</td> 
+  </tr>
+  <tr>
+    <td>historial_de_Reservas</td>
+    <td>Un arreglo de objetos tipo Reserva</td> 
+  </tr>
+  <tr>
+    <td>tipoReserva</td>
+    <td>Para saber si el usuario reservó un alojamiento o un taller</td>
+  </tr>
+</table>
+
+- **Clase usuario_Duenio_Local**
+
+<table>
+  <tr>
+    <th>Atributo</th>
+    <th>Descripción</th>
+    <th>Método</th>
+  </tr>
+  <tr>
+    <td>
+      nombre
+    </td>
+    <td>
+      Nombre del Turista 
+    </td>
+    <td rowspan="8">buscarTaller(string)<br>
+    verDetallesTaller(string)<br>
+    reservar(string)<br>
+    pagar(string)<br>
+    mostrarTaller(taller)<br>
+    enviarPromocion()<br>
+    editarPerfil()<br>
+    comparitrExp()
+    </td>
+  </tr>
+  <tr>
+    <td>correoElectrónico</td>
+    <td>El correo electrónico del turista, cuando se registró</td> 
+   
+  </tr>
+  <tr>
+    <td>contraseña</td>
+    <td>La contraseña con la cual se registró el usuario</td> 
+  </tr>
+  <tr>
+    <td>ubicación</td>
+    <td>La actual del usuario</td> 
+  </tr>
+  <tr>
+    <td>intereses</td>
+    <td>Un arreglo que contiene los interese del usuario</td> 
+  </tr>
+  <tr>
+    <td>historial_de_Reservas</td>
+    <td>Un arreglo de objetos tipo Reserva</td> 
+  </tr>
+  <tr>
+    <td>nombreTaller</td>
+    <td>Nombre del taller del que es dueño(a)</td>
+  </tr>
+</table>
+
+- **Clase taller**
+
+<table>
+  <tr>
+    <th>Atributo</th>
+    <th>Descripción</th>
+    <th>Método</th>
+  </tr>
+  <tr>
+    <td>
+      nombre
+    </td>
+    <td>
+      Nombre del taller
+    </td>
+    <td rowspan="10">verinformacionTaller()<br>
+    setNombreTaller()<br>
+    getNombreTaller()<br>
+    verEstadísticas()<br>
+    cantReservas(reserva)<br>
+    verComunidad(comunidad)<br>
+    enviarNotifiacion(usuario_Duenio_Local*)<br>
+    </td>
+  </tr>
+  <tr>
+    <td>descripcion</td>
+    <td>Una descripción corta de lo que trata el taller</td> 
+   
+  </tr>
+  <tr>
+    <td>ubiación</td>
+    <td>Ubiacion del taller</td> 
+  </tr>
+  <tr>
+    <td>categoria</td>
+    <td>La catagoria del taller (cocina, cerámica,etc)</td> 
+  </tr>
+  <tr>
+    <td>horario</td>
+    <td>Horario de apertura y cierre del local</td> 
+  </tr>
+  <tr>
+    <td>precio</td>
+    <td>Precio de la reserva</td> 
+  </tr>
+  <tr>
+    <td>cupo_máximo_</td>
+    <td>Límite de cuántas reservas pueden haber</td>
+  </tr>
+    <tr>
+    <td>medidas_de_seguridad</td>
+    <td>Las medidas que tiene el local para sehuir con las relgas sanitarias</td>
+  </tr>
+    <tr>
+    <td>propietario</td>
+    <td>Mostrará el dueño del taller</td>
+  </tr>
+      <tr>
+    <td>comunidad</td>
+    <td>Mostrará la comuniadd a la que pertenece el local</td>
+  </tr>
+</table>
+
+- **Clase alojamiento**
+
+<table>
+  <tr>
+    <th>Atributo</th>
+    <th>Descripción</th>
+    <th>Método</th>
+  </tr>
+  <tr>
+    <td>
+      nombre
+    </td>
+    <td>
+      Nombre del establecimiento donde descansará el usuario
+    </td>
+    <td rowspan="8">verInformacion()<br>
+    </td>
+  </tr>
+  <tr>
+    <td>descripcion</td>
+    <td>Una descripción corta del alojamiento</td> 
+   
+  </tr>
+  <tr>
+    <td>ubiación</td>
+    <td>Ubiacion del alojamiento</td> 
+  </tr>
+  <tr>
+    <td>tipo</td>
+    <td>El tipo de alojmaineto(hotel, hostal, etc)</td> 
+  </tr>
+  <tr>
+    <td>servicios</td>
+    <td>Los servicios que ofrece el alojamiento</td> 
+  </tr>
+  <tr>
+    <td>precio</td>
+    <td>Precio del alojamiento</td> 
+  </tr>
+
+</table>
+
+- **Clase comunidad**
+
+<table>
+  <tr>
+    <th>Atributo</th>
+    <th>Descripción</th>
+    <th>Método</th>
+  </tr>
+  <tr>
+    <td>
+      nombre
+    </td>
+    <td>
+      Nombre de la comunidad
+    </td>
+    <td rowspan="8">verInformacion()<br>
+    </td>
+  </tr>
+  <tr>
+    <td>descripcion</td>
+    <td>Una descripción corta de la comunidad</td> 
+   
+  </tr>
+  <tr>
+    <td>ubiación</td>
+    <td>Ubiacion de la comunidad</td> 
+  </tr>
+  <tr>
+    <td>cultura</td>
+    <td>Un poco de información de su cultura</td> 
+  </tr>
+
+</table>
+
+- **Clase reserva**
+
+<table>
+  <tr>
+    <th>Atributo</th>
+    <th>Descripción</th>
+    <th>Método</th>
+  </tr>
+  <tr>
+    <td>
+      fecha
+    </td>
+    <td>
+      La fecha donde se hizo la reserva
+    </td>
+    <td rowspan="8">confirmarReserva()<br>
+    cancelarReserva()
+    </td>
+  </tr>
+  <tr>
+    <td>hora</td>
+    <td>Hora donde se hizo la reserva</td> 
+   
+  </tr>
+  <tr>
+    <td>usuario</td>
+    <td>EL usuario que hizo la reserva</td> 
+  </tr>
+  <tr>
+    <td>estado</td>
+    <td>El estado de la reserva</td> 
+  </tr>
+
+</table>
+
+- **Clase pago**
+
+<table>
+  <tr>
+    <th>Atributo</th>
+    <th>Descripción</th>
+    <th>Método</th>
+  </tr>
+  <tr>
+    <td>
+      monto
+    </td>
+    <td>
+      El precio a pagar
+    </td>
+    <td rowspan="8">realizarPago(bool)<br>
+    confirmarPago()<br>
+    mostrarReserva()
+    </td>
+  </tr>
+  <tr>
+    <td>fecha</td>
+    <td>fecha donde se realizó el pago</td> 
+   
+  </tr>
+  <tr>
+    <td>tipo_pago</td>
+    <td>Si el pago fue hecho por tarjeta o Paypal</td> 
+  </tr>
+  <tr>
+    <td>estado</td>
+    <td>El estado del pago</td> 
+  </tr>
+  <tr>
+    <td>reserva</td>
+    <td>Objeto reserva</td> 
+  </tr>
+</table>
 
 ### <span id="48-database-design">4.8. Database Design.</span>
 
 ### <span id="481-database-diagram">4.8.1. Database Diagram.</span>
+
+![alt text](./resources-img/PeruVentura-2024-04-06_22-15.png)
 
 # <span id="capítulo-v-product-implementation-validation--deployment">Capítulo V: Product Implementation, Validation & Deployment</span>
 
@@ -1225,10 +1918,15 @@ Este diagrama detalla los componentes de software implicados en las operaciones 
 
 ### <span id="5211-sprint-planning-1">5.2.1.1. Sprint Planning 1.</span>
 
+![Sprint1](./resources-img/Sprint1.png)
+
 ### <span id="5212-sprint-backlog-1">5.2.1.2. Sprint Backlog 1.</span>
+En esta sección se mostrará el objetivo principal del sprint
 
+link: https://trello.com/invite/b/AEWJNjeU/ATTI790e2fb751a1c4d5f5d2495f57b9fe9dFE2326E9/sprint-backlog-peruventura
+
+![SprintBacklog1](./resources-img/SprintBacklog1.png)
 ### <span id="5213-development-evidence-for-sprint-review">5.2.1.3. Development Evidence for Sprint Review.</span>
-
 ### <span id="5214-testing-suite-evidence-for-sprint-review">5.2.1.4. Testing Suite Evidence for Sprint Review.</span>
 
 ### <span id="5215-execution-evidence-for-sprint-review">5.2.1.5. Execution Evidence for Sprint Review.</span>
