@@ -382,6 +382,22 @@ El crecimiento del turismo ha llevado a una congestión en destinos populares co
 
 ### <span id="222-registro-de-entrevistas">2.2.2. Registro de entrevistas.</span>
 
+Dennis Castañeda Vilcapoma
+![Entrevista](./resources-img/entrevista-usuario.png)
+* Sexo: Masculino 
+* Edad: 23 años
+* Distrito donde vive: Lima
+
+* Link:[Click para ver la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c320_upc_edu_pe/EfD9tmVBWAxNsYdglvDr2G8BMGfs0Tn2AJw1Kz6vJ-s7VA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=rGbIAp)
+
+* Momento en el que inicia: 0:00
+* Duracion: 7:34
+* Entrevistador: Lynn Jeeferzon Meza Camayo
+  
+Resumen:
+
+El entrevistado, Dennis Castañeda Vilcapoma, de 23 años es un estudiante de Ingeneria Civil, Le gusta realizar turismo por Perú a actividades extremas y caminatas a largo tiempo. Nos cuenta que lo importa de realizar turismo es llevarse la experiencia única que uno quiere en cada viaje. Todos lo viajes que realizo fue por recomendaciones que se realiza en amistades y familiares, como tambien la recomendaciones de agencias. Los dificultades que tuvo al realizar un viaje fue que al buscar con un prosupuesto una agencia que tenga hospedaje, cupo y fecha requerida, no sale el monto que quieren y buscar nuevas agencias toma tiempo y solo realizan con los que le recomendaron.
+
 ### <span id="223-análisis-de-entrevistas">2.2.3. Análisis de entrevistas.</span>
 
 ### <span id="23-needfinding">2.3. Needfinding.</span>
@@ -1678,13 +1694,22 @@ A continuación, presentamos capturas de pantalla de las principales vistas impl
 
 * Inicio(Home)
 
-![Home-landing](./resources-img/)
+![Home-landing](./resources-img/home-landing%20.png)
 
+* Quienes Somos(About US):
+![About-Landing](./resources-img/about-landing.png)
 * Servicios (Services) : 
+![Services-Landing](./resources-img/services-landing.png)
 * Acerca del Equipo : 
+  ![Team-Landing](./resources-img/team-landing.png)
 * Llamada a la Acción (Call to Action) : 
+  ![Contact-Landing](./resources-img/contact-landing.png)
+
+* Footer:
+![Footer-Landing](./resources-img/footer-landing.png)
   
 Vídeo demostrativo:
+[Video-demostrativo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113930_upc_edu_pe/EYcTHEDxeXlDl8yQC6vCJA8BhW4_Pskg1dLwTSkPSHlAzA?e=o1B88H )
 
 
 ### <span id="5216-services-documentation-evidence-for-sprint-review">5.2.1.6. Services Documentation Evidence for Sprint Review.</span>
