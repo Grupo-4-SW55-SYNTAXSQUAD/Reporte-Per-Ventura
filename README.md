@@ -59,6 +59,8 @@
 
 Imforme: <https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Reporte-Per-Ventura>
 
+Landing Page: <https://grupo-4-sw55-syntaxsquad.github.io/Landing-page/>
+
 ## <span style="color:red">Tabla de Contenido</span>
 
 - [**UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS**](#universidad-peruana-de-ciencias-aplicadas)
@@ -245,7 +247,7 @@ Imforme: <https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Reporte-Per-Ventura>
         <td>
             Lynn Jeeferzon Meza Camayo <br>
             <em>TB1</em><br>
-            <em>Se COmpleto todos los punto de "Who" y "Why" de los 5w y 2h,.Ademas de la creacion de las guias de estylos que tendra nuestro producto.
+            <em>Se Completó todos los punto de "Who" y "Why" de los 5w y 2h,.Ademas de la creacion de las guias de estylos que tendra nuestro producto.
 Tambien se realiza una entrevista del segmento turista.<br>
             Paolo Gonzalo Párraga Gamarra<br>
             <em>TB1</em><br>
@@ -2525,5 +2527,5 @@ Endpoints y métodos asociados:
 ### <span id="5218-team-collaboration-insights-during-sprint">5.2.1.8. Team Collaboration Insights during Sprint.</span>
 
 ### Anexos
-TB1: 
+Vide de exposición TB1: 
 https://upcedupe-my.sharepoint.com/:v:/g/personal/u202219186_upc_edu_pe/EcH1FgMLDa5IhZMRg7EqStUBEhHkT5so_3R8TNd7mvCZag?e=Pul43K&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7fX0%3D 
