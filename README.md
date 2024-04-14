@@ -1258,9 +1258,53 @@ Entonces podrá visualizar una de nuestras redes sociales
 
 ![Contact](./resources-img/MockupContactLanding.png)
 
-### <span id="44-web-applications-uxui-design">4.4.3 Web Applications UX/UI Design.</span>
+### <span id="44-web-applications-uxui-design">4.4 Web Applications UX/UI Design.</span>
 
 ### <span id="441-web-applications-wireframes">4.4.1. Web Applications Wireframes.</span>
+
+Página de inicio
+
+La página de inicio presentará el logotipo de la aplicación de PerúVentura y una barra de navegación con las opciones "Home", "About Us", "Services" y "Contact", junto a una frase de bienvenida al usuario y cerca a ello nuestras redes sociales, así como una imagen que tenga sentido con el tema de nuestro aplicativo. Finalmente, la sección inferior o pié de página presenta enlaces a las redes sociales de la aplicación y un teléfono de contacto.
+
+Acceso a funcionalidades destacadas: La bara de menú principal ofrece acceso directo a funcionalidades destacadas, permitiendo una navegación ágil y eficiente a través de la aplicación. Estas funcionalidades incluyen:
+
+●	Home: Un acceso directo a la bienvenida de la plataforma al usuario.
+
+●	About Us: Este enlace permite explorar sobre qué tratará nuestro aplicativo y qué puede ofrecer al usuario. Así mismo, se mencionará lo que apasiona al grupo y qué tipo de personas lo conforman.
+
+●	Services: Este apartado ofrece mostrará los diferentes servicos que tiene la plataforma por ofrecer al usuario, así como algunas imágenes para acompañarlas.
+
+●	About the Team: Una sección donde podrás ver las fotos de los integrantes del grupo junto a nuestros nombres.
+
+●	Contact: Apartado donde se podrá hacer los reclamos o contactarnos por nuestros canales de atención en caso se tenga dudas o notificar algún fallo en la plataforma.
+
+![HomeWireframe](./resources-img/HomeWireframeDesktop.png)
+
+![HomeWireframe](./resources-img/HomeWireframeMobile.png)
+
+Mejora Continua: Aprovechando la implementación de un algoritmo de recomendaciones que aprende y se adapta según las búsqueda continuas que vaya hacer el usaurio de locales, las recomendaciones se vuelven cada vez más precisas. De esta manera, se asegura que el usuario encuentre puntos de interes, lo que mejora su experiencia.
+
+●	Búsqueda y filtrado de actividades: Al solicitar la búsqueda de de talleres así como los filtros que se hayan utilizado, la plataforma le mostrará una serie de talleres cercanos a su zona para que elija una.
+
+●	Comunicación directa con los anfitriones: Se ofrecerá por medio de canales de atención, ya sea mensaje o llamada una forma de contactarnos directamente y así el usuario sienta que su problema que tenga será escuchado.
+
+●	Información detallada sobre las actividades: Cada actividad que tenga algún taller podrá ser visualizado proporcionando información sobre horarios, ubicación ,requisitos, etc.
+
+![Services](./resources-img/WirefameService.png)
+
+![Services](./resources-img/WireframeServiceMobile.png)
+
+Formulario:
+
+Aprovechando el contacto directo que tendremos con los ususario, estos mismo pueden llenar un formulario donde ponen su nombre completo, correo electrónico, teléfono y Mensaje
+
+![Contact](./resources-img/ContactWireframeDesktop.png)
+
+![Contact](./resources-img/ContactWireframeMobile.png)
+
+![About us](./resources-img/AboutUsWireframe.png)
+
+![About us](./resources-img/AboutUsMobileWireframe.png)
 
 ### <span id="442-web-applications-wireflow-diagrams">4.4.2. Web Applications Wireflow Diagrams.</span>
 
@@ -1664,14 +1708,160 @@ Entonces podrá visualizar una de nuestras redes sociales
 
 ### <span id="5211-sprint-planning-1">5.2.1.1. Sprint Planning 1.</span>
 
-![Sprint1](./resources-img/Sprint1.png)
+<table>
+    <tr align="center">
+        <td><strong>Sprint #</strong></td>
+        <td><strong>Sprint 1</strong></td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center"><strong>Sprint Planning Background</strong></td>
+    </tr>
+    <tr align="center">
+        <td>Date</td>
+        <td>26/03/2024</td>
+    </tr>
+    <tr align="center">
+        <td>Time</td>
+        <td>11:00 AM</td>
+    </tr>
+    <tr align="center">
+        <td>Location</td>
+        <td>Discord</td>
+    </tr>
+    <tr align="center">
+        <td>Prepared by</td>
+        <td>Paolo Gonzalo Párraga Gamarra</td>
+    </tr>
+    <tr align="center">
+        <td>Attendess (to planning meeting)</td>
+        <td>Lynn Jeeferzon Meza Camayo - U20201C320<br>
+        David Bryan Rodriguez Santos - U202212236<br>
+        Paolo Gonzalo Párraga Gamarra - U202219186<br>
+        Fabricio Gabriel Iparraguirre Quintero - U202113930<br>
+        Felix Orlando Becerra Ttito - U20211B387</td>
+    </tr>
+    <tr align="center">
+        <td>Sprint 0 Review Summary</td>
+        <td>En este caso recién se realizará el primer sprint</td>
+    </tr>
+    <tr align="center">
+        <td>Sprint 0 Retrospective Summary</td>
+        <td>En este caso recién se realizará el primer sprint</td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center"><strong>Sprint Goal & User Stories</strong></td>
+    </tr>
+    <tr align="center">
+        <td>Sprint 1 Goal</td>
+        <td>Desarrollar y desplegar el landing page para agregarlo a repositorio del grupo</td>
+    </tr>
+    <tr align="center">
+        <td>Sprint 1 Velocity</td>
+        <td>2 semanas</td>
+    </tr>
+    <tr align="center">
+        <td>Sum of Story Point</td>
+        <td>5</td>
+    </tr>
+</table>
 
 ### <span id="5212-sprint-backlog-1">5.2.1.2. Sprint Backlog 1.</span>
-En esta sección se mostrará el objetivo principal del sprint
+En esta sección se mostrará el objetivo principal del sprint 1
 
 link: https://trello.com/invite/b/AEWJNjeU/ATTI790e2fb751a1c4d5f5d2495f57b9fe9dFE2326E9/sprint-backlog-peruventura
 
-![SprintBacklog1](./resources-img/SprintBacklog1.png)
+<table>
+    <tr align="center">
+        <td colspan="2"><strong>Sprint #</strong></td>
+        <td colspan="6"><strong>Sprint 1</strong></td>
+    </tr>
+    <tr align="center">
+        <td colspan="2"><strong>User Story</strong></td>
+        <td colspan="6"><strong>Work-Item / Task</strong></td>
+    </tr>
+    <tr align="center">
+        <td><strong>Id</strong></td>
+        <td><strong>Title</strong></td>
+        <td><strong>Id</strong></td>
+        <td><strong>Title</strong></td>
+        <td><strong>Description</strong></td>
+        <td><strong>Estimation (Hours)</strong></td>
+        <td><strong>Assigned to</strong></td>
+        <td><strong>Status (To do / In process / To review / Done)</strong></td>
+    </tr>
+    <tr align="center">
+        <td>US-23</td>
+        <td>Apartado de servicio al cliente</td>
+        <td>W-01</td>
+        <td>Creación Soporte</td>
+        <td>Se creará un apartado donde el usuario pueda reclamar</td>
+        <td>2</td>
+        <td>Fabricio</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>US-24</td>
+        <td>Apoyo sobre dudas</td>
+        <td>W-02</td>
+        <td>Creación canales de atención</td>
+        <td>Se adicionará al W-01 un pequeño apartado para escribir un mensaje</td>
+        <td>2</td>
+        <td>Fabricio</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>US-26</td>
+        <td>Apartado de Servicios</td>
+        <td>W-03</td>
+        <td>Creación Servicios</td>
+        <td>Creación de un apartado para visualizar los Servicios</td>
+        <td>3</td>
+        <td>Bryan</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>US-27</td>
+        <td>Apartado de About the Team</td>
+        <td>W-04</td>
+        <td>Creación About the Team</td>
+        <td>Creación de un apartado para visualizar nuestras fotos</td>
+        <td>2</td>
+        <td>Paolo</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>US-28</td>
+        <td>Apartado de Inicio</td>
+        <td>W-05</td>
+        <td>Diseño</td>
+        <td>Añadir elementos visuales a la landing page</td>
+        <td>3 </td>
+        <td>Lynn </td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>US-29</td>
+        <td>Apartado de About Us</td>
+        <td>W-06</td>
+        <td>Creación About Us</td>
+        <td>Creación de un apartado visualizar el enfoque del producto</td>
+        <td>2 hour</td>
+        <td>Paolo</td>
+        <td>Done</td>
+    </tr>
+        <tr align="center">
+        <td>US-30</td>
+        <td>Redes Sociales</td>
+        <td>W-07</td>
+        <td>Creación botones de Redes Sociales</td>
+        <td>Creación de botones para ingresar a redes sociales</td>
+        <td>3</td>
+        <td>Felix</td>
+        <td>Done</td>
+    </tr>
+</table>
+
+
 ### <span id="5213-development-evidence-for-sprint-review">5.2.1.3. Development Evidence for Sprint Review.</span>
 ### <span id="5214-testing-suite-evidence-for-sprint-review">5.2.1.4. Testing Suite Evidence for Sprint Review.</span>
 
@@ -1682,55 +1872,3 @@ link: https://trello.com/invite/b/AEWJNjeU/ATTI790e2fb751a1c4d5f5d2495f57b9fe9dF
 ### <span id="5217-software-deployment-evidence-for-sprint-review">5.2.1.7. Software Deployment Evidence for Sprint Review.</span>
 
 ### <span id="5218-team-collaboration-insights-during-sprint">5.2.1.8. Team Collaboration Insights during Sprint.</span>
-
-### <span id="522-sprint-2">5.2.2 Sprint 2</span>
-
-### <span id="5221-sprint-planning-2">5.2.2.1. Sprint Planning 2.</span>
-
-### <span id="5212-sprint-backlog-1">5.2.2.2. Sprint Backlog 2.</span>
-
-### <span id="5223-development-evidence-for-sprint-review">5.2.2.3. Development Evidence for Sprint Review.</span>
-
-### <span id="5224-testing-suite-evidence-for-sprint-review">5.2.2.4. Testing Suite Evidence for Sprint Review.</span>
-
-### <span id="5225-execution-evidence-for-sprint-review">5.2.2.5. Execution Evidence for Sprint Review.</span>
-
-### <span id="5226-services-documentation-evidence-for-sprint-review">5.2.2.6. Services Documentation Evidence for Sprint Review.</span>
-
-### <span id="5227-software-deployment-evidence-for-sprint-review">5.2.2.7. Software Deployment Evidence for Sprint Review.</span>
-
-### <span id="5228-team-collaboration-insights-during-sprint">5.2.2.8. Team Collaboration Insights during Sprint.</span>
-
-### <span id="523-sprint-3">5.2.3. Sprint 3</span>
-
-### <span id="5231-sprint-planning-3">5.2.3.1. Sprint Planning 3.</span>
-
-### <span id="5232-sprint-backlog-3">5.2.3.2. Sprint Backlog 3.</span>
-
-### <span id="5233-development-evidence-for-sprint-review">5.2.3.3. Development Evidence for Sprint Review.</span>
-
-### <span id="5234-testing-suite-evidence-for-sprint-review">5.2.3.4. Testing Suite Evidence for Sprint Review.</span>
-
-### <span id="5235-execution-evidence-for-sprint-review">5.2.3.5. Execution Evidence for Sprint Review.</span>
-
-### <span id="5236-services-documentation-evidence-for-sprint-review">5.2.3.6. Services Documentation Evidence for Sprint Review.</span>
-
-### <span id="5237-software-deployment-evidence-for-sprint-review">5.2.3.7. Software Deployment Evidence for Sprint Review.</span>
-
-### <span id="5238-team-collaboration-insights-during-sprint">5.2.3.8. Team Collaboration Insights during Sprint.</span>
-
-## <span id="53-validation-interviews">5.3. Validation Interviews.</span>
-
-### <span id="531-diseño-de-entrevistas">5.3.1. Diseño de Entrevistas.</span>
-
-### <span id="532-registro-de-entrevistas">5.3.2. Registro de Entrevistas.</span>
-
-### <span id="533-evaluaciones-según-heurísticas">5.3.3. Evaluaciones según heurísticas.</span>
-
-## <span id="54-video-about-the-product">5.4. Video About-the-Product.</span>
-
-## <span id="conclusiones">Conclusiones</span>
-
-## <span id="conclusiones-y-recomendaciones">Conclusiones y recomendaciones.</span>
-
-## <span id="video-about-the-team">Video About-the-Team.</span>
