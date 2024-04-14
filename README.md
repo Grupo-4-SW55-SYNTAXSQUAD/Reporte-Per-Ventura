@@ -375,6 +375,29 @@ La situación del cliente surge de la creciente demanda de experiencias auténti
 ### <span id="221-diseño-de-entrevistas">2.2.1. Diseño de entrevistas.</span>
 
 ### <span id="222-registro-de-entrevistas">2.2.2. Registro de entrevistas.</span>
+### Dueños de local:
+Santiago García
+
+![Entrevista1](./resources-img/entrevistaSantiago.png)
+
+●	Sexo: Masculino
+
+●	Edad: 23 años
+
+●	Distrito en el que vive: Lima
+
+
+●	Link: [Click para ver entrevista](https://drive.google.com/file/d/1NVqKNazUFFLeX4faVAvVO4gRC5LfTtKG/view?usp=sharing)
+
+●	Momento en el que inicia: 0:00
+
+●	Duración: 6:34
+
+●	Entrevistador: Párraga Gamarra Paolo Gonzalo
+
+Resumen:
+
+El entrevistado, Santiago García, de 23 años ha sido emprendedor por un año con su local que fue abierto gracias a un préstamo. En esta entrevista nos cuenta que su local ha ido bien, ya que la forma de promocionarse dieron frutos. Sin embargo, recalca que no han sido sus mejores experiencias y estaría de acuerdo con una plataforma que le ayude a promocionarse y sea fácil de usar. Además de brindarle estrategias para que pueda promocionarse mejor. 
 
 ### <span id="223-análisis-de-entrevistas">2.2.3. Análisis de entrevistas.</span>
 
@@ -1215,6 +1238,26 @@ Entonces podrá visualizar una de nuestras redes sociales
 
 ### <span id="432-landing-page-mock-up">4.3.2. Landing Page Mock-up.</span>
 
+#### Pagina inicio 
+
+![Home](./resources-img/MockupHomeLanding.png)
+
+#### About Us
+
+![About Us](./resources-img/MockupAboutUsLanding.png)
+
+#### Services 
+
+![Services](./resources-img/MockupServicesLanding.png)
+
+#### About the Team 
+
+![About the Team ](./resources-img/MockupAboutTeamLanding.png)
+
+#### Contact
+
+![Contact](./resources-img/MockupContactLanding.png)
+
 ### <span id="44-web-applications-uxui-design">4.4.3 Web Applications UX/UI Design.</span>
 
 ### <span id="441-web-applications-wireframes">4.4.1. Web Applications Wireframes.</span>
@@ -1222,6 +1265,46 @@ Entonces podrá visualizar una de nuestras redes sociales
 ### <span id="442-web-applications-wireflow-diagrams">4.4.2. Web Applications Wireflow Diagrams.</span>
 
 ### <span id="443-web-applications-mock-ups">4.4.2. Web Applications Mock-ups.</span>
+#### Pagina inicio (desktop)
+
+![Home](./resources-img/MockupHomeDesktip.png) 
+
+#### Pagina inicio (Mobile)
+
+![Home](./resources-img/MockupHomeMobile.png)
+
+#### About Us (desktop)
+
+![About Us](./resources-img/MockupAboutUsDesktop.png)
+
+#### About Us (Mobile)
+
+![About Us](./resources-img/MockupAboutUsMobile.png)
+
+#### Services (desktop)
+
+![Services](./resources-img/MockupServicesDesktop.png)
+
+#### Services (Mobile)
+
+![About Us](./resources-img/MockuupServicesMobile.png)
+
+#### About the Team (desktop)
+
+![About the Team](./resources-img/MockupAboutTeamDesktop.png)
+
+#### About the Team (Mobile)
+
+![About the Team](./resources-img/MockupAboutTeamMobile.png)
+
+#### Contact (desktop)
+
+![Contact](./resources-img/MockupContactDesktop.png)
+
+#### Contact (Mobile)
+
+![Contact](./resources-img/MockupContactMobile.png)
+
 
 ### <span id="444-web-applications-user-flow-diagrams">4.4.3. Web Applications User Flow Diagrams.</span>
 
