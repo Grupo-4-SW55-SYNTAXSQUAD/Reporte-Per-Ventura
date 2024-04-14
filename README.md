@@ -2461,18 +2461,17 @@ Este modelo da una estructura clara y organizada para que los desarrolladores pu
 
 ### <span id="513-source-code-style-guide--conventions">5.1.3. Source Code Style Guide & Conventions.</span>
 
-### <span id="514-software-deployment-configuration">5.1.4. Software Deployment Configuration.</span>
+Para mantener un código limpio y fácil de leer, se establecieron las siguientes convenciones y guías de estilo para el código fuente de la landing page:
 
 #### _CSS_
 
-### <span id="521-sprint-1">5.2.1. Sprint 1</span>
+- Se utilizó CSS para definir los estilos de la página. A continuación se muestra un ejemplo de cómo se guardaron los estilos de colores en la variable `:root` para un uso general en la página:
 
 <img src="https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Landing-page/assets/133163553/2d158972-4d22-4bae-82be-d7f5316c9557"/>
 
-![Sprint1](./resources-img/Sprint1.png)
+#### _JSON_
 
-### <span id="5212-sprint-backlog-1">5.2.1.2. Sprint Backlog 1.</span>
-En esta sección se mostrará el objetivo principal del sprint
+- El uso de ParticleJS es una biblioteca de JavaScript que permite generar y animar partículas en un lienzo HTML. Para configurar ParticleJS, se utiliza un archivo JSON que contiene los parámetros de configuración necesarios.
 
 <img src="https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Landing-page/assets/133163553/eb575c2c-d635-427a-9253-7e7eadf59637"/>
 
@@ -2696,23 +2695,6 @@ Endpoints y métodos asociados:
         
 ### <span id="5217-software-deployment-evidence-for-sprint-review">5.2.1.7. Software Deployment Evidence for Sprint Review.</span>
 
-### <span id="5218-team-collaboration-insights-during-sprint">5.2.1.8. Team Collaboration Insights during Sprint.</span>
-
-### <span id="522-sprint-2">5.2.2 Sprint 2</span>
-
-### <span id="5221-sprint-planning-2">5.2.2.1. Sprint Planning 2.</span>
-
-### <span id="5212-sprint-backlog-1">5.2.2.2. Sprint Backlog 2.</span>
-
-### <span id="5223-development-evidence-for-sprint-review">5.2.2.3. Development Evidence for Sprint Review.</span>
-
-### <span id="5224-testing-suite-evidence-for-sprint-review">5.2.2.4. Testing Suite Evidence for Sprint Review.</span>
-
-### <span id="5225-execution-evidence-for-sprint-review">5.2.2.5. Execution Evidence for Sprint Review.</span>
-
-### <span id="5226-services-documentation-evidence-for-sprint-review">5.2.2.6. Services Documentation Evidence for Sprint Review.</span>
-
-### <span id="5217-software-deployment-evidence-for-sprint-review">5.2.1.7. Software Deployment Evidence for Sprint Review.</span>
 <h3>Durante el Sprint 1, llevamos a cabo el despliegue de nuestra landing page en GitHub Pages. A continuación, detallamos los pasos realizados:</h3>
 <ol>
   <li><strong>Creación del Repositorio en GitHub:</strong> Iniciamos creando un repositorio dedicado en GitHub para nuestro proyecto de landing page.</li>
