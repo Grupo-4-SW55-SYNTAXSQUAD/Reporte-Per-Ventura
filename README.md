@@ -240,11 +240,6 @@ Imforme: <https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Reporte-Per-Ventura>
         </td>
         <td></td>
     </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
 </table>
 
 # <span id="capítulo-introducción" style="color:red">Capítulo I: Introducción</span>
