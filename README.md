@@ -232,10 +232,10 @@ Landing Page: <https://grupo-4-sw55-syntaxsquad.github.io/Landing-page/>
             landing page.<br>
             Paolo Gonzalo Párraga Gamarra<br>
             <em>TB1</em><br>
-            <em>Se reliazó el capítulo 3, así comolos diagramas <br>de clases y de base de datos y el <br>sprint planning 1 y sprint backlog
+            <em>Se reliazó el capítulo 3, así comolos diagramas <br>de clases y de base de datos y el <br>sprint planning 1 y sprint backlog<br>
             David Bryan Rodriguez Santos <br>
             <em>TB1</em>
-            <em>Se reliazó el capítulo 3, así comolos diagramas <br>de clases y de base de datos y el <br>sprint planning 1 y sprint backlog
+            <em>Se reliazó el capítulo 3, así comolos diagramas <br>de clases y de base de datos y el <br>sprint planning 1 y sprint backlog<br>
         </td>
         <td>
         En conclusión, los elementos usados para la realización del tb1 fueron importantes como los sprint ayudaron a la eficacia del grupo.
@@ -254,10 +254,10 @@ Landing Page: <https://grupo-4-sw55-syntaxsquad.github.io/Landing-page/>
 Tambien se realiza una entrevista del segmento turista.<br>
             Paolo Gonzalo Párraga Gamarra<br>
             <em>TB1</em><br>
-            <em>Se reliazó el capítulo 3, así comolos diagramas <br>de clases y de base de datos y el <br>sprint planning 1 y sprint backlog
+            <em>Se reliazó el capítulo 3, así comolos diagramas <br>de clases y de base de datos y el <br>sprint planning 1 y sprint backlog<br>
             David Bryan Rodriguez Santos <br>
             <em>TB1</em>
-            <em>Se reliazó el capítulo 3, así comolos diagramas <br>de clases y de base de datos y el <br>sprint planning 1 y sprint backlog
+            <em>Se reliazó el capítulo 3, así comolos diagramas <br>de clases y de base de datos y el <br>sprint planning 1 y sprint backlog<br>
         </td>
         <td>En conclusión, lo realizado a lo largo del trabajo fue algo crucial para conocer del sector empresairal al que apuntabamos y así aplicar soluciones de software efectivas.</td>
     </tr>
