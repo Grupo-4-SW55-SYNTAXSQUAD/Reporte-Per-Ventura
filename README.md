@@ -463,7 +463,9 @@ Escala: La capacidad de la Plataforma de Conexión para manejar un número creci
 Segmento objetivo 1: Turistas
 
 ![to_be](./resources-img/tobe-turista.jpg)
+
 Segmento objetivo 2: Dueños de local
+
 ![to_be](./resources-img/tobe-dueñol.jpg)
 
 
