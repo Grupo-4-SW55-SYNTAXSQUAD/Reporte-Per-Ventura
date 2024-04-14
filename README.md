@@ -226,6 +226,8 @@ Imforme: <https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Reporte-Per-Ventura>
         <td>
             Lynn Jeeferzon Meza Camayo <br>
             <em>TB1</em><br>
+            <em>Se implemento los antecedentes y problematcias, para identificar nuestra propuesta. Creando los Style Guidelines para la implementacion y desarrollo de nuestro aplicativo y       
+            landing page.<br>
             Paolo Gonzalo Párraga Gamarra<br>
             <em>TB1</em><br>
             <em>Se reliazó el capítulo 3, así comolos diagramas <br>de clases y de base de datos y el <br>sprint planning 1 y sprint backlog
@@ -243,6 +245,8 @@ Imforme: <https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Reporte-Per-Ventura>
         <td>
             Lynn Jeeferzon Meza Camayo <br>
             <em>TB1</em><br>
+            <em>Se COmpleto todos los punto de "Who" y "Why" de los 5w y 2h,.Ademas de la creacion de las guias de estylos que tendra nuestro producto.
+Tambien se realiza una entrevista del segmento turista.<br>
             Paolo Gonzalo Párraga Gamarra<br>
             <em>TB1</em><br>
             <em>Se reliazó el capítulo 3, así comolos diagramas <br>de clases y de base de datos y el <br>sprint planning 1 y sprint backlog
@@ -2519,3 +2523,7 @@ Endpoints y métodos asociados:
 </ol>
 
 ### <span id="5218-team-collaboration-insights-during-sprint">5.2.1.8. Team Collaboration Insights during Sprint.</span>
+
+### Anexos
+TB1: 
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202219186_upc_edu_pe/EcH1FgMLDa5IhZMRg7EqStUBEhHkT5so_3R8TNd7mvCZag?e=Pul43K&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7fX0%3D 
