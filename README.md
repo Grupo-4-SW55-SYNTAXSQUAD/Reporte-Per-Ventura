@@ -228,8 +228,16 @@ SyntaxSquad brinda servicios que incluyen desarrollo de software personalizado, 
 ### <span id="112-perfiles-de-integrantes-del-equipo">1.1.2. Perfiles de integrantes del equipo</span>
 
 ![Imagen 1: perfil-Lynn](./resources-img/Perfil-Lynn.png)
-![Imagen 2: perfil-Lynn](./resources-img/Perfil-Bryan.png)
-![Imagen 3: perfil-Lynn](./resources-img/Paolo_Párraga_Perfil.png)
+#
+#
+![Imagen 2: perfil-Paolo](./resources-img/Paolo_Párraga_Perfil.png)
+#
+#
+![Imagen 3: perfil-Bryan](./resources-img/Perfil-Bryan.png)
+#
+#
+![Imagen 4: perfil-Felix](./resources-img/Perfil-Felix.png)
+
 
 ### <span id="12-solution-profile">1.2. Solution Profile</span>
 
@@ -1766,6 +1774,7 @@ link de figma: https://www.figma.com/file/BfzCppVfeK0kuuAicPUJCp/Style-Guideline
 
 
 ### <span id="424-searching-systems">4.2.4. Searching Systems.</span>
+<p>Se analizará en el siguiente punto:</p>
 
 ### <span id="425-navigation-systems">4.2.5. Navigation Systems.</span>
 
@@ -1860,6 +1869,42 @@ Aprovechando el contacto directo que tendremos con los ususario, estos mismo pue
 ![About us](./resources-img/AboutUsMobileWireframe.png)
 
 ### <span id="442-web-applications-wireflow-diagrams">4.4.2. Web Applications Wireflow Diagrams.</span>
+<h>User Goal:</h>
+<p>Como usuario quiero conocer acerca de la aplicación mediante la página web.</p>
+<h>Descripción:</h>
+<p>En este wireflow primero entrará a la página web y luego en la parte superior le dará click al botón de About us y llegará a conocer acerca de la aplicación.</p>
+
+![Imagen 1: Home](./resources-img/LandingP1.png)
+![Imagen 2: AboutUs](./resources-img/LandingP2.png)
+
+<h>User Goal:</h>
+<p>Como usuario quiero conocer que servicios realiza la aplicación..</p>
+<h>Descripción:</h>
+<p>En este wireflow primero entrará a la página web y luego en la parte superior le dará click al botón de Servicios y llegara a conocer acerca de los servicios que ofrece la aplicación.</p>
+
+![Imagen 1: Home](./resources-img/LandingP1.png)
+![Imagen 2: Servicios](./resources-img/LandingP3.png)
+
+<h>User Goal:</h>
+<p>Como Dueño de local quiero contactarme con los dueños de la aplicación para poder publicitar mi local.</h>
+<p>En este wireflow primero entrara a la página web y luego en la parte superior le dará click al botón de Contacto el cual lo llevara a un apartado para llenar sus datos personales , al terminar de llenar sus datos le podrá dar click al botón de “Enviar” y podrá contactarse con nosotros.</p>
+
+![Imagen 1: Home](./resources-img/LandingP1.png)
+![Imagen 3: Contacto](./resources-img/LandingP4.png)
+
+<h>User Goal:</h>
+<p>Como Turista quiero contactarme con los dueños de la aplicación para poder conocer mejor el Perú y realizar actividades únicas..</h>
+<p>En este wireflow primero entrara a la página web y luego en la parte superior le dará click al botón de Contacto el cual lo llevara a un apartado para llenar sus datos personales , al terminar de llenar sus datos le podrá dar click al botón de “Enviar” y podrá contactarse con nosotros.</p>
+
+![Imagen 1: Home](./resources-img/LandingP1.png)
+![Imagen 3: Contacto](./resources-img/LandingP4.png)
+
+
+
+
+
+
+
 
 ### <span id="443-web-applications-mock-ups">4.4.2. Web Applications Mock-ups.</span>
 
@@ -2595,5 +2640,13 @@ Endpoints y métodos asociados:
         GET /api/pagos/{id}/estado: Consulta el estado de un pago.
 
 ### <span id="5217-software-deployment-evidence-for-sprint-review">5.2.1.7. Software Deployment Evidence for Sprint Review.</span>
+<h3>Durante el Sprint 1, llevamos a cabo el despliegue de nuestra landing page en GitHub Pages. A continuación, detallamos los pasos realizados:</h3>
+<ol>
+  <li><strong>Creación del Repositorio en GitHub:</strong> Iniciamos creando un repositorio dedicado en GitHub para nuestro proyecto de landing page.</li>
+  <li><strong>Configuración de la Rama main:</strong> Aseguramos que la rama principal del repositorio se llamara main, ya que GitHub Pages toma esta rama como base para el despliegue automático.</li>
+  <li><strong>Preparación del Contenido:</strong> Desarrollamos y diseñamos nuestra landing page, asegurándonos de que todos los archivos y recursos necesarios estuvieran presentes en el repositorio.</li>
+  <li><strong>Generación del Enlace de GitHub Pages:</strong> Navegamos a la sección "Pages" en la configuración del repositorio en GitHub. Configuramos la fuente del GitHub Pages para que tomara el contenido de la rama main.</li>
+  <li><strong>Despliegue Automático:</strong> GitHub Pages automáticamente detectó los cambios en la rama main y desplegó la landing page en la URL proporcionada por GitHub Pages.</li>
+</ol>
 
 ### <span id="5218-team-collaboration-insights-during-sprint">5.2.1.8. Team Collaboration Insights during Sprint.</span>
