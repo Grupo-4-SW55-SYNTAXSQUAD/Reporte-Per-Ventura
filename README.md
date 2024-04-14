@@ -319,7 +319,10 @@ La situación del cliente surge de la creciente demanda de experiencias auténti
 
 
 ### <span id="1223-lean-ux-hypothesis-statements">1.2.2.3. Lean UX Hypothesis Statements.</span>
-<li>Creemos que tendremos éxito si los viajeros pueden encontrar y reservar fácilmente actividades culturales auténticas en Perú, como talleres de arte y cocina tradicional, a través de nuestra plataforma.</li>          <li>Creemos que lograremos la monetización si los viajeros utilizan las funciones Premium de nuestra aplicación para acceder a experiencias exclusivas y servicios adicionales.</li>                                                    <li>Creemos que nuestros usuarios estarán satisfechos si experimentan una mayor interacción con las comunidades locales y una conexión más profunda con la cultura peruana a través de nuestra aplicación.</li>                                                    
+<li>Creemos que tendremos éxito si los viajeros pueden encontrar y reservar fácilmente actividades culturales auténticas en Perú, como talleres de arte y cocina tradicional, a través de nuestra plataforma.</li>          <li>Creemos que lograremos la monetización si los viajeros utilizan las funciones Premium de nuestra aplicación para acceder a experiencias exclusivas y servicios adicionales.</li>                                                    <li>Creemos que nuestros usuarios estarán satisfechos si experimentan una mayor interacción con las comunidades locales y una conexión más profunda con la cultura peruana a través de nuestra aplicación.</li>
+
+### <span id="1224-lean-ux-canvas">1.2.2.4. Lean UX Canvas.</span>    
+![Imagen 1: Canvas](./resources-img/Canvas.jpg)
 
 ### <span id="13-segmentos-objetivo">1.3. Segmentos objetivo.</span>
 ## Turistas en Perú
