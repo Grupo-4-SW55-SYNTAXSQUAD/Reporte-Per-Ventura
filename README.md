@@ -1935,25 +1935,6 @@ link: https://trello.com/invite/b/AEWJNjeU/ATTI790e2fb751a1c4d5f5d2495f57b9fe9dF
 
 ### <span id="5216-services-documentation-evidence-for-sprint-review">5.2.1.6. Services Documentation Evidence for Sprint Review.</span>
 
-### <span id="5217-software-deployment-evidence-for-sprint-review">5.2.1.7. Software Deployment Evidence for Sprint Review.</span>
-
-### <span id="5218-team-collaboration-insights-during-sprint">5.2.1.8. Team Collaboration Insights during Sprint.</span>
-
-### <span id="522-sprint-2">5.2.2 Sprint 2</span>
-
-### <span id="5221-sprint-planning-2">5.2.2.1. Sprint Planning 2.</span>
-
-### <span id="5212-sprint-backlog-1">5.2.2.2. Sprint Backlog 2.</span>
-
-### <span id="5223-development-evidence-for-sprint-review">5.2.2.3. Development Evidence for Sprint Review.</span>
-
-### <span id="5224-testing-suite-evidence-for-sprint-review">5.2.2.4. Testing Suite Evidence for Sprint Review.</span>
-
-### <span id="5225-execution-evidence-for-sprint-review">5.2.2.5. Execution Evidence for Sprint Review.</span>
-
-### <span id="5226-services-documentation-evidence-for-sprint-review">5.2.2.6. Services Documentation Evidence for Sprint Review.</span>
-
-
 En este sprint, nos centramos en la implementación y mejora de los servicios que permiten la interacción de los usuarios turistas y dueños de locales con la plataforma PerúVentura. Los endpoints específicos se han diseñado para soportar las operaciones definidas en las clases usuario_turista, usuario_dueño_local, taller, alojamiento, comunidad, reserva y pago.
 
 Endpoints y métodos asociados:
@@ -1989,6 +1970,24 @@ Endpoints y métodos asociados:
     Pago:
         POST /api/pagos/realizar: Inicia el proceso de pago.
         GET /api/pagos/{id}/estado: Consulta el estado de un pago.
+        
+### <span id="5217-software-deployment-evidence-for-sprint-review">5.2.1.7. Software Deployment Evidence for Sprint Review.</span>
+
+### <span id="5218-team-collaboration-insights-during-sprint">5.2.1.8. Team Collaboration Insights during Sprint.</span>
+
+### <span id="522-sprint-2">5.2.2 Sprint 2</span>
+
+### <span id="5221-sprint-planning-2">5.2.2.1. Sprint Planning 2.</span>
+
+### <span id="5212-sprint-backlog-1">5.2.2.2. Sprint Backlog 2.</span>
+
+### <span id="5223-development-evidence-for-sprint-review">5.2.2.3. Development Evidence for Sprint Review.</span>
+
+### <span id="5224-testing-suite-evidence-for-sprint-review">5.2.2.4. Testing Suite Evidence for Sprint Review.</span>
+
+### <span id="5225-execution-evidence-for-sprint-review">5.2.2.5. Execution Evidence for Sprint Review.</span>
+
+### <span id="5226-services-documentation-evidence-for-sprint-review">5.2.2.6. Services Documentation Evidence for Sprint Review.</span>
 
 ### <span id="5227-software-deployment-evidence-for-sprint-review">5.2.2.7. Software Deployment Evidence for Sprint Review.</span>
 
