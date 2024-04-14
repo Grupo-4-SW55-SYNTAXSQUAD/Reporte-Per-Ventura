@@ -62,7 +62,7 @@ Imforme: <https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Reporte-Per-Ventura>
 ## <span style="color:red">Tabla de Contenido</span>
 
 - [**UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS**](#universidad-peruana-de-ciencias-aplicadas)
-    - [SI730 Aplicaciones Web](#si730-aplicaciones-web)
+  - [SI730 Aplicaciones Web](#si730-aplicaciones-web)
   - [**"PerúVentura"**](#perúventura)
     - [Profesor: Francisco José Cáceres Honores](#profesor-francisco-josé-cáceres-honores)
   - [Integrantes:](#integrantes)
@@ -76,62 +76,62 @@ Imforme: <https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Reporte-Per-Ventura>
     - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
 - [](#)
 - [](#-1)
-    - [1.2. Solution Profile](#12-solution-profile)
-    - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
-    - [1.2.2 Lean UX Process.](#122-lean-ux-process)
-    - [1.2.2.1. Lean UX Problem Statements.](#1221-lean-ux-problem-statements)
-    - [1.2.2.2. Lean UX Assumptions.](#1222-lean-ux-assumptions)
-    - [1.2.2.3. Lean UX Hypothesis Statements.](#1223-lean-ux-hypothesis-statements)
-    - [1.2.2.4. Lean UX Canvas.](#1224-lean-ux-canvas)
-    - [1.3. Segmentos objetivo.](#13-segmentos-objetivo)
+  - [1.2. Solution Profile](#12-solution-profile)
+  - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
+  - [1.2.2 Lean UX Process.](#122-lean-ux-process)
+  - [1.2.2.1. Lean UX Problem Statements.](#1221-lean-ux-problem-statements)
+  - [1.2.2.2. Lean UX Assumptions.](#1222-lean-ux-assumptions)
+  - [1.2.2.3. Lean UX Hypothesis Statements.](#1223-lean-ux-hypothesis-statements)
+  - [1.2.2.4. Lean UX Canvas.](#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo.](#13-segmentos-objetivo)
 - [ Capítulo II: Requirements Elicitation \& Analysis](#-capítulo-ii-requirements-elicitation--analysis)
-    - [2.1. Competidores.](#21-competidores)
-    - [2.1.1. Análisis competitivo.](#211-análisis-competitivo)
-    - [2.1.2. Estrategias y tácticas frente a competidores.](#212-estrategias-y-tácticas-frente-a-competidores)
-    - [2.2. Entrevistas.](#22-entrevistas)
-    - [2.2.1. Diseño de entrevistas.](#221-diseño-de-entrevistas)
-    - [2.2.2. Registro de entrevistas.](#222-registro-de-entrevistas)
-    - [2.2.3. Análisis de entrevistas.](#223-análisis-de-entrevistas)
-    - [2.3. Needfinding.](#23-needfinding)
-    - [2.3.1. User Personas.](#231-user-personas)
-    - [2.3.2. User Task Matrix.](#232-user-task-matrix)
-    - [2.3.3. User Journey Mapping.](#233-user-journey-mapping)
-    - [2.3.4. Empathy Mapping.](#234-empathy-mapping)
-    - [2.3.5. As-is Scenario Mapping.](#235-as-is-scenario-mapping)
-    - [2.4. Ubiquitous Language.](#24-ubiquitous-language)
+  - [2.1. Competidores.](#21-competidores)
+  - [2.1.1. Análisis competitivo.](#211-análisis-competitivo)
+  - [2.1.2. Estrategias y tácticas frente a competidores.](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas.](#22-entrevistas)
+  - [2.2.1. Diseño de entrevistas.](#221-diseño-de-entrevistas)
+  - [2.2.2. Registro de entrevistas.](#222-registro-de-entrevistas)
+  - [2.2.3. Análisis de entrevistas.](#223-análisis-de-entrevistas)
+  - [2.3. Needfinding.](#23-needfinding)
+  - [2.3.1. User Personas.](#231-user-personas)
+  - [2.3.2. User Task Matrix.](#232-user-task-matrix)
+  - [2.3.3. User Journey Mapping.](#233-user-journey-mapping)
+  - [2.3.4. Empathy Mapping.](#234-empathy-mapping)
+  - [2.3.5. As-is Scenario Mapping.](#235-as-is-scenario-mapping)
+  - [2.4. Ubiquitous Language.](#24-ubiquitous-language)
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-    - [3.1. To-Be Scenario Mapping.](#31-to-be-scenario-mapping)
-    - [3.2. User Stories.](#32-user-stories)
-    - [3.3. Impact Mapping.](#33-impact-mapping)
-    - [3.4. Product Backlog.](#34-product-backlog)
+  - [3.1. To-Be Scenario Mapping.](#31-to-be-scenario-mapping)
+  - [3.2. User Stories.](#32-user-stories)
+  - [3.3. Impact Mapping.](#33-impact-mapping)
+  - [3.4. Product Backlog.](#34-product-backlog)
 - [ Capítulo IV: Product Design](#-capítulo-iv-product-design)
-    - [4.1. Style Guidelines.](#41-style-guidelines)
-    - [4.1.1. General Style Guidelines.](#411-general-style-guidelines)
-    - [4.1.2. Web Style Guidelines.](#412-web-style-guidelines)
-    - [4.2. Information Architecture.](#42-information-architecture)
-    - [4.2.1. Organization Systems.](#421-organization-systems)
-    - [4.2.2. Labeling Systems.](#422-labeling-systems)
-    - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
-    - [4.2.4. Searching Systems.](#424-searching-systems)
-    - [4.2.5. Navigation Systems.](#425-navigation-systems)
-    - [4.3. Landing Page UI Design.](#43-landing-page-ui-design)
-    - [4.3.1. Landing Page Wireframe.](#431-landing-page-wireframe)
-    - [4.3.2. Landing Page Mock-up.](#432-landing-page-mock-up)
-    - [4.4 Web Applications UX/UI Design.](#44-web-applications-uxui-design)
-    - [4.4.1. Web Applications Wireframes.](#441-web-applications-wireframes)
-    - [4.4.2. Web Applications Wireflow Diagrams.](#442-web-applications-wireflow-diagrams)
-    - [4.4.2. Web Applications Mock-ups.](#442-web-applications-mock-ups)
-    - [4.4.3. Web Applications User Flow Diagrams.](#443-web-applications-user-flow-diagrams)
-    - [4.5. Web Applications Prototyping.](#45-web-applications-prototyping)
-    - [4.6. Domain-Driven Software Architecture.](#46-domain-driven-software-architecture)
-    - [4.6.1. Software Architecture Context Diagram.](#461-software-architecture-context-diagram)
-    - [4.6.2. Software Architecture Container Diagrams.](#462-software-architecture-container-diagrams)
-    - [4.6.3. Software Architecture Components Diagrams.](#463-software-architecture-components-diagrams)
-    - [4.7. Software Object-Oriented Design.](#47-software-object-oriented-design)
-    - [4.7.1. Class Diagrams.](#471-class-diagrams)
-    - [4.7.2. Class Dictionary.](#472-class-dictionary)
-    - [4.8. Database Design.](#48-database-design)
-    - [4.8.1. Database Diagram.](#481-database-diagram)
+  - [4.1. Style Guidelines.](#41-style-guidelines)
+  - [4.1.1. General Style Guidelines.](#411-general-style-guidelines)
+  - [4.1.2. Web Style Guidelines.](#412-web-style-guidelines)
+  - [4.2. Information Architecture.](#42-information-architecture)
+  - [4.2.1. Organization Systems.](#421-organization-systems)
+  - [4.2.2. Labeling Systems.](#422-labeling-systems)
+  - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+  - [4.2.4. Searching Systems.](#424-searching-systems)
+  - [4.2.5. Navigation Systems.](#425-navigation-systems)
+  - [4.3. Landing Page UI Design.](#43-landing-page-ui-design)
+  - [4.3.1. Landing Page Wireframe.](#431-landing-page-wireframe)
+  - [4.3.2. Landing Page Mock-up.](#432-landing-page-mock-up)
+  - [4.4 Web Applications UX/UI Design.](#44-web-applications-uxui-design)
+  - [4.4.1. Web Applications Wireframes.](#441-web-applications-wireframes)
+  - [4.4.2. Web Applications Wireflow Diagrams.](#442-web-applications-wireflow-diagrams)
+  - [4.4.2. Web Applications Mock-ups.](#442-web-applications-mock-ups)
+  - [4.4.3. Web Applications User Flow Diagrams.](#443-web-applications-user-flow-diagrams)
+  - [4.5. Web Applications Prototyping.](#45-web-applications-prototyping)
+  - [4.6. Domain-Driven Software Architecture.](#46-domain-driven-software-architecture)
+  - [4.6.1. Software Architecture Context Diagram.](#461-software-architecture-context-diagram)
+  - [4.6.2. Software Architecture Container Diagrams.](#462-software-architecture-container-diagrams)
+  - [4.6.3. Software Architecture Components Diagrams.](#463-software-architecture-components-diagrams)
+  - [4.7. Software Object-Oriented Design.](#47-software-object-oriented-design)
+  - [4.7.1. Class Diagrams.](#471-class-diagrams)
+  - [4.7.2. Class Dictionary.](#472-class-dictionary)
+  - [4.8. Database Design.](#48-database-design)
+  - [4.8.1. Database Diagram.](#481-database-diagram)
 - [Capítulo V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment)
   - [5.1. Software Configuration Management.](#51-software-configuration-management)
     - [5.1.1. Software Development Environment Configuration.](#511-software-development-environment-configuration)
@@ -211,6 +211,7 @@ Imforme: <https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Reporte-Per-Ventura>
 # <span id="11-startup-profile" style="color:red">1.1. Startup Profile</span>
 
 ## <span id="111-descripción-de-la-startup" style="color:red">1.1.1. Descripción de la Startup</span>
+
 SyntaxSquad es un startup de desarrollo de software enfocados en crear soluciones Web innovadoras y efectivas. La empresa fue fundado por un grupo de estudiantes de ingeneria de software de la Universidad Peruana de Ciencias Aplicadas.
 
 Desarrollamos sitios web que no solo visualmente atractivos, sino también del desarrollo de funcionalidades que facilitan a el uso a nuestros clientes. La empresa adopta un enfoque centrado en el cliente y trabaja estrechamente con ellos para comprender sus necesidades comerciales y desarrollar soluciones de software que satisfagan sus requisitos específicos.
@@ -223,88 +224,90 @@ SyntaxSquad brinda servicios que incluyen desarrollo de software personalizado, 
 ![Imagen 2: perfil-Lynn](./resources-img/Perfil-Bryan.png)
 ![Imagen 3: perfil-Lynn](./resources-img/Paolo_Párraga_Perfil.png)
 
-
 ### <span id="12-solution-profile">1.2. Solution Profile</span>
+
 ### <span id="121-antecedentes-y-problemática">1.2.1 Antecedentes y problemática</span>
 
 - **ANTECEDENTES**
 
 El turismo en Perú ha crecido significativamente en las últimas décadas, especialmente en destinos populares como Machu Picchu, Cusco y el Valle Sagrado. Sin embargo, el auge del turismo también ha creado algunos problemas, como la congestión en sitios turísticos populares y la falta de distribución equitativa de los beneficios económicos entre las comunidades locales. Muchos viajeros a Perú buscan una experiencia más auténtica y significativa, pero a menudo tienen dificultades para encontrar actividades fuera del circuito turístico tradicional. Al mismo tiempo, las comunidades locales tienen un rico patrimonio cultural y conocimientos tradicionales que pueden ofrecer a los viajeros experiencias únicas, pero pueden enfrentar barreras para acceder y beneficiarse del mercado turístico de manera equitativa y sostenible.
 
-La descripción del panorama turístico del Perú se basa en datos proporcionados por el Ministerio de Comercio Exterior y Turismo del Perú (MINCETUR) e informes y estudios del Instituto Nacional de Estadística e Información (INEI). 
+La descripción del panorama turístico del Perú se basa en datos proporcionados por el Ministerio de Comercio Exterior y Turismo del Perú (MINCETUR) e informes y estudios del Instituto Nacional de Estadística e Información (INEI).
 
 En este contexto, existe la necesidad de una plataforma que facilite las conexiones entre los viajeros interesados ​​en experiencias auténticas y las comunidades locales que quieran compartir su cultura y tradiciones, al tiempo que promueva una industria turística más responsable y sostenible en el Perú.
 
 - **PROBLEMÁTICA**
 
-*TÉCNICA DE LAS 5W y 2H*
+_TÉCNICA DE LAS 5W y 2H_
 
-***What?***
+**_What?_**
 
-***¿Cuál es el problema?*** 
+**_¿Cuál es el problema?_**
 
 El problema es que las comunidades locales carecen de acceso al mercado turístico y no pueden brindar experiencias auténticas a los viajeros que desean explorar la cultura y las tradiciones peruanas fuera de los destinos turísticos tradicionales. Esto crea una distribución desigual de los beneficios económicos del turismo y congestión en los sitios turísticos más famosos, afectando la protección del patrimonio cultural y natural del país.
 
-***¿Cuál es la relación con la persona en cuestión?***
+**_¿Cuál es la relación con la persona en cuestión?_**
 
-Los usuarios o turistas que buscar nuevos sitios culturales diferente de los más conocidos para poder visualizar nuevas costumbres como también reservaciones con anticipación. 
+Los usuarios o turistas que buscar nuevos sitios culturales diferente de los más conocidos para poder visualizar nuevas costumbres como también reservaciones con anticipación.
 
-***When?*** 
+**_When?_**
 
-***¿Cuándo sucede el problema?***
+**_¿Cuándo sucede el problema?_**
 
-Sucede cuando los turistas intentan encontrar actividad 0 sitos turisticos del perú, pero en esa busqueda se encuentra con una saturacion de clientes o largas filas para dejar un reservación. Ademas, tienen dificultades por elegior que opcion ofrecida les gustaria, porque no sabia de antemano que existian varias opciones. Por ello, las personas optan por buscar algo que les facilite las opciones, ubicación y reservación del dicho  lugar o actividad. 
+Sucede cuando los turistas intentan encontrar actividad 0 sitos turisticos del perú, pero en esa busqueda se encuentra con una saturacion de clientes o largas filas para dejar un reservación. Ademas, tienen dificultades por elegior que opcion ofrecida les gustaria, porque no sabia de antemano que existian varias opciones. Por ello, las personas optan por buscar algo que les facilite las opciones, ubicación y reservación del dicho lugar o actividad.
 
-***¿Cuándo utiliza el cliente le producto?***
+**_¿Cuándo utiliza el cliente le producto?_**
 
-El usuario o turista podrá usarlo cuando desee saber múltiples opciones de actividades o sitios turístico, con el fin de buscar información y reservación del  lugar deseado.
+El usuario o turista podrá usarlo cuando desee saber múltiples opciones de actividades o sitios turístico, con el fin de buscar información y reservación del lugar deseado.
 
-***Where?*** 
+**_Where?_**
 
-***¿Dónde está el cliente cuando usa el producto?***
+**_¿Dónde está el cliente cuando usa el producto?_**
 
 Los usuarios o turistas pueden utilizar el producto desde cualquier lugar con acceso a Internet. Puedes hacerlo en casa, en una cafetería, en un restaurante o en cualquier lugar donde tengas conexión a Internet. La plataforma en línea brinda a los clientes acceso y utiliza un servicio desde cualquier ubicación en la conexión a Internet.
 
-¿Dónde surge el problema? 
+¿Dónde surge el problema?
 
 Este problema surge en Perú, especialmente en áreas donde las comunidades locales tienen un rico patrimonio cultural y conocimientos tradicionales, pero luchan por acceder al mercado turístico y brindar a los viajeros una experiencia auténtica. Esto se evidencia por la falta de alternativas fuera de los destinos turísticos tradicionales, lo que limita las oportunidades de los viajeros de sumergirse en la cultura local y contribuir a la sostenibilidad de las comunidades locales.
 
-***Who?*** 
+**_Who?_**
 
-***¿Quiénes están involucrados?***
+**_¿Quiénes están involucrados?_**
 
 Esta problemática tiene dos segmentos objetivos. En primer lugar, turistas interesados en experiencias auténticas y significativas en Perú. Por otro lado, Las tiendas y establecimientos que ofrecen productos o experiencias culturales, como por ejemplo serian artesanías, galerías de arte, etc. que buscan llegar a un público más amplio y diverso de viajeros.
 
-***Why?*** 
+**_Why?_**
 
-***¿Cuál es la causa del problema?***
+**_¿Cuál es la causa del problema?_**
 
 La causa del problema es la falta de acceso y visibilidad de las comunidades e instituciones locales que ofrecen productos culturales al mercado turístico. Esto puede deberse a una serie de factores, como la falta de recursos publicitarios y de marketing, el alcance limitado de las plataformas de reservas en línea y la competencia con destinos turísticos tradicionales más conocidos. Como resultado, a los viajeros les resulta difícil encontrar y reservar actividades auténticas y fuera de lo común, lo que limita su capacidad de explorar la cultura local y contribuir a la sostenibilidad de la comunidad.
 
-***How?*** 
+**_How?_**
 
-***¿En qué condiciones los clientes usan nuestros productos?*** 
+**_¿En qué condiciones los clientes usan nuestros productos?_**
 
 Los clientes utilizan nuestros productos en condiciones de acceso a internet y desde cualquier ubicación con conexión disponible. Pueden acceder a la plataforma en línea a través de dispositivos como computadoras, teléfonos inteligentes o tabletas. Además, los clientes utilizan nuestros productos cuando están planificando sus viajes a Perú o mientras están en el país buscando actividades y experiencias culturales auténticas.
 
-***¿Cómo prefieren los clientes acceder a nuestro producto?*** 
+**_¿Cómo prefieren los clientes acceder a nuestro producto?_**
 
 Los clientes prefieren acceder a nuestro producto a través de una plataforma en línea intuitiva y fácil de usar. Esto podría incluir un sitio web o una aplicación móvil que les permita buscar, explorar y reservar una variedad de experiencias culturales ofrecidas por tiendas y establecimientos en Perú. Además, los clientes pueden preferir recibir recomendaciones personalizadas y reseñas de otras personas que hayan participado en las experiencias, lo que les ayudaría a tomar decisiones informadas al seleccionar actividades para su viaje.
 
-***¿Qué llevó al cliente a llegar a esta situación?*** 
+**_¿Qué llevó al cliente a llegar a esta situación?_**
 
 La situación del cliente surge de la creciente demanda de experiencias auténticas y significativas por parte de los viajeros que visitan Perú. A medida que más personas buscan sumergirse en la cultura y las tradiciones locales durante sus viajes, se enfrentan a la limitada disponibilidad de opciones fuera de los destinos turísticos convencionales. Como resultado, los viajeros tienen dificultades para encontrar y reservar actividades auténticas, lo que los lleva a buscar soluciones que les permitan acceder más fácilmente a estas experiencias únicas durante su visita a Perú.
 
 **How much?**
 
-***¿Cuál es la magnitud del problema?***
+**_¿Cuál es la magnitud del problema?_**
 
 El crecimiento del turismo ha llevado a una congestión en destinos populares como Machu Picchu y Cusco. Esto puede afectar negativamente la experiencia del viajero y la calidad de vida de las comunidades locales. Los viajeros a menudo buscan experiencias auténticas y significativas, pero pueden enfrentar dificultades para encontrar actividades fuera del circuito turístico tradicional. Por ello, existe la necesidad clara de una plataforma que facilite las conexiones entre los viajeros interesados ​​en experiencias auténticas y las comunidades locales dispuestas a compartir su cultura y tradiciones. Esta plataforma también debe promover una industria turística más responsable y sostenible en el Perú.
 
-### <span id="122-lean-ux-process">1.2.2 Lean UX Process.</span> 
-<hr><p>El mercado actual de aplicaciones de viajes se centra en ofrecer información estándar sobre destinos turísticos populares, sin destacar las experiencias únicas y auténticas que pueden ofrecer las comunidades locales en Perú. Las aplicaciones existentes no facilitan a los viajeros la búsqueda y reserva de actividades culturales específicas, como talleres de arte y cocina tradicional, organizadas por comunidades locales. Además, la falta de opciones para interactuar con los lugareños y contribuir al turismo sostenible limita la experiencia de viaje de los usuarios.</p><p>Nuestro nuevo producto “Per-Ventura “solucionará los problemas antes mencionados dando nuevas maneras de conocer el Perú a los usuarios que abarcan nuestra aplicación, tanto para personas extranjeras como locales. El segmento inicial que estamos tomando en consideración son los extranjeros, ya que creemos que son los que más se pueden perder de las experiencias únicas de las comunidades locales del país.</p>  
+### <span id="122-lean-ux-process">1.2.2 Lean UX Process.</span>
 
-### <span id="1221-lean-ux-problem-statements">1.2.2.1. Lean UX Problem Statements.</span> 
+<hr><p>El mercado actual de aplicaciones de viajes se centra en ofrecer información estándar sobre destinos turísticos populares, sin destacar las experiencias únicas y auténticas que pueden ofrecer las comunidades locales en Perú. Las aplicaciones existentes no facilitan a los viajeros la búsqueda y reserva de actividades culturales específicas, como talleres de arte y cocina tradicional, organizadas por comunidades locales. Además, la falta de opciones para interactuar con los lugareños y contribuir al turismo sostenible limita la experiencia de viaje de los usuarios.</p><p>Nuestro nuevo producto “Per-Ventura “solucionará los problemas antes mencionados dando nuevas maneras de conocer el Perú a los usuarios que abarcan nuestra aplicación, tanto para personas extranjeras como locales. El segmento inicial que estamos tomando en consideración son los extranjeros, ya que creemos que son los que más se pueden perder de las experiencias únicas de las comunidades locales del país.</p>
+
+### <span id="1221-lean-ux-problem-statements">1.2.2.1. Lean UX Problem Statements.</span>
+
 <p style="text-align:center;">BUSINESS ASSUMPTIONS </p>
 <ol>
 <li>Los viajeros están interesados en experiencias auténticas y únicas ofrecidas por comunidades locales en Perú.</li>
@@ -315,6 +318,7 @@ El crecimiento del turismo ha llevado a una congestión en destinos populares co
 </ol>
 
 ### <span id="1222-lean-ux-assumptions">1.2.2.2. Lean UX Assumptions.</span>
+
 <p style="text-align:center;">USER ASSUMPTIONS </p>
 <ol>
 <li>Los viajeros que buscan experiencias culturales autenticas en Peru son el principal publico objetivo.</li>
@@ -323,27 +327,30 @@ El crecimiento del turismo ha llevado a una congestión en destinos populares co
 <li>La aplicación será accesible a través de dispositivos móviles con conexión a internet, lo que facilitará su uso durante los viajes.</li>
 </ol>
 
-
 ### <span id="1223-lean-ux-hypothesis-statements">1.2.2.3. Lean UX Hypothesis Statements.</span>
+
 <li>Creemos que tendremos éxito si los viajeros pueden encontrar y reservar fácilmente actividades culturales auténticas en Perú, como talleres de arte y cocina tradicional, a través de nuestra plataforma.</li>          <li>Creemos que lograremos la monetización si los viajeros utilizan las funciones Premium de nuestra aplicación para acceder a experiencias exclusivas y servicios adicionales.</li>                                                    <li>Creemos que nuestros usuarios estarán satisfechos si experimentan una mayor interacción con las comunidades locales y una conexión más profunda con la cultura peruana a través de nuestra aplicación.</li>
 
-### <span id="1224-lean-ux-canvas">1.2.2.4. Lean UX Canvas.</span>    
+### <span id="1224-lean-ux-canvas">1.2.2.4. Lean UX Canvas.</span>
+
 ![Imagen 1: Canvas](./resources-img/Canvas.jpg)
 
 ### <span id="13-segmentos-objetivo">1.3. Segmentos objetivo.</span>
+
 ## Turistas en Perú
+
 Este segmento está compuesto por turistas que visitan Perú con el objetivo principal de explorar su rica cultura y patrimonio. Están interesados en sumergirse en las tradiciones, la historia, la gastronomía y las artes del país.
 
 ## Dueños de locales peruanos
+
 Este segmento comprende dueños de locales peruanos buscando más reconocimiento a sus negocios ante los turistas.
-
-
 
 # <span id="-capítulo-ii-requirements-elicitation--analysis" style="color:red"> Capítulo II: Requirements Elicitation & Analysis</span>
 
 ### <span id="21-competidores">2.1. Competidores.</span>
 
 ### <span id="211-análisis-competitivo">2.1.1. Análisis competitivo.</span>
+
 <table>
   <thead>
     <tr>
@@ -355,47 +362,47 @@ Este segmento comprende dueños de locales peruanos buscando más reconocimiento
     <tr>
       <th>¿Porque hacer este análisis?</th>
       <th colspan="3" style="text-align: center;">
-        <p style="border-bottom: 1px solid #30363d; background-color:#161b22;">¿Cómo identificar a nuestros principales competidores?</p>
-        <p>[agregar respuesta]</p>
+        <p style="border-bottom: 1px solid #30363d; background-color:#161b22;">¿Como identificar a nuestros competidores?</p>
+        <p>El objetivo es proporcionar a las comunidades locales un turismo donde muestren su cultura contribuyendo al turismo sostenible.</p>
       </th>
     </tr>
     <tr>
       <th>
         Imagenes de Competidores
       </th>
-      <td>[agregar respuesta]</td>
-      <td>[agregar respuesta]</td>
-      <td>[agregar respuesta]</td>
+      <td><img src="https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Landing-page/assets/133163553/ab8b2b9c-712a-4054-ae06-c0674076128b"/></td>
+      <td><img src="https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Landing-page/assets/133163553/4dd2a991-ca6d-41a4-9afb-d63608e1bd20"/></td>
+      <td><img src="https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Reporte-Per-Ventura/assets/133163553/d65617d8-aee5-4746-8bd2-83b1db8ae58a"/></td>
     </tr>
     <tr>
       <th>Overview</th>
-      <td>[agregar respuesta]</td>
-      <td>[agregar respuesta]</td>
-      <td>[agregar respuesta]</td>
+      <td>HolaPlace es una plataforma que conecta a los turistas con los locales, permitiendo a estos vivir experiencias únicas. Ofrece alojamiento en terrazas y espacios privados para eventos.</td>
+      <td>Booking es una plataforma de reservas elegantes que comercializa hoteles basándose en las valoraciones de los clientes, así como en el precio del alojamiento proporcionado por el propietario.</td>
+      <td>TripAdvisor, es una plataforma que recoge opiniones en torno a ciertos negocios del sector turístico, como hoteles, restaurantes, bares, discotecas, etc.</td>
     </tr>
     <tr>
       <th>Ventajas de los competidores</th>
-      <td>[agregar respuesta]</td>
-      <td>[agregar respuesta]</td>
-      <td>[agregar respuesta]</td>
+      <td>Las a tener en cuenta serian la gran variedad de espacios, organización de eventos personalizados, servicios complementarios y plataforma Tecnológica Integrada</td>
+      <td>las ventajas a considerar seria la amplia variedad de alojamientos, acumilación de millas, reconocimiento global y variedad de formas de pago</td>
+      <td>Las ventajas de Tripadvisor, son las cantidad opiniones y valoración reales, la facil navegación y busqueda de información, la amplia base de datos y la planificación de viajes personalizada.</td>
     </tr>
     <tr>
       <th>Mercado Objetivo</th>
-      <td>[agregar respuesta]</td>
-      <td>[agregar respuesta]</td>
-      <td>[agregar respuesta]</td>
+      <td>HolaPlace, su mercado objetivo principal incluye turistas internacionales, viajeros de negocios, viajeros nacionales, anfitriones de alojamientos, anfitriones de experiencias, agencias de viajes y organizaciones de turismo.</td>
+      <td>Booking, su mercado objetivo es amplio e incluye turistas, viajeros de negocios y nacionales, así como hoteles, hostales, propietarios de apartamentos y casas de vacaciones, y organizadores de experiencias.</td>
+      <td>TripAdvisor, su mercado objetivo se centra en los turistas que buscan información y opiniones sobre negocios del sector turístico, como hoteles, restaurantes, bares, discotecas, etc.</td>
     </tr>
     <tr>
       <th>Estrategias de Marketing</th>
-      <td>[agregar respuesta]</td>
-      <td>[agregar respuesta]</td>
-      <td>[agregar respuesta]</td>
+      <td>HolaPlace utiliza estrategias de publicidad en línea como anuncios pagados en motores de busqueda (SEM), marketing de contenidos y marketing de influencers. Además, también se enfocan en la participación en eventos y ferias turísticas, colaboraciones con influencers y bloggers de viajes, y promoción a través de redes sociales y campañas de correo electrónico.</td>
+      <td>Booking combina estas estrategias de marketing de manera efectiva para llegar a una audiencia global de viajeros y mantener su posición como líder en la industria de reservas de viajes en línea. Además, utilizan técnicas de personalización y recomendación basadas en el historial de búsqueda y preferencias de los usuarios para ofrecer promociones personalizadas.</td>
+      <td> TripAdvisor implementa una estrategia de marketing integral de manera que combina contenido valioso como marketing digital y el marketing tradicional, enfocado en la experiencia del usuario, monitoreo y análisis, e innovación para alcanzar a su público objetivo, fortaleciendo su posicionamiento en la industria y lograr un crecimiento sostenible.</td>
     </tr>
     <tr>
       <th>Precios y costos</th>
-      <td>[agregar respuesta]</td>
-      <td>[agregar respuesta]</td>
-      <td>[agregar respuesta]</td>
+      <td>En HolaPlace, los precios varían según los espacios y servicios que elijas. SuperSpace suele ser de los más caros, rondando los 1500€, mientras que las terrazas privadas tienen un precio aproximado de 290€.</td>
+      <td>En booking, se cobra una comision por anfitriones los porcentajes varias de 10% a 25%, ademas del costo de Payments By booking.com que cobra el procesamiento bancario que ronda de 1.1% y el 3.1% dependiendo del pais.</td>
+      <td>En Tripadvisor, los rangos de precios se precisan mediante símbolos de dólar. ($) indica un rango de precios bajo, ($$) indica un rango de precios moderado, y ($$$) indica un rango de precios altos.</td>
     </tr>
   </tbody>
 </table>
@@ -407,29 +414,30 @@ Este segmento comprende dueños de locales peruanos buscando más reconocimiento
 ### <span id="221-diseño-de-entrevistas">2.2.1. Diseño de entrevistas.</span>
 
 ### <span id="222-registro-de-entrevistas">2.2.2. Registro de entrevistas.</span>
+
 ### Dueños de local:
+
 Santiago García
 
 ![Entrevista1](./resources-img/entrevistaSantiago.png)
 
-●	Sexo: Masculino
+● Sexo: Masculino
 
-●	Edad: 23 años
+● Edad: 23 años
 
-●	Distrito en el que vive: Lima
+● Distrito en el que vive: Lima
 
+● Link: [Click para ver entrevista](https://drive.google.com/file/d/1NVqKNazUFFLeX4faVAvVO4gRC5LfTtKG/view?usp=sharing)
 
-●	Link: [Click para ver entrevista](https://drive.google.com/file/d/1NVqKNazUFFLeX4faVAvVO4gRC5LfTtKG/view?usp=sharing)
+● Momento en el que inicia: 0:00
 
-●	Momento en el que inicia: 0:00
+● Duración: 6:34
 
-●	Duración: 6:34
-
-●	Entrevistador: Párraga Gamarra Paolo Gonzalo
+● Entrevistador: Párraga Gamarra Paolo Gonzalo
 
 Resumen:
 
-El entrevistado, Santiago García, de 23 años ha sido emprendedor por un año con su local que fue abierto gracias a un préstamo. En esta entrevista nos cuenta que su local ha ido bien, ya que la forma de promocionarse dieron frutos. Sin embargo, recalca que no han sido sus mejores experiencias y estaría de acuerdo con una plataforma que le ayude a promocionarse y sea fácil de usar. Además de brindarle estrategias para que pueda promocionarse mejor. 
+El entrevistado, Santiago García, de 23 años ha sido emprendedor por un año con su local que fue abierto gracias a un préstamo. En esta entrevista nos cuenta que su local ha ido bien, ya que la forma de promocionarse dieron frutos. Sin embargo, recalca que no han sido sus mejores experiencias y estaría de acuerdo con una plataforma que le ayude a promocionarse y sea fácil de usar. Además de brindarle estrategias para que pueda promocionarse mejor.
 
 ### <span id="223-análisis-de-entrevistas">2.2.3. Análisis de entrevistas.</span>
 
@@ -446,15 +454,15 @@ Para cada segmento objetivo, se crearon cinco perfiles de usuario (user personas
 
 ### <span id="232-user-task-matrix">2.3.2. User Task Matrix.</span>
 
-| USER TASK        | Segmento: Turista (Frecuencia)                    | Segmento: Turista (Importancia) | Segmento: Dueño de local (Frecuencia)    | Segmento: Dueño de local (Importancia) |
-|------------------|-------------------------------------------------- |---------------------------------|------------------------------------------|----------------------------------------|
-| Buscar experiencias auténticas |            Siempre                  |        Alto                     |           Siempre                        |             Alto                       |
-| Reservar actividades culturales  |    A menudo                       |        Alto                     |           Siempre                        |             Alto                       | 
-| Leer reseñas de otros viajeros |        Generalmente                 |        Alto                     |           Generalmente                   |             Alto                       |
-| Publicar o buscar información en redes sociales/internet |   Siempre |        Alto                     |           A menudo                       |             Alto                       |
-| Contactar con comunidades locales |       A veces                    |        Medio                    |           A menudo                       |             Alto                       |
-| Planificar itinerarios sostenibles |      A menudo                   |        Alto                     |           Siempre                        |             Alto                       |
-| Recibir recomendaciones personalizadas |   A menudo                  |        Alto                     |           A veces                        |             Medio                      |
+| USER TASK                                                | Segmento: Turista (Frecuencia) | Segmento: Turista (Importancia) | Segmento: Dueño de local (Frecuencia) | Segmento: Dueño de local (Importancia) |
+| -------------------------------------------------------- | ------------------------------ | ------------------------------- | ------------------------------------- | -------------------------------------- |
+| Buscar experiencias auténticas                           | Siempre                        | Alto                            | Siempre                               | Alto                                   |
+| Reservar actividades culturales                          | A menudo                       | Alto                            | Siempre                               | Alto                                   |
+| Leer reseñas de otros viajeros                           | Generalmente                   | Alto                            | Generalmente                          | Alto                                   |
+| Publicar o buscar información en redes sociales/internet | Siempre                        | Alto                            | A menudo                              | Alto                                   |
+| Contactar con comunidades locales                        | A veces                        | Medio                           | A menudo                              | Alto                                   |
+| Planificar itinerarios sostenibles                       | A menudo                       | Alto                            | Siempre                               | Alto                                   |
+| Recibir recomendaciones personalizadas                   | A menudo                       | Alto                            | A veces                               | Medio                                  |
 
 ### <span id="233-user-journey-mapping">2.3.3. User Journey Mapping.</span>
 
@@ -468,10 +476,9 @@ En esta sección, detallamos el recorrido integral de nuestro segmento objetivo,
 
 ![user_journey_persona1](./resources-img/user-journey-map/user-journey-persona2.png)
 
-
 ### <span id="234-empathy-mapping">2.3.4. Empathy Mapping.</span>
 
-Se desarrollaron mapas de empatía para cada uno de nuestros segmentos objetivos. Este proceso nos permitió no solo complementar sino también confirmar los detalles de los user personas de cada segmento. 
+Se desarrollaron mapas de empatía para cada uno de nuestros segmentos objetivos. Este proceso nos permitió no solo complementar sino también confirmar los detalles de los user personas de cada segmento.
 
 #### Segmento Turista:
 
@@ -480,7 +487,6 @@ Se desarrollaron mapas de empatía para cada uno de nuestros segmentos objetivos
 #### Segmento Dueño de Local:
 
 ![empathy_persona_1](./resources-img/empathy-map/empathypersona2.png)
-
 
 ### <span id="235-as-is-scenario-mapping">2.3.5. As-is Scenario Mapping.</span>
 
@@ -492,13 +498,11 @@ Se desarrollaron mapas de empatía para cada uno de nuestros segmentos objetivos
 
 ![empathy_persona_1](./resources-img/as-is-scenario-mapping/scenario-mapping2.jpg)
 
-
-
 En esta parte, mostramos un resumen de lo que hemos encontrado. Hacemos un mapa de cómo están las cosas ahora para nuestro grupo objetivo. Esto incluye una tabla que explica qué están haciendo, cómo lo hacen, qué piensan mientras lo hacen y cómo se sienten.
 
 ### <span id="24-ubiquitous-language">2.4. Ubiquitous Language.</span>
 
-El "Ubiquitous Language" es el  lenguaje común que es utilizado y entendido por todos los participantes de un proyecto, desde el equipo de desarrollo hasta los stakeholders y usuarios finales. Es crucial para la metodología de desarrollo de software Domain-Driven Design (DDD), ya que asegura que todos comprendan los términos y conceptos de la misma manera.
+El "Ubiquitous Language" es el lenguaje común que es utilizado y entendido por todos los participantes de un proyecto, desde el equipo de desarrollo hasta los stakeholders y usuarios finales. Es crucial para la metodología de desarrollo de software Domain-Driven Design (DDD), ya que asegura que todos comprendan los términos y conceptos de la misma manera.
 
 Viajero Auténtico: Un turista que busca experiencias culturales genuinas más allá de las atracciones principales.
 Cultura Local: Tradiciones, arte, artesanías y conocimientos de las comunidades dentro de las regiones de Perú que son de interés para los viajeros auténticos.
@@ -523,9 +527,8 @@ Segmento objetivo 2: Dueños de local
 
 ![to_be](./resources-img/tobe-dueñol.jpg)
 
-
-
 ### <span id="32-user-stories">3.2. User Stories.</span>
+
 <table>
   <tr>
     <th>Epic/ Story ID</th>
@@ -548,9 +551,10 @@ Y el usuario puede ver detalles de cada taller, incluyendo la descripción, ubic
 Escenario 2:
 Dado que el usuario ha seleccionado un taller and está listo para reservar una actividad
 Cuando el usuario selecciona una fecha and hora para la actividad
-Entonces la aplicación confirma la reserva 
-    </td>
-    <td>EP01</td>
+Entonces la aplicación confirma la reserva
+</td>
+<td>EP01</td>
+
   </tr>
   <tr>
         <td>US02</td>
@@ -566,8 +570,9 @@ Escenario 2:
 Dado que el dueño del local ha recibido una reserva
 Cuando el dueño del local accede a su cuenta en la aplicación
 Entonces el dueño del local puede ver un resumen de las reservas realizadas
-    </td>
-    <td>EP02</td>
+</td>
+<td>EP02</td>
+
   </tr>
   <tr>
           <td>US03</td>
@@ -586,8 +591,9 @@ Dado que el dueño del local ha rechazado una reserva
 Cuando el turista accede a la aplicación
 Entonces el turista recibe notificaciones sobre la disponibilidad actualizada del taller
 and el turista puede buscar and reservar otra actividad disponible en la aplicación
-    </td>
-    <td>EP02</td>
+</td>
+<td>EP02</td>
+
   </tr>
   <tr>
              <td>US04</td>
@@ -600,13 +606,13 @@ Cuando el usuario inicia sesión en la aplicación
 Entonces la aplicación utiliza información sobre las preferencias del usuario y su ubicación para recomendar talleres relevantes
 Y el usuario puede ver las recomendaciones personalizadas en su feed principal
 
-
 Escenario 2:
 Dado que el usuario ha participado en un taller
 Cuando el usuario proporciona una reseña y calificación sobre la experiencia
 Entonces la aplicación utiliza esta calificación para refinar las recomendaciones personalizadas
-    </td>
-    <td>EP01</td>
+</td>
+<td>EP01</td>
+
   </tr>
     <tr>
              <td>US05</td>
@@ -619,13 +625,13 @@ Cuando el usuario selecciona un taller en la aplicación
 Entonces la aplicación muestra reseñas y calificaciones de otros usuarios sobre el taller
 Y el usuario puede leer comentarios detallados sobre la experiencia de otros usuarios
 
-
 Escenario 2:Dado que el usuario ha participado en un taller
 Cuando el usuario accede a su cuenta en la aplicación
 Entonces el usuario puede dejar una reseña y calificación sobre su experiencia en el taller
 Y la aplicación muestra la reseña y calificación del usuario junto con las demás reseñas
-    </td>
-    <td>EP01</td>
+</td>
+<td>EP01</td>
+
   </tr>
     <tr>
              <td>US06</td>
@@ -641,8 +647,9 @@ Escenario 2:
 Dado que el dueño del local ha realizado ajustes en su estrategia de marketing
 Cuando el dueño del local accede a las estadísticas en la aplicación
 Entonces el dueño del local puede comparar el rendimiento antes y después de los cambios.
-    </td>
-    <td>EP02</td>
+</td>
+<td>EP02</td>
+
   </tr>
     <tr>
              <td>US07</td>
@@ -657,9 +664,10 @@ Entonces la aplicación ofrece opciones de pago seguras and convenientes, como t
 Escenario 2:
 Dado que el usuario ha completado una reserva
 Cuando el usuario accede a su cuenta en la aplicación
-Entonces el usuario puede solicitar recibos y facturas para sus pagos 
-    </td>
-    <td>EP01</td>
+Entonces el usuario puede solicitar recibos y facturas para sus pagos
+</td>
+<td>EP01</td>
+
   </tr>
     <tr>
              <td>US08</td>
@@ -676,9 +684,10 @@ Escenario 2:
 Dado que el dueño del local ha recibido un pago por una reserva
 Cuando el dueño del local accede a la aplicación
 Entonces el dueño del local puede generar informes de ingresos and transacciones para su taller en un período específico
-and el dueño del local puede descargar estos informes para su contabilidad and registros financieros 
-    </td>
-    <td>EP02</td>
+and el dueño del local puede descargar estos informes para su contabilidad and registros financieros
+</td>
+<td>EP02</td>
+
   </tr>
     <tr>
              <td>US09</td>
@@ -695,8 +704,9 @@ Escenario 2:
 Dado que el usuario ha compartido su experiencia en un taller
 Cuando otros usuarios acceden a la aplicación
 Entonces los demás usuarios pueden ver las publicaciones de experiencias en un feed dedicado a compartir vivencias y recomendaciones
-    </td>
-    <td>EP01</td>
+</td>
+<td>EP01</td>
+
   </tr>
     <tr>
              <td>US10</td>
@@ -713,8 +723,9 @@ Escenario 2:
 Dado que el dueño del local ha respondido a un comentario de un turista
 Cuando el turista accede a la aplicación
 Entonces el turista recibe una notificación sobre la respuesta del dueño del local
-    </td>
-    <td>EP02</td>
+</td>
+<td>EP02</td>
+
   </tr>
     <tr>
              <td>US11</td>
@@ -730,8 +741,9 @@ Escenario 2:
 Dado que el usuario ha explorado la información sobre una comunidad local
 Cuando el usuario participa en un taller de esa comunidad
 Entonces la aplicación proporciona la opción de realizar donaciones o contribuir al desarrollo sostenible de la comunidad
-    </td>
-    <td>EP03</td>
+</td>
+<td>EP03</td>
+
   </tr>
     <tr>
              <td>US12</td>
@@ -743,13 +755,13 @@ Dado que el dueño quiere destacar
 Cuando el dueño del local accede a su cuenta en la aplicación
 Entonces el dueño del local puede agregar información sobre la contribución de su comunidad al turismo sostenible en su perfil
 
-
 Escenario 2:
-Dado que el dueño del local ha destacado la contribución de su comunidad 
+Dado que el dueño del local ha destacado la contribución de su comunidad
 Cuando los turistas acceden a la aplicación
 Entonces los turistas pueden ver información destacada sobre las iniciativas sostenibles implementadas en el taller y la comunidad
-    </td>
-    <td>EP05</td>
+</td>
+<td>EP05</td>
+
   </tr>
     <tr>
              <td>US13</td>
@@ -765,9 +777,10 @@ Y el usuario puede hacer clic en un marcador para ver detalles del taller y rese
 Escenario 2:
 Dado que el usuario ha completado una reserva desde el mapa interactivo
 Cuando el usuario accede a su cuenta en la aplicación
-Entonces el usuario puede ver un resumen de sus reservas realizadas 
-    </td>
-    <td>EP03</td>
+Entonces el usuario puede ver un resumen de sus reservas realizadas
+</td>
+<td>EP03</td>
+
   </tr>
     <tr>
              <td>US14</td>
@@ -782,9 +795,10 @@ Entonces el dueño del local puede editar la disponibilidad de su taller, incluy
 Escenario 2:
 Dado que el dueño del local ha actualizado la disponibilidad de su taller
 Cuando se realiza una reserva en un período actualizado
-Entonces la aplicación notifica al dueño del local sobre la reserva 
-    </td>
-    <td>EP05</td>
+Entonces la aplicación notifica al dueño del local sobre la reserva
+</td>
+<td>EP05</td>
+
   </tr>
     <tr>
              <td>US15</td>
@@ -799,9 +813,10 @@ Entonces la aplicación envía notificaciones sobre ofertas especiales and event
 Escenario 2:
 Dado que el usuario ha desactivado las notificaciones
 Cuando el usuario accede a la aplicación
-Entonces el usuario no podrá recibir más notificaciones 
-    </td>
-    <td>EP03</td>
+Entonces el usuario no podrá recibir más notificaciones
+</td>
+<td>EP03</td>
+
   </tr>
     <tr>
              <td>US16</td>
@@ -817,8 +832,9 @@ Escenario 2:
 Dado que el dueño del local ha creado una oferta especial o evento
 Cuando la oferta especial o evento está activa
 Entonces la aplicación destaca la promoción en áreas relevantes para atraer la atención de los turistas
-    </td>
-    <td>EP05</td>
+</td>
+<td>EP05</td>
+
   </tr>
     <tr>
              <td>US17</td>
@@ -843,13 +859,13 @@ Cuando el dueño del local accede a su cuenta en la aplicación
 Entonces el dueño del local recibe notificaciones sobre consultas 
 Y el dueño del local puede responder a las consultas
 
-
 Escenario 2:
 Dado que el dueño del local ha respondido a una consulta o mensaje
 Cuando el turista accede a la aplicación
 Entonces el turista recibe una notificación sobre la respuesta del dueño del local
-    </td>
-    <td>EP05</td>
+</td>
+<td>EP05</td>
+
   </tr>
     <tr>
              <td>US19</td>
@@ -866,8 +882,9 @@ Escenario 2:
 Dado que el usuario ha participado en un taller
 Cuando el usuario accede a la aplicación
 Entonces la aplicación ofrece la opción de compartir sus propias fotos y videos de la experiencia en el taller
-    </td>
-    <td>EP03</td>
+</td>
+<td>EP03</td>
+
   </tr>
     <tr>
              <td>US20</td>
@@ -883,8 +900,9 @@ Escenario 2:
 Dado que el dueño del local ha compartido contenido multimedia
 Cuando los turistas acceden a la aplicación
 Entonces los turistas pueden ver el contenido multimedia cuando entren a la descripción del taller
-    </td>
-    <td>EP05</td>
+</td>
+<td>EP05</td>
+
   </tr>
     <tr>
              <td>US21</td>
@@ -899,9 +917,10 @@ Entonces la aplicación muestra información detallada sobre las medidas de segu
 Escenario 2:
 Dado que el usuario ha participado en un taller
 Cuando el usuario accede a la aplicación
-Entonces la aplicación ofrece la opción de proporcionar retroalimentación sobre la efectividad de las medidas de seguridad 
-    </td>
-    <td>EP04</td>
+Entonces la aplicación ofrece la opción de proporcionar retroalimentación sobre la efectividad de las medidas de seguridad
+</td>
+<td>EP04</td>
+
   </tr>
     <tr>
              <td>US22</td>
@@ -917,8 +936,9 @@ Escenario 2:
 Dado que el dueño del local ha actualizado las medidas de seguridad and protocolos sanitarios
 Cuando se realizan reservas en el taller
 Entonces la aplicación notifica a los turistas sobre las actualizaciones en las prácticas de seguridad
-    </td>
-    <td>EP04</td>
+</td>
+<td>EP04</td>
+
   </tr>
     <tr>
              <td>US23</td>
@@ -935,8 +955,9 @@ Escenario 2:
 Dado que el usuario ha recibido asistencia a través del servicio de atención al cliente
 Cuando el usuario completa su experiencia en el taller
 Entonces la aplicación ofrece la opción de proporcionar retroalimentación sobre la calidad del servicio de atención al cliente
-    </td>
-    <td>EP04</td>
+</td>
+<td>EP04</td>
+
   </tr>
     <tr>
              <td>US24</td>
@@ -952,8 +973,9 @@ Escenario 2:
 Dado que el dueño del local ha recibido asistencia a través del servicio de atención al cliente
 Cuando el dueño del local completa la interacción
 Entonces la aplicación ofrece la opción de proporcionar retroalimentación sobre la calidad del servicio de atención al cliente
-    </td>
-    <td>EP04</td>
+</td>
+<td>EP04</td>
+
   </tr>
     <tr>
              <td>US25</td>
@@ -969,8 +991,9 @@ Escenario 2:
 Dado que el usuario ha seleccionado un taller and necesita alojamiento cercano
 Cuando el usuario accede a la información sobre alojamiento en la aplicación
 Entonces la aplicación ofrece la opción de reservar alojamiento directamente desde la aplicación
-    </td>
-    <td>EP04</td>
+</td>
+<td>EP04</td>
+
   </tr>
     <tr>
              <td>US26</td>
@@ -986,8 +1009,9 @@ Escenario 2:
 Dado que el usuario está en otro apartado diferente al inicial
 Cuando el usuario acceda a la barra principal
 Entonces podrá encontrar ingresar a Servicios y ver la descipción de estos.
-    </td>
-    <td>EP06</td>
+</td>
+<td>EP06</td>
+
   </tr>
              <td>US27</td>
     <td>Apartado de About the Team</td>
@@ -1002,8 +1026,9 @@ Escenario 2:
 Dado que el usaurio está en Servicios
 Cuando el usuario acceda al menú princiapl o vaya al final de la página
 Entonces podrá encontrar la sección que le llevará a About the Team
-    </td>
-    <td>EP06</td>
+</td>
+<td>EP06</td>
+
   </tr>
   </tr>
              <td>US28</td>
@@ -1017,10 +1042,11 @@ Entonces podrá navegar por el aplicativo y valorar si es de s interés.
 
 Escenario 2:
 Dado que el usuario encuentra nuestra página web
-Cuando abre el enlace par aingresar 
+Cuando abre el enlace par aingresar
 Entonces se le mostrará cada apartado que hay, entre otras funcionalidades
-    </td>
-    <td>EP06</td>
+</td>
+<td>EP06</td>
+
   </tr>
   </tr>
              <td>US29</td>
@@ -1036,8 +1062,9 @@ Escenario 2:
 Dado que el usaurio accede a About us por medio del final de la página
 Cuando le de clic al apartado de About Us ubicado ahí
 Entonces lo llevará a una descipción del aplicativo y así saber si es de su interés.
-    </td>
-    <td>EP06</td>
+</td>
+<td>EP06</td>
+
   </tr>
  </tr>
              <td>US30</td>
@@ -1053,15 +1080,18 @@ Escenario 2:
 Dado que el usuario desea saber si tenemos redes sociales
 Cuando se encuentre en la sección de About Us o Contacto
 Entonces podrá visualizar una de nuestras redes sociales
-    </td>
-    <td>EP06</td>
+</td>
+<td>EP06</td>
+
   </tr>
 </table>
 
 ### <span id="33-impact-mapping">3.3. Impact Mapping.</span>
 
 ![to_be](./resources-img/impactmap.jpg)
+
 ### <span id="34-product-backlog">3.4. Product Backlog.</span>
+
 <table>
   <tr>
     <th># Orden</th>
@@ -1310,11 +1340,12 @@ Entonces podrá visualizar una de nuestras redes sociales
   </tr>
 </table>
 
-
 ### <span id="33-impact-mapping">3.3. Impact Mapping.</span>
 
 ![to_be](./resources-img/impactmap.jpg)
+
 ### <span id="34-product-backlog">3.4. Product Backlog.</span>
+
 <table>
   <tr>
     <th># Orden</th>
@@ -1569,64 +1600,64 @@ Entonces podrá visualizar una de nuestras redes sociales
 
 ### <span id="411-general-style-guidelines">4.1.1. General Style Guidelines.</span>
 
-* Overview:
-  
+- Overview:
+
 PerúVentura es una plataforma digital que tiene como objetivo principal conectar a los viajeros con las diversas aventuras que ofrece el hermoso país de Perú. Esta aplicación está diseñada para proporcionar una experiencia de viaje única y emocionante, permitiendo a los usuarios descubrir, reservar y disfrutar de una amplia gama de actividades aventureras, culturales y turísticas en todo el territorio peruano.
 
-* Brand Name
-  
+- Brand Name
+
 SyntaxSquad decidío nombrar a la idea de la solucion a la problematica como "PerúVentura".
 
-* Typography:
-  
+- Typography:
+
 La tipografia asigna para el proyecto es "Poppins".
 
 ![Typografia-Poppins](./resources-img/Poppins-Typography.jpg)
 
-* Colors:
-  
+- Colors:
+
   ![Paleta-colors](./resources-img/Colors.png)
 
-* Spacing:
+- Spacing:
 
 Los niveles de espacios definidos son de 4px hasta 80px.
 
 ![Spacing](./resources-img/Spacing.png)
 
-* Bottons
+- Bottons
 
 ![Bottons](./resources-img/bottons.png)
-
 
 ### <span id="412-web-style-guidelines">4.1.2. Web Style Guidelines.</span>
 
 PerúVentura se creará tanto para web como para dispositivos móviles, por lo que utilizaremos Web Responsive Design, diseñado para presentar información en cualquier dispositivo sin cambiar el contenido para mejorar la experiencia del usuario.
 
-* Medidas para Web responsive
-  
-  *	Móvil pequeño: 360 x 640 px
+- Medidas para Web responsive
 
-  *	Móvil medio: 375 x 667 px
+  - Móvil pequeño: 360 x 640 px
 
-  *	Smartphone grande: 720 x 1280 px
+  - Móvil medio: 375 x 667 px
 
-  *	Ordenador portátil medio: 1366 x 768 px
+  - Smartphone grande: 720 x 1280 px
 
-  *	Ordenador de escritorio medio: 1440 x 900 px
+  - Ordenador portátil medio: 1366 x 768 px
 
-  *	PC de escritorio grande: 1920 x 1080 px
+  - Ordenador de escritorio medio: 1440 x 900 px
+
+  - PC de escritorio grande: 1920 x 1080 px
 
 ![Web-responsive](./resources-img/diseno-web-responsive1.jpg)
 
 Aplicaremos un patrón Z a la interfaz, que resaltará nuestro logo o marca en la esquina superior izquierda, marcando el inicio de la interacción del usuario. Luego, la navegación se desplazará hacia la derecha y mostrará las opciones disponibles, como Acerca de, Reservar sesión o el área de Configuración. Luego, el usuario se desplaza hacia abajo verticalmente para continuar interactuando con el contenido de la aplicación. Finalmente, el camino conduce a la esquina inferior derecha, donde podrás acceder a nuestras redes sociales e información de contacto.
 
-![Patron Z](./resources-img/patron-Z.webp)  
+![Patron Z](./resources-img/patron-Z.webp)
 
-link de figma: https://www.figma.com/file/BfzCppVfeK0kuuAicPUJCp/Style-Guidelines?type=design&node-id=0%3A1&mode=design&t=FR6kxJanlT2otZ13-1 
+link de figma: https://www.figma.com/file/BfzCppVfeK0kuuAicPUJCp/Style-Guidelines?type=design&node-id=0%3A1&mode=design&t=FR6kxJanlT2otZ13-1
 
 ### <span id="42-information-architecture">4.2. Information Architecture.</span>
 
 ### <span id="421-organization-systems">4.2.1. Organization Systems.</span>
+
 <p>En esta sección, se detalla cómo se organizará la información en grupos específicos, aplicando diferentes sistemas de organización según la naturaleza y el propósito del contenido. Se explicará en qué casos se empleará la organización visual del contenido, ya sea de forma jerárquica para establecer prioridades visuales (visual hierarchy), secuencial para guiar paso a paso a los usuarios en la realización de tareas (step-by-step to accomplish), o matricial para presentar información de manera estructurada y comparativa.</p>
 
 <h3>1. Sistemas de Organización Visual del Contenido:</h3>
@@ -1642,6 +1673,7 @@ link de figma: https://www.figma.com/file/BfzCppVfeK0kuuAicPUJCp/Style-Guideline
 </ul>
 
 ### <span id="422-labeling-systems">4.2.2. Labeling Systems.</span>
+
 <p>En esta sección, identificaremos y describiremos las etiquetas específicas que se utilizarán para representar conjuntos de información y sus asociaciones en la página web o aplicación, priorizando la simplicidad y la claridad en la presentación de datos. Cada etiqueta se selecciona para transmitir de manera efectiva su función y su relación con otros elementos del sistema, con el fin de optimizar la experiencia del usuario y promover una navegación fluida y sin contratiempos.</p>
 
 <h3>1. Navbar:</h3>
@@ -1679,12 +1711,12 @@ link de figma: https://www.figma.com/file/BfzCppVfeK0kuuAicPUJCp/Style-Guideline
   <li><strong>"Enviar":</strong> Botón que envía el formulario y permite a los usuarios comunicarse con la empresa.</li>
 </ul>
 
-
-
 ### <span id="423-seo-tags-and-meta-tags">4.2.3. SEO Tags and Meta Tags</span>
 
 ### <span id="424-searching-systems">4.2.4. Searching Systems.</span>
+
 ### <span id="425-navigation-systems">4.2.5. Navigation Systems.</span>
+
 <p>En esta sección, se detalla las estrategias clave diseñadas para guiar a los usuarios a través del Landing Page y las aplicaciones de la empresa. Se describe cómo estas acciones y técnicas están destinadas a facilitar a los usuarios el logro de sus objetivos y a garantizar una interacción satisfactoria con el producto. Además, se explora la forma en que los usuarios navegarán por el contenido, proporcionando una visión general de la experiencia de usuario planificada. Para brindar una experiencia fluida y satisfactoria, se implementan las siguientes acciones y técnicas:</p>
 
 <h3>1. Menú de navegación claro:</h3>
@@ -1701,16 +1733,13 @@ link de figma: https://www.figma.com/file/BfzCppVfeK0kuuAicPUJCp/Style-Guideline
 
 <p>Estas acciones y técnicas contribuyen a una experiencia de usuario fluida y satisfactoria, permitiendo a los usuarios cumplir sus metas e interactuar de manera efectiva con el producto de PeruVentura.</p>
 
-
-
-
 ### <span id="43-landing-page-ui-design">4.3. Landing Page UI Design.</span>
 
 ### <span id="431-landing-page-wireframe">4.3.1. Landing Page Wireframe.</span>
 
 ### <span id="432-landing-page-mock-up">4.3.2. Landing Page Mock-up.</span>
 
-#### Pagina inicio 
+#### Pagina inicio
 
 ![Home](./resources-img/MockupHomeLanding.png)
 
@@ -1718,11 +1747,11 @@ link de figma: https://www.figma.com/file/BfzCppVfeK0kuuAicPUJCp/Style-Guideline
 
 ![About Us](./resources-img/MockupAboutUsLanding.png)
 
-#### Services 
+#### Services
 
 ![Services](./resources-img/MockupServicesLanding.png)
 
-#### About the Team 
+#### About the Team
 
 ![About the Team ](./resources-img/MockupAboutTeamLanding.png)
 
@@ -1740,15 +1769,15 @@ La página de inicio presentará el logotipo de la aplicación de PerúVentura y
 
 Acceso a funcionalidades destacadas: La bara de menú principal ofrece acceso directo a funcionalidades destacadas, permitiendo una navegación ágil y eficiente a través de la aplicación. Estas funcionalidades incluyen:
 
-●	Home: Un acceso directo a la bienvenida de la plataforma al usuario.
+● Home: Un acceso directo a la bienvenida de la plataforma al usuario.
 
-●	About Us: Este enlace permite explorar sobre qué tratará nuestro aplicativo y qué puede ofrecer al usuario. Así mismo, se mencionará lo que apasiona al grupo y qué tipo de personas lo conforman.
+● About Us: Este enlace permite explorar sobre qué tratará nuestro aplicativo y qué puede ofrecer al usuario. Así mismo, se mencionará lo que apasiona al grupo y qué tipo de personas lo conforman.
 
-●	Services: Este apartado ofrece mostrará los diferentes servicos que tiene la plataforma por ofrecer al usuario, así como algunas imágenes para acompañarlas.
+● Services: Este apartado ofrece mostrará los diferentes servicos que tiene la plataforma por ofrecer al usuario, así como algunas imágenes para acompañarlas.
 
-●	About the Team: Una sección donde podrás ver las fotos de los integrantes del grupo junto a nuestros nombres.
+● About the Team: Una sección donde podrás ver las fotos de los integrantes del grupo junto a nuestros nombres.
 
-●	Contact: Apartado donde se podrá hacer los reclamos o contactarnos por nuestros canales de atención en caso se tenga dudas o notificar algún fallo en la plataforma.
+● Contact: Apartado donde se podrá hacer los reclamos o contactarnos por nuestros canales de atención en caso se tenga dudas o notificar algún fallo en la plataforma.
 
 ![HomeWireframe](./resources-img/HomeWireframeDesktop.png)
 
@@ -1756,11 +1785,11 @@ Acceso a funcionalidades destacadas: La bara de menú principal ofrece acceso di
 
 Mejora Continua: Aprovechando la implementación de un algoritmo de recomendaciones que aprende y se adapta según las búsqueda continuas que vaya hacer el usaurio de locales, las recomendaciones se vuelven cada vez más precisas. De esta manera, se asegura que el usuario encuentre puntos de interes, lo que mejora su experiencia.
 
-●	Búsqueda y filtrado de actividades: Al solicitar la búsqueda de de talleres así como los filtros que se hayan utilizado, la plataforma le mostrará una serie de talleres cercanos a su zona para que elija una.
+● Búsqueda y filtrado de actividades: Al solicitar la búsqueda de de talleres así como los filtros que se hayan utilizado, la plataforma le mostrará una serie de talleres cercanos a su zona para que elija una.
 
-●	Comunicación directa con los anfitriones: Se ofrecerá por medio de canales de atención, ya sea mensaje o llamada una forma de contactarnos directamente y así el usuario sienta que su problema que tenga será escuchado.
+● Comunicación directa con los anfitriones: Se ofrecerá por medio de canales de atención, ya sea mensaje o llamada una forma de contactarnos directamente y así el usuario sienta que su problema que tenga será escuchado.
 
-●	Información detallada sobre las actividades: Cada actividad que tenga algún taller podrá ser visualizado proporcionando información sobre horarios, ubicación ,requisitos, etc.
+● Información detallada sobre las actividades: Cada actividad que tenga algún taller podrá ser visualizado proporcionando información sobre horarios, ubicación ,requisitos, etc.
 
 ![Services](./resources-img/WirefameService.png)
 
@@ -1781,9 +1810,10 @@ Aprovechando el contacto directo que tendremos con los ususario, estos mismo pue
 ### <span id="442-web-applications-wireflow-diagrams">4.4.2. Web Applications Wireflow Diagrams.</span>
 
 ### <span id="443-web-applications-mock-ups">4.4.2. Web Applications Mock-ups.</span>
+
 #### Pagina inicio (desktop)
 
-![Home](./resources-img/MockupHomeDesktip.png) 
+![Home](./resources-img/MockupHomeDesktip.png)
 
 #### Pagina inicio (Mobile)
 
@@ -1821,7 +1851,6 @@ Aprovechando el contacto directo que tendremos con los ususario, estos mismo pue
 
 ![Contact](./resources-img/MockupContactMobile.png)
 
-
 ### <span id="444-web-applications-user-flow-diagrams">4.4.3. Web Applications User Flow Diagrams.</span>
 
 ### <span id="45-web-applications-prototyping">4.5. Web Applications Prototyping.</span>
@@ -1832,21 +1861,19 @@ En esta parte se mostrara tres niveles del modelo C4 para proporcionar una visi�
 
 ### <span id="461-software-architecture-context-diagram">4.6.1. Software Architecture Context Diagram.</span>
 
-Nuestro diagrama de contexto muestra las interacciones clave de PeruVentura, estableciendo relaciones fundamentales con 
-sus principales grupos de usuarios: turistas y propietarios de establecimientos. Además, se destaca su conexión con dos 
-sistemas externos para su funcionamiento. El primero, el sistema 'Workshop System', almacena información detallada 
+Nuestro diagrama de contexto muestra las interacciones clave de PeruVentura, estableciendo relaciones fundamentales con
+sus principales grupos de usuarios: turistas y propietarios de establecimientos. Además, se destaca su conexión con dos
+sistemas externos para su funcionamiento. El primero, el sistema 'Workshop System', almacena información detallada
 sobre los talleres. El segundo, denominado 'Workshop Recommendation System', se encarga de sugerir talleres a los turistas
 basándose en sus preferencias personales, utilizando para ello los datos recopilados en el primer sistema mencionado.
 
 ![context-diagram](./resources-img/context-diagram.png)
-
 
 ### <span id="462-software-architecture-container-diagrams">4.6.2. Software Architecture Container Diagrams.</span>
 
 El diagrama revela la estructura del proyecto, destacando la conexión entre la aplicación web, con el landing page. El dueño de local/turista hace una interacción se realiza a través de peticiones API que permiten el registro o la búsqueda de talleres, subrayando la funcionalidad clave dentro del esquema de arquitectura de contenedores.
 
 ![container-diagram](./resources-img/container-diagram.png)
-
 
 ### <span id="463-software-architecture-components-diagrams">4.6.3. Software Architecture Components Diagrams.</span>
 
@@ -1857,6 +1884,7 @@ Este diagrama detalla los componentes de software implicados en las operaciones 
 ### <span id="47-software-object-oriented-design">4.7. Software Object-Oriented Design.</span>
 
 ### <span id="471-class-diagrams">4.7.1. Class Diagrams.</span>
+
 ![alt text](./resources-img/PERUVENTURA.jpg)
 
 ### <span id="472-class-dictionary">4.7.2. Class Dictionary.</span>
@@ -2258,6 +2286,7 @@ Este diagrama detalla los componentes de software implicados en las operaciones 
 </table>
 
 ### <span id="5212-sprint-backlog-1">5.2.1.2. Sprint Backlog 1.</span>
+
 En esta sección se mostrará el objetivo principal del sprint 1
 
 link: https://trello.com/invite/b/AEWJNjeU/ATTI790e2fb751a1c4d5f5d2495f57b9fe9dFE2326E9/sprint-backlog-peruventura
@@ -2353,8 +2382,8 @@ link: https://trello.com/invite/b/AEWJNjeU/ATTI790e2fb751a1c4d5f5d2495f57b9fe9dF
     </tr>
 </table>
 
-
 ### <span id="5213-development-evidence-for-sprint-review">5.2.1.3. Development Evidence for Sprint Review.</span>
+
 ### <span id="5214-testing-suite-evidence-for-sprint-review">5.2.1.4. Testing Suite Evidence for Sprint Review.</span>
 
 ### <span id="5215-execution-evidence-for-sprint-review">5.2.1.5. Execution Evidence for Sprint Review.</span>
@@ -2396,7 +2425,7 @@ Endpoints y métodos asociados:
     Pago:
         POST /api/pagos/realizar: Inicia el proceso de pago.
         GET /api/pagos/{id}/estado: Consulta el estado de un pago.
+
 ### <span id="5217-software-deployment-evidence-for-sprint-review">5.2.1.7. Software Deployment Evidence for Sprint Review.</span>
 
 ### <span id="5218-team-collaboration-insights-during-sprint">5.2.1.8. Team Collaboration Insights during Sprint.</span>
-
