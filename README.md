@@ -2355,6 +2355,32 @@ Este modelo da una estructura clara y organizada para que los desarrolladores pu
 
 ### <span id="513-source-code-style-guide--conventions">5.1.3. Source Code Style Guide & Conventions.</span>
 
+Para mantener un código limpio y fácil de leer, se establecieron las siguientes convenciones y guías de estilo para el código fuente de la landing page:
+
+#### _CSS_
+
+- Se utilizó CSS para definir los estilos de la página. A continuación se muestra un ejemplo de cómo se guardaron los estilos de colores en la variable `:root` para un uso general en la página:
+
+<img src="https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Landing-page/assets/133163553/2d158972-4d22-4bae-82be-d7f5316c9557"/>
+
+#### _JSON_
+
+- El uso de ParticleJS es una biblioteca de JavaScript que permite generar y animar partículas en un lienzo HTML. Para configurar ParticleJS, se utiliza un archivo JSON que contiene los parámetros de configuración necesarios.
+
+<img src="https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Landing-page/assets/133163553/eb575c2c-d635-427a-9253-7e7eadf59637"/>
+
+#### _HTML_
+
+- Se utilizó HTML5 para la estructura de la landing page, aprovechando las etiquetas semánticas como **header**, **nav**, **section**, **article**, **footer**, entre otras, para una mejor organización del contenido y un mejor posicionamiento en los motores de búsqueda. Además, se implementaron elementos como **div**, **span**, **img**, **a**, **ul**, **li**, **h1**, **p**, **strong**, entre otros, para dar formato y estructura al contenido. A continuación se muestra la estructura utilizada:
+
+<img src="https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Landing-page/assets/133163553/6db92933-3b90-481f-8517-290578e6284a">
+
+#### _JavaScript_
+
+- Se utilizó JavaScript puro para la creación del menú responsivo. A continuación se muestra de cómo se implementó:
+
+<img src="https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Landing-page/assets/133163553/f97f0d31-af2a-422f-b7c6-67dcf614de0d" />
+
 ### <span id="514-software-deployment-configuration">5.1.4. Software Deployment Configuration.</span>
 
 ## <span id="52-landing-page-services--applications-implementation">5.2. Landing Page, Services & Applications Implementation.</span>
