@@ -236,6 +236,19 @@ Landing Page: <https://grupo-4-sw55-syntaxsquad.github.io/Landing-page/>
             David Bryan Rodriguez Santos <br>
             <em>TB1</em>
             <em>Se reliazó el capítulo 3, así comolos diagramas <br>de clases y de base de datos y el <br>sprint planning 1 y sprint backlog<br>
+          Fabricio Gabriel Iparraguirre Quintero<br>
+          <em> TB1</em>
+          <ul>
+          <li>Analisis Competitivo</li>
+          <li>Estrategias y tácticas frente a competidores.</li>
+          <li> Diseño de entrevistas.</li>
+          <li>Analisis de Entrevistas</li>
+          <li>Web Applications Prototyping</li>
+          <li>SEO Tags and Meta Tags</li>
+          <li>Software Development Environment Configuration</li>
+          <li>Source Code Management.</li>
+          <li>Source Code Style Guide & Conventions.</li>
+          </ul>
         </td>
         <td>
         En conclusión, los elementos usados para la realización del tb1 fueron importantes como los sprint ayudaron a la eficacia del grupo.
@@ -258,6 +271,19 @@ Tambien se realiza una entrevista del segmento turista.<br>
             David Bryan Rodriguez Santos <br>
             <em>TB1</em>
             <em>Se reliazó el capítulo 3, así comolos diagramas <br>de clases y de base de datos y el <br>sprint planning 1 y sprint backlog<br>
+          Fabricio Gabriel Iparraguirre Quintero<br>
+          <em> TB1</em>
+          <ul>
+          <li>Analisis Competitivo</li>
+          <li>Estrategias y tácticas frente a competidores.</li>
+          <li> Diseño de entrevistas.</li>
+          <li>Analisis de Entrevistas</li>
+          <li>Web Applications Prototyping</li>
+          <li>SEO Tags and Meta Tags</li>
+          <li>Software Development Environment Configuration</li>
+          <li>Source Code Management.</li>
+          <li>Source Code Style Guide & Conventions.</li>
+          </ul>
         </td>
         <td>En conclusión, lo realizado a lo largo del trabajo fue algo crucial para conocer del sector empresairal al que apuntabamos y así aplicar soluciones de software efectivas.</td>
     </tr>
@@ -564,6 +590,40 @@ Resumen:
 El entrevistado, Santiago García, de 23 años ha sido emprendedor por un año con su local que fue abierto gracias a un préstamo. En esta entrevista nos cuenta que su local ha ido bien, ya que la forma de promocionarse dieron frutos. Sin embargo, recalca que no han sido sus mejores experiencias y estaría de acuerdo con una plataforma que le ayude a promocionarse y sea fácil de usar. Además de brindarle estrategias para que pueda promocionarse mejor.
 
 ### <span id="223-análisis-de-entrevistas">2.2.3. Análisis de entrevistas.</span>
+
+#### **Analisis de la entrevista de Dennis Castañeda Vilcapoma**
+##### Cuando piensas en viajar a Perú, ¿qué tipo de experiencias estás buscando y por qué?
+
+- Le gusta conocer nuevas culturas y tradiciones.
+
+##### ¿Cómo decides qué actividades o destinos visitar? ¿Qué factores influyen más en tu decisión?
+
+- Le gusta visitar lugares turísticos y conocer la historia de cada lugar, ademas de que le gusta caminar largas distancias y tener aventuras.
+
+##### ¿Qué desafíos o dificultades has enfrentado al intentar reservar experiencias turísticas auténticas en Perú?
+
+- Depende del presuspuesto que la persoa desea gastar, algunos buscan una sola agencia que les ofrezca todo lo que necesitan, pero suelen acabarse los cupo o las fechas no son buenas.
+
+##### ¿Qué características consideras esenciales en una plataforma en línea para la reserva de actividades turísticas?
+
+- Deben facilitar la busqueda de lugares turisticos, tener una buena interfaz y que sea facil de usar, ademas de que tenga una buena reputacion.
+
+##### ¿Cómo valoras la importancia de interactuar con la cultura local y las comunidades cuando viajas?
+
+- Cree que la experiencia que cada persona se lleva, porque a los locales le gusta el respeto a ellos y su cultura
+
+##### ¿Qué tan importante es para ti que tu visita tenga un impacto positivo en la comunidad local?
+
+- Cree que la comunidad local se siente agradecida con los turistas que visitan su lugar, ya que les ayuda a crecer economicamente.
+
+##### ¿Qué tipo de información buscas antes de reservar una experiencia turística y cómo prefieres recibirla?
+
+- Se suele guirar por recomendaciones de amigos o familiares, y si no busca en internet y lee comentarios de otras personas que ya han visitado el lugar.
+
+##### ¿Tienes alguna preferencia o expectativa específica respecto a la autenticidad y la sostenibilidad de las actividades turísticas que eliges?
+
+- Considera que en su preferencia seria el lugar el ambiente, lugares alejados de la ciudad, en las cordilleras o nevados.
+
 
 ### <span id="23-needfinding">2.3. Needfinding.</span>
 
