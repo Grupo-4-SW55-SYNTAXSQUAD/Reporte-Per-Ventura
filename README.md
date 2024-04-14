@@ -195,14 +195,14 @@ Imforme: <https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Reporte-Per-Ventura>
             <em>TB1</em>
         </td>
     </tr>
-    <tr>
-
+      <tr>
+        <td>
+            <br>
+        </td>
         <td>
             David Bryan Rodriguez Santos <br>
-            <em> TB1</em>
-            <br>
-          Sabe manejar el analisis de los usuarios, sus preferencias y organizar los componentes del landing page 
-          
+            <em> TB1</em><br>
+            Sabe manejar el analisis de los usuarios, sus preferencias y organizar los componentes del landing page 
         </td>
     </tr>
 </table>
