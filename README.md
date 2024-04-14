@@ -409,21 +409,49 @@ Este segmento comprende dueños de locales peruanos buscando más reconocimiento
 
 ### <span id="212-estrategias-y-tácticas-frente-a-competidores">2.1.2. Estrategias y tácticas frente a competidores.</span>
 
-1. **Estrategias de intermediación**: Se aplicarán estrategias para competir contra los competidores, como facilitar las transacciones entre turistas y locales y ofreciendo diversos servicios.
-
-2. **Precios competitivos**: Se establecerán precios competitivos y flexibles para atraer a los turistas , al mismo tiempo que se garantiza una ganancia justa para los locales. Se ofrecerán descuentos y promociones especiales para fomentar la fidelidad de los turistas así atrayendo a nuevos clientes.
-
-3. **Alianzas estratégicas**: Se realizarán alianzas con diversos establecimientos para ofrecer una amplia gama de servicios a los turistas y asi poder satisfacer sus necesidades y preferencias.
-
-4. **Estrategias de promoción**: Se agregará estrategias de promoción para poder competir con los competidores, como las campañas publicitarias en redes sociales, motores de búsqueda, blogs y foros, con el objetivo de aumentar la visibilidad de la aplicación web y atraer a más turistas y locales.
-
-5. **Estrategias de marketing digital**: Se implementarán estrategias de marketing digital que conlleva a técnicas de SEO, marketing de contenidos y email marketing, entre otras, para llegar a un público más amplio y generar interés en la aplicación web.
-
-6. **Tácticas de fidelización de clientes**: La fidelización de clientes se dará por medio de programas de recompensas, descuentos exclusivos y atención al cliente personalizada, con el objetivo de mantener a los turistas y locales satisfechos y fomentar la repetición de transacciones.
-
 ### <span id="22-entrevistas">2.2. Entrevistas.</span>
 
 ### <span id="221-diseño-de-entrevistas">2.2.1. Diseño de entrevistas.</span>
+
+Este aspecto es relevante para recopilar informacion tanto de los turistas como de los locales, para asi poder saber sus necesidades y preferencias.
+
+#### 1. **Entrevistas a turistas**:
+
+##### a) Preguntas Principales:
+
+- ¿Cuáles son los principales motivos por los que usted usaría el servicio de asesoramiento?
+- ¿Cuál o cuáles son los problemas que mayor dificultad tiene a la hora de aprender?
+- ¿Ha contratado alguna vez algún profesor particular para poder ayudarlo con sus estudios?
+- ¿Qué opinas de una web donde puedes encontrar asesores para poder aprender los temas que se te dificultan?
+
+##### b) Preguntas Complementarias:
+
+- ¿Cuántos años tiene?
+- ¿En qué ciclo esta?
+- ¿Cuántas horas al día estudia?
+- ¿Cuáles son los cursos que mejor se te dan?
+- ¿Usas algún método para estudiar o solo apuntes y grabaciones?
+- ¿Te cuesta aprender los temas que se enseñan en las clases?
+
+#### 2. **Entrevistas a locales**:
+
+##### a) Preguntas Principales:
+
+- ¿ya ha dictado clases particulares antes?
+- ¿Cuántos años de experiencia tiene en su ámbito laboral?
+- ¿Considera difícil el dictado de clases particulares?
+- ¿Qué características le gustaría que tuviera nuestra aplicacion?
+- ¿Qué opina de que usted pueda poner su tarifa por sus servicios?
+- ¿Considera una ventaja para usted que luego de sus servicios sus estudiantes puedan ponerle calificación por su trabajo?
+- ¿Cree que sería más ordenado el tener un horario impuesto por usted, para que los estudiantes separen su tiempo?
+
+##### b) Preguntas Complementarias:
+
+- ¿Cuántos años tiene?
+- ¿Cuál es su ocupación?
+- ¿Cuál es su estado civil?
+- ¿Cuáles son los dispositivos que más usa para comunicarse?
+- ¿Qué curso has enseñado?
 
 ### <span id="222-registro-de-entrevistas">2.2.2. Registro de entrevistas.</span>
 
