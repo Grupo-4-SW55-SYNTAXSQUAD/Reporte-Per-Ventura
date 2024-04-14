@@ -309,12 +309,26 @@ La situación del cliente surge de la creciente demanda de experiencias auténti
 </ol>
 
 ### <span id="1222-lean-ux-assumptions">1.2.2.2. Lean UX Assumptions.</span>
+<p style="text-align:center;">USER ASSUMPTIONS </p>
+<ol>
+<li>Los viajeros que buscan experiencias culturales autenticas en Peru son el principal publico objetivo.</li>
+<li>Nuestra aplicación resolverá la dificultad de encontrar y reservar actividades culturales especificas en Peru.</li>
+<li>Los usuarios utilizaran nuestra aplicación principalmente antes y durante su viaje a Perú para descubrir y reservar actividades culturales autenticas.</li>
+<li>La aplicación será accesible a través de dispositivos móviles con conexión a internet, lo que facilitará su uso durante los viajes.</li>
+</ol>
+
 
 ### <span id="1223-lean-ux-hypothesis-statements">1.2.2.3. Lean UX Hypothesis Statements.</span>
-
-### <span id="1224-lean-ux-canvas">1.2.2.4. Lean UX Canvas.</span>
+<li>Creemos que tendremos éxito si los viajeros pueden encontrar y reservar fácilmente actividades culturales auténticas en Perú, como talleres de arte y cocina tradicional, a través de nuestra plataforma.</li>          <li>Creemos que lograremos la monetización si los viajeros utilizan las funciones Premium de nuestra aplicación para acceder a experiencias exclusivas y servicios adicionales.</li>                                                    <li>Creemos que nuestros usuarios estarán satisfechos si experimentan una mayor interacción con las comunidades locales y una conexión más profunda con la cultura peruana a través de nuestra aplicación.</li>                                                    
 
 ### <span id="13-segmentos-objetivo">1.3. Segmentos objetivo.</span>
+## Turistas en Perú
+Este segmento está compuesto por turistas que visitan Perú con el objetivo principal de explorar su rica cultura y patrimonio. Están interesados en sumergirse en las tradiciones, la historia, la gastronomía y las artes del país.
+
+## Dueños de locales peruanos
+Este segmento comprende dueños de locales peruanos buscando más reconocimiento a sus negocios ante los turistas.
+
+
 
 # <span id="-capítulo-ii-requirements-elicitation--analysis" style="color:red"> Capítulo II: Requirements Elicitation & Analysis</span>
 
@@ -1209,14 +1223,32 @@ Entonces podrá visualizar una de nuestras redes sociales
 ### <span id="42-information-architecture">4.2. Information Architecture.</span>
 
 ### <span id="421-organization-systems">4.2.1. Organization Systems.</span>
+<p>En esta sección, se detalla cómo se organizará la información en grupos específicos, aplicando diferentes sistemas de organización según la naturaleza y el propósito del contenido. Se explicará en qué casos se empleará la organización visual del contenido, ya sea de forma jerárquica para establecer prioridades visuales (visual hierarchy), secuencial para guiar paso a paso a los usuarios en la realización de tareas (step-by-step to accomplish), o matricial para presentar información de manera estructurada y comparativa.</p>
+
+<h3>1. Sistemas de Organización Visual del Contenido:</h3>
+<ul>
+  <li>En la barra de navegación, destacamos elementos clave como “Inicio”, “About us”, “Servicios”, “About the team” y “Contacto”. Esto crea una jerarquía clara y guía a los usuarios a través de la página.</li>
+  <li>Se implementa una organización secuencial en procesos importantes, como la solicitud de contacto. Esto simplifica la interacción del usuario y reduce confusiones.</li>
+</ul>
+
+<h3>2. Esquemas de Categorización de Contenido:</h3>
+<ul>
+  <li>En la sección de "Servicios", agrupamos los diferentes servicios en categorías temáticas. Esto permite a los usuarios explorar los servicios de manera intuitiva y encontrar lo que necesitan con facilidad.</li>
+  <li>Adaptamos el contenido según la audiencia en la sección de "Servicios", presentando información específica para satisfacer sus necesidades y expectativas.</li>
+</ul>
+
+
 
 ### <span id="422-labeling-systems">4.2.2. Labeling Systems.</span>
+
 
 ### <span id="423-seo-tags-and-meta-tags">4.2.3. SEO Tags and Meta Tags</span>
 
 ### <span id="424-searching-systems">4.2.4. Searching Systems.</span>
 
 ### <span id="425-navigation-systems">4.2.5. Navigation Systems.</span>
+
+
 
 ### <span id="43-landing-page-ui-design">4.3. Landing Page UI Design.</span>
 
