@@ -74,6 +74,8 @@ Imforme: <https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Reporte-Per-Ventura>
 - [1.1. Startup Profile](#11-startup-profile)
   - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
     - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+- [](#)
+- [](#-1)
     - [1.2. Solution Profile](#12-solution-profile)
     - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
     - [1.2.2 Lean UX Process.](#122-lean-ux-process)
@@ -102,7 +104,7 @@ Imforme: <https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Reporte-Per-Ventura>
     - [3.2. User Stories.](#32-user-stories)
     - [3.3. Impact Mapping.](#33-impact-mapping)
     - [3.4. Product Backlog.](#34-product-backlog)
-- [Capítulo IV: Product Design](#capítulo-iv-product-design)
+- [ Capítulo IV: Product Design](#-capítulo-iv-product-design)
     - [4.1. Style Guidelines.](#41-style-guidelines)
     - [4.1.1. General Style Guidelines.](#411-general-style-guidelines)
     - [4.1.2. Web Style Guidelines.](#412-web-style-guidelines)
@@ -115,7 +117,7 @@ Imforme: <https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Reporte-Per-Ventura>
     - [4.3. Landing Page UI Design.](#43-landing-page-ui-design)
     - [4.3.1. Landing Page Wireframe.](#431-landing-page-wireframe)
     - [4.3.2. Landing Page Mock-up.](#432-landing-page-mock-up)
-    - [4.4.3 Web Applications UX/UI Design.](#443-web-applications-uxui-design)
+    - [4.4 Web Applications UX/UI Design.](#44-web-applications-uxui-design)
     - [4.4.1. Web Applications Wireframes.](#441-web-applications-wireframes)
     - [4.4.2. Web Applications Wireflow Diagrams.](#442-web-applications-wireflow-diagrams)
     - [4.4.2. Web Applications Mock-ups.](#442-web-applications-mock-ups)
@@ -293,7 +295,11 @@ Los clientes prefieren acceder a nuestro producto a través de una plataforma en
 
 La situación del cliente surge de la creciente demanda de experiencias auténticas y significativas por parte de los viajeros que visitan Perú. A medida que más personas buscan sumergirse en la cultura y las tradiciones locales durante sus viajes, se enfrentan a la limitada disponibilidad de opciones fuera de los destinos turísticos convencionales. Como resultado, los viajeros tienen dificultades para encontrar y reservar actividades auténticas, lo que los lleva a buscar soluciones que les permitan acceder más fácilmente a estas experiencias únicas durante su visita a Perú.
 
+**How much?**
 
+***¿Cuál es la magnitud del problema?***
+
+El crecimiento del turismo ha llevado a una congestión en destinos populares como Machu Picchu y Cusco. Esto puede afectar negativamente la experiencia del viajero y la calidad de vida de las comunidades locales. Los viajeros a menudo buscan experiencias auténticas y significativas, pero pueden enfrentar dificultades para encontrar actividades fuera del circuito turístico tradicional. Por ello, existe la necesidad clara de una plataforma que facilite las conexiones entre los viajeros interesados ​​en experiencias auténticas y las comunidades locales dispuestas a compartir su cultura y tradiciones. Esta plataforma también debe promover una industria turística más responsable y sostenible en el Perú.
 
 ### <span id="122-lean-ux-process">1.2.2 Lean UX Process.</span> 
 <hr><p>El mercado actual de aplicaciones de viajes se centra en ofrecer información estándar sobre destinos turísticos populares, sin destacar las experiencias únicas y auténticas que pueden ofrecer las comunidades locales en Perú. Las aplicaciones existentes no facilitan a los viajeros la búsqueda y reserva de actividades culturales específicas, como talleres de arte y cocina tradicional, organizadas por comunidades locales. Además, la falta de opciones para interactuar con los lugareños y contribuir al turismo sostenible limita la experiencia de viaje de los usuarios.</p><p>Nuestro nuevo producto “Per-Ventura “solucionará los problemas antes mencionados dando nuevas maneras de conocer el Perú a los usuarios que abarcan nuestra aplicación, tanto para personas extranjeras como locales. El segmento inicial que estamos tomando en consideración son los extranjeros, ya que creemos que son los que más se pueden perder de las experiencias únicas de las comunidades locales del país.</p>  
@@ -1244,7 +1250,60 @@ Entonces podrá visualizar una de nuestras redes sociales
 
 ### <span id="411-general-style-guidelines">4.1.1. General Style Guidelines.</span>
 
+* Overview:
+  
+PerúVentura es una plataforma digital que tiene como objetivo principal conectar a los viajeros con las diversas aventuras que ofrece el hermoso país de Perú. Esta aplicación está diseñada para proporcionar una experiencia de viaje única y emocionante, permitiendo a los usuarios descubrir, reservar y disfrutar de una amplia gama de actividades aventureras, culturales y turísticas en todo el territorio peruano.
+
+* Brand Name
+  
+SyntaxSquad decidío nombrar a la idea de la solucion a la problematica como "PerúVentura".
+
+* Typography:
+  
+La tipografia asigna para el proyecto es "Poppins".
+
+![Typografia-Poppins](./resources-img/Poppins-Typography.jpg)
+
+* Colors:
+  
+  ![Paleta-colors](./resources-img/Colors.png)
+
+* Spacing:
+
+Los niveles de espacios definidos son de 4px hasta 80px.
+
+![Spacing](./resources-img/Spacing.png)
+
+* Bottons
+
+![Bottons](./resources-img/bottons.png)
+
+
 ### <span id="412-web-style-guidelines">4.1.2. Web Style Guidelines.</span>
+
+PerúVentura se creará tanto para web como para dispositivos móviles, por lo que utilizaremos Web Responsive Design, diseñado para presentar información en cualquier dispositivo sin cambiar el contenido para mejorar la experiencia del usuario.
+
+* Medidas para Web responsive
+  
+  *	Móvil pequeño: 360 x 640 px
+
+  *	Móvil medio: 375 x 667 px
+
+  *	Smartphone grande: 720 x 1280 px
+
+  *	Ordenador portátil medio: 1366 x 768 px
+
+  *	Ordenador de escritorio medio: 1440 x 900 px
+
+  *	PC de escritorio grande: 1920 x 1080 px
+
+![Web-responsive](./resources-img/diseno-web-responsive1.jpg)
+
+Aplicaremos un patrón Z a la interfaz, que resaltará nuestro logo o marca en la esquina superior izquierda, marcando el inicio de la interacción del usuario. Luego, la navegación se desplazará hacia la derecha y mostrará las opciones disponibles, como Acerca de, Reservar sesión o el área de Configuración. Luego, el usuario se desplaza hacia abajo verticalmente para continuar interactuando con el contenido de la aplicación. Finalmente, el camino conduce a la esquina inferior derecha, donde podrás acceder a nuestras redes sociales e información de contacto.
+
+![Patron Z](./resources-img/patron-Z.webp)  
+
+link de figma: https://www.figma.com/file/BfzCppVfeK0kuuAicPUJCp/Style-Guidelines?type=design&node-id=0%3A1&mode=design&t=FR6kxJanlT2otZ13-1 
 
 ### <span id="42-information-architecture">4.2. Information Architecture.</span>
 
