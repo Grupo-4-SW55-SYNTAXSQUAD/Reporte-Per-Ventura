@@ -1952,6 +1952,8 @@ Aprovechando el contacto directo que tendremos con los ususario, estos mismo pue
 
 ### <span id="45-web-applications-prototyping">4.5. Web Applications Prototyping.</span>
 
+![Proto](./resources-img/WebApplicationPrototyping.png)
+
 - https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113930_upc_edu_pe/EYcTHEDxeXlDl8yQC6vCJA8BhW4_Pskg1dLwTSkPSHlAzA?e=o1B88H
 
 ### <span id="46-domain-driven-software-architecture">4.6. Domain-Driven Software Architecture.</span>
