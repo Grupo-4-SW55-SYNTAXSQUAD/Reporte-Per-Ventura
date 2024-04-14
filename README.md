@@ -195,8 +195,15 @@ Imforme: <https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Reporte-Per-Ventura>
         </td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
+        <td>Conoce al menos un sector<br>
+            empresarial o dominio de <br>
+            aplicación de soluciones de <br>
+            software.
+        </td>
+        <td>
+            Lynn Jeeferzon Meza Camayo <br>
+            <em>TB1</em>
+        </td>
         <td></td>
     </tr>
     <tr>
