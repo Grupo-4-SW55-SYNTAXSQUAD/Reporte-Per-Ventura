@@ -220,9 +220,9 @@ SyntaxSquad brinda servicios que incluyen desarrollo de software personalizado, 
 ### <span id="112-perfiles-de-integrantes-del-equipo">1.1.2. Perfiles de integrantes del equipo</span>
 
 ![Imagen 1: perfil-Lynn](./resources-img/Perfil-Lynn.png)
-#
-#
-![Imagen 2: perfil-Paolo](./resources-img/Paolo_Párraga_Perfil.png)
+![Imagen 2: perfil-Lynn](./resources-img/Perfil-Bryan.png)
+![Imagen 3: perfil-Lynn](./resources-img/Paolo_Párraga_Perfil.png)
+
 
 ### <span id="12-solution-profile">1.2. Solution Profile</span>
 ### <span id="121-antecedentes-y-problemática">1.2.1 Antecedentes y problemática</span>
@@ -435,17 +435,81 @@ El entrevistado, Santiago García, de 23 años ha sido emprendedor por un año c
 
 ### <span id="23-needfinding">2.3. Needfinding.</span>
 
+En esta sección, llevamos a cabo un análisis detallado de las entrevistas realizadas y la información recolectada correspondiente a nuestro segmento objetivo.
+
 ### <span id="231-user-personas">2.3.1. User Personas.</span>
+
+Para cada segmento objetivo, se crearon cinco perfiles de usuario (user personas) con el propósito de obtener un profundo entendimiento del cliente potencial, identificar sus características comunes y comprender el contexto específico de la problemática que se busca resolver.
+
+![user_persona_1](./resources-img/user-persona/userpersona1.png)
+![user_persona_2](./resources-img/user-persona/userpersona2.png)
 
 ### <span id="232-user-task-matrix">2.3.2. User Task Matrix.</span>
 
+| USER TASK        | Segmento: Turista (Frecuencia)                    | Segmento: Turista (Importancia) | Segmento: Dueño de local (Frecuencia)    | Segmento: Dueño de local (Importancia) |
+|------------------|-------------------------------------------------- |---------------------------------|------------------------------------------|----------------------------------------|
+| Buscar experiencias auténticas |            Siempre                  |        Alto                     |           Siempre                        |             Alto                       |
+| Reservar actividades culturales  |    A menudo                       |        Alto                     |           Siempre                        |             Alto                       | 
+| Leer reseñas de otros viajeros |        Generalmente                 |        Alto                     |           Generalmente                   |             Alto                       |
+| Publicar o buscar información en redes sociales/internet |   Siempre |        Alto                     |           A menudo                       |             Alto                       |
+| Contactar con comunidades locales |       A veces                    |        Medio                    |           A menudo                       |             Alto                       |
+| Planificar itinerarios sostenibles |      A menudo                   |        Alto                     |           Siempre                        |             Alto                       |
+| Recibir recomendaciones personalizadas |   A menudo                  |        Alto                     |           A veces                        |             Medio                      |
+
 ### <span id="233-user-journey-mapping">2.3.3. User Journey Mapping.</span>
+
+En esta sección, detallamos el recorrido integral de nuestro segmento objetivo, examinando cuidadosamente la secuencia de pasos que tanto vendedores como proveedores deben seguir actualmente para alcanzar sus metas
+
+#### Segmento Turista:
+
+![user_journey_persona1](./resources-img/user-journey-map/user-journey-persona1.png)
+
+#### Segmento Dueño de Local:
+
+![user_journey_persona1](./resources-img/user-journey-map/user-journey-persona2.png)
+
 
 ### <span id="234-empathy-mapping">2.3.4. Empathy Mapping.</span>
 
+Se desarrollaron mapas de empatía para cada uno de nuestros segmentos objetivos. Este proceso nos permitió no solo complementar sino también confirmar los detalles de los user personas de cada segmento. 
+
+#### Segmento Turista:
+
+![empathy_persona_1](./resources-img/empathy-map/empathypersona1.png)
+
+#### Segmento Dueño de Local:
+
+![empathy_persona_1](./resources-img/empathy-map/empathypersona2.png)
+
+
 ### <span id="235-as-is-scenario-mapping">2.3.5. As-is Scenario Mapping.</span>
 
+#### Segmento Turista:
+
+![empathy_persona_1](./resources-img/as-is-scenario-mapping/scenario-mapping1.jpg)
+
+#### Segmento Dueño de Local:
+
+![empathy_persona_1](./resources-img/as-is-scenario-mapping/scenario-mapping2.jpg)
+
+
+
+En esta parte, mostramos un resumen de lo que hemos encontrado. Hacemos un mapa de cómo están las cosas ahora para nuestro grupo objetivo. Esto incluye una tabla que explica qué están haciendo, cómo lo hacen, qué piensan mientras lo hacen y cómo se sienten.
+
 ### <span id="24-ubiquitous-language">2.4. Ubiquitous Language.</span>
+
+El "Ubiquitous Language" es el  lenguaje común que es utilizado y entendido por todos los participantes de un proyecto, desde el equipo de desarrollo hasta los stakeholders y usuarios finales. Es crucial para la metodología de desarrollo de software Domain-Driven Design (DDD), ya que asegura que todos comprendan los términos y conceptos de la misma manera.
+
+Viajero Auténtico: Un turista que busca experiencias culturales genuinas más allá de las atracciones principales.
+Cultura Local: Tradiciones, arte, artesanías y conocimientos de las comunidades dentro de las regiones de Perú que son de interés para los viajeros auténticos.
+Experiencia Auténtica: Una actividad turística que permite a los viajeros una inmersión significativa en la cultura y tradiciones locales.
+Socio Local: Una tienda, artesano o institución cultural que ofrece productos o experiencias culturales a los viajeros.
+Plataforma de Conexión: El producto de software (aplicación web o móvil) que conecta viajeros con experiencias auténticas.
+Reserva Cultural: Un sistema para que los viajeros reserven y paguen por experiencias culturales a través de la Plataforma de Conexión.
+Sostenibilidad Turística: Una forma de turismo en la que tanto los viajeros como las comunidades locales se benefician equitativamente, sin sacrificar el patrimonio cultural o natural.
+Recomendación Personalizada: Una función de la plataforma que sugiere experiencias basadas en las preferencias e intereses del viajero.
+Soporte Continuo: Servicios de mantenimiento y asistencia técnica para asegurar el funcionamiento óptimo de la Plataforma de Conexión.
+Escala: La capacidad de la Plataforma de Conexión para manejar un número creciente de transacciones y usuarios sin comprometer el rendimiento.
 
 # <span id="capítulo-iii-requirements-specification">Capítulo III: Requirements Specification</span>
 
@@ -454,8 +518,10 @@ El entrevistado, Santiago García, de 23 años ha sido emprendedor por un año c
 Segmento objetivo 1: Turistas
 
 ![to_be](./resources-img/tobe-turista.jpg)
+
 Segmento objetivo 2: Dueños de local
-![to_be](./resources-img/tobe-duenio.jpg)
+
+![to_be](./resources-img/tobe-dueñol.jpg)
 
 
 
@@ -1244,6 +1310,259 @@ Entonces podrá visualizar una de nuestras redes sociales
   </tr>
 </table>
 
+
+### <span id="33-impact-mapping">3.3. Impact Mapping.</span>
+
+![to_be](./resources-img/impactmap.jpg)
+### <span id="34-product-backlog">3.4. Product Backlog.</span>
+<table>
+  <tr>
+    <th># Orden</th>
+    <th>User Story Id</th>
+    <th>Titulo</th>
+    <th>Descripción</th> 
+    <th>Story points (1/2/3/5/8)</th>
+    <th>Priority</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>US01</td>
+    <td>úsqueda y Reserva de Talleres</td>
+    <td>Como turista, quiero poder buscar talleres de arte y cocina tradicional en Perú para poder reservar actividades auténticas ofrecidas por comunidades locales.</td>
+    <td>5</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>US02</td>
+    <td>Promoción de Talleres</td>
+    <td>Como dueño de un local, quiero poder promocionar mi taller en la aplicación para atraer turistas interesados en experiencias auténticas.</td>
+    <td>3</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>US03</td>
+    <td>Gestión de Reservas para Talleres</td>
+    <td>Como dueño de un local en Perú, quiero poder gestionar las reservas realizadas en mi taller de arte o cocina tradicional a través de la aplicación.</td>
+    <td>1</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+  <td>4</td>
+    <td>US04</td>
+    <td>Recomendaciones Personalizadas de Talleres</td>
+    <td>Como turista, quiero recibir recomendaciones personalizadas sobre talleres basadas en mis preferencias y ubicación.</td>
+    <td>3</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+  <td>5</td>
+    <td>US05</td>
+    <td>Evaluación de Reseñas y Calificaciones para Talleres</td>
+    <td>Como turista, quiero poder ver reseñas y calificaciones de otros usuarios sobre los talleres para tomar decisiones informadas.</td>
+    <td>1</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+  <td>6</td>
+    <td>US06</td>
+    <td>Análisis de Popularidad y Estadísticas para Talleres</td>
+    <td>Como dueño de un local, quiero poder acceder a estadísticas y análisis sobre la popularidad de mi taller en la aplicación.</td>
+    <td>3</td>
+    <td>Baja</td>
+  </tr>
+  <tr>
+  <td>7</td>
+    <td>US07</td>
+    <td>Pago Seguro y Conveniente para Reservas de Talleres</td>
+    <td>Como turista, quiero poder pagar de forma segura y conveniente por las reservas de talleres en Perú a través de la aplicación.</td>
+    <td>3</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+  <td>8</td>
+    <td>US08</td>
+    <td>Recepción Segura de Pagos por Reservas en Talleres</td>
+    <td>Como dueño de un local, quiero poder recibir pagos de forma segura por las reservas realizadas en mi taller para no tener dudas.</td>
+    <td>3</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+  <td>9</td>
+    <td>US09</td>
+    <td>Compartir Experiencias en Talleres de Arte</td>
+    <td>Como turista, quiero poder compartir mis experiencias en los talleres de arte a través de la aplicación para inspirar a otros viajeros.</td>
+    <td>1</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+  <td>10</td>
+    <td>US10</td>
+    <td>Recepción de Comentarios y Calificaciones</td>
+    <td>Como dueño de un local, quiero poder recibir comentarios y calificaciones de los turistas que han participado en mi taller para tener un feedback.</td>
+    <td>3</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+  <td>11</td>
+    <td>US11</td>
+    <td>Información de Comunidades Locales para Talleres</td>
+    <td>Como turista, quiero poder acceder a información detallada sobre las comunidades locales que ofrecen talleres.</td>
+    <td>2</td>
+    <td>Baja</td>
+  </tr>
+  <tr>
+  <td>12</td>
+    <td>US12</td>
+    <td>Destacar la Contribución de la Comunidad</td>
+    <td>Como dueño de un local, quiero poder destacar la contribución de mi comunidad al turismo sostenible en la aplicación para atraer turistas.</td>
+    <td>2</td>
+    <td>Baja</td>
+  </tr>
+  <tr>
+  <td>13</td>
+    <td>US13</td>
+    <td>Mapa Interactivo</td>
+    <td>Como turista, quiero poder acceder a un mapa interactivo en la aplicación que muestre la ubicación de los talleres para planificar mi itinerario de viaje.</td>
+    <td>3</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+  <td>14</td>
+    <td>US14</td>
+    <td>Disponibilidad para Actualizar Horarios del Taller</td>
+    <td>Como dueño de un local, quiero poder actualizar la disponibilidad de mi taller en la aplicación para reflejar cambios en horarios.</td>
+    <td>3</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+  <td>15</td>
+    <td>US15</td>
+    <td>Notificaciones de Ofertas Especiales y Eventos en Talleres</td>
+    <td>Como turista, quiero poder recibir notificaciones sobre ofertas especiales y eventos en los talleres a través de la aplicación para estar informado sobre promociones.</td>
+    <td>3</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+  <td>16</td>
+    <td>US16</td>
+    <td>Creación y Gestión de Ofertas Especiales y Eventos</td>
+    <td>Como dueño de un local, quiero poder crear y gestionar ofertas especiales y eventos en mi taller para atraer turistas.</td>
+    <td>3</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+  <td>17</td>
+    <td>US17</td>
+    <td>Acceso a Información para Llegar a los Talleres</td>
+    <td>Como turista, quiero poder acceder a información práctica sobre cómo llegar a los talleres para estar presente en el tiempo indicado.</td>
+    <td>2</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+  <td>18</td>
+    <td>US18</td>
+    <td>Notificaciones automáticas para consultas de taller</td>
+    <td>Como dueño de un local, quiero poder recibir notificaciones sobre consultas de los turistas interesados en participar en mi taller para informar a posibles clientes.</td>
+    <td>2</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+  <td>19</td>
+    <td>US19</td>
+    <td>Agregar contenido multimedia</td>
+    <td>Como turista, quiero poder acceder a contenido multimedia en la aplicación, como fotos y videos, que muestren las experiencias ofrecidas en los talleres para tener una mejor vista sobre el taller.</td>
+    <td>2</td>
+    <td>Baja</td>
+  </tr>
+  <tr>
+  <td>20</td>
+    <td>US20</td>
+    <td>Compartir información del taller</td>
+    <td>Como dueño de un local, quiero poder compartir contenido multimedia, como fotos y videos, que muestren las experiencias en mi taller para atraer turistas.</td>
+    <td>1</td>
+    <td>Baja</td>
+  </tr>
+  <tr>
+  <td>21</td>
+    <td>US21</td>
+    <td>Información de medidas de seguridad en talleres</td>
+    <td>Como turista, quiero poder acceder a información sobre medidas de seguridad implementados en los talleres en el Perú a través de la aplicación para cumplir con las reglas sanitarias.</td>
+    <td>3</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+  <td>22</td>
+    <td>US22</td>
+    <td>Inclusión de medidas de seguridad en talleres</td>
+    <td>Como dueño de un local, quiero poder informar sobre medidas de seguridad y protocolos sanitarios implementados en mi taller para generar confianza en los turistas.</td>
+    <td>3</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+  <td>23</td>
+    <td>US23</td>
+    <td>Apartado de servicio al cliente</td>
+    <td>Como turista, quiero poder acceder a un servicio de atención al cliente en la aplicación para recibir asistencia y soporte.</td>
+    <td>2</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+  <td>24</td>
+    <td>US24</td>
+    <td>Apoyo sobre dudas </td>
+    <td>Como dueño de un local, quiero poder acceder a un servicio de atención al cliente en la aplicación para recibir asistencia y soporte en la gestión de mi taller.</td>
+    <td>2</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+  <td>25</td>
+    <td>US25</td>
+    <td>Alojamientos cercanos al taller</td>
+    <td>Como turista, quiero poder acceder a información sobre opciones de alojamiento cercanas a los talleres para facilitar la planificación de mi viaje.</td>
+    <td>3</td>
+    <td>Media</td>
+  </tr>
+  <td>26</td>
+    <td>US26</td>
+    <td>Apartado de Servicios</td>
+    <td>Como turista, quiero tener acceso a un apartado de Servicios para poder saber que ofrece el aplicativo junto a una pequeña descripción.</td>
+    <td>3</td>
+    <td>Media</td>
+  </tr>
+  </tr>
+    <td>27</td>
+    <td>US27</td>
+    <td>Apartado de About the Team</td>
+    <td>Como turista, quiero acceder a una sección de "Acerca de nosotros" para conocer a los creadores del aplicativo junto a una foto de ellos.</td>
+    <td>3</td>
+    <td>Media</td>
+  </tr>
+    <td>28</td>
+    <td>US28</td>
+    <td>Apartado de Inicio</td>
+    <td>Como usuario, quiero poder visualizar una pantalla de inicio agradable a la vista y fácil de interactuar para que gane mi interés de usarla.</td>
+    <td>3</td>
+    <td>Media</td>
+  </tr>
+    <td>29</td>
+    <td>US29</td>
+    <td>Apartado de About Us</td>
+    <td>Como turista, quiero saber sobre qué trata el aplicativo de una mejor forma por medio de una descripción corta y concisa para saber si puede serme de utilidad.</td>
+    <td>3</td>
+    <td>Media</td>
+  </tr>
+    </tr>
+    <td>30</td>
+    <td>US30</td>
+    <td>Redes Sociales</td>
+    <td>Como usuario, quiero saber si el aplicativo cuenta con algún botón que me lleve a alguna red social para tener una mejor interacción con el equipo que hizo el aplicativo.</td>
+    <td>3</td>
+    <td>Media</td>
+  </tr>
+</table>
+
 # <span id="capítulo-iv-product-design" style="color:red"> Capítulo IV: Product Design</span>
 
 ### <span id="41-style-guidelines">4.1. Style Guidelines.</span>
@@ -1509,11 +1828,31 @@ Aprovechando el contacto directo que tendremos con los ususario, estos mismo pue
 
 ### <span id="46-domain-driven-software-architecture">4.6. Domain-Driven Software Architecture.</span>
 
+En esta parte se mostrara tres niveles del modelo C4 para proporcionar una visión más clara y enfocada del desarrollo de la aplicacion en curso.
+
 ### <span id="461-software-architecture-context-diagram">4.6.1. Software Architecture Context Diagram.</span>
+
+Nuestro diagrama de contexto muestra las interacciones clave de PeruVentura, estableciendo relaciones fundamentales con 
+sus principales grupos de usuarios: turistas y propietarios de establecimientos. Además, se destaca su conexión con dos 
+sistemas externos para su funcionamiento. El primero, el sistema 'Workshop System', almacena información detallada 
+sobre los talleres. El segundo, denominado 'Workshop Recommendation System', se encarga de sugerir talleres a los turistas
+basándose en sus preferencias personales, utilizando para ello los datos recopilados en el primer sistema mencionado.
+
+![context-diagram](./resources-img/context-diagram.png)
+
 
 ### <span id="462-software-architecture-container-diagrams">4.6.2. Software Architecture Container Diagrams.</span>
 
+El diagrama revela la estructura del proyecto, destacando la conexión entre la aplicación web, con el landing page. El dueño de local/turista hace una interacción se realiza a través de peticiones API que permiten el registro o la búsqueda de talleres, subrayando la funcionalidad clave dentro del esquema de arquitectura de contenedores.
+
+![container-diagram](./resources-img/container-diagram.png)
+
+
 ### <span id="463-software-architecture-components-diagrams">4.6.3. Software Architecture Components Diagrams.</span>
+
+Este diagrama detalla los componentes de software implicados en las operaciones realizadas tanto por los propietarios de talleres como por los usuarios. Ilustra cómo se procesan las solicitudes para buscar y publicar talleres, mostrando las interacciones y flujos de datos entre los diferentes componentes del sistema.
+
+![container-diagram](./resources-img/container-diagram.png)
 
 ### <span id="47-software-object-oriented-design">4.7. Software Object-Oriented Design.</span>
 
@@ -2022,16 +2361,42 @@ link: https://trello.com/invite/b/AEWJNjeU/ATTI790e2fb751a1c4d5f5d2495f57b9fe9dF
 
 ### <span id="5216-services-documentation-evidence-for-sprint-review">5.2.1.6. Services Documentation Evidence for Sprint Review.</span>
 
+En este sprint, nos centramos en la implementación y mejora de los servicios que permiten la interacción de los usuarios turistas y dueños de locales con la plataforma PerúVentura. Los endpoints específicos se han diseñado para soportar las operaciones definidas en las clases usuario_turista, usuario_dueño_local, taller, alojamiento, comunidad, reserva y pago.
+
+Endpoints y métodos asociados:
+
+    Usuario turista:
+        GET /api/talleres: Busca talleres según los intereses del usuario turista.
+        GET /api/talleres/{id}/detalles: Visualiza detalles de un taller específico.
+        POST /api/reservas: Realiza una reserva en un taller.
+        POST /api/pagos: Procesa un pago de reserva.
+        PUT /api/usuarios/turista/perfil: Permite al turista editar su perfil.
+        POST /api/experiencias/compartir: Comparte una experiencia de taller.
+
+    Usuario dueño de local:
+        GET /api/talleres/mios: Muestra talleres del dueño local.
+        POST /api/talleres/promocion: Envía una promoción de un taller.
+        PUT /api/usuarios/duenio_local/perfil: Edita el perfil del dueño del local.
+
+    Taller:
+        GET /api/taller/{nombre}/informacion: Devuelve información sobre un taller específico.
+        GET /api/taller/{nombre}/estadisticas: Muestra estadísticas de reservas y visitas.
+        POST /api/taller/notificaciones: Envía notificaciones a los usuarios.
+
+    Alojamiento:
+        GET /api/alojamientos/{nombre}: Muestra información de un alojamiento específico.
+
+    Comunidad:
+        GET /api/comunidades/{nombre}: Ofrece información sobre una comunidad específica.
+
+    Reserva:
+        PUT /api/reservas/{id}/confirmar: Confirma una reserva realizada.
+        DELETE /api/reservas/{id}/cancelar: Cancela una reserva existente.
+
+    Pago:
+        POST /api/pagos/realizar: Inicia el proceso de pago.
+        GET /api/pagos/{id}/estado: Consulta el estado de un pago.
 ### <span id="5217-software-deployment-evidence-for-sprint-review">5.2.1.7. Software Deployment Evidence for Sprint Review.</span>
-<h3>Durante el Sprint 1, llevamos a cabo el despliegue de nuestra landing page en GitHub Pages. A continuación, detallamos los pasos realizados:</h3>
-<ol>
-  <li><strong>Creación del Repositorio en GitHub:</strong> Iniciamos creando un repositorio dedicado en GitHub para nuestro proyecto de landing page.</li>
-  <li><strong>Configuración de la Rama main:</strong> Aseguramos que la rama principal del repositorio se llamara main, ya que GitHub Pages toma esta rama como base para el despliegue automático.</li>
-  <li><strong>Preparación del Contenido:</strong> Desarrollamos y diseñamos nuestra landing page, asegurándonos de que todos los archivos y recursos necesarios estuvieran presentes en el repositorio.</li>
-  <li><strong>Generación del Enlace de GitHub Pages:</strong> Navegamos a la sección "Pages" en la configuración del repositorio en GitHub. Configuramos la fuente del GitHub Pages para que tomara el contenido de la rama main.</li>
-  <li><strong>Despliegue Automático:</strong> GitHub Pages automáticamente detectó los cambios en la rama main y desplegó la landing page en la URL proporcionada por GitHub Pages.</li>
-</ol>
-
-
 
 ### <span id="5218-team-collaboration-insights-during-sprint">5.2.1.8. Team Collaboration Insights during Sprint.</span>
+
