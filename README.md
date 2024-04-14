@@ -2297,6 +2297,62 @@ Es la creación de la documentación técnica para el software.La herramienta qu
 
 ### <span id="512-source-code-management">5.1.2. Source Code Management.</span>
 
+El medio que se uso para dar siguimiento a las modificaciones de la landing page para el proyecto fue GitHub, donde se desarrollo en su repositorio respectivo. Compartiremos el link del repositorio de la landing page:
+
+- https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Landing-page
+
+Para la realizacion de los cambios de nuestro repositorio se siguio el modelo de Git Flow.
+
+![gitflow](https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Landing-page/assets/133163553/098342e9-bb47-411b-ad16-5706b5b21685)
+
+La forma que git flow plantea la organización de las ramas es la siguiente:
+
+- Main Branches:
+
+  - master
+  - develop
+
+- Supporting Branches:
+
+  - feature
+  - release
+  - hotfix
+
+- Feature Branches:
+  - feature branches se originan de la rama develop y se utilizan para desarrollar nuevas características para el próximo lanzamiento.
+
+Ejemplo:
+
+```bash
+git checkout -b feature/[nombre de la caracteristica]
+git add .
+git commit -m "feat: [descripcion de la caracteristica]"
+git push -u origin feature/[nombre de la caracteristica]
+```
+
+Para los nombres de los commits se utilizo los conventional commits, este es un estandar de uso ligero y facil de seguir para los mensajes en los commits.
+
+Ejemplo:
+
+```bash
+* [feat: nueva feature]
+git commit -m "feat: [descripcion de la caracteristica]"
+* [fix: correccion de errores]
+git commit -m "fix: [descripcion del error]"
+[docs: cambios en la documentacion]
+git commit -m "docs: [descripcion de los cambios en la documentacion]"
+* [style: cambios en el estilo]
+git commit -m "style: [descripcion de los cambios en el estilo que no afectan a la logica del codigo]"
+* [refactor: refactorizacion del codigo]
+git commit -m "refactor: [descripcion de la refactorizacion]"
+* [test: cambios en las pruebas]
+git commit -m "test: [descripcion de los cambios en las pruebas]"
+* [chore: cambios en la configuracion]
+git commit -m "chore: [descripcion de los cambios en la configuracion]"
+```
+
+Este modelo da una estructura clara y organizada para que los desarrolladores puedan comprender el flujo de trabajo y colaborar de manera eficiente.
+
 ### <span id="513-source-code-style-guide--conventions">5.1.3. Source Code Style Guide & Conventions.</span>
 
 ### <span id="514-software-deployment-configuration">5.1.4. Software Deployment Configuration.</span>
