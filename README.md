@@ -258,8 +258,19 @@ Imforme: <https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Reporte-Per-Ventura>
       <td>
           Fabricio Gabriel Iparraguirre Quintero<br>
           <em> TB1</em>
+          <ul>
+          <li>Analisis Competitivo</li>
+          <li>Estrategias y tácticas frente a competidores.</li>
+          <li> Diseño de entrevistas.</li>
+          <li>Analisis de Entrevistas</li>
+          <li>Web Applications Prototyping</li>
+          <li>SEO Tags and Meta Tags</li>
+          <li>Software Development Environment Configuration</li>
+          <li>Source Code Management.</li>
+          <li>Source Code Style Guide & Conventions.</li>
+          </ul>
       </td>
-      <td></td>
+      <td>En conclusion, lo realizado a lo largo del trabajo fue crucial sabes seleccionar las competencias directas para hacer una buena estrategia y tacticas frente a los competidores, y tambien la importancia de escuchar a los turistas y locales para analizar y mejorar el servicio ofrecido</td>
     </tr>
 </table>
 
