@@ -1297,6 +1297,8 @@ Entonces podrá visualizar una de nuestras redes sociales
 ### <span id="423-seo-tags-and-meta-tags">4.2.3. SEO Tags and Meta Tags</span>
 
 ### <span id="424-searching-systems">4.2.4. Searching Systems.</span>
+<p>Se analizará en el siguiente punto:</p>
+
 ### <span id="425-navigation-systems">4.2.5. Navigation Systems.</span>
 <p>En esta sección, se detalla las estrategias clave diseñadas para guiar a los usuarios a través del Landing Page y las aplicaciones de la empresa. Se describe cómo estas acciones y técnicas están destinadas a facilitar a los usuarios el logro de sus objetivos y a garantizar una interacción satisfactoria con el producto. Además, se explora la forma en que los usuarios navegarán por el contenido, proporcionando una visión general de la experiencia de usuario planificada. Para brindar una experiencia fluida y satisfactoria, se implementan las siguientes acciones y técnicas:</p>
 
