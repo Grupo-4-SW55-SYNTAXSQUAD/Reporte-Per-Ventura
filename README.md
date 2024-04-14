@@ -295,17 +295,43 @@ La situación del cliente surge de la creciente demanda de experiencias auténti
 
 
 
-### <span id="122-lean-ux-process">1.2.2 Lean UX Process.</span>
+### <span id="122-lean-ux-process">1.2.2 Lean UX Process.</span> 
+<hr><p>El mercado actual de aplicaciones de viajes se centra en ofrecer información estándar sobre destinos turísticos populares, sin destacar las experiencias únicas y auténticas que pueden ofrecer las comunidades locales en Perú. Las aplicaciones existentes no facilitan a los viajeros la búsqueda y reserva de actividades culturales específicas, como talleres de arte y cocina tradicional, organizadas por comunidades locales. Además, la falta de opciones para interactuar con los lugareños y contribuir al turismo sostenible limita la experiencia de viaje de los usuarios.</p><p>Nuestro nuevo producto “Per-Ventura “solucionará los problemas antes mencionados dando nuevas maneras de conocer el Perú a los usuarios que abarcan nuestra aplicación, tanto para personas extranjeras como locales. El segmento inicial que estamos tomando en consideración son los extranjeros, ya que creemos que son los que más se pueden perder de las experiencias únicas de las comunidades locales del país.</p>  
 
-### <span id="1221-lean-ux-problem-statements">1.2.2.1. Lean UX Problem Statements.</span>
+### <span id="1221-lean-ux-problem-statements">1.2.2.1. Lean UX Problem Statements.</span> 
+<p style="text-align:center;">BUSINESS ASSUMPTIONS </p>
+<ol>
+<li>Los viajeros están interesados en experiencias auténticas y únicas ofrecidas por comunidades locales en Perú.</li>
+<li>Hay una demanda de una plataforma que facilite la búsqueda y reserva de actividades culturales específicas en Perú.</li>
+<li>Los viajeros estarán dispuestos a utilizar una aplicación que les permita interactuar con los lugareños y contribuir al turismo sostenible en Perú.</li>
+<li>La publicidad en línea y las asociaciones con organizaciones turísticas serán efectivas para promocionar nuestra aplicación.</li>
+<li>Las empresas locales estarán interesadas en promocionar sus actividades a través de nuestra plataforma para llegar a una audiencia comprometida con el turismo sostenible.</li>
+</ol>
 
 ### <span id="1222-lean-ux-assumptions">1.2.2.2. Lean UX Assumptions.</span>
+<p style="text-align:center;">USER ASSUMPTIONS </p>
+<ol>
+<li>Los viajeros que buscan experiencias culturales autenticas en Peru son el principal publico objetivo.</li>
+<li>Nuestra aplicación resolverá la dificultad de encontrar y reservar actividades culturales especificas en Peru.</li>
+<li>Los usuarios utilizaran nuestra aplicación principalmente antes y durante su viaje a Perú para descubrir y reservar actividades culturales autenticas.</li>
+<li>La aplicación será accesible a través de dispositivos móviles con conexión a internet, lo que facilitará su uso durante los viajes.</li>
+</ol>
+
 
 ### <span id="1223-lean-ux-hypothesis-statements">1.2.2.3. Lean UX Hypothesis Statements.</span>
+<li>Creemos que tendremos éxito si los viajeros pueden encontrar y reservar fácilmente actividades culturales auténticas en Perú, como talleres de arte y cocina tradicional, a través de nuestra plataforma.</li>          <li>Creemos que lograremos la monetización si los viajeros utilizan las funciones Premium de nuestra aplicación para acceder a experiencias exclusivas y servicios adicionales.</li>                                                    <li>Creemos que nuestros usuarios estarán satisfechos si experimentan una mayor interacción con las comunidades locales y una conexión más profunda con la cultura peruana a través de nuestra aplicación.</li>
 
-### <span id="1224-lean-ux-canvas">1.2.2.4. Lean UX Canvas.</span>
+### <span id="1224-lean-ux-canvas">1.2.2.4. Lean UX Canvas.</span>    
+![Imagen 1: Canvas](./resources-img/Canvas.jpg)
 
 ### <span id="13-segmentos-objetivo">1.3. Segmentos objetivo.</span>
+## Turistas en Perú
+Este segmento está compuesto por turistas que visitan Perú con el objetivo principal de explorar su rica cultura y patrimonio. Están interesados en sumergirse en las tradiciones, la historia, la gastronomía y las artes del país.
+
+## Dueños de locales peruanos
+Este segmento comprende dueños de locales peruanos buscando más reconocimiento a sus negocios ante los turistas.
+
+
 
 # <span id="-capítulo-ii-requirements-elicitation--analysis" style="color:red"> Capítulo II: Requirements Elicitation & Analysis</span>
 
@@ -1223,14 +1249,92 @@ Entonces podrá visualizar una de nuestras redes sociales
 ### <span id="42-information-architecture">4.2. Information Architecture.</span>
 
 ### <span id="421-organization-systems">4.2.1. Organization Systems.</span>
+<p>En esta sección, se detalla cómo se organizará la información en grupos específicos, aplicando diferentes sistemas de organización según la naturaleza y el propósito del contenido. Se explicará en qué casos se empleará la organización visual del contenido, ya sea de forma jerárquica para establecer prioridades visuales (visual hierarchy), secuencial para guiar paso a paso a los usuarios en la realización de tareas (step-by-step to accomplish), o matricial para presentar información de manera estructurada y comparativa.</p>
+
+<h3>1. Sistemas de Organización Visual del Contenido:</h3>
+<ul>
+  <li>En la barra de navegación, destacamos elementos clave como “Inicio”, “About us”, “Servicios”, “About the team” y “Contacto”. Esto crea una jerarquía clara y guía a los usuarios a través de la página.</li>
+  <li>Se implementa una organización secuencial en procesos importantes, como la solicitud de contacto. Esto simplifica la interacción del usuario y reduce confusiones.</li>
+</ul>
+
+<h3>2. Esquemas de Categorización de Contenido:</h3>
+<ul>
+  <li>En la sección de "Servicios", agrupamos los diferentes servicios en categorías temáticas. Esto permite a los usuarios explorar los servicios de manera intuitiva y encontrar lo que necesitan con facilidad.</li>
+  <li>Adaptamos el contenido según la audiencia en la sección de "Servicios", presentando información específica para satisfacer sus necesidades y expectativas.</li>
+</ul>
+
+
+### <span id="421-organization-systems">4.2.1. Organization Systems.</span>
+<hr><p> En esta sección, se detalla cómo se organizará la información en grupos específicos, aplicando diferentes sistemas de organización según la naturaleza y el propósito del contenido. Se explicará en qué casos se empleará la organización visual del contenido, ya sea de forma jerárquica para establecer prioridades visuales (visual hierarchy), secuencial para guiar paso a paso a los usuarios en la realización de tareas (step-by-step to accomplish), o matricial para presentar información de manera estructurada y comparativa.</p>
+<ol>
+<li>Sistemas de Organización Visual del Contenido:</li></ol>
+<ul>
+<li>En la barra de navegación, destacamos elementos clave como “Inicio”, “About us”, “Servicios”, “About the team” y “Contacto”. Esto crea una jerarquía clara y guía a los usuarios a través de la página.</li>
+<li> Se implementa una organización secuencial en procesos importantes, como la solicitud de contacto. Esto simplifica la interacción del usuario y reduce confusiones.
+
 
 ### <span id="422-labeling-systems">4.2.2. Labeling Systems.</span>
+<p>En esta sección, identificaremos y describiremos las etiquetas específicas que se utilizarán para representar conjuntos de información y sus asociaciones en la página web o aplicación, priorizando la simplicidad y la claridad en la presentación de datos. Cada etiqueta se selecciona para transmitir de manera efectiva su función y su relación con otros elementos del sistema, con el fin de optimizar la experiencia del usuario y promover una navegación fluida y sin contratiempos.</p>
+
+<h3>1. Navbar:</h3>
+<ul>
+  <li><strong>"Home":</strong> Sirve para dirigir a los usuarios a la sección principal de la página.</li>
+  <li><strong>"About Us":</strong> Proporciona información sobre la empresa o el proyecto.</li>
+  <li><strong>"About the Team":</strong> Permite conocer al equipo detrás del proyecto.</li>
+  <li><strong>"Servicios":</strong> Ofrece detalles sobre los servicios que ofrece la empresa.</li>
+  <li><strong>"Contacto":</strong> Facilita el acceso a la información de contacto para que los usuarios puedan comunicarse con la empresa.</li>
+</ul>
+
+<h3>2. Secciones:</h3>
+<ul>
+  <li><strong>"Home":</strong> La página principal de la web.</li>
+  <li><strong>"About us":</strong> Información detallada sobre la empresa.</li>
+  <li><strong>"About the team":</strong> Presenta al equipo de trabajo o miembros clave del proyecto.</li>
+  <li><strong>"Servicios":</strong> Describe los servicios ofrecidos por la empresa y cómo benefician a los usuarios.</li>
+  <li><strong>"Contacto":</strong> Ofrece un formulario o detalles de contacto para que los usuarios puedan comunicarse con la empresa.</li>
+</ul>
+
+<h3>3. Botones y enlaces:</h3>
+<ul>
+  <li><strong>Instagram:</strong> Botón el cual redirige al usuario a la cuenta de la empresa.</li>
+  <li><strong>Facebook:</strong> Botón el cual redirige al usuario a la cuenta de la empresa.</li>
+  <li><strong>WhatsApp:</strong> Botón el cual redirige al usuario al chat de la empresa.</li>
+  <li><strong>"Enviar":</strong> Permite a los usuarios acceder al formulario de contacto o información de contacto.</li>
+</ul>
+
+<h3>4. Formulario de contacto:</h3>
+<ul>
+  <li><strong>"Nombre Completo":</strong> Espacio para que los usuarios ingresen su nombre completo.</li>
+  <li><strong>"Correo Electrónico":</strong> Espacio para que los usuarios ingresen su dirección de correo electrónico.</li>
+  <li><strong>"Teléfono":</strong> Campo donde los usuarios pueden ingresar su número telefónico.</li>
+  <li><strong>"Mensaje":</strong> Área donde los usuarios pueden escribir su mensaje.</li>
+  <li><strong>"Enviar":</strong> Botón que envía el formulario y permite a los usuarios comunicarse con la empresa.</li>
+</ul>
+
+
 
 ### <span id="423-seo-tags-and-meta-tags">4.2.3. SEO Tags and Meta Tags</span>
 
 ### <span id="424-searching-systems">4.2.4. Searching Systems.</span>
-
 ### <span id="425-navigation-systems">4.2.5. Navigation Systems.</span>
+<p>En esta sección, se detalla las estrategias clave diseñadas para guiar a los usuarios a través del Landing Page y las aplicaciones de la empresa. Se describe cómo estas acciones y técnicas están destinadas a facilitar a los usuarios el logro de sus objetivos y a garantizar una interacción satisfactoria con el producto. Además, se explora la forma en que los usuarios navegarán por el contenido, proporcionando una visión general de la experiencia de usuario planificada. Para brindar una experiencia fluida y satisfactoria, se implementan las siguientes acciones y técnicas:</p>
+
+<h3>1. Menú de navegación claro:</h3>
+<p>Se ha implementado un menú de navegación en la parte superior del Landing Page con enlaces a las secciones principales, como Home, About Us, About the team, Servicios y Contacto. Esto permite a los usuarios acceder rápidamente a las áreas de interés.</p>
+
+<h3>2. Navegación por desplazamiento:</h3>
+<p>El Landing Page utiliza un diseño de desplazamiento único, lo que permite a los usuarios recorrer el contenido de manera secuencial. Cada sección está claramente marcada y se puede acceder desplazándose hacia abajo.</p>
+
+<h3>3. Enlaces internos:</h3>
+<p>Se han incluido enlaces internos dentro del contenido para facilitar la navegación entre diferentes secciones del Landing Page. Por ejemplo, enlaces a secciones como About Us, Servicios y Contacto.</p>
+
+<h3>4. Diseño responsive:</h3>
+<p>El diseño del Landing Page es responsive, lo que significa que se adapta automáticamente a diferentes tamaños de pantalla, garantizando una experiencia de usuario consistente en dispositivos móviles y de escritorio.</p>
+
+<p>Estas acciones y técnicas contribuyen a una experiencia de usuario fluida y satisfactoria, permitiendo a los usuarios cumplir sus metas e interactuar de manera efectiva con el producto de PeruVentura.</p>
+
+
+
 
 ### <span id="43-landing-page-ui-design">4.3. Landing Page UI Design.</span>
 
@@ -1870,5 +1974,15 @@ link: https://trello.com/invite/b/AEWJNjeU/ATTI790e2fb751a1c4d5f5d2495f57b9fe9dF
 ### <span id="5216-services-documentation-evidence-for-sprint-review">5.2.1.6. Services Documentation Evidence for Sprint Review.</span>
 
 ### <span id="5217-software-deployment-evidence-for-sprint-review">5.2.1.7. Software Deployment Evidence for Sprint Review.</span>
+<h3>Durante el Sprint 1, llevamos a cabo el despliegue de nuestra landing page en GitHub Pages. A continuación, detallamos los pasos realizados:</h3>
+<ol>
+  <li><strong>Creación del Repositorio en GitHub:</strong> Iniciamos creando un repositorio dedicado en GitHub para nuestro proyecto de landing page.</li>
+  <li><strong>Configuración de la Rama main:</strong> Aseguramos que la rama principal del repositorio se llamara main, ya que GitHub Pages toma esta rama como base para el despliegue automático.</li>
+  <li><strong>Preparación del Contenido:</strong> Desarrollamos y diseñamos nuestra landing page, asegurándonos de que todos los archivos y recursos necesarios estuvieran presentes en el repositorio.</li>
+  <li><strong>Generación del Enlace de GitHub Pages:</strong> Navegamos a la sección "Pages" en la configuración del repositorio en GitHub. Configuramos la fuente del GitHub Pages para que tomara el contenido de la rama main.</li>
+  <li><strong>Despliegue Automático:</strong> GitHub Pages automáticamente detectó los cambios en la rama main y desplegó la landing page en la URL proporcionada por GitHub Pages.</li>
+</ol>
+
+
 
 ### <span id="5218-team-collaboration-insights-during-sprint">5.2.1.8. Team Collaboration Insights during Sprint.</span>
