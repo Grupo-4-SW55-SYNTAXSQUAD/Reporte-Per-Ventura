@@ -1272,6 +1272,29 @@ link de figma: https://www.figma.com/file/BfzCppVfeK0kuuAicPUJCp/Style-Guideline
 
 ### <span id="431-landing-page-wireframe">4.3.1. Landing Page Wireframe.</span>
 
+Se crearon los siguientes bocetos de estructura alámbrica de baja fidelidad para nuestra página principal:
+
+* Desktop Web
+
+![Main-landing-page](./resources-img/Main-wireframes-web.png)
+![About-landing-page](./resources-img/about-wireframes-web.png)
+![Services-landing-page](./resources-img/services-wireframes-web.png)
+![team-landing-page](./resources-img/team-wireframes-web.png)
+![Contact-landingpage](./resources-img/services-wireframes-web.png)
+
+Link: https://www.figma.com/file/3FkKhyMrWSr6EdOuVSyHSd/LandingPage?type=design&node-id=0-1&mode=design&t=xOry5ETXeMYyndar-0 
+
+* Mobile Web
+
+![Main-landing-page.mobile](./resources-img/Main-wireframes-mobil.png) 
+![about-landing-page-mobile](./resources-img/about-wireframes-mobile.png)
+![services-landing-page-mobile](./resources-img/services-wireframes-mobile.png)
+![team-landing-page-mobile](./resources-img/services-wireframes-mobile.png)
+![contact-landing-page-mobile](./resources-img/contact-wireframes-mobile.png)
+
+Link: https://www.figma.com/file/5IdsLOlups2dAHQNnhM5vm/Mobile?type=design&node-id=0-1&mode=design&t=gLoLWjisPcHU0ICc-0
+
+
 ### <span id="432-landing-page-mock-up">4.3.2. Landing Page Mock-up.</span>
 
 ### <span id="44-web-applications-uxui-design">4.4 Web Applications UX/UI Design.</span>
@@ -1646,7 +1669,23 @@ link de figma: https://www.figma.com/file/BfzCppVfeK0kuuAicPUJCp/Style-Guideline
 
 ### <span id="5214-testing-suite-evidence-for-sprint-review">5.2.1.4. Testing Suite Evidence for Sprint Review.</span>
 
+En este Sprint, no nos hemos centrado en el desarrollo de pruebas automatizadas para nuestros Servicios Web. Esta sección está reservada para presentar los resultados de nuestras pruebas Unitarias, de Integración y de Aceptación automatizadas, las cuales no se llevaron a cabo en esta iteración.
+
 ### <span id="5215-execution-evidence-for-sprint-review">5.2.1.5. Execution Evidence for Sprint Review.</span>
+
+En este Sprint, nuestro equipo ha logrado el desarrollo del landing page, ofreciedno experiencias auténticas y significativas a los viajeros que visitan Perú.
+A continuación, presentamos capturas de pantalla de las principales vistas implementadas en este Sprint:
+
+* Inicio(Home)
+
+![Home-landing](./resources-img/)
+
+* Servicios (Services) : 
+* Acerca del Equipo : 
+* Llamada a la Acción (Call to Action) : 
+  
+Vídeo demostrativo:
+
 
 ### <span id="5216-services-documentation-evidence-for-sprint-review">5.2.1.6. Services Documentation Evidence for Sprint Review.</span>
 
