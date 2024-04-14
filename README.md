@@ -275,6 +275,7 @@ SyntaxSquad brinda servicios que incluyen desarrollo de software personalizado, 
 #
 ![Imagen 5: perfil-Fabricio](https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Reporte-Per-Ventura/assets/133163553/03729251-9b13-4c1f-8b66-dd4bca135046)
 
+
 ### <span id="12-solution-profile">1.2. Solution Profile</span>
 
 ### <span id="121-antecedentes-y-problemática">1.2.1 Antecedentes y problemática</span>
