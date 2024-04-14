@@ -512,6 +512,22 @@ Este aspecto es relevante para recopilar informacion tanto de los turistas como 
 
 ### <span id="222-registro-de-entrevistas">2.2.2. Registro de entrevistas.</span>
 
+Dennis Castañeda Vilcapoma
+![Entrevista](./resources-img/entrevista-usuario.png)
+* Sexo: Masculino 
+* Edad: 23 años
+* Distrito donde vive: Lima
+
+* Link:[Click para ver la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c320_upc_edu_pe/EfD9tmVBWAxNsYdglvDr2G8BMGfs0Tn2AJw1Kz6vJ-s7VA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=rGbIAp)
+
+* Momento en el que inicia: 0:00
+* Duracion: 7:34
+* Entrevistador: Lynn Jeeferzon Meza Camayo
+  
+Resumen:
+
+El entrevistado, Dennis Castañeda Vilcapoma, de 23 años es un estudiante de Ingeneria Civil, Le gusta realizar turismo por Perú a actividades extremas y caminatas a largo tiempo. Nos cuenta que lo importa de realizar turismo es llevarse la experiencia única que uno quiere en cada viaje. Todos lo viajes que realizo fue por recomendaciones que se realiza en amistades y familiares, como tambien la recomendaciones de agencias. Los dificultades que tuvo al realizar un viaje fue que al buscar con un prosupuesto una agencia que tenga hospedaje, cupo y fecha requerida, no sale el monto que quieren y buscar nuevas agencias toma tiempo y solo realizan con los que le recomendaron.
+
 ### Dueños de local:
 
 Santiago García
@@ -1840,6 +1856,29 @@ link de figma: https://www.figma.com/file/BfzCppVfeK0kuuAicPUJCp/Style-Guideline
 
 ### <span id="431-landing-page-wireframe">4.3.1. Landing Page Wireframe.</span>
 
+Se crearon los siguientes bocetos de estructura alámbrica de baja fidelidad para nuestra página principal:
+
+* Desktop Web
+
+![Main-landing-page](./resources-img/Main-wireframes-web.png)
+![About-landing-page](./resources-img/about-wireframes-web.png)
+![Services-landing-page](./resources-img/services-wireframes-web.png)
+![team-landing-page](./resources-img/team-wireframes-web.png)
+![Contact-landingpage](./resources-img/services-wireframes-web.png)
+
+Link: https://www.figma.com/file/3FkKhyMrWSr6EdOuVSyHSd/LandingPage?type=design&node-id=0-1&mode=design&t=xOry5ETXeMYyndar-0 
+
+* Mobile Web
+
+![Main-landing-page.mobile](./resources-img/Main-wireframes-mobil.png) 
+![about-landing-page-mobile](./resources-img/about-wireframes-mobile.png)
+![services-landing-page-mobile](./resources-img/services-wireframes-mobile.png)
+![team-landing-page-mobile](./resources-img/services-wireframes-mobile.png)
+![contact-landing-page-mobile](./resources-img/contact-wireframes-mobile.png)
+
+Link: https://www.figma.com/file/5IdsLOlups2dAHQNnhM5vm/Mobile?type=design&node-id=0-1&mode=design&t=gLoLWjisPcHU0ICc-0
+
+
 ### <span id="432-landing-page-mock-up">4.3.2. Landing Page Mock-up.</span>
 
 #### Pagina inicio
@@ -2481,20 +2520,6 @@ Para mantener un código limpio y fácil de leer, se establecieron las siguiente
 
 - El uso de ParticleJS es una biblioteca de JavaScript que permite generar y animar partículas en un lienzo HTML. Para configurar ParticleJS, se utiliza un archivo JSON que contiene los parámetros de configuración necesarios.
 
-<img src="https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Landing-page/assets/133163553/eb575c2c-d635-427a-9253-7e7eadf59637"/>
-
-#### _HTML_
-
-- Se utilizó HTML5 para la estructura de la landing page, aprovechando las etiquetas semánticas como **header**, **nav**, **section**, **article**, **footer**, entre otras, para una mejor organización del contenido y un mejor posicionamiento en los motores de búsqueda. Además, se implementaron elementos como **div**, **span**, **img**, **a**, **ul**, **li**, **h1**, **p**, **strong**, entre otros, para dar formato y estructura al contenido. A continuación se muestra la estructura utilizada:
-
-<img src="https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Landing-page/assets/133163553/6db92933-3b90-481f-8517-290578e6284a">
-
-#### _JavaScript_
-
-- Se utilizó JavaScript puro para la creación del menú responsivo. A continuación se muestra de cómo se implementó:
-
-<img src="https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Landing-page/assets/133163553/f97f0d31-af2a-422f-b7c6-67dcf614de0d" />
-
 ### <span id="514-software-deployment-configuration">5.1.4. Software Deployment Configuration.</span>
 
 ## <span id="52-landing-page-services--applications-implementation">5.2. Landing Page, Services & Applications Implementation.</span>
@@ -2661,7 +2686,42 @@ link: https://trello.com/invite/b/AEWJNjeU/ATTI790e2fb751a1c4d5f5d2495f57b9fe9dF
 
 ### <span id="5214-testing-suite-evidence-for-sprint-review">5.2.1.4. Testing Suite Evidence for Sprint Review.</span>
 
+En este Sprint, no nos hemos centrado en el desarrollo de pruebas automatizadas para nuestros Servicios Web. Esta sección está reservada para presentar los resultados de nuestras pruebas Unitarias, de Integración y de Aceptación automatizadas, las cuales no se llevaron a cabo en esta iteración.
+
 ### <span id="5215-execution-evidence-for-sprint-review">5.2.1.5. Execution Evidence for Sprint Review.</span>
+
+En este Sprint, nuestro equipo ha logrado el desarrollo del landing page, ofreciedno experiencias auténticas y significativas a los viajeros que visitan Perú.
+A continuación, presentamos capturas de pantalla de las principales vistas implementadas en este Sprint:
+
+* Inicio(Home)
+
+![Home-landing](./resources-img/home-landing%20.png)
+
+* Quienes Somos(About US):
+
+![About-Landing](./resources-img/about-landing.png)
+
+* Servicios (Services) : 
+
+![Services-Landing](./resources-img/services-landing.png)
+
+* Acerca del Equipo : 
+
+  ![Team-Landing](./resources-img/team-landing.png)
+
+* Llamada a la Acción (Call to Action) : 
+
+  ![Contact-Landing](./resources-img/contact-landing.png)
+
+
+* Footer:
+
+![Footer-Landing](./resources-img/footer-landing.png)
+  
+Vídeo demostrativo:
+
+[Video-demostrativo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113930_upc_edu_pe/EYcTHEDxeXlDl8yQC6vCJA8BhW4_Pskg1dLwTSkPSHlAzA?e=o1B88H )
+
 
 ### <span id="5216-services-documentation-evidence-for-sprint-review">5.2.1.6. Services Documentation Evidence for Sprint Review.</span>
 
