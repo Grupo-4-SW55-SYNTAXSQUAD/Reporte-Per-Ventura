@@ -39,7 +39,7 @@
     <td>version 0.1</td>
     <td>25/03/2024</td>
     <td>Fabricio Gabriel Iparraguirre Quintero</td>
-    <td>Modificación de la estructura del documento</td>
+    <td>Modificación en el capitulo 2 y el capitulo 5, y algunas del capitulo 4</td>
   </tr>
   <tr>
     <td>version 0.1</td>
@@ -286,6 +286,28 @@ Tambien se realiza una entrevista del segmento turista.<br>
           </ul>
         </td>
         <td>En conclusión, lo realizado a lo largo del trabajo fue algo crucial para conocer del sector empresairal al que apuntabamos y así aplicar soluciones de software efectivas.</td>
+    </tr>
+    <tr>
+      <td>
+        Sabe seleccionar las competencias directas de la Startup y analizar las estrategias y tácticas frente a competidores,
+        así como también realizar entrevistas y analizarlas.
+      </td>
+      <td>
+          Fabricio Gabriel Iparraguirre Quintero<br>
+          <em> TB1</em>
+          <ul>
+          <li>Analisis Competitivo</li>
+          <li>Estrategias y tácticas frente a competidores.</li>
+          <li> Diseño de entrevistas.</li>
+          <li>Analisis de Entrevistas</li>
+          <li>Web Applications Prototyping</li>
+          <li>SEO Tags and Meta Tags</li>
+          <li>Software Development Environment Configuration</li>
+          <li>Source Code Management.</li>
+          <li>Source Code Style Guide & Conventions.</li>
+          </ul>
+      </td>
+      <td>En conclusion, lo realizado a lo largo del trabajo fue crucial sabes seleccionar las competencias directas para hacer una buena estrategia y tacticas frente a los competidores, y tambien la importancia de escuchar a los turistas y locales para analizar y mejorar el servicio ofrecido</td>
     </tr>
 </table>
 
@@ -624,6 +646,38 @@ El entrevistado, Santiago García, de 23 años ha sido emprendedor por un año c
 
 - Considera que en su preferencia seria el lugar el ambiente, lugares alejados de la ciudad, en las cordilleras o nevados.
 
+#### **Analisis de la entrevista de Dennis Castañeda Vilcapoma**
+##### Cuando piensas en viajar a Perú, ¿qué tipo de experiencias estás buscando y por qué?
+
+- Le gusta conocer nuevas culturas y tradiciones.
+
+##### ¿Cómo decides qué actividades o destinos visitar? ¿Qué factores influyen más en tu decisión?
+
+- Le gusta visitar lugares turísticos y conocer la historia de cada lugar, ademas de que le gusta caminar largas distancias y tener aventuras.
+
+##### ¿Qué desafíos o dificultades has enfrentado al intentar reservar experiencias turísticas auténticas en Perú?
+
+- Depende del presuspuesto que la persoa desea gastar, algunos buscan una sola agencia que les ofrezca todo lo que necesitan, pero suelen acabarse los cupo o las fechas no son buenas.
+
+##### ¿Qué características consideras esenciales en una plataforma en línea para la reserva de actividades turísticas?
+
+- Deben facilitar la busqueda de lugares turisticos, tener una buena interfaz y que sea facil de usar, ademas de que tenga una buena reputacion.
+
+##### ¿Cómo valoras la importancia de interactuar con la cultura local y las comunidades cuando viajas?
+
+- Cree que la experiencia que cada persona se lleva, porque a los locales le gusta el respeto a ellos y su cultura
+
+##### ¿Qué tan importante es para ti que tu visita tenga un impacto positivo en la comunidad local?
+
+- Cree que la comunidad local se siente agradecida con los turistas que visitan su lugar, ya que les ayuda a crecer economicamente.
+
+##### ¿Qué tipo de información buscas antes de reservar una experiencia turística y cómo prefieres recibirla?
+
+- Se suele guirar por recomendaciones de amigos o familiares, y si no busca en internet y lee comentarios de otras personas que ya han visitado el lugar.
+
+##### ¿Tienes alguna preferencia o expectativa específica respecto a la autenticidad y la sostenibilidad de las actividades turísticas que eliges?
+
+- Considera que en su preferencia seria el lugar el ambiente, lugares alejados de la ciudad, en las cordilleras o nevados.
 
 ### <span id="23-needfinding">2.3. Needfinding.</span>
 
@@ -2339,6 +2393,25 @@ Para mantener un código limpio y fácil de leer, se establecieron las siguiente
 - El uso de ParticleJS es una biblioteca de JavaScript que permite generar y animar partículas en un lienzo HTML. Para configurar ParticleJS, se utiliza un archivo JSON que contiene los parámetros de configuración necesarios.
 
 ### <span id="514-software-deployment-configuration">5.1.4. Software Deployment Configuration.</span>
+
+####_GitHub Pages_
+
+- Para desplegar la landing page, se utilizó GitHub Pages, un servicio de alojamiento web gratuito que permite publicar sitios web directamente desde un repositorio de GitHub. Para ello, se siguió los siguientes pasos:
+
+1. Ingresar al repositorio de la landing page en GitHub.
+2. Ir a la pestaña "Settings".
+3. Desplazarse hacia abajo hasta la sección "GitHub Pages".
+4. En la opción "Source", seleccionar la rama "dev" del repositorio.
+5. Hacer clic en "Save".
+
+<img src="https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Landing-page/assets/133163553/c93af710-ccd3-4c3a-ab4d-1f62d350c89e" />
+
+<img src="https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Reporte-Per-Ventura/assets/133163553/f6bdb920-24fb-4cf6-b12c-f60b5ca7c05a" />
+
+<img src="https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Landing-page/assets/133163553/1d574286-8eba-4360-b77e-b7c80307e7eb" />
+
+<img src="https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Landing-page/assets/133163553/ce3ef079-3695-488e-9ad8-2650f6aa1899" />
+
 
 ## <span id="52-landing-page-services--applications-implementation">5.2. Landing Page, Services & Applications Implementation.</span>
 
