@@ -59,6 +59,7 @@
 
 Imforme: <https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Reporte-Per-Ventura>
 
+Link del landing page desplegado: <https://grupo-4-sw55-syntaxsquad.github.io/Landing-page/>
 ## <span style="color:red">Tabla de Contenido</span>
 
 - [**UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS**](#universidad-peruana-de-ciencias-aplicadas)
@@ -253,7 +254,7 @@ Los usuarios o turistas que buscar nuevos sitios culturales diferente de los má
 
 ***¿Cuándo sucede el problema?***
 
-Sucede cuando los turistas intentan encontrar actividad 0 sitos turisticos del perú, pero en esa busqueda se encuentra con una saturacion de clientes o largas filas para dejar un reservación. Ademas, tienen dificultades por elegior que opcion ofrecida les gustaria, porque no sabia de antemano que existian varias opciones. Por ello, las personas optan por buscar algo que les facilite las opciones, ubicación y reservación del dicho  lugar o actividad. 
+Sucede cuando los turistas intentan encontrar actividad o sitos turisticos del perú, pero en esa busqueda se encuentra con una saturacion de clientes o largas filas para dejar un reservación. Ademas, tienen dificultades por elegior que opcion ofrecida les gustaria, porque no sabia de antemano que existian varias opciones. Por ello, las personas optan por buscar algo que les facilite las opciones, ubicación y reservación del dicho  lugar o actividad. 
 
 ***¿Cuándo utiliza el cliente le producto?***
 
