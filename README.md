@@ -2576,6 +2576,25 @@ Para mantener un código limpio y fácil de leer, se establecieron las siguiente
 
 ### <span id="514-software-deployment-configuration">5.1.4. Software Deployment Configuration.</span>
 
+####_GitHub Pages_
+
+- Para desplegar la landing page, se utilizó GitHub Pages, un servicio de alojamiento web gratuito que permite publicar sitios web directamente desde un repositorio de GitHub. Para ello, se siguió los siguientes pasos:
+
+1. Ingresar al repositorio de la landing page en GitHub.
+2. Ir a la pestaña "Settings".
+3. Desplazarse hacia abajo hasta la sección "GitHub Pages".
+4. En la opción "Source", seleccionar la rama "dev" del repositorio.
+5. Hacer clic en "Save".
+
+<img src="https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Landing-page/assets/133163553/c93af710-ccd3-4c3a-ab4d-1f62d350c89e" />
+
+<img src="https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Reporte-Per-Ventura/assets/133163553/f6bdb920-24fb-4cf6-b12c-f60b5ca7c05a" />
+
+<img src="https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Landing-page/assets/133163553/1d574286-8eba-4360-b77e-b7c80307e7eb" />
+
+<img src="https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Landing-page/assets/133163553/ce3ef079-3695-488e-9ad8-2650f6aa1899" />
+
+
 ## <span id="52-landing-page-services--applications-implementation">5.2. Landing Page, Services & Applications Implementation.</span>
 
 ### <span id="521-sprint-1">5.2.1. Sprint 1</span>
