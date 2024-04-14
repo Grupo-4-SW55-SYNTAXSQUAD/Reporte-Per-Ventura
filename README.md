@@ -120,6 +120,8 @@ Imforme: <https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Reporte-Per-Ventura>
     - [4.4.2. Web Applications Wireflow Diagrams.](#442-web-applications-wireflow-diagrams)
     - [4.4.2. Web Applications Mock-ups.](#442-web-applications-mock-ups)
     - [4.4.3. Web Applications User Flow Diagrams.](#443-web-applications-user-flow-diagrams)
+
+
     - [4.5. Web Applications Prototyping.](#45-web-applications-prototyping)
     - [4.6. Domain-Driven Software Architecture.](#46-domain-driven-software-architecture)
     - [4.6.1. Software Architecture Context Diagram.](#461-software-architecture-context-diagram)
@@ -1543,6 +1545,22 @@ Entonces podrá visualizar una de nuestras redes sociales
 ### <span id="443-web-applications-mock-ups">4.4.2. Web Applications Mock-ups.</span>
 
 ### <span id="444-web-applications-user-flow-diagrams">4.4.3. Web Applications User Flow Diagrams.</span>
+
+En Peruventura, la sección "Servicios" se detalla los siguientes pasos clave:
+El usuario inicia en la página de inicio de PerúVentura.
+
+Servicios: Selecciona la sección de "Servicios" para explorar las actividades turísticas disponibles.
+
+Buscar y Filtrar Actividades: Utiliza herramientas de búsqueda para encontrar actividades que se alineen con sus preferencias.
+
+Comunicación con Anfitriones: Si es necesario, el usuario puede contactar a los anfitriones para obtener más detalles.
+
+Detalles y Reserva: Consulta la información completa de la actividad y, si está conforme, procede a realizar una reserva.
+
+Confirmación: Finaliza el proceso al completar la reserva y recibir una confirmación
+
+![user-flow](./resources-img/user-flow.png)
+
 
 ### <span id="45-web-applications-prototyping">4.5. Web Applications Prototyping.</span>
 
