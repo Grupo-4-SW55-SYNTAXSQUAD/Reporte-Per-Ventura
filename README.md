@@ -53,6 +53,7 @@
     <td>Lynn Jeeferzon Meza Camayo</td>
     <td>Modificación de startup profile, descripcion de la Startup y antecedentes y problemáticas</td>
   </tr>
+  
 </table>
 
 ## <span style="color:red">Project Report Collaboration Insights </span>
@@ -202,6 +203,16 @@ Imforme: <https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Reporte-Per-Ventura>
     <tr>
         <td></td>
         <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>
+            Sabe manejar el analisis de los usuarios, sus preferencias y organizar los componentes del landing page
+        </td>
+        <td>
+            David Bryan Rodriguez Santos <br>
+            <em> TB1</em>
+        </td>
         <td></td>
     </tr>
 </table>
