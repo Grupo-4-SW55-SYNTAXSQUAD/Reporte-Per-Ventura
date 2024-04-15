@@ -2779,11 +2779,23 @@ Endpoints y métodos asociados:
 
 ### Conclusiones
 
-El trabajo ayudaró al equipo de trabajar de manera ordenada y conforme a los sprints brindados, así como expandir el conocimiento sobre Github.
+El trabajo ayudó al equipo de trabajar de manera ordenada y conforme a los sprints brindados, así como expandir el conocimiento sobre Github.
 
 Gracias a los repositorios creados se pudo mantener ordenado el codigo de la landing page y poder desplegarla.
 
 Los comandos de Git son muy útiles para mandar mensajes de correción o añadido de características y ayuda al grupo a mantenerse comunicado y saber que se cambió o necesita ser cambiado.
+
+Gracias a la utilización de repositorios en GitHub, se logró mantener el código de la landing page de forma organizada, lo que facilitó su mantenimiento y despliegue.
+
+La experiencia con Git y GitHub contribuyó a expandir el conocimiento del equipo sobre el control de versiones y la gestión de proyectos de desarrollo de software, lo que potencialmente mejoró la eficiencia y la calidad del trabajo realizado.
+
+La organización del equipo y la distribución de tareas en sprints contribuyeron a una mejor optimización de los recursos disponibles, evitando la duplicación de esfuerzos y maximizando la productividad.
+
+La colaboración en el proyecto proporcionó a los miembros del equipo la oportunidad de desarrollar y mejorar sus habilidades de trabajo en equipo, comunicación y resolución de problemas, lo que puede tener beneficios a largo plazo en futuros proyectos.
+
+La experiencia de trabajar en sprints ayudó al equipo a comprender mejor los principios y prácticas de las metodologías ágiles, lo que les permitió adaptarse más fácilmente a futuros proyectos y situaciones cambiantes.
+
+La adopción de prácticas de organización, como la asignación clara de roles y responsabilidades, contribuyó a una distribución equitativa de las tareas y al establecimiento de una estructura de trabajo más eficiente y ordenada.
 
 ### Bibliografía
 
