@@ -84,6 +84,12 @@
 
 ## <span style="color:red">Project Report Collaboration Insights </span>
 
+![P](./resources-img/Insights.png)
+
+![P](./resources-img/contri1.png)
+
+![p](./resources-img/contri2.png)
+
 Imforme: <https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Reporte-Per-Ventura>
 
 Landing Page: <https://grupo-4-sw55-syntaxsquad.github.io/Landing-page/>
