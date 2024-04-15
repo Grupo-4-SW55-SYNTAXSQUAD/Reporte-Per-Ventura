@@ -2423,7 +2423,7 @@ Para mantener un código limpio y fácil de leer, se establecieron las siguiente
 
 ### <span id="514-software-deployment-configuration">5.1.4. Software Deployment Configuration.</span>
 
-####_GitHub Pages_
+####  _GitHub Pages_
 
 - Para desplegar la landing page, se utilizó GitHub Pages, un servicio de alojamiento web gratuito que permite publicar sitios web directamente desde un repositorio de GitHub. Para ello, se siguió los siguientes pasos:
 
