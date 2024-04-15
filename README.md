@@ -1,24 +1,51 @@
-<center>
-
 # <span style="color:red">**UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS**</span>
 
-![Logo_UPC](./resources-img/UPC_logo_transparente.png)
+<p align="center">
+    <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
+    <br><img src="https://www.upc.edu.pe/static/img/logo_upc_red.png"></img><br>
+    <br>
+    <strong>Ingeniería de Software - 202401</strong><br>
+    <br>
+    <strong>SI730 - Aplicaciones Web - SW55</strong><br>  
+    <br>
+    <strong>Profesor: Francisco José Cáceres Honores</strong><br>
+    <br> <strong>INFORME DE TRABAJO FINAL - TB1 </strong> 
+</p>
+<p align="center">
+    <strong>Startup: SyntaxSquad </strong><br>
+    <strong>Producto:  PerúVentura </strong>
+</p>
 
-### SI730 Aplicaciones Web
-
-## **"PerúVentura"**
-
-### Profesor: Francisco José Cáceres Honores
-
-## Integrantes:
-
-- Lynn Jeeferzon Meza Camayo - **U20201C320**
-- David Bryan Rodriguez Santos - **U202212236**
-- Fabricio Gabriel Iparraguirre Quintero - **U202113930**
-- Paolo Gonzalo Párraga Gamarra - **U202219186**
-- Felix Orlando Becerra Tito - **U20211B387**
-
-</center>
+<h3 align="center" >Team Members:</h3>
+<div>
+    <table align="center">
+        <tr>
+            <th style="text-align:center;">Member</th>
+            <th style="text-align:center;">Code</th>
+        </tr>
+        <tr>
+            <td>Lynn Jeeferzon Meza Camayo</td>
+            <td>U20201C320</td>
+        </tr>
+        <tr>
+            <td>David Bryan Rodriguez Santos</td>
+            <td>U202212236</td>
+        </tr>
+        <tr>
+            <td>Fabricio Gabriel Iparraguirre Quintero</td>
+            <td>U202113930</td>
+        </tr>
+        <tr>
+            <td>Párraga Gamarra, Paolo Gonzalo</td>
+            <td>U202219186</td>
+        </tr>
+        <tr>
+            <td>Felix Orlando Becerra Tito</td>
+            <td>U20211B387</td>
+        </tr>
+    </table>
+</div>
+<br>
 
 ## <span style="color:red">Registro de Versiones del Informe</span>
 
@@ -2743,6 +2770,23 @@ Endpoints y métodos asociados:
 ![i](./resources-img/Insights.png)
 
 ![c](./resources-img/insightLanding.png)
+
+### Conclusiones
+
+El trabajo ayudaró al equipo de trabajar de manera ordenada y conforme a los sprints brindados, así como expandir el conocimiento sobre Github.
+
+Gracias a los repositorios creados se pudo mantener ordenado el codigo de la landing page y poder desplegarla.
+
+Los comandos de Git son muy útiles para mandar mensajes de correción o añadido de características y ayuda al grupo a mantenerse comunicado y saber que se cambió o necesita ser cambiado.
+
+### Bibliografía
+
+<div align="justify">
+    <ul>
+        <li>INEI. (s.f.). <em>ÍNDICE TEMÁTICO</em> https://m.inei.gob.pe/estadisticas/indice-tematico/turismo-11176/</li>
+    </ul>
+</div>
+
 ### Anexos
 
 ![expo](./resources-img/Expo.png)
