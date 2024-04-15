@@ -16,7 +16,7 @@
 - David Bryan Rodriguez Santos - **U202212236**
 - Fabricio Gabriel Iparraguirre Quintero - **U202113930**
 - Paolo Gonzalo Párraga Gamarra - **U202219186**
-- Felix Orlando Becerra Ttito - **U20211B387**
+- Felix Orlando Becerra Tito - **U20211B387**
 
 </center>
 
@@ -39,7 +39,7 @@
     <td>version 0.1</td>
     <td>25/03/2024</td>
     <td>Fabricio Gabriel Iparraguirre Quintero</td>
-    <td>Modificación de la estructura del documento</td>
+    <td>Modificación en el capitulo 2 y el capitulo 5, y algunas del capitulo 4</td>
   </tr>
   <tr>
     <td>version 0.1</td>
@@ -58,6 +58,8 @@
 ## <span style="color:red">Project Report Collaboration Insights </span>
 
 Imforme: <https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Reporte-Per-Ventura>
+
+Landing Page: <https://grupo-4-sw55-syntaxsquad.github.io/Landing-page/>
 
 ## <span style="color:red">Tabla de Contenido</span>
 
@@ -226,9 +228,30 @@ Imforme: <https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Reporte-Per-Ventura>
         <td>
             Lynn Jeeferzon Meza Camayo <br>
             <em>TB1</em><br>
+            <em>Se implemento los antecedentes y problematcias, para identificar nuestra propuesta. Creando los Style Guidelines para la implementacion y desarrollo de nuestro aplicativo y       
+            landing page.<br><br>
             Paolo Gonzalo Párraga Gamarra<br>
             <em>TB1</em><br>
-            <em>Se reliazó el capítulo 3, así comolos diagramas <br>de clases y de base de datos y el <br>sprint planning 1 y sprint backlog
+            <em>Se reliazó el capítulo 3, así comolos diagramas <br>de clases y de base de datos y el <br>sprint planning 1 y sprint backlog<br><br>
+            David Bryan Rodriguez Santos <br>
+            <em>TB1</em>
+            <em>Se realizó la segunda mitad del capítulo 2 entre estos fueron: User Persona, As-Is Scenario Mapping, etc. El diseño de componentes tambien fue realizado. <br>de clases y de base de datos y el <br>sprint planning 1 y sprint backlog<br><br>
+          Fabricio Gabriel Iparraguirre Quintero<br>
+          <em> TB1</em>
+          <ul>
+          <li>Analisis Competitivo</li>
+          <li>Estrategias y tácticas frente a competidores.</li>
+          <li> Diseño de entrevistas.</li>
+          <li>Analisis de Entrevistas</li>
+          <li>Web Applications Prototyping</li>
+          <li>SEO Tags and Meta Tags</li>
+          <li>Software Development Environment Configuration</li>
+          <li>Source Code Management.</li>
+          <li>Source Code Style Guide & Conventions.</li>
+          </ul>
+            Felix Orlando Becerra Tito <br>
+            <em>TB1</em>
+            <em>Se realizó los elementos del primer capítulo, ya sea lean ux assumptions o canvas. Así mismo, se realizaron los puntos del apartado 4.2 <br><br>
         </td>
         <td>
         En conclusión, los elementos usados para la realización del tb1 fueron importantes como los sprint ayudaron a la eficacia del grupo.
@@ -240,12 +263,33 @@ Imforme: <https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Reporte-Per-Ventura>
             aplicación de soluciones de <br>
             software.
         </td>
-        <td>
+       <td>
             Lynn Jeeferzon Meza Camayo <br>
             <em>TB1</em><br>
+            <em>Se implemento los antecedentes y problematcias, para identificar nuestra propuesta. Creando los Style Guidelines para la implementacion y desarrollo de nuestro aplicativo y       
+            landing page.<br><br>
             Paolo Gonzalo Párraga Gamarra<br>
             <em>TB1</em><br>
-            <em>Se reliazó el capítulo 3, así comolos diagramas <br>de clases y de base de datos y el <br>sprint planning 1 y sprint backlog
+            <em>Se reliazó el capítulo 3, así comolos diagramas <br>de clases y de base de datos y el <br>sprint planning 1 y sprint backlog<br><br>
+            David Bryan Rodriguez Santos <br>
+            <em>TB1</em>
+            <em>Se realizó la segunda mitad del capítulo 2 entre estos fueron: User Persona, As-Is Scenario Mapping, etc. El diseño de componentes tambien fue realizado. <br>de clases y de base de datos y el <br>sprint planning 1 y sprint backlog<br><br>
+          Fabricio Gabriel Iparraguirre Quintero<br>
+          <em> TB1</em>
+          <ul>
+          <li>Analisis Competitivo</li>
+          <li>Estrategias y tácticas frente a competidores.</li>
+          <li> Diseño de entrevistas.</li>
+          <li>Analisis de Entrevistas</li>
+          <li>Web Applications Prototyping</li>
+          <li>SEO Tags and Meta Tags</li>
+          <li>Software Development Environment Configuration</li>
+          <li>Source Code Management.</li>
+          <li>Source Code Style Guide & Conventions.</li>
+          </ul>
+                      Felix Orlando Becerra Tito <br>
+            <em>TB1</em>
+            <em>Se realizó los elementos del primer capítulo, ya sea lean ux assumptions o canvas. Así mismo, se realizaron los puntos del apartado 4.2 <br><br>
         </td>
         <td>En conclusión, lo realizado a lo largo del trabajo fue algo crucial para conocer del sector empresairal al que apuntabamos y así aplicar soluciones de software efectivas.</td>
     </tr>
@@ -465,6 +509,18 @@ Este segmento comprende dueños de locales peruanos buscando más reconocimiento
 
 ### <span id="212-estrategias-y-tácticas-frente-a-competidores">2.1.2. Estrategias y tácticas frente a competidores.</span>
 
+1. **Estrategias de intermediación**: Se aplicarán estrategias para competir contra los competidores, como facilitar las transacciones entre turistas y locales y ofreciendo diversos servicios.
+
+2. **Precios competitivos**: Se establecerán precios competitivos y flexibles para atraer a los turistas , al mismo tiempo que se garantiza una ganancia justa para los locales. Se ofrecerán descuentos y promociones especiales para fomentar la fidelidad de los turistas así atrayendo a nuevos clientes.
+
+3. **Alianzas estratégicas**: Se realizarán alianzas con diversos establecimientos para ofrecer una amplia gama de servicios a los turistas y asi poder satisfacer sus necesidades y preferencias.
+
+4. **Estrategias de promoción**: Se agregará estrategias de promoción para poder competir con los competidores, como las campañas publicitarias en redes sociales, motores de búsqueda, blogs y foros, con el objetivo de aumentar la visibilidad de la aplicación web y atraer a más turistas y locales.
+
+5. **Estrategias de marketing digital**: Se implementarán estrategias de marketing digital que conlleva a técnicas de SEO, marketing de contenidos y email marketing, entre otras, para llegar a un público más amplio y generar interés en la aplicación web.
+
+6. **Tácticas de fidelización de clientes**: La fidelización de clientes se dará por medio de programas de recompensas, descuentos exclusivos y atención al cliente personalizada, con el objetivo de mantener a los turistas y locales satisfechos y fomentar la repetición de transacciones.
+
 ### <span id="22-entrevistas">2.2. Entrevistas.</span>
 
 ### <span id="221-diseño-de-entrevistas">2.2.1. Diseño de entrevistas.</span>
@@ -517,7 +573,7 @@ Dennis Castañeda Vilcapoma
 * Edad: 23 años
 * Distrito donde vive: Lima
 
-* Link:[Click para ver la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c320_upc_edu_pe/EfD9tmVBWAxNsYdglvDr2G8BMGfs0Tn2AJw1Kz6vJ-s7VA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=rGbIAp)
+* Link: [Click para ver la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201c320_upc_edu_pe/EfD9tmVBWAxNsYdglvDr2G8BMGfs0Tn2AJw1Kz6vJ-s7VA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=rGbIAp)
 
 * Momento en el que inicia: 0:00
 * Duracion: 7:34
@@ -552,6 +608,72 @@ Resumen:
 El entrevistado, Santiago García, de 23 años ha sido emprendedor por un año con su local que fue abierto gracias a un préstamo. En esta entrevista nos cuenta que su local ha ido bien, ya que la forma de promocionarse dieron frutos. Sin embargo, recalca que no han sido sus mejores experiencias y estaría de acuerdo con una plataforma que le ayude a promocionarse y sea fácil de usar. Además de brindarle estrategias para que pueda promocionarse mejor.
 
 ### <span id="223-análisis-de-entrevistas">2.2.3. Análisis de entrevistas.</span>
+
+#### **Analisis de la entrevista de Dennis Castañeda Vilcapoma**
+##### Cuando piensas en viajar a Perú, ¿qué tipo de experiencias estás buscando y por qué?
+
+- Le gusta conocer nuevas culturas y tradiciones.
+
+##### ¿Cómo decides qué actividades o destinos visitar? ¿Qué factores influyen más en tu decisión?
+
+- Le gusta visitar lugares turísticos y conocer la historia de cada lugar, ademas de que le gusta caminar largas distancias y tener aventuras.
+
+##### ¿Qué desafíos o dificultades has enfrentado al intentar reservar experiencias turísticas auténticas en Perú?
+
+- Depende del presuspuesto que la persoa desea gastar, algunos buscan una sola agencia que les ofrezca todo lo que necesitan, pero suelen acabarse los cupo o las fechas no son buenas.
+
+##### ¿Qué características consideras esenciales en una plataforma en línea para la reserva de actividades turísticas?
+
+- Deben facilitar la busqueda de lugares turisticos, tener una buena interfaz y que sea facil de usar, ademas de que tenga una buena reputacion.
+
+##### ¿Cómo valoras la importancia de interactuar con la cultura local y las comunidades cuando viajas?
+
+- Cree que la experiencia que cada persona se lleva, porque a los locales le gusta el respeto a ellos y su cultura
+
+##### ¿Qué tan importante es para ti que tu visita tenga un impacto positivo en la comunidad local?
+
+- Cree que la comunidad local se siente agradecida con los turistas que visitan su lugar, ya que les ayuda a crecer economicamente.
+
+##### ¿Qué tipo de información buscas antes de reservar una experiencia turística y cómo prefieres recibirla?
+
+- Se suele guirar por recomendaciones de amigos o familiares, y si no busca en internet y lee comentarios de otras personas que ya han visitado el lugar.
+
+##### ¿Tienes alguna preferencia o expectativa específica respecto a la autenticidad y la sostenibilidad de las actividades turísticas que eliges?
+
+- Considera que en su preferencia seria el lugar el ambiente, lugares alejados de la ciudad, en las cordilleras o nevados.
+
+#### **Analisis de la entrevista de Dennis Castañeda Vilcapoma**
+##### Cuando piensas en viajar a Perú, ¿qué tipo de experiencias estás buscando y por qué?
+
+- Le gusta conocer nuevas culturas y tradiciones.
+
+##### ¿Cómo decides qué actividades o destinos visitar? ¿Qué factores influyen más en tu decisión?
+
+- Le gusta visitar lugares turísticos y conocer la historia de cada lugar, ademas de que le gusta caminar largas distancias y tener aventuras.
+
+##### ¿Qué desafíos o dificultades has enfrentado al intentar reservar experiencias turísticas auténticas en Perú?
+
+- Depende del presuspuesto que la persoa desea gastar, algunos buscan una sola agencia que les ofrezca todo lo que necesitan, pero suelen acabarse los cupo o las fechas no son buenas.
+
+##### ¿Qué características consideras esenciales en una plataforma en línea para la reserva de actividades turísticas?
+
+- Deben facilitar la busqueda de lugares turisticos, tener una buena interfaz y que sea facil de usar, ademas de que tenga una buena reputacion.
+
+##### ¿Cómo valoras la importancia de interactuar con la cultura local y las comunidades cuando viajas?
+
+- Cree que la experiencia que cada persona se lleva, porque a los locales le gusta el respeto a ellos y su cultura
+
+##### ¿Qué tan importante es para ti que tu visita tenga un impacto positivo en la comunidad local?
+
+- Cree que la comunidad local se siente agradecida con los turistas que visitan su lugar, ya que les ayuda a crecer economicamente.
+
+##### ¿Qué tipo de información buscas antes de reservar una experiencia turística y cómo prefieres recibirla?
+
+- Se suele guirar por recomendaciones de amigos o familiares, y si no busca en internet y lee comentarios de otras personas que ya han visitado el lugar.
+
+##### ¿Tienes alguna preferencia o expectativa específica respecto a la autenticidad y la sostenibilidad de las actividades turísticas que eliges?
+
+- Considera que en su preferencia seria el lugar el ambiente, lugares alejados de la ciudad, en las cordilleras o nevados.
 
 ### <span id="23-needfinding">2.3. Needfinding.</span>
 
@@ -1452,259 +1574,6 @@ Entonces podrá visualizar una de nuestras redes sociales
   </tr>
 </table>
 
-### <span id="33-impact-mapping">3.3. Impact Mapping.</span>
-
-![to_be](./resources-img/impactmap.jpg)
-
-### <span id="34-product-backlog">3.4. Product Backlog.</span>
-
-<table>
-  <tr>
-    <th># Orden</th>
-    <th>User Story Id</th>
-    <th>Titulo</th>
-    <th>Descripción</th> 
-    <th>Story points (1/2/3/5/8)</th>
-    <th>Priority</th>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>US01</td>
-    <td>úsqueda y Reserva de Talleres</td>
-    <td>Como turista, quiero poder buscar talleres de arte y cocina tradicional en Perú para poder reservar actividades auténticas ofrecidas por comunidades locales.</td>
-    <td>5</td>
-    <td>Alta</td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>US02</td>
-    <td>Promoción de Talleres</td>
-    <td>Como dueño de un local, quiero poder promocionar mi taller en la aplicación para atraer turistas interesados en experiencias auténticas.</td>
-    <td>3</td>
-    <td>Alta</td>
-  </tr>
-  <tr>
-    <td>3</td>
-    <td>US03</td>
-    <td>Gestión de Reservas para Talleres</td>
-    <td>Como dueño de un local en Perú, quiero poder gestionar las reservas realizadas en mi taller de arte o cocina tradicional a través de la aplicación.</td>
-    <td>1</td>
-    <td>Media</td>
-  </tr>
-  <tr>
-  <td>4</td>
-    <td>US04</td>
-    <td>Recomendaciones Personalizadas de Talleres</td>
-    <td>Como turista, quiero recibir recomendaciones personalizadas sobre talleres basadas en mis preferencias y ubicación.</td>
-    <td>3</td>
-    <td>Media</td>
-  </tr>
-  <tr>
-  <td>5</td>
-    <td>US05</td>
-    <td>Evaluación de Reseñas y Calificaciones para Talleres</td>
-    <td>Como turista, quiero poder ver reseñas y calificaciones de otros usuarios sobre los talleres para tomar decisiones informadas.</td>
-    <td>1</td>
-    <td>Media</td>
-  </tr>
-  <tr>
-  <td>6</td>
-    <td>US06</td>
-    <td>Análisis de Popularidad y Estadísticas para Talleres</td>
-    <td>Como dueño de un local, quiero poder acceder a estadísticas y análisis sobre la popularidad de mi taller en la aplicación.</td>
-    <td>3</td>
-    <td>Baja</td>
-  </tr>
-  <tr>
-  <td>7</td>
-    <td>US07</td>
-    <td>Pago Seguro y Conveniente para Reservas de Talleres</td>
-    <td>Como turista, quiero poder pagar de forma segura y conveniente por las reservas de talleres en Perú a través de la aplicación.</td>
-    <td>3</td>
-    <td>Alta</td>
-  </tr>
-  <tr>
-  <td>8</td>
-    <td>US08</td>
-    <td>Recepción Segura de Pagos por Reservas en Talleres</td>
-    <td>Como dueño de un local, quiero poder recibir pagos de forma segura por las reservas realizadas en mi taller para no tener dudas.</td>
-    <td>3</td>
-    <td>Media</td>
-  </tr>
-  <tr>
-  <td>9</td>
-    <td>US09</td>
-    <td>Compartir Experiencias en Talleres de Arte</td>
-    <td>Como turista, quiero poder compartir mis experiencias en los talleres de arte a través de la aplicación para inspirar a otros viajeros.</td>
-    <td>1</td>
-    <td>Media</td>
-  </tr>
-  <tr>
-  <td>10</td>
-    <td>US10</td>
-    <td>Recepción de Comentarios y Calificaciones</td>
-    <td>Como dueño de un local, quiero poder recibir comentarios y calificaciones de los turistas que han participado en mi taller para tener un feedback.</td>
-    <td>3</td>
-    <td>Media</td>
-  </tr>
-  <tr>
-  <td>11</td>
-    <td>US11</td>
-    <td>Información de Comunidades Locales para Talleres</td>
-    <td>Como turista, quiero poder acceder a información detallada sobre las comunidades locales que ofrecen talleres.</td>
-    <td>2</td>
-    <td>Baja</td>
-  </tr>
-  <tr>
-  <td>12</td>
-    <td>US12</td>
-    <td>Destacar la Contribución de la Comunidad</td>
-    <td>Como dueño de un local, quiero poder destacar la contribución de mi comunidad al turismo sostenible en la aplicación para atraer turistas.</td>
-    <td>2</td>
-    <td>Baja</td>
-  </tr>
-  <tr>
-  <td>13</td>
-    <td>US13</td>
-    <td>Mapa Interactivo</td>
-    <td>Como turista, quiero poder acceder a un mapa interactivo en la aplicación que muestre la ubicación de los talleres para planificar mi itinerario de viaje.</td>
-    <td>3</td>
-    <td>Alta</td>
-  </tr>
-  <tr>
-  <td>14</td>
-    <td>US14</td>
-    <td>Disponibilidad para Actualizar Horarios del Taller</td>
-    <td>Como dueño de un local, quiero poder actualizar la disponibilidad de mi taller en la aplicación para reflejar cambios en horarios.</td>
-    <td>3</td>
-    <td>Alta</td>
-  </tr>
-  <tr>
-  <td>15</td>
-    <td>US15</td>
-    <td>Notificaciones de Ofertas Especiales y Eventos en Talleres</td>
-    <td>Como turista, quiero poder recibir notificaciones sobre ofertas especiales y eventos en los talleres a través de la aplicación para estar informado sobre promociones.</td>
-    <td>3</td>
-    <td>Media</td>
-  </tr>
-  <tr>
-  <td>16</td>
-    <td>US16</td>
-    <td>Creación y Gestión de Ofertas Especiales y Eventos</td>
-    <td>Como dueño de un local, quiero poder crear y gestionar ofertas especiales y eventos en mi taller para atraer turistas.</td>
-    <td>3</td>
-    <td>Media</td>
-  </tr>
-  <tr>
-  <td>17</td>
-    <td>US17</td>
-    <td>Acceso a Información para Llegar a los Talleres</td>
-    <td>Como turista, quiero poder acceder a información práctica sobre cómo llegar a los talleres para estar presente en el tiempo indicado.</td>
-    <td>2</td>
-    <td>Media</td>
-  </tr>
-  <tr>
-  <td>18</td>
-    <td>US18</td>
-    <td>Notificaciones automáticas para consultas de taller</td>
-    <td>Como dueño de un local, quiero poder recibir notificaciones sobre consultas de los turistas interesados en participar en mi taller para informar a posibles clientes.</td>
-    <td>2</td>
-    <td>Media</td>
-  </tr>
-  <tr>
-  <td>19</td>
-    <td>US19</td>
-    <td>Agregar contenido multimedia</td>
-    <td>Como turista, quiero poder acceder a contenido multimedia en la aplicación, como fotos y videos, que muestren las experiencias ofrecidas en los talleres para tener una mejor vista sobre el taller.</td>
-    <td>2</td>
-    <td>Baja</td>
-  </tr>
-  <tr>
-  <td>20</td>
-    <td>US20</td>
-    <td>Compartir información del taller</td>
-    <td>Como dueño de un local, quiero poder compartir contenido multimedia, como fotos y videos, que muestren las experiencias en mi taller para atraer turistas.</td>
-    <td>1</td>
-    <td>Baja</td>
-  </tr>
-  <tr>
-  <td>21</td>
-    <td>US21</td>
-    <td>Información de medidas de seguridad en talleres</td>
-    <td>Como turista, quiero poder acceder a información sobre medidas de seguridad implementados en los talleres en el Perú a través de la aplicación para cumplir con las reglas sanitarias.</td>
-    <td>3</td>
-    <td>Media</td>
-  </tr>
-  <tr>
-  <td>22</td>
-    <td>US22</td>
-    <td>Inclusión de medidas de seguridad en talleres</td>
-    <td>Como dueño de un local, quiero poder informar sobre medidas de seguridad y protocolos sanitarios implementados en mi taller para generar confianza en los turistas.</td>
-    <td>3</td>
-    <td>Media</td>
-  </tr>
-  <tr>
-  <td>23</td>
-    <td>US23</td>
-    <td>Apartado de servicio al cliente</td>
-    <td>Como turista, quiero poder acceder a un servicio de atención al cliente en la aplicación para recibir asistencia y soporte.</td>
-    <td>2</td>
-    <td>Alta</td>
-  </tr>
-  <tr>
-  <td>24</td>
-    <td>US24</td>
-    <td>Apoyo sobre dudas </td>
-    <td>Como dueño de un local, quiero poder acceder a un servicio de atención al cliente en la aplicación para recibir asistencia y soporte en la gestión de mi taller.</td>
-    <td>2</td>
-    <td>Alta</td>
-  </tr>
-  <tr>
-  <td>25</td>
-    <td>US25</td>
-    <td>Alojamientos cercanos al taller</td>
-    <td>Como turista, quiero poder acceder a información sobre opciones de alojamiento cercanas a los talleres para facilitar la planificación de mi viaje.</td>
-    <td>3</td>
-    <td>Media</td>
-  </tr>
-  <td>26</td>
-    <td>US26</td>
-    <td>Apartado de Servicios</td>
-    <td>Como turista, quiero tener acceso a un apartado de Servicios para poder saber que ofrece el aplicativo junto a una pequeña descripción.</td>
-    <td>3</td>
-    <td>Media</td>
-  </tr>
-  </tr>
-    <td>27</td>
-    <td>US27</td>
-    <td>Apartado de About the Team</td>
-    <td>Como turista, quiero acceder a una sección de "Acerca de nosotros" para conocer a los creadores del aplicativo junto a una foto de ellos.</td>
-    <td>3</td>
-    <td>Media</td>
-  </tr>
-    <td>28</td>
-    <td>US28</td>
-    <td>Apartado de Inicio</td>
-    <td>Como usuario, quiero poder visualizar una pantalla de inicio agradable a la vista y fácil de interactuar para que gane mi interés de usarla.</td>
-    <td>3</td>
-    <td>Media</td>
-  </tr>
-    <td>29</td>
-    <td>US29</td>
-    <td>Apartado de About Us</td>
-    <td>Como turista, quiero saber sobre qué trata el aplicativo de una mejor forma por medio de una descripción corta y concisa para saber si puede serme de utilidad.</td>
-    <td>3</td>
-    <td>Media</td>
-  </tr>
-    </tr>
-    <td>30</td>
-    <td>US30</td>
-    <td>Redes Sociales</td>
-    <td>Como usuario, quiero saber si el aplicativo cuenta con algún botón que me lleve a alguna red social para tener una mejor interacción con el equipo que hizo el aplicativo.</td>
-    <td>3</td>
-    <td>Media</td>
-  </tr>
-</table>
 
 # <span id="capítulo-iv-product-design" style="color:red"> Capítulo IV: Product Design</span>
 
@@ -2521,6 +2390,25 @@ Para mantener un código limpio y fácil de leer, se establecieron las siguiente
 
 ### <span id="514-software-deployment-configuration">5.1.4. Software Deployment Configuration.</span>
 
+####_GitHub Pages_
+
+- Para desplegar la landing page, se utilizó GitHub Pages, un servicio de alojamiento web gratuito que permite publicar sitios web directamente desde un repositorio de GitHub. Para ello, se siguió los siguientes pasos:
+
+1. Ingresar al repositorio de la landing page en GitHub.
+2. Ir a la pestaña "Settings".
+3. Desplazarse hacia abajo hasta la sección "GitHub Pages".
+4. En la opción "Source", seleccionar la rama "dev" del repositorio.
+5. Hacer clic en "Save".
+
+<img src="https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Landing-page/assets/133163553/c93af710-ccd3-4c3a-ab4d-1f62d350c89e" />
+
+<img src="https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Reporte-Per-Ventura/assets/133163553/f6bdb920-24fb-4cf6-b12c-f60b5ca7c05a" />
+
+<img src="https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Landing-page/assets/133163553/1d574286-8eba-4360-b77e-b7c80307e7eb" />
+
+<img src="https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Landing-page/assets/133163553/ce3ef079-3695-488e-9ad8-2650f6aa1899" />
+
+
 ## <span id="52-landing-page-services--applications-implementation">5.2. Landing Page, Services & Applications Implementation.</span>
 
 ### <span id="521-sprint-1">5.2.1. Sprint 1</span>
@@ -2683,6 +2571,86 @@ link: https://trello.com/invite/b/AEWJNjeU/ATTI790e2fb751a1c4d5f5d2495f57b9fe9dF
 
 ### <span id="5213-development-evidence-for-sprint-review">5.2.1.3. Development Evidence for Sprint Review.</span>
 
+<table>
+    <tr>
+        <td>Repository</td>
+        <td>Branch</td>
+        <td>Commit Id</td>
+        <td>Commit Message</td>
+        <td>Commit Message Body</td>
+        <td>Commited on (Date)</td>
+    </tr>
+    <tr>
+        <td>Landing-page</td>
+        <td>About Us</td>
+        <td>30c0a96</td>
+        <td>
+
+git commit feature: Añadido About Us</td>
+        <td>Se agregó el apartado de About us al código de la landing page, así como
+añadir los estilos del apartado junto a sus imágenes.</td>
+        <td>13/04/2024</td>
+    </tr>
+    <tr>
+        <td>Landing-page</td>
+        <td>About Us</td>
+        <td>0c0d0c0</td>
+        <td>
+git commit fix: Orden del código</td>
+        <td>Se corrigió el problema de orden en la etiqueta body con la de main que
+estaban separadas. Ahora main está dentro de body.</td>
+        <td>13/04/2024</td>
+    </tr>
+    <tr>
+        <td>Landing-page</td>
+        <td>AboutTheTeam</td>
+        <td>c49501a</td>
+        <td>
+git commit feature: Añadido About the Team</td>
+        <td>Se añadió el apartado About the Team a la landing Page, así como los
+estilos para esta sección junto a las imágenes de los integrantes del
+equipo</td>
+        <td>13/03/2024</td>
+    </tr>
+        <tr>
+        <td>Landing-page</td>
+        <td>Servicios</td>
+        <td>adfe849</td>
+        <td>
+feat: servicios creado</td>
+        <td></td>
+        <td>14/03/2024</td>
+    </tr>
+        <tr>
+        <td>Landing-page</td>
+        <td>home</td>
+        <td>1d96ac9</td>
+        <td>
+Create home</td>
+        <td></td>
+        <td>13/03/2024</td>
+    </tr>
+    <tr>
+        <td>Landing-page</td>
+        <td>feature/contact</td>
+        <td>fc06086</td>
+        <td>
+docs: Se añadio contacts y meta tags</td>
+        <td></td>
+        <td>13/03/2024</td>
+    </tr>
+    <tr>
+        <td>Landing-page</td>
+        <td>dev</td>
+        <td>1b03344</td>
+        <td>
+Create footer and update</td>
+        <td></td>
+        <td>14/03/2024</td>
+    </tr>
+</table>
+
+
 ### <span id="5214-testing-suite-evidence-for-sprint-review">5.2.1.4. Testing Suite Evidence for Sprint Review.</span>
 
 En este Sprint, no nos hemos centrado en el desarrollo de pruebas automatizadas para nuestros Servicios Web. Esta sección está reservada para presentar los resultados de nuestras pruebas Unitarias, de Integración y de Aceptación automatizadas, las cuales no se llevaron a cabo en esta iteración.
@@ -2772,3 +2740,12 @@ Endpoints y métodos asociados:
 </ol>
 
 ### <span id="5218-team-collaboration-insights-during-sprint">5.2.1.8. Team Collaboration Insights during Sprint.</span>
+![i](./resources-img/Insights.png)
+
+![c](./resources-img/insightLanding.png)
+### Anexos
+
+![expo](./resources-img/Expo.png)
+
+Video de exposición TB1: 
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202219186_upc_edu_pe/EcH1FgMLDa5IhZMRg7EqStUBEhHkT5so_3R8TNd7mvCZag?e=Pul43K&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7fX0%3D 
