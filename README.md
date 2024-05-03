@@ -3317,7 +3317,7 @@ link de landing page desplegado: <https://landing-peruventura.web.app/#works>
 
 ![img.png](resources-img/imglanding.png)
 
-Link para primera versión frontned desplegado: <https://peru-ventura-app.web.app/log-in>
+Link para primera versión frontned desplegado: <https://peru-ventura-app.web.app/>
 
 ![img.png](resources-img/home-web.png)
 
