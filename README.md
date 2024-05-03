@@ -2897,7 +2897,7 @@ link: https://trello.com/invite/b/AEWJNjeU/ATTI790e2fb751a1c4d5f5d2495f57b9fe9dF
         <td>Se creará una vista para la reserva y se añadirán filtros a la búsqueda</td>
         <td>4</td>
         <td>Paolo</td>
-        <td>In Process</td>
+        <td>To review</td>
     </tr>
     <tr align="center">
         <td>US-5</td>
@@ -2927,7 +2927,7 @@ link: https://trello.com/invite/b/AEWJNjeU/ATTI790e2fb751a1c4d5f5d2495f57b9fe9dF
         <td>Creación de una vista para ver las comunidades de cierto local</td>
         <td>2</td>
         <td>Lyn</td>
-        <td>Done</td>
+        <td>In Process</td>
     </tr>
     <tr align="center">
         <td>US-16</td>
@@ -2947,10 +2947,81 @@ link: https://trello.com/invite/b/AEWJNjeU/ATTI790e2fb751a1c4d5f5d2495f57b9fe9dF
         <td>Crear una opción para guiar al usuario para llegar al taller</td>
         <td>3</td>
         <td>Lyn</td>
-        <td>Done</td>
+        <td>In Process</td>
 </table>
 
 ### <span id="5223-development-evidence-for-sprint-review">5.2.2.3. Development Evidence for Sprint Review.</span>
+<table>
+    <tr>
+        <td>Repository</td>
+        <td>Branch</td>
+        <td>Commit Id</td>
+        <td>Commit Message</td>
+        <td>Commit Message Body</td>
+        <td>Commited on (Date)</td>
+    </tr>
+    <tr>
+        <td>FRONT_END</td>
+        <td>master</td>
+        <td>128dfdfc19cc0197a34e9dc675bd45357ffbd222</td>
+        <td>git commit feat: first commit</td>
+    <td>La primera versión del front end para que todos puedan implementar sus HU</td>
+    <td>03/05/2024<</td>
+    </tr>
+    <tr>
+    <td>FRONT_END</td>
+    <td>master</td>
+    <td>15a88c869f611c3707724faf9d183c8180eb8917</td>
+    <td>git commit feat: change page</td>
+    <td>Se  fusiona la rama</td>
+    <td>03/05/2024<</td>
+    </tr>
+    <tr>
+    <td>FRONT_END</td>
+    <td>master</td>
+    <td>4971362adc7bbcf5b18eac1a99316537f23faf2f</td>
+    <td>git commit feat: Vistas</td>
+    <td>Se creo vistas</td>
+    <td>03/05/2024<</td>
+    </tr>
+    <tr>
+    <td>FRONT_END</td>
+    <td>master</td>
+    <td>84ce81815c98f324e97b3d35b3115c764f9e8238</td>
+    <td>Change: 84ce81815c98f324e97b3d35b3115c764f9e8238</td>
+    <td>Se realizo las vista de perfil de usuario</td>
+    <td>03/05/2024<</td>
+    </tr>
+    </tr>
+    <tr>
+    <td>FRONT_END</td>
+    <td>master</td>
+    <td>23c9ad016a09a649c20eb14f4c45e48fa6e73e2b</td>
+    <td>Feat: Create view log-in and register</td>
+    <td>Se creo las vistas de login y register </td>
+    <td>03/05/2024<</td>
+    </tr>
+    </tr>
+    <tr>
+    <td>FRONT_END</td>
+    <td>master</td>
+    <td>aac6b7fa43d909bbc61c582a818cb2eb71c7e46a</td>
+    <td>commit feat:añadí destino y la info del destino </td>
+    <td>se añadio un destino y info de destino</td>
+    <td>03/05/2024</td>
+    </tr>
+    </tr>
+    <tr>
+    <td>FRONT_END</td>
+    <td>master</td>
+    <td>12ca6f45eef701078f22dfc09822106939fcc3ef</td>
+    <td>
+    Feat: create api fake</td>
+    <td>Se crea el api fake y se crea las vistas de actividades </td>
+    <td>03/05/2024</td>
+    </tr>
+    </tr>
+</table>
 
 ### 5.2.2.4.Testing Suite Evidence for Sprint Review.
 
@@ -3158,6 +3229,14 @@ Feature: Access to Workshop Directions
 ### 5.2.2.5.Execution Evidence for Sprint Review.
 Para el presente sprint, se desplego la primer versión de la web application completamente funcional, cumpliendo los user stories correspondientes.
 
+![img.png](resources-img/home-web.png)
+![img.png](resources-img/Home-turist.png)
+![img.png](resources-img/destinies.png)
+![img.png](resources-img/activities.png)
+![img.png](resources-img/promociones.png)
+![img.png](resources-img/perfil-web.png)
+![img.png](contact-web.png)
+
 ### 5.2.2.6.Services Documentation Evidence for Sprint Review.
 Para el Sprint 2 se planifico abarcar las mejoras de la landing page y la creación del front-end. Para presetar las primeras vistas de nuestro proyecto.
 Ademas de utilizar un fake api para la actividades.
@@ -3197,28 +3276,41 @@ Ademas de utilizar un fake api para la actividades.
 	</table>
 
 ### 5.2.2.7.Software Deployment Evidence for Sprint Review.
+### Se hace correr el siguiente comando para crear la carpta dist de donde se desplegara nuestro aplicativo: 
+
+![alt text](./resources-img/ComadoDist.png)
+
+### Se instala las herramientas necesarias para firebase así como logearnos con nuestro correo:
+
+![alt text](./resources-img/toolsFirebase.png)
+
+### Se hace correr el siguiente comando para ir directo al hosting:
+
+![alt text](./resources-img/hosting1.png)
+
+![alt text](./resources-img/hosting2.png)
 
 ![img.png](resources-img/img.png)
 
-Este comando compila todo el vue js en lenguaje javascript. Una ves instalada 
-podemos isntalar firebase.
+
+### Seguido se creara un proyecto con el nombre del producto en la pagina de firebase. donde configuramos y  realizamos el despliegue.
 
 ![img_1.png](resources-img/img_1.png)
 
-Seguido se creara un proyecto con el nombre del producto en la pagina de firebase.
-donde configuramos y  realizamos el despliegue.
 
-![img.png](resources-img/imglanding.png)
+### Por ultimo se haría el último comando para deployar la primera versión del frontend:
+
+![alt text](./resources-img/deploy.png)
+
 
 link de landing page desplegado: <https://landing-peruventura.web.app/#works>
 
+![img.png](resources-img/imglanding.png)
+
+Link para primera versión frontned desplegado: <https://peru-ventura-app.web.app/log-in>
+
 ![img.png](resources-img/home-web.png)
-![img.png](resources-img/Home-turist.png)
-![img.png](resources-img/destinies.png)
-![img.png](resources-img/activities.png)
-![img.png](resources-img/promociones.png)
-![img.png](resources-img/perfil-web.png)
-![img.png](contact-web.png)
+
 ### 5.2.2.8.Team Collaboration Insights during Sprint. 
 ![img.png](resources-img/Colaboration-graf.png)
 ![img.png](resources-img/sprint2-img.png)
