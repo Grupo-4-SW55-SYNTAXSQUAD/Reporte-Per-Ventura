@@ -3245,7 +3245,7 @@ Para el presente sprint, se desplego la primer versión de la web application co
 ![img.png](resources-img/activities.png)
 ![img.png](resources-img/promociones.png)
 ![img.png](resources-img/perfil-web.png)
-![img.png](resources-img/rescontact-web.png)
+![img.png](resources-img/contact-web.png)
 
 ### 5.2.2.6.Services Documentation Evidence for Sprint Review.
 Para el Sprint 2 se planifico abarcar las mejoras de la landing page y la creación del front-end. Para presetar las primeras vistas de nuestro proyecto.
