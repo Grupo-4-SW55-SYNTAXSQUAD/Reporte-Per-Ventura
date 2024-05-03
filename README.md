@@ -90,6 +90,9 @@
 
 ![p](./resources-img/contri2.png)
 
+![img.png](resources-img/comit-spritn2.png)
+![img.png](resources-img/team-colaboration.png)
+
 Imforme: <https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Reporte-Per-Ventura>
 
 Landing Page: <https://grupo-4-sw55-syntaxsquad.github.io/Landing-page/>
@@ -263,14 +266,21 @@ Landing Page: <https://grupo-4-sw55-syntaxsquad.github.io/Landing-page/>
             <em>TB1</em><br>
             <em>Se implemento los antecedentes y problematcias, para identificar nuestra propuesta. Creando los Style Guidelines para la implementacion y desarrollo de nuestro aplicativo y       
             landing page.<br><br>
+            <em>TP</em><br>
+            <em>Se implemento la vista de log-in y register en el desarrollo del front end</em> <br><br>
             Paolo Gonzalo Párraga Gamarra<br>
             <em>TB1</em><br>
             <em>Se reliazó el capítulo 3, así comolos diagramas <br>de clases y de base de datos y el <br>sprint planning 1 y sprint backlog<br><br>
+            <em>TP</em><br>
+            <em>Se implemento la vista de perfil del turista y contacto de manera correcta</em>
+            <br><br>
             David Bryan Rodriguez Santos <br>
-            <em>TB1</em>
+            <em>TB1</em><br>
             <em>Se realizó la segunda mitad del capítulo 2 entre estos fueron: User Persona, As-Is Scenario Mapping, etc. El diseño de componentes tambien fue realizado. <br>de clases y de base de datos y el <br>sprint planning 1 y sprint backlog<br><br>
+          <em>TP</em><br>
+          <em>Se implemento la vista de contacto y home del web correctamente</em><br><br>
           Fabricio Gabriel Iparraguirre Quintero<br>
-          <em> TB1</em>
+          <em> TB1</em> <br>
           <ul>
           <li>Analisis Competitivo</li>
           <li>Estrategias y tácticas frente a competidores.</li>
@@ -285,6 +295,8 @@ Landing Page: <https://grupo-4-sw55-syntaxsquad.github.io/Landing-page/>
             Felix Orlando Becerra Tito <br>
             <em>TB1</em>
             <em>Se realizó los elementos del primer capítulo, ya sea lean ux assumptions o canvas. Así mismo, se realizaron los puntos del apartado 4.2 <br><br>
+            <em>TP</em><br>
+            <em>Se desarrollo las vistas de destinos correctamento como el desarrollo del aprint 2</em><br>
         </td>
         <td>
         En conclusión, los elementos usados para la realización del tb1 fueron importantes como los sprint ayudaron a la eficacia del grupo.
@@ -301,9 +313,13 @@ Landing Page: <https://grupo-4-sw55-syntaxsquad.github.io/Landing-page/>
             <em>TB1</em><br>
             <em>Se implemento los antecedentes y problematcias, para identificar nuestra propuesta. Creando los Style Guidelines para la implementacion y desarrollo de nuestro aplicativo y       
             landing page.<br><br>
+            <em>TP2</em><br>
+            <em>Se implemento las vistas de register y login. Ademas de impletar la parte de spritn 2.</em>
             Paolo Gonzalo Párraga Gamarra<br>
             <em>TB1</em><br>
             <em>Se reliazó el capítulo 3, así comolos diagramas <br>de clases y de base de datos y el <br>sprint planning 1 y sprint backlog<br><br>
+            <em>TP</em><br>
+            <em>Se realizo las vistas de perfil profile y promociones . ademas, se desarrollo el spritn 2 con para una desarrollo perfecto. </em>
             David Bryan Rodriguez Santos <br>
             <em>TB1</em>
             <em>Se realizó la segunda mitad del capítulo 2 entre estos fueron: User Persona, As-Is Scenario Mapping, etc. El diseño de componentes tambien fue realizado. <br>de clases y de base de datos y el <br>sprint planning 1 y sprint backlog<br><br>
@@ -319,10 +335,16 @@ Landing Page: <https://grupo-4-sw55-syntaxsquad.github.io/Landing-page/>
           <li>Software Development Environment Configuration</li>
           <li>Source Code Management.</li>
           <li>Source Code Style Guide & Conventions.</li>
-          </ul>
+          </ul><br>
+          <em>TP</em><br>
+          <em>Se desarrollo las vistas de actividaes e info. ademas, del desarrollo del sprint 2</em>
+          <em>TP</em><br>
+          <em>Se desarrollo las vistas de actividades y el desarrollo de Sprint 2</em>
                       Felix Orlando Becerra Tito <br>
             <em>TB1</em>
             <em>Se realizó los elementos del primer capítulo, ya sea lean ux assumptions o canvas. Así mismo, se realizaron los puntos del apartado 4.2 <br><br>
+            <em>TP</em><br>
+            <em>Se realizo las vistas de destinos y filtrado de destinos. Ademas, de la implementacion del sprint 2</em>
         </td>
         <td>En conclusión, lo realizado a lo largo del trabajo fue algo crucial para conocer del sector empresairal al que apuntabamos y así aplicar soluciones de software efectivas.</td>
     </tr>
@@ -355,6 +377,10 @@ SyntaxSquad brinda servicios que incluyen desarrollo de software personalizado, 
 #
 #
 ![Imagen 5: perfil-Fabricio](https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Reporte-Per-Ventura/assets/133163553/03729251-9b13-4c1f-8b66-dd4bca135046)
+#
+
+
+
 
 
 ### <span id="12-solution-profile">1.2. Solution Profile</span>
@@ -3186,7 +3212,16 @@ donde configuramos y  realizamos el despliegue.
 
 link de landing page desplegado: <https://landing-peruventura.web.app/#works>
 
+![img.png](resources-img/home-web.png)
+![img.png](resources-img/Home-turist.png)
+![img.png](resources-img/destinies.png)
+![img.png](resources-img/activities.png)
+![img.png](resources-img/promociones.png)
+![img.png](resources-img/perfil-web.png)
+![img.png](contact-web.png)
 ### 5.2.2.8.Team Collaboration Insights during Sprint. 
+![img.png](resources-img/Colaboration-graf.png)
+![img.png](resources-img/sprint2-img.png)
 
 ### Conclusiones
 
