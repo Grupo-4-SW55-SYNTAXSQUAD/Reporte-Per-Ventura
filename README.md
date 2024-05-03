@@ -2777,6 +2777,164 @@ Endpoints y métodos asociados:
 
 ![c](./resources-img/insightLanding.png)
 
+### <span id="521-sprint-2">5.2.1. Sprint 2</span>
+
+### <span id="5221-sprint-planning-1">5.2.2.1. Sprint Planning 2.</span>
+
+<table>
+    <tr align="center">
+        <td><strong>Sprint #</strong></td>
+        <td><strong>Sprint 2</strong></td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center"><strong>Sprint Planning Background</strong></td>
+    </tr>
+    <tr align="center">
+        <td>Date</td>
+        <td>26/04/2024</td>
+    </tr>
+    <tr align="center">
+        <td>Time</td>
+        <td>10:00 PM</td>
+    </tr>
+    <tr align="center">
+        <td>Location</td>
+        <td>Discord</td>
+    </tr>
+    <tr align="center">
+        <td>Prepared by</td>
+        <td>Paolo Gonzalo Párraga Gamarra</td>
+    </tr>
+    <tr align="center">
+        <td>Attendess (to planning meeting)</td>
+        <td>Lynn Jeeferzon Meza Camayo - U20201C320<br>
+        David Bryan Rodriguez Santos - U202212236<br>
+        Paolo Gonzalo Párraga Gamarra - U202219186<br>
+        Fabricio Gabriel Iparraguirre Quintero - U202113930<br>
+        Felix Orlando Becerra Ttito - U20211B387</td>
+    </tr>
+    <tr align="center">
+        <td>Sprint 1 Review Summary</td>
+        <td>Se completaron las user stories establecidos en el sprint anterior, mejoramos la experiencia de usuario en la landing page.</td>
+    </tr>
+    <tr align="center">
+        <td>Sprint 1 Retrospective Summary</td>
+        <td>El equipo acordó mejorar las estimaciones de tiempo y colaborar más estrechamente con el equipo. Además, de mejorar en base al feedback dado</td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center"><strong>Sprint Goal & User Stories</strong></td>
+    </tr>
+    <tr align="center">
+        <td>Sprint 1 Goal</td>
+        <td>El objetivo primordial para este sprint es implementar funcionalidades esenciales para el front-end de la aplicación, y cumplir con una primera versión del frontend</td>
+    </tr>
+    <tr align="center">
+        <td>Sprint 1 Velocity</td>
+        <td>2 semanas</td>
+    </tr>
+    <tr align="center">
+        <td>Sum of Story Point</td>
+        <td>21</td>
+    </tr>
+</table>
+
+### <span id="5212-sprint-backlog-2">5.2.1.2. Sprint Backlog 2.</span>
+
+En esta sección se mostrará el objetivo principal del sprint 2
+
+link: https://trello.com/invite/b/AEWJNjeU/ATTI790e2fb751a1c4d5f5d2495f57b9fe9dFE2326E9/sprint-backlog-peruventura
+
+<table>
+    <tr align="center">
+        <td colspan="2"><strong>Sprint #</strong></td>
+        <td colspan="6"><strong>Sprint 2</strong></td>
+    </tr>
+    <tr align="center">
+        <td colspan="2"><strong>User Story</strong></td>
+        <td colspan="6"><strong>Work-Item / Task</strong></td>
+    </tr>
+    <tr align="center">
+        <td><strong>Id</strong></td>
+        <td><strong>Title</strong></td>
+        <td><strong>Id</strong></td>
+        <td><strong>Title</strong></td>
+        <td><strong>Description</strong></td>
+        <td><strong>Estimation (Hours)</strong></td>
+        <td><strong>Assigned to</strong></td>
+        <td><strong>Status (To do / In process / To review / Done)</strong></td>
+    </tr>
+    <tr align="center">
+        <td>US-23</td>
+        <td>Apartado de servicio al cliente</td>
+        <td>W-01</td>
+        <td>Creación Soporte</td>
+        <td>Se creará un apartado donde el usuario pueda reclamar</td>
+        <td>2</td>
+        <td>Fabricio</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>US-24</td>
+        <td>Apoyo sobre dudas</td>
+        <td>W-02</td>
+        <td>Creación canales de atención</td>
+        <td>Se adicionará al W-01 un pequeño apartado para escribir un mensaje</td>
+        <td>2</td>
+        <td>Fabricio</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>US-26</td>
+        <td>Apartado de Servicios</td>
+        <td>W-03</td>
+        <td>Creación Servicios</td>
+        <td>Creación de un apartado para visualizar los Servicios</td>
+        <td>3</td>
+        <td>Bryan</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>US-27</td>
+        <td>Apartado de About the Team</td>
+        <td>W-04</td>
+        <td>Creación About the Team</td>
+        <td>Creación de un apartado para visualizar nuestras fotos</td>
+        <td>2</td>
+        <td>Paolo</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>US-28</td>
+        <td>Apartado de Inicio</td>
+        <td>W-05</td>
+        <td>Diseño</td>
+        <td>Añadir elementos visuales a la landing page</td>
+        <td>3 </td>
+        <td>Lynn </td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>US-29</td>
+        <td>Apartado de About Us</td>
+        <td>W-06</td>
+        <td>Creación About Us</td>
+        <td>Creación de un apartado visualizar el enfoque del producto</td>
+        <td>2 hour</td>
+        <td>Paolo</td>
+        <td>Done</td>
+    </tr>
+        <tr align="center">
+        <td>US-30</td>
+        <td>Redes Sociales</td>
+        <td>W-07</td>
+        <td>Creación botones de Redes Sociales</td>
+        <td>Creación de botones para ingresar a redes sociales</td>
+        <td>3</td>
+        <td>Felix</td>
+        <td>Done</td>
+    </tr>
+</table>
+
 ### Conclusiones
 
 El trabajo ayudó al equipo de trabajar de manera ordenada y conforme a los sprints brindados, así como expandir el conocimiento sobre Github.
