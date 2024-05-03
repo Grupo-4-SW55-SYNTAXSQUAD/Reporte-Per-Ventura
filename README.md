@@ -80,9 +80,16 @@
     <td>Lynn Jeeferzon Meza Camayo</td>
     <td>Modificación de startup profile, descripcion de la Startup y antecedentes y problemáticas</td>
   </tr>
+    <tr>
+    <td>version 2</td>
+    <td>03/05/2024</td>
+    <td>Lynn Jeeferzon Meza Camayo</td>
+    <td>Finalización del segundo Sprint</td>
+  </tr>
 </table>
 
 ## <span style="color:red">Project Report Collaboration Insights </span>
+TB1:
 
 ![P](./resources-img/Insights.png)
 
@@ -90,12 +97,15 @@
 
 ![p](./resources-img/contri2.png)
 
+TP:
+
 ![img.png](resources-img/comit-spritn2.png)
+
 ![img.png](resources-img/team-colaboration.png)
 
 Imforme: <https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Reporte-Per-Ventura>
 
-Landing Page: <https://grupo-4-sw55-syntaxsquad.github.io/Landing-page/>
+Landing Page: <https://landing-peruventura.web.app/#works>
 
 ## <span style="color:red">Tabla de Contenido</span>
 
@@ -3235,7 +3245,7 @@ Para el presente sprint, se desplego la primer versión de la web application co
 ![img.png](resources-img/activities.png)
 ![img.png](resources-img/promociones.png)
 ![img.png](resources-img/perfil-web.png)
-![img.png](contact-web.png)
+![img.png](resources-img/rescontact-web.png)
 
 ### 5.2.2.6.Services Documentation Evidence for Sprint Review.
 Para el Sprint 2 se planifico abarcar las mejoras de la landing page y la creación del front-end. Para presetar las primeras vistas de nuestro proyecto.
@@ -3312,7 +3322,9 @@ Link para primera versión frontned desplegado: <https://peru-ventura-app.web.ap
 ![img.png](resources-img/home-web.png)
 
 ### 5.2.2.8.Team Collaboration Insights during Sprint. 
+
 ![img.png](resources-img/Colaboration-graf.png)
+
 ![img.png](resources-img/sprint2-img.png)
 
 ### Conclusiones
