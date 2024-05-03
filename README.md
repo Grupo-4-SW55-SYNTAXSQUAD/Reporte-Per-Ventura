@@ -3056,11 +3056,135 @@ Feature: Access to Workshop Directions
     Then the application displays detailed information on how to get to the workshop, including directions
 ```
 
+#### Tabla para commits relacionados con el testing
+<table>
+    <tr>
+        <td>Repository</td>
+        <td>Branch</td>
+        <td>Commit Id</td>
+        <td>Commit Message</td>
+        <td>Commit Message Body</td>
+        <td>Commited on (Date)</td>
+    </tr>
+    <tr>
+        <td>FRONT_END</td>
+        <td>master</td>
+        <td>128dfdfc19cc0197a34e9dc675bd45357ffbd222</td>
+        <td>git commit feat: first commit</td>
+    <td>La primera versión del front end para que todos puedan implementar sus HU</td>
+    <td>03/05/2024<</td>
+    </tr>
+    <tr>
+    <td>FRONT_END</td>
+    <td>master</td>
+    <td>15a88c869f611c3707724faf9d183c8180eb8917</td>
+    <td>git commit feat: change page</td>
+    <td>Se  fusiona la rama</td>
+    <td>03/05/2024<</td>
+    </tr>
+    <tr>
+    <td>FRONT_END</td>
+    <td>master</td>
+    <td>4971362adc7bbcf5b18eac1a99316537f23faf2f</td>
+    <td>git commit feat: Vistas</td>
+    <td>Se creo vistas</td>
+    <td>03/05/2024<</td>
+    </tr>
+    <tr>
+    <td>FRONT_END</td>
+    <td>master</td>
+    <td>84ce81815c98f324e97b3d35b3115c764f9e8238</td>
+    <td>Change: 84ce81815c98f324e97b3d35b3115c764f9e8238</td>
+    <td>Se realizo las vista de perfil de usuario</td>
+    <td>03/05/2024<</td>
+    </tr>
+    </tr>
+    <tr>
+    <td>FRONT_END</td>
+    <td>master</td>
+    <td>23c9ad016a09a649c20eb14f4c45e48fa6e73e2b</td>
+    <td>Feat: Create view log-in and register</td>
+    <td>Se creo las vistas de login y register </td>
+    <td>03/05/2024<</td>
+    </tr>
+    </tr>
+    <tr>
+    <td>FRONT_END</td>
+    <td>master</td>
+    <td>aac6b7fa43d909bbc61c582a818cb2eb71c7e46a</td>
+    <td>commit feat:añadí destino y la info del destino </td>
+    <td>se añadio un destino y info de destino</td>
+    <td>03/05/2024</td>
+    </tr>
+    </tr>
+    <tr>
+    <td>FRONT_END</td>
+    <td>master</td>
+    <td>12ca6f45eef701078f22dfc09822106939fcc3ef</td>
+    <td>
+    Feat: create api fake</td>
+    <td>Se crea el api fake y se crea las vistas de actividades </td>
+    <td>03/05/2024</td>
+    </tr>
+    </tr>
+</table>
+
 ### 5.2.2.5.Execution Evidence for Sprint Review.
+Para el presente sprint, se desplego la primer versión de la web application completamente funcional, cumpliendo los user stories correspondientes.
 
 ### 5.2.2.6.Services Documentation Evidence for Sprint Review.
+Para el Sprint 2 se planifico abarcar las mejoras de la landing page y la creación del front-end. Para presetar las primeras vistas de nuestro proyecto.
+Ademas de utilizar un fake api para la actividades.
+<table>
+		<tr>
+			<td>Repository</td>
+			<td>Branch</td>
+			<td>Commit ID</td>
+			<td>Commit message</td>
+			<td>Commit message body</td>
+			<td>Commited on (Date)</td>
+		</tr>
+		<tr>
+			<td>FRONT_END</td>
+			<td>master</td>
+			<td>12ca6f45eef701078f22dfc09822106939fcc3ef</td>
+			<td>git commit feat: create fake api</td>
+			<td>Creámos el fake api</td>
+			<td>03/05/2024</td>
+		</tr>
+		<tr>
+			<td>FRONT_END</td>
+			<td>master</td>
+			<td>aac6b7fa43d909bbc61c582a818cb2eb71c7e46a</td>
+			<td>commit feat:añadí destino y la info del destino</td>
+			<td>Se agregó las vistas de destinos e info.Además se actualizo los router.</td>
+			<td>03/05/2024</td>
+		</tr>
+		<tr>
+			<td>FRONT_END</td>
+			<td>master</td>
+			<td>59d657446f1e8844ec7e7bda5119c7f597281eb1</td>
+			<td>git commit feat: Filtro</td>
+			<td>Se agregó un filtro de destinos</td>
+			<td>03/05/2024</td>
+		</tr>
+	</table>
 
 ### 5.2.2.7.Software Deployment Evidence for Sprint Review.
+
+![img.png](resources-img/img.png)
+
+Este comando compila todo el vue js en lenguaje javascript. Una ves instalada 
+podemos isntalar firebase.
+
+![img_1.png](resources-img/img_1.png)
+
+Seguido se creara un proyecto con el nombre del producto en la pagina de firebase.
+donde configuramos y  realizamos el despliegue.
+
+![img.png](resources-img/imglanding.png)
+
+link de landing page desplegado: <https://landing-peruventura.web.app/#works>
 
 ### 5.2.2.8.Team Collaboration Insights during Sprint. 
 
