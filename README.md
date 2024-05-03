@@ -2777,7 +2777,7 @@ Endpoints y métodos asociados:
 
 ![c](./resources-img/insightLanding.png)
 
-### <span id="521-sprint-2">5.2.1. Sprint 2</span>
+### <span id="522-sprint-2">5.2.2. Sprint 2</span>
 
 ### <span id="5221-sprint-planning-2">5.2.2.1. Sprint Planning 2.</span>
 
@@ -2838,7 +2838,7 @@ Endpoints y métodos asociados:
     </tr>
 </table>
 
-### <span id="5212-sprint-backlog-2">5.2.2.2. Sprint Backlog 2.</span>
+### <span id="5222-sprint-backlog-2">5.2.2.2. Sprint Backlog 2.</span>
 
 En esta sección se mostrará el objetivo principal del sprint 2
 
@@ -2923,6 +2923,146 @@ link: https://trello.com/invite/b/AEWJNjeU/ATTI790e2fb751a1c4d5f5d2495f57b9fe9dF
         <td></td>
         <td>Done</td>
 </table>
+
+### <span id="5223-development-evidence-for-sprint-review">5.2.2.3. Development Evidence for Sprint Review.</span>
+
+### 5.2.2.4.Testing Suite Evidence for Sprint Review.
+
+Unit tests:
+
+Se han diseñado y ejecutado pruebas unitarias para las siguientes clases y comportamientos.
+
+1. contact.component: Vista de comunicación de entre turista y propietario.
+2. home.component:Vista de inicio dl turista.
+3. promotion.component:Vista de todos las promocionas existentes.
+4. turist-profile.component:Vista del perfil del turista.
+5. log-in.component:Vista de inicio de sesion.
+6. register.component: Vista de registro del turista.
+
+***Integration Tests & Acceptance Tests (BDD):***
+
+Se han desarrollado archivos .feature utilizando Gherkin para las siguientes User Stories:
+
+Relacionado a US01:
+
+```
+Feature: Search and Workshop Booking
+
+As a tourist
+I want to be able to search for art and traditional cooking workshops in Peru
+So that I can book authentic activities offered by local communities
+
+Scenario 1: Search for Art Workshops in Lima
+Given the tourist wants to search for workshops
+When the user searches for "art workshops in Lima" in the application
+Then the application displays a list of art workshops available in Lima
+And the user can view details of each workshop, including description, location, schedules, and prices
+
+Scenario 2: Booking a Workshop
+Given the user has selected a workshop and is ready to book an activity
+When the user selects a date and time for the activity
+Then the application confirms the booking
+```
+
+Relacionado a US05:
+
+```
+Feature: Workshop Reviews and Ratings Evaluation
+
+  As a tourist
+  I want to be able to view reviews and ratings from other users about workshops to make informed decisions
+
+  Scenario 1: View Reviews and Ratings
+    Given the tourist wants to see opinions from other tourists
+    When the user selects a workshop in the application
+    Then the application displays reviews and ratings from other users about the workshop
+    And the user can read detailed comments about other users' experiences
+
+  Scenario 2: Leave a Review and Rating
+    Given the user has participated in a workshop
+    When the user accesses their account in the application
+    Then the user can leave a review and rating about their experience in the workshop
+    And the application displays the user's review and rating along with other reviews
+```
+Relacionado a US10:
+
+```
+Feature: Feedback Reception
+
+  As a workshop owner
+  I want to be able to receive feedback and ratings from tourists who have participated in my workshop
+  So that I can have feedback
+
+  Scenario 1: Receive Feedback
+    Given the owner wants to receive feedback
+    When the workshop owner accesses their account in the application
+    Then the workshop owner can view comments and ratings left by tourists who have participated in their workshop
+    And the workshop owner can respond to the comments
+
+  Scenario 2: Notification of Owner's Response
+    Given the workshop owner has responded to a tourist's comment
+    When the tourist accesses the application
+    Then the tourist receives a notification about the owner's response
+```
+Relacionado a US11:
+
+```
+Feature: Local Communities Information for Workshops
+
+  As a tourist
+  I want to be able to access detailed information about local communities offering workshops
+  So that I can make informed decisions
+
+  Scenario 1: View Information about Local Communities
+    Given the user wants information
+    When the user selects a local community in the application
+    Then the application displays detailed information about the community
+
+  Scenario 2: Engagement with Local Community
+    Given the user has explored information about a local community
+    When the user participates in a workshop from that community
+    Then the application provides the option to make donations or contribute to the sustainable development of the community
+```
+Relacionado a US16:
+
+```
+Feature: Special Offers and Events Creation and Management
+
+  As a workshop owner
+  I want to be able to create and manage special offers and events in my workshop
+  So that I can attract tourists
+
+  Scenario 1: Create Special Offers and Events
+    Given the owner wants to notify about offers
+    When the workshop owner accesses their account in the application
+    Then the workshop owner can create special offers and events, including description and dates
+
+  Scenario 2: Highlight Active Offers and Events
+    Given the workshop owner has created a special offer or event
+    When the special offer or event is active
+    Then the application highlights the promotion in relevant areas to attract the attention of tourists
+```
+Relacionado a US17:
+
+```
+Feature: Access to Workshop Directions
+
+  As a tourist
+  I want to be able to access practical information on how to get to workshops so I can arrive on time
+
+  Scenario 1: View Workshop Directions
+    Given a stable internet connection
+    When the user selects a workshop in the application
+    Then the application displays detailed information on how to get to the workshop, including directions
+```
+
+### 5.2.2.5.Execution Evidence for Sprint Review.
+
+### 5.2.2.6.Services Documentation Evidence for Sprint Review.
+
+### 5.2.2.7.Software Deployment Evidence for Sprint Review.
+
+### 5.2.2.8.Team Collaboration Insights during Sprint. 
 
 ### Conclusiones
 
