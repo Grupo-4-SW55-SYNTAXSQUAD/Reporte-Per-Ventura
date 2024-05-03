@@ -2900,27 +2900,27 @@ link: https://trello.com/invite/b/AEWJNjeU/ATTI790e2fb751a1c4d5f5d2495f57b9fe9dF
         <td>Ver comunidades Locales</td>
         <td>Creación de una vista para ver las comunidades de cierto local</td>
         <td>2</td>
-        <td>Paolo</td>
+        <td>Lyn</td>
         <td>Done</td>
     </tr>
     <tr align="center">
         <td>US-16</td>
         <td>Creación y Gestión de Ofertas Especiales y Eventos</td>
         <td>W-05</td>
-        <td></td>
-        <td></td>
+        <td>Ofertas</td>
+        <td>Crear una opción para la creación de ofertas y poder gestionarlas</td>
         <td>3 </td>
-        <td> </td>
+        <td>Brayan</td>
         <td>Done</td>
     </tr>
     <tr align="center">
         <td>US-17</td>
-        <td>Apartado de About Us</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>Acceso a Información para Llegar a los Talleres</td>
+        <td>W-06</td>
+        <td>Llegar talleres</td>
+        <td>Crear una opción para guiar al usuario para llegar al taller</td>
+        <td>3</td>
+        <td>Lyn</td>
         <td>Done</td>
 </table>
 
