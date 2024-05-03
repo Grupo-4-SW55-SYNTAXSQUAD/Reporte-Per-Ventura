@@ -2307,7 +2307,7 @@ Este diagrama detalla los componentes de software implicados en las operaciones 
 
 ### <span id="481-database-diagram">4.8.1. Database Diagram.</span>
 
-![alt text](./resources-img/PeruVentura-2024-04-06_22-15.png)
+![alt text](./resources-img/bd_Diagrama_Update.png)
 
 # <span id="capítulo-v-product-implementation-validation--deployment">Capítulo V: Product Implementation, Validation & Deployment</span>
 
