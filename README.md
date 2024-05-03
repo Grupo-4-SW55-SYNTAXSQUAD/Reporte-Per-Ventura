@@ -2777,6 +2777,153 @@ Endpoints y métodos asociados:
 
 ![c](./resources-img/insightLanding.png)
 
+### <span id="521-sprint-2">5.2.1. Sprint 2</span>
+
+### <span id="5221-sprint-planning-2">5.2.2.1. Sprint Planning 2.</span>
+
+<table>
+    <tr align="center">
+        <td><strong>Sprint #</strong></td>
+        <td><strong>Sprint 2</strong></td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center"><strong>Sprint Planning Background</strong></td>
+    </tr>
+    <tr align="center">
+        <td>Date</td>
+        <td>26/04/2024</td>
+    </tr>
+    <tr align="center">
+        <td>Time</td>
+        <td>10:00 PM</td>
+    </tr>
+    <tr align="center">
+        <td>Location</td>
+        <td>Discord</td>
+    </tr>
+    <tr align="center">
+        <td>Prepared by</td>
+        <td>Paolo Gonzalo Párraga Gamarra</td>
+    </tr>
+    <tr align="center">
+        <td>Attendess (to planning meeting)</td>
+        <td>Lynn Jeeferzon Meza Camayo - U20201C320<br>
+        David Bryan Rodriguez Santos - U202212236<br>
+        Paolo Gonzalo Párraga Gamarra - U202219186<br>
+        Fabricio Gabriel Iparraguirre Quintero - U202113930<br>
+        Felix Orlando Becerra Ttito - U20211B387</td>
+    </tr>
+    <tr align="center">
+        <td>Sprint 1 Review Summary</td>
+        <td>Se completaron las user stories establecidos en el sprint anterior, mejoramos la experiencia de usuario en la landing page.</td>
+    </tr>
+    <tr align="center">
+        <td>Sprint 1 Retrospective Summary</td>
+        <td>El equipo acordó mejorar las estimaciones de tiempo y colaborar más estrechamente con el equipo. Además, de mejorar en base al feedback dado</td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center"><strong>Sprint Goal & User Stories</strong></td>
+    </tr>
+    <tr align="center">
+        <td>Sprint 1 Goal</td>
+        <td>El objetivo primordial para este sprint es implementar funcionalidades esenciales para el front-end de la aplicación, y cumplir con una primera versión del frontend</td>
+    </tr>
+    <tr align="center">
+        <td>Sprint 1 Velocity</td>
+        <td>2 semanas</td>
+    </tr>
+    <tr align="center">
+        <td>Sum of Story Point</td>
+        <td>21</td>
+    </tr>
+</table>
+
+### <span id="5212-sprint-backlog-2">5.2.2.2. Sprint Backlog 2.</span>
+
+En esta sección se mostrará el objetivo principal del sprint 2
+
+link: https://trello.com/invite/b/AEWJNjeU/ATTI790e2fb751a1c4d5f5d2495f57b9fe9dFE2326E9/sprint-backlog-peruventura
+
+<table>
+    <tr align="center">
+        <td colspan="2"><strong>Sprint #</strong></td>
+        <td colspan="6"><strong>Sprint 2</strong></td>
+    </tr>
+    <tr align="center">
+        <td colspan="2"><strong>User Story</strong></td>
+        <td colspan="6"><strong>Work-Item / Task</strong></td>
+    </tr>
+    <tr align="center">
+        <td><strong>Id</strong></td>
+        <td><strong>Title</strong></td>
+        <td><strong>Id</strong></td>
+        <td><strong>Title</strong></td>
+        <td><strong>Description</strong></td>
+        <td><strong>Estimation (Hours)</strong></td>
+        <td><strong>Assigned to</strong></td>
+        <td><strong>Status (To do / In process / To review / Done)</strong></td>
+    </tr>
+    <tr align="center">
+        <td>US-1</td>
+        <td>búsqueda y Reserva de Talleres</td>
+        <td>W-01</td>
+        <td>Creación de búsqueda y reserva</td>
+        <td>Se creará una vista para la reserva y se añadirán filtros a la búsqueda</td>
+        <td>4</td>
+        <td>Paolo</td>
+        <td>In Process</td>
+    </tr>
+    <tr align="center">
+        <td>US-5</td>
+        <td>Evaluación de Reseñas y Calificaciones para Talleres</td>
+        <td>W-02</td>
+        <td>Diseñar las reseñas</td>
+        <td>Se adicionará a las cards sobre los talleres una vista a las reseñas</td>
+        <td>3</td>
+        <td>Felix</td>
+        <td>In Process</td>
+    </tr>
+    <tr align="center">
+        <td>US-10</td>
+        <td>Recepción de Comentarios y Calificaciones</td>
+        <td>W-03</td>
+        <td>Recibir feedback del usuario</td>
+        <td>Diseñar una opción para ver las reseñas del taller</td>
+        <td>3</td>
+        <td>Fabricio</td>
+        <td>In Process</td>
+    </tr>
+    <tr align="center">
+        <td>US-11</td>
+        <td>Información de Comunidades Locales para Talleres</td>
+        <td>W-04</td>
+        <td>Ver comunidades Locales</td>
+        <td>Creación de una vista para ver las comunidades de cierto local</td>
+        <td>2</td>
+        <td>Paolo</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>US-16</td>
+        <td>Creación y Gestión de Ofertas Especiales y Eventos</td>
+        <td>W-05</td>
+        <td></td>
+        <td></td>
+        <td>3 </td>
+        <td> </td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>US-17</td>
+        <td>Apartado de About Us</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Done</td>
+</table>
+
 ### Conclusiones
 
 El trabajo ayudó al equipo de trabajar de manera ordenada y conforme a los sprints brindados, así como expandir el conocimiento sobre Github.
@@ -2804,6 +2951,7 @@ La adopción de prácticas de organización, como la asignación clara de roles 
         <li>INEI. (s.f.). <em>ÍNDICE TEMÁTICO</em> https://m.inei.gob.pe/estadisticas/indice-tematico/turismo-11176/</li>
     </ul>
 </div>
+
 
 ### Anexos
 
