@@ -2917,7 +2917,7 @@ link: https://trello.com/invite/b/AEWJNjeU/ATTI790e2fb751a1c4d5f5d2495f57b9fe9dF
         <td>Se adicionará a las cards sobre los talleres una vista a las reseñas</td>
         <td>3</td>
         <td>Felix</td>
-        <td>In Process</td>
+        <td>Done</td>
     </tr>
     <tr align="center">
         <td>US-10</td>
@@ -2937,7 +2937,7 @@ link: https://trello.com/invite/b/AEWJNjeU/ATTI790e2fb751a1c4d5f5d2495f57b9fe9dF
         <td>Creación de una vista para ver las comunidades de cierto local</td>
         <td>2</td>
         <td>Lyn</td>
-        <td>In Process</td>
+        <td>Done</td>
     </tr>
     <tr align="center">
         <td>US-16</td>
