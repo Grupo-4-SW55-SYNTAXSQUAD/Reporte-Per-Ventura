@@ -2973,15 +2973,15 @@ link: https://trello.com/invite/b/AEWJNjeU/ATTI790e2fb751a1c4d5f5d2495f57b9fe9dF
     <tr>
         <td>FRONT_END</td>
         <td>master</td>
-        <td>128dfdfc19cc0197a34e9dc675bd45357ffbd222</td>
+        <td>128dfdfc19cc0197a34e9<br>dc675bd45357ffbd222</td>
         <td>git commit feat: first commit</td>
-    <td>La primera versión del front end para que todos puedan implementar sus HU</td>
+    <td>La primera versión del front <br>end para que todos puedan implementar sus HU</td>
     <td>03/05/2024<</td>
     </tr>
     <tr>
     <td>FRONT_END</td>
     <td>master</td>
-    <td>15a88c869f611c3707724faf9d183c8180eb8917</td>
+    <td>15a88c869f611c37077<br>24faf9d183c8180eb8917</td>
     <td>git commit feat: change page</td>
     <td>Se  fusiona la rama</td>
     <td>03/05/2024<</td>
@@ -2989,7 +2989,7 @@ link: https://trello.com/invite/b/AEWJNjeU/ATTI790e2fb751a1c4d5f5d2495f57b9fe9dF
     <tr>
     <td>FRONT_END</td>
     <td>master</td>
-    <td>4971362adc7bbcf5b18eac1a99316537f23faf2f</td>
+    <td>4971362adc7bbcf5b18e<br>ac1a99316537f23faf2f</td>
     <td>git commit feat: Vistas</td>
     <td>Se creo vistas</td>
     <td>03/05/2024<</td>
@@ -2997,7 +2997,7 @@ link: https://trello.com/invite/b/AEWJNjeU/ATTI790e2fb751a1c4d5f5d2495f57b9fe9dF
     <tr>
     <td>FRONT_END</td>
     <td>master</td>
-    <td>84ce81815c98f324e97b3d35b3115c764f9e8238</td>
+    <td>84ce81815c98f324e97<br>b3d35b3115c764f9e8238</td>
     <td>Change: 84ce81815c98f324e97b3d35b3115c764f9e8238</td>
     <td>Se realizo las vista de perfil de usuario</td>
     <td>03/05/2024<</td>
@@ -3006,7 +3006,7 @@ link: https://trello.com/invite/b/AEWJNjeU/ATTI790e2fb751a1c4d5f5d2495f57b9fe9dF
     <tr>
     <td>FRONT_END</td>
     <td>master</td>
-    <td>23c9ad016a09a649c20eb14f4c45e48fa6e73e2b</td>
+    <td>23c9ad016a09a649c20<br>eb14f4c45e48fa6e73e2b</td>
     <td>Feat: Create view log-in and register</td>
     <td>Se creo las vistas de login y register </td>
     <td>03/05/2024<</td>
@@ -3015,7 +3015,7 @@ link: https://trello.com/invite/b/AEWJNjeU/ATTI790e2fb751a1c4d5f5d2495f57b9fe9dF
     <tr>
     <td>FRONT_END</td>
     <td>master</td>
-    <td>aac6b7fa43d909bbc61c582a818cb2eb71c7e46a</td>
+    <td>aac6b7fa43d909bbc61<br>c582a818cb2eb71c7e46a</td>
     <td>commit feat:añadí destino y la info del destino </td>
     <td>se añadio un destino y info de destino</td>
     <td>03/05/2024</td>
@@ -3024,7 +3024,7 @@ link: https://trello.com/invite/b/AEWJNjeU/ATTI790e2fb751a1c4d5f5d2495f57b9fe9dF
     <tr>
     <td>FRONT_END</td>
     <td>master</td>
-    <td>12ca6f45eef701078f22dfc09822106939fcc3ef</td>
+    <td>12ca6f45eef701078f22<br>dfc09822106939fcc3ef</td>
     <td>
     Feat: create api fake</td>
     <td>Se crea el api fake y se crea las vistas de actividades </td>
