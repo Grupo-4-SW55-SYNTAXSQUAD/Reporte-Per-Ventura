@@ -2998,7 +2998,7 @@ link: https://trello.com/invite/b/AEWJNjeU/ATTI790e2fb751a1c4d5f5d2495f57b9fe9dF
     <td>FRONT_END</td>
     <td>master</td>
     <td>84ce81815c98f324e97<br>b3d35b3115c764f9e8238</td>
-    <td>Change: 84ce81815c98f324e97b3d35b3115c764f9e8238</td>
+    <td>Change: 84ce81815c98f324<br>e97b3d35b3115c764f9e8238</td>
     <td>Se realizo las vista de perfil de usuario</td>
     <td>03/05/2024<</td>
     </tr>
@@ -3016,7 +3016,7 @@ link: https://trello.com/invite/b/AEWJNjeU/ATTI790e2fb751a1c4d5f5d2495f57b9fe9dF
     <td>FRONT_END</td>
     <td>master</td>
     <td>aac6b7fa43d909bbc61<br>c582a818cb2eb71c7e46a</td>
-    <td>commit feat:añadí destino y la info del destino </td>
+    <td>commit feat:añadí destino y la info<br> del destino </td>
     <td>se añadio un destino y info de destino</td>
     <td>03/05/2024</td>
     </tr>
