@@ -3077,7 +3077,8 @@ Relacionado a US05:
 Feature: Workshop Reviews and Ratings Evaluation
 
   As a tourist
-  I want to be able to view reviews and ratings from other users about workshops to make informed decisions
+  I want to be able to view reviews and ratings from other users about workshops to make 
+  informed decisions
 
   Scenario 1: View Reviews and Ratings
     Given the tourist wants to see opinions from other tourists
@@ -3097,13 +3098,15 @@ Relacionado a US10:
 Feature: Feedback Reception
 
   As a workshop owner
-  I want to be able to receive feedback and ratings from tourists who have participated in my workshop
+  I want to be able to receive feedback and ratings from tourists who have participated 
+  in my workshop
   So that I can have feedback
 
   Scenario 1: Receive Feedback
     Given the owner wants to receive feedback
     When the workshop owner accesses their account in the application
-    Then the workshop owner can view comments and ratings left by tourists who have participated in their workshop
+    Then the workshop owner can view comments and ratings left by tourists who have 
+    participated in their workshop
     And the workshop owner can respond to the comments
 
   Scenario 2: Notification of Owner's Response
@@ -3117,7 +3120,8 @@ Relacionado a US11:
 Feature: Local Communities Information for Workshops
 
   As a tourist
-  I want to be able to access detailed information about local communities offering workshops
+  I want to be able to access detailed information about local communities 
+  offering workshops
   So that I can make informed decisions
 
   Scenario 1: View Information about Local Communities
@@ -3128,7 +3132,8 @@ Feature: Local Communities Information for Workshops
   Scenario 2: Engagement with Local Community
     Given the user has explored information about a local community
     When the user participates in a workshop from that community
-    Then the application provides the option to make donations or contribute to the sustainable development of the community
+    Then the application provides the option to make donations or contribute 
+    to the sustainable development of the community
 ```
 Relacionado a US16:
 
@@ -3142,12 +3147,14 @@ Feature: Special Offers and Events Creation and Management
   Scenario 1: Create Special Offers and Events
     Given the owner wants to notify about offers
     When the workshop owner accesses their account in the application
-    Then the workshop owner can create special offers and events, including description and dates
+    Then the workshop owner can create special offers and events, including 
+    description and dates
 
   Scenario 2: Highlight Active Offers and Events
     Given the workshop owner has created a special offer or event
     When the special offer or event is active
-    Then the application highlights the promotion in relevant areas to attract the attention of tourists
+    Then the application highlights the promotion in relevant areas to attract 
+    the attention of tourists
 ```
 Relacionado a US17:
 
@@ -3155,12 +3162,14 @@ Relacionado a US17:
 Feature: Access to Workshop Directions
 
   As a tourist
-  I want to be able to access practical information on how to get to workshops so I can arrive on time
+  I want to be able to access practical information on how to get to workshops 
+  so I can arrive on time
 
   Scenario 1: View Workshop Directions
     Given a stable internet connection
     When the user selects a workshop in the application
-    Then the application displays detailed information on how to get to the workshop, including directions
+    Then the application displays detailed information on how to 
+    get to the workshop, including directions
 ```
 
 #### Tabla para commits relacionados con el testing
@@ -3176,15 +3185,15 @@ Feature: Access to Workshop Directions
     <tr>
         <td>FRONT_END</td>
         <td>master</td>
-        <td>128dfdfc19cc0197a34e9dc675bd45357ffbd222</td>
+        <td>128dfdfc19cc0197a<br>34e9dc675bd45357ffbd222</td>
         <td>git commit feat: first commit</td>
-    <td>La primera versión del front end para que todos puedan implementar sus HU</td>
+    <td>La primera versión del front end para <br>que todos puedan implementar sus HU</td>
     <td>03/05/2024<</td>
     </tr>
     <tr>
     <td>FRONT_END</td>
     <td>master</td>
-    <td>15a88c869f611c3707724faf9d183c8180eb8917</td>
+    <td>15a88c869f611c3707724<br>faf9d183c8180eb8917</td>
     <td>git commit feat: change page</td>
     <td>Se  fusiona la rama</td>
     <td>03/05/2024<</td>
@@ -3192,7 +3201,7 @@ Feature: Access to Workshop Directions
     <tr>
     <td>FRONT_END</td>
     <td>master</td>
-    <td>4971362adc7bbcf5b18eac1a99316537f23faf2f</td>
+    <td>4971362adc7bbcf5b18<br>eac1a99316537f23faf2f</td>
     <td>git commit feat: Vistas</td>
     <td>Se creo vistas</td>
     <td>03/05/2024<</td>
@@ -3200,8 +3209,8 @@ Feature: Access to Workshop Directions
     <tr>
     <td>FRONT_END</td>
     <td>master</td>
-    <td>84ce81815c98f324e97b3d35b3115c764f9e8238</td>
-    <td>Change: 84ce81815c98f324e97b3d35b3115c764f9e8238</td>
+    <td>84ce81815c98f324e97b3<br>d35b3115c764f9e8238</td>
+    <td>Change: 84ce81815c98f324e9<br>7b3d35b3115c764f9e8238</td>
     <td>Se realizo las vista de perfil de usuario</td>
     <td>03/05/2024<</td>
     </tr>
@@ -3209,7 +3218,7 @@ Feature: Access to Workshop Directions
     <tr>
     <td>FRONT_END</td>
     <td>master</td>
-    <td>23c9ad016a09a649c20eb14f4c45e48fa6e73e2b</td>
+    <td>23c9ad016a09a649c20eb<br>14f4c45e48fa6e73e2b</td>
     <td>Feat: Create view log-in and register</td>
     <td>Se creo las vistas de login y register </td>
     <td>03/05/2024<</td>
@@ -3218,7 +3227,7 @@ Feature: Access to Workshop Directions
     <tr>
     <td>FRONT_END</td>
     <td>master</td>
-    <td>aac6b7fa43d909bbc61c582a818cb2eb71c7e46a</td>
+    <td>aac6b7fa43d909bbc61c5<br>82a818cb2eb71c7e46a</td>
     <td>commit feat:añadí destino y la info del destino </td>
     <td>se añadio un destino y info de destino</td>
     <td>03/05/2024</td>
@@ -3227,7 +3236,7 @@ Feature: Access to Workshop Directions
     <tr>
     <td>FRONT_END</td>
     <td>master</td>
-    <td>12ca6f45eef701078f22dfc09822106939fcc3ef</td>
+    <td>12ca6f45eef701078f22d<br>fc09822106939fcc3ef</td>
     <td>
     Feat: create api fake</td>
     <td>Se crea el api fake y se crea las vistas de actividades </td>
