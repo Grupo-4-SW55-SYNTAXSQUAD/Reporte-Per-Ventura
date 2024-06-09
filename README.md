@@ -2343,7 +2343,7 @@ Este diagrama detalla los componentes de software implicados en las operaciones 
 
 ### <span id="481-database-diagram">4.8.1. Database Diagram.</span>
 
-![alt text](./resources-img/bd_Diagrama_Update.png)
+![alt text](./resources-img/PeruVentura-Db.png)
 
 # <span id="capítulo-v-product-implementation-validation--deployment">Capítulo V: Product Implementation, Validation & Deployment</span>
 
@@ -2958,6 +2958,690 @@ link: https://trello.com/invite/b/AEWJNjeU/ATTI790e2fb751a1c4d5f5d2495f57b9fe9dF
         <td>3</td>
         <td>Lyn</td>
         <td>In Process</td>
+</table>
+
+### <span id="5223-development-evidence-for-sprint-review">5.2.2.3. Development Evidence for Sprint Review.</span>
+<table>
+    <tr>
+        <td>Repository</td>
+        <td>Branch</td>
+        <td>Commit Id</td>
+        <td>Commit Message</td>
+        <td>Commit Message Body</td>
+        <td>Commited on (Date)</td>
+    </tr>
+    <tr>
+        <td>FRONT_END</td>
+        <td>master</td>
+        <td>128dfdfc19cc0197a34e9<br>dc675bd45357ffbd222</td>
+        <td>git commit feat: first commit</td>
+    <td>La primera versión del front <br>end para que todos puedan implementar sus HU</td>
+    <td>03/05/2024<</td>
+    </tr>
+    <tr>
+    <td>FRONT_END</td>
+    <td>master</td>
+    <td>15a88c869f611c37077<br>24faf9d183c8180eb8917</td>
+    <td>git commit feat: change page</td>
+    <td>Se  fusiona la rama</td>
+    <td>03/05/2024<</td>
+    </tr>
+    <tr>
+    <td>FRONT_END</td>
+    <td>master</td>
+    <td>4971362adc7bbcf5b18e<br>ac1a99316537f23faf2f</td>
+    <td>git commit feat: Vistas</td>
+    <td>Se creo vistas</td>
+    <td>03/05/2024<</td>
+    </tr>
+    <tr>
+    <td>FRONT_END</td>
+    <td>master</td>
+    <td>84ce81815c98f324e97<br>b3d35b3115c764f9e8238</td>
+    <td>Change: 84ce81815c98f324<br>e97b3d35b3115c764f9e8238</td>
+    <td>Se realizo las vista de perfil de usuario</td>
+    <td>03/05/2024<</td>
+    </tr>
+    </tr>
+    <tr>
+    <td>FRONT_END</td>
+    <td>master</td>
+    <td>23c9ad016a09a649c20<br>eb14f4c45e48fa6e73e2b</td>
+    <td>Feat: Create view log-in and register</td>
+    <td>Se creo las vistas de login y register </td>
+    <td>03/05/2024<</td>
+    </tr>
+    </tr>
+    <tr>
+    <td>FRONT_END</td>
+    <td>master</td>
+    <td>aac6b7fa43d909bbc61<br>c582a818cb2eb71c7e46a</td>
+    <td>commit feat:añadí destino y la info<br> del destino </td>
+    <td>se añadio un destino y info de destino</td>
+    <td>03/05/2024</td>
+    </tr>
+    </tr>
+    <tr>
+    <td>FRONT_END</td>
+    <td>master</td>
+    <td>12ca6f45eef701078f22<br>dfc09822106939fcc3ef</td>
+    <td>
+    Feat: create api fake</td>
+    <td>Se crea el api fake y se crea las vistas de actividades </td>
+    <td>03/05/2024</td>
+    </tr>
+    </tr>
+</table>
+
+### 5.2.2.4.Testing Suite Evidence for Sprint Review.
+
+Unit tests:
+
+Se han diseñado y ejecutado pruebas unitarias para las siguientes clases y comportamientos.
+
+1. contact.component: Vista de comunicación de entre turista y propietario.
+2. home.component:Vista de inicio dl turista.
+3. promotion.component:Vista de todos las promocionas existentes.
+4. turist-profile.component:Vista del perfil del turista.
+5. log-in.component:Vista de inicio de sesion.
+6. register.component: Vista de registro del turista.
+
+***Integration Tests & Acceptance Tests (BDD):***
+
+Se han desarrollado archivos .feature utilizando Gherkin para las siguientes User Stories:
+
+Relacionado a US01:
+
+```
+Feature: Search and Workshop Booking
+
+As a tourist
+I want to be able to search for art and traditional cooking workshops in Peru
+So that I can book authentic activities offered by local communities
+
+Scenario 1: Search for Art Workshops in Lima
+Given the tourist wants to search for workshops
+When the user searches for "art workshops in Lima" in the application
+Then the application displays a list of art workshops available in Lima
+And the user can view details of each workshop, including description, location, schedules, and prices
+
+Scenario 2: Booking a Workshop
+Given the user has selected a workshop and is ready to book an activity
+When the user selects a date and time for the activity
+Then the application confirms the booking
+```
+
+Relacionado a US05:
+
+```
+Feature: Workshop Reviews and Ratings Evaluation
+
+  As a tourist
+  I want to be able to view reviews and ratings from other users about workshops to make 
+  informed decisions
+
+  Scenario 1: View Reviews and Ratings
+    Given the tourist wants to see opinions from other tourists
+    When the user selects a workshop in the application
+    Then the application displays reviews and ratings from other users about the workshop
+    And the user can read detailed comments about other users' experiences
+
+  Scenario 2: Leave a Review and Rating
+    Given the user has participated in a workshop
+    When the user accesses their account in the application
+    Then the user can leave a review and rating about their experience in the workshop
+    And the application displays the user's review and rating along with other reviews
+```
+Relacionado a US10:
+
+```
+Feature: Feedback Reception
+
+  As a workshop owner
+  I want to be able to receive feedback and ratings from tourists who have participated 
+  in my workshop
+  So that I can have feedback
+
+  Scenario 1: Receive Feedback
+    Given the owner wants to receive feedback
+    When the workshop owner accesses their account in the application
+    Then the workshop owner can view comments and ratings left by tourists who have 
+    participated in their workshop
+    And the workshop owner can respond to the comments
+
+  Scenario 2: Notification of Owner's Response
+    Given the workshop owner has responded to a tourist's comment
+    When the tourist accesses the application
+    Then the tourist receives a notification about the owner's response
+```
+Relacionado a US11:
+
+```
+Feature: Local Communities Information for Workshops
+
+  As a tourist
+  I want to be able to access detailed information about local communities 
+  offering workshops
+  So that I can make informed decisions
+
+  Scenario 1: View Information about Local Communities
+    Given the user wants information
+    When the user selects a local community in the application
+    Then the application displays detailed information about the community
+
+  Scenario 2: Engagement with Local Community
+    Given the user has explored information about a local community
+    When the user participates in a workshop from that community
+    Then the application provides the option to make donations or contribute 
+    to the sustainable development of the community
+```
+Relacionado a US16:
+
+```
+Feature: Special Offers and Events Creation and Management
+
+  As a workshop owner
+  I want to be able to create and manage special offers and events in my workshop
+  So that I can attract tourists
+
+  Scenario 1: Create Special Offers and Events
+    Given the owner wants to notify about offers
+    When the workshop owner accesses their account in the application
+    Then the workshop owner can create special offers and events, including 
+    description and dates
+
+  Scenario 2: Highlight Active Offers and Events
+    Given the workshop owner has created a special offer or event
+    When the special offer or event is active
+    Then the application highlights the promotion in relevant areas to attract 
+    the attention of tourists
+```
+Relacionado a US17:
+
+```
+Feature: Access to Workshop Directions
+
+  As a tourist
+  I want to be able to access practical information on how to get to workshops 
+  so I can arrive on time
+
+  Scenario 1: View Workshop Directions
+    Given a stable internet connection
+    When the user selects a workshop in the application
+    Then the application displays detailed information on how to 
+    get to the workshop, including directions
+```
+
+#### Tabla para commits relacionados con el testing
+<table>
+    <tr>
+        <td>Repository</td>
+        <td>Branch</td>
+        <td>Commit Id</td>
+        <td>Commit Message</td>
+        <td>Commit Message Body</td>
+        <td>Commited on (Date)</td>
+    </tr>
+    <tr>
+        <td>FRONT_END</td>
+        <td>master</td>
+        <td>128dfdfc19cc0197a<br>34e9dc675bd45357ffbd222</td>
+        <td>git commit feat: first commit</td>
+    <td>La primera versión del front end para <br>que todos puedan implementar sus HU</td>
+    <td>03/05/2024<</td>
+    </tr>
+    <tr>
+    <td>FRONT_END</td>
+    <td>master</td>
+    <td>15a88c869f611c3707724<br>faf9d183c8180eb8917</td>
+    <td>git commit feat: change page</td>
+    <td>Se  fusiona la rama</td>
+    <td>03/05/2024<</td>
+    </tr>
+    <tr>
+    <td>FRONT_END</td>
+    <td>master</td>
+    <td>4971362adc7bbcf5b18<br>eac1a99316537f23faf2f</td>
+    <td>git commit feat: Vistas</td>
+    <td>Se creo vistas</td>
+    <td>03/05/2024<</td>
+    </tr>
+    <tr>
+    <td>FRONT_END</td>
+    <td>master</td>
+    <td>84ce81815c98f324e97b3<br>d35b3115c764f9e8238</td>
+    <td>Change: 84ce81815c98f324e9<br>7b3d35b3115c764f9e8238</td>
+    <td>Se realizo las vista de perfil de usuario</td>
+    <td>03/05/2024<</td>
+    </tr>
+    </tr>
+    <tr>
+    <td>FRONT_END</td>
+    <td>master</td>
+    <td>23c9ad016a09a649c20eb<br>14f4c45e48fa6e73e2b</td>
+    <td>Feat: Create view log-in and register</td>
+    <td>Se creo las vistas de login y register </td>
+    <td>03/05/2024<</td>
+    </tr>
+    </tr>
+    <tr>
+    <td>FRONT_END</td>
+    <td>master</td>
+    <td>aac6b7fa43d909bbc61c5<br>82a818cb2eb71c7e46a</td>
+    <td>commit feat:añadí destino y la info del destino </td>
+    <td>se añadio un destino y info de destino</td>
+    <td>03/05/2024</td>
+    </tr>
+    </tr>
+    <tr>
+    <td>FRONT_END</td>
+    <td>master</td>
+    <td>12ca6f45eef701078f22d<br>fc09822106939fcc3ef</td>
+    <td>
+    Feat: create api fake</td>
+    <td>Se crea el api fake y se crea las vistas de actividades </td>
+    <td>03/05/2024</td>
+    </tr>
+    </tr>
+</table>
+
+### 5.2.2.5.Execution Evidence for Sprint Review.
+Para el presente sprint, se desplego la primer versión de la web application completamente funcional, cumpliendo los user stories correspondientes.
+
+![img.png](resources-img/home-web.png)
+![img.png](resources-img/Home-turist.png)
+![img.png](resources-img/destinies.png)
+![img.png](resources-img/activities.png)
+![img.png](resources-img/promociones.png)
+![img.png](resources-img/perfil-web.png)
+![img.png](resources-img/contact-web.png)
+
+### 5.2.2.6.Services Documentation Evidence for Sprint Review.
+Para el Sprint 2 se planifico abarcar las mejoras de la landing page y la creación del front-end. Para presetar las primeras vistas de nuestro proyecto.
+Ademas de utilizar un fake api para la actividades.
+<table>
+		<tr>
+			<td>Repository</td>
+			<td>Branch</td>
+			<td>Commit ID</td>
+			<td>Commit message</td>
+			<td>Commit message body</td>
+			<td>Commited on (Date)</td>
+		</tr>
+		<tr>
+			<td>FRONT_END</td>
+			<td>master</td>
+			<td>12ca6f45eef701078f22dfc09822106939fcc3ef</td>
+			<td>git commit feat: create fake api</td>
+			<td>Creámos el fake api</td>
+			<td>03/05/2024</td>
+		</tr>
+		<tr>
+			<td>FRONT_END</td>
+			<td>master</td>
+			<td>aac6b7fa43d909bbc61c582a818cb2eb71c7e46a</td>
+			<td>commit feat:añadí destino y la info del destino</td>
+			<td>Se agregó las vistas de destinos e info.Además se actualizo los router.</td>
+			<td>03/05/2024</td>
+		</tr>
+		<tr>
+			<td>FRONT_END</td>
+			<td>master</td>
+			<td>59d657446f1e8844ec7e7bda5119c7f597281eb1</td>
+			<td>git commit feat: Filtro</td>
+			<td>Se agregó un filtro de destinos</td>
+			<td>03/05/2024</td>
+		</tr>
+	</table>
+
+### 5.2.2.7.Software Deployment Evidence for Sprint Review.
+### Se hace correr el siguiente comando para crear la carpta dist de donde se desplegara nuestro aplicativo: 
+
+![alt text](./resources-img/ComadoDist.png)
+
+### Se instala las herramientas necesarias para firebase así como logearnos con nuestro correo:
+
+![alt text](./resources-img/toolsFirebase.png)
+
+### Se hace correr el siguiente comando para ir directo al hosting:
+
+![alt text](./resources-img/hosting1.png)
+
+![alt text](./resources-img/hosting2.png)
+
+![img.png](resources-img/img.png)
+
+
+### Seguido se creara un proyecto con el nombre del producto en la pagina de firebase. donde configuramos y  realizamos el despliegue.
+
+![img_1.png](resources-img/img_1.png)
+
+
+### Por ultimo se haría el último comando para deployar la primera versión del frontend:
+
+![alt text](./resources-img/deploy.png)
+
+
+link de landing page desplegado: <https://landing-peruventura.web.app/#works>
+
+![img.png](resources-img/imglanding.png)
+
+Link para primera versión frontned desplegado: <https://peru-ventura-app.web.app/>
+
+![img.png](resources-img/home-web.png)
+
+### 5.2.2.8.Team Collaboration Insights during Sprint. 
+
+![img.png](resources-img/Colaboration-graf.png)
+
+![img.png](resources-img/sprint2-img.png)
+
+### <span id="522-sprint-2">5.2.2. Sprint 2</span>
+
+### <span id="5221-sprint-planning-2">5.2.2.1. Sprint Planning 2.</span>
+
+<table>
+    <tr align="center">
+        <td><strong>Sprint #</strong></td>
+        <td><strong>Sprint 3</strong></td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center"><strong>Sprint Planning Background</strong></td>
+    </tr>
+    <tr align="center">
+        <td>Date</td>
+        <td>31/05/2024</td>
+    </tr>
+    <tr align="center">
+        <td>Time</td>
+        <td>10:00 PM</td>
+    </tr>
+    <tr align="center">
+        <td>Location</td>
+        <td>Discord</td>
+    </tr>
+    <tr align="center">
+        <td>Prepared by</td>
+        <td>Paolo Gonzalo Párraga Gamarra</td>
+    </tr>
+    <tr align="center">
+        <td>Attendess (to planning meeting)</td>
+        <td>Lynn Jeeferzon Meza Camayo - U20201C320<br>
+        David Bryan Rodriguez Santos - U202212236<br>
+        Paolo Gonzalo Párraga Gamarra - U202219186<br>
+        Fabricio Gabriel Iparraguirre Quintero - U202113930<br>
+        Felix Orlando Becerra Ttito - U20211B387</td>
+    </tr>
+    <tr align="center">
+        <td>Sprint 3 Review Summary</td>
+        <td>Se completaron las user stories establecidos en el sprint anterior, mejoramos la experiencia de usuario en el despliegue de del web app y se hizo la primera versión del backend.</td>
+    </tr>
+    <tr align="center">
+        <td>Sprint 2 Retrospective Summary</td>
+        <td>El equipo acordó mejorar las observaciones con respecto al responsive en nuestra primera versión del frontend</td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center"><strong>Sprint Goal & User Stories</strong></td>
+    </tr>
+    <tr align="center">
+        <td>Sprint 3 Goal</td>
+        <td>El objetivo primordial para este sprint es hacer una primera versión del backend que sea funcional y esté de acuerdo con nuestra lógica de negocio</td>
+    </tr>
+    <tr align="center">
+        <td>Sprint 3 Velocity</td>
+        <td>3 semanas</td>
+    </tr>
+    <tr align="center">
+        <td>Sum of Story Point</td>
+        <td>21</td>
+    </tr>
+</table>
+
+### <span id="5222-sprint-backlog-2">5.2.2.2. Sprint Backlog 2.</span>
+
+En esta sección se mostrará el objetivo principal del sprint 2
+
+link: https://trello.com/invite/b/AEWJNjeU/ATTI790e2fb751a1c4d5f5d2495f57b9fe9dFE2326E9/sprint-backlog-peruventura
+
+<table>
+    <tr align="center">
+        <td colspan="2"><strong>Sprint #</strong></td>
+        <td colspan="6"><strong>Sprint 3</strong></td>
+    </tr>
+    <tr align="center">
+        <td colspan="2"><strong>User Story</strong></td>
+        <td colspan="6"><strong>Work-Item / Task</strong></td>
+    </tr>
+    <tr align="center">
+        <td><strong>Id</strong></td>
+        <td><strong>Title</strong></td>
+        <td><strong>Id</strong></td>
+        <td><strong>Title</strong></td>
+        <td><strong>Description</strong></td>
+        <td><strong>Estimation (Hours)</strong></td>
+        <td><strong>Assigned to</strong></td>
+        <td><strong>Status (To do / In process / To review / Done)</strong></td>
+    </tr>
+    <tr align="center">
+        <td>US-2</td>
+        <td>Promoción de Talleres</td>
+        <td>W-01</td>
+        <td>Promociones</td>
+        <td>Como dueño de un local, quiero poder promocionar mi taller en la aplicación para atraer turistas interesados en experiencias auténticas.</td>
+        <td>4</td>
+        <td>Paolo</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>US-3</td>
+        <td>Gestión de Reservas para Talleres</td>
+        <td>W-02</td>
+        <td>Crear un apartado para revisar las reservas hechas</td>
+        <td>Como dueño de un local en Perú, quiero poder gestionar las reservas realizadas en mi taller de arte o cocina tradicional a través de la aplicación.</td>
+        <td>3</td>
+        <td>Paolo</td>
+        <td>To Review</td>
+    </tr>
+    <tr align="center">
+        <td>US-07</td>
+        <td>Pago Seguro y Conveniente para Reservas de Talleres</td>
+        <td>W-03</td>
+        <td>Opciones de Pago</td>
+        <td>Como turista, quiero poder pagar de forma segura y conveniente por las reservas de talleres en Perú a través de la aplicación.</td>
+        <td>3</td>
+        <td>Fabricio</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>US-08</td>
+        <td>Recepción Segura de Pagos por Reservas en Talleres</td>
+        <td>W-04</td>
+        <td>Mostrar notifiación de Pago</td>
+        <td>Como dueño de un local, quiero poder recibir pagos de forma segura por las reservas realizadas en mi taller para no tener dudas.</td>
+        <td>2</td>
+        <td>Fabricio</td>
+        <td>Done</td>
+    </tr>
+     <tr align="center">
+        <td>US-09</td>
+        <td>Compartir Experiencias en Talleres de Arte</td>
+        <td>W-04</td>
+        <td>Comparitr con amigos</td>
+        <td>Como turista, quiero poder compartir mis experiencias en los talleres de arte a través de la aplicación para inspirar a otros viajeros.</td>
+        <td>4</td>
+        <td>Lyn</td>
+        <td>In Process</td>
+    </tr>
+    <tr align="center">
+        <td>US-12</td>
+        <td>Destacar la Contribución de la Comunidad</td>
+        <td>W-05</td>
+        <td>Mostar Pertenencia</td>
+        <td>Como dueño de un local, quiero poder destacar la contribución de mi comunidad al turismo sostenible en la aplicación para atraer turistas.</td>
+        <td>2 </td>
+        <td>Felix</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>US-14</td>
+        <td>Disponibilidad para Actualizar Horarios del Taller</td>
+        <td>W-05</td>
+        <td>Editar horario</td>
+        <td>Como dueño de un local, quiero poder actualizar la disponibilidad de mi taller en la aplicación para reflejar cambios en horarios.</td>
+        <td>2 </td>
+        <td>Felix</td>
+        <td>To Do</td>
+      </tr>
+       <tr align="center">
+        <td>US-15</td>
+        <td>Notificaciones de Ofertas Especiales y Eventos en Talleres</td>
+        <td>W-06</td>
+        <td>Mostar Notificación de ofertas disponibles</td>
+        <td>Como turista, quiero poder recibir notificaciones sobre ofertas especiales y eventos en los talleres a través de la aplicación para estar informado sobre promociones</td>
+        <td>3</td>
+        <td>Lynn</td>
+        <td>Done</td>
+        </tr>
+ <tr align="center">
+        <td rowspan="2">TS-01</td>
+        <td>Obtener Actividades</td>
+        <td>TK-01</td>
+        <td>Crear Endpoint que permita ejecutar un get activities</td>
+        <td>Crear Endpoint que permita la obtención de los datos de las actividades que se realizarán</td>
+        <td>4</td>
+        <td>Paolo</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <!-- <td>TS-01</td> -->
+        <td>Obtener Actividades</td>
+        <td>TK-02</td>
+        <td>Crear Endpoint que permita ejecutar un get activities por Id</td>
+        <td>Crear Endpoint que permita la obtención de una actividad por medio de su Id y así obtener los datos específicos</td>
+        <td>4</td>
+        <td>Paolo</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>TS-02</td>
+        <td>Crear Actividades</td>
+        <td>TK-03</td>
+        <td>Crear Endpoint que permita ejecutar un post activities</td>
+        <td>Crear Endpoint que permita la creación de nuevas actividades por el Owner</td>
+        <td>4</td>
+        <td>Paolo</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td rowspan="2">TS-03</td>
+        <td>Obtener Reviews</td>
+        <td>TK-04</td>
+        <td>Crear Endpoint que permita ejecutar un get reviews</td>
+        <td>Crear Endpoint que permita mostrar todas las reseñas realizadas a las actividades</td>
+        <td>4</td>
+        <td>Paolo</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <!-- <td>TS-03</td> -->
+        <td>Obtener Reviews</td>
+        <td>TK-05</td>
+        <td>Crear Endpoint que permita ejecutar un get reviews por id</td>
+        <td>Crear Endpoint que permita mostrar una reseña en específico de una actividad</td>
+        <td>4</td>
+        <td>Paolo</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td rowspan="2">TS-04</td>
+        <td>Crear Reviews</td>
+        <td>TK-06</td>
+        <td>Crear Endpoint que permita ejecutar un post reviews</td>
+        <td>Crear Endpoint que permita agregar nuevas reseñas</td>
+        <td>4</td>
+        <td>Paolo</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <!-- <td>TS-04</td> -->
+        <td>Crear Reviews</td>
+        <td>TK-07</td>
+        <td>Crear Endpoint que permita ejecutar un post reviews</td>
+        <td>Crear Endpoint que permita agregar nuevas reseñas</td>
+        <td>4</td>
+        <td>Paolo</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td rowspan="2">TS-05</td>
+        <td>Obtener Destination Trip</td>
+        <td>TK-08</td>
+        <td>Crear Endpoint que permita ejecutar un get destinationtrips</td>
+        <td>Crear Endpoint que permita mostrar todas los destinos a los que se puede viajar</td>
+        <td>3</td>
+        <td>Paolo</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <!-- <td>TS-05</td> -->
+        <td>Obtener Destination Trip</td>
+        <td>TK-09</td>
+        <td>Crear Endpoint que permita ejecutar un get destinationtripsbyid</td>
+        <td>Crear Endpoint que permita mostrar un destino en específico por su Id</td>
+        <td>3</td>
+        <td>Paolo</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td rowspan="2">TS-06</td>
+        <td>Obtener Category</td>
+        <td>TK-10</td>
+        <td>Crear Endpoint que permita ejecutar un get categories</td>
+        <td>Crear Endpoint que permita mostrar los tipos de actividades que hay</td>
+        <td>3</td>
+        <td>Paolo</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <!-- <td>TS-06</td> -->
+        <td>Obtener Category</td>
+        <td>TK-11</td>
+        <td>Crear Endpoint que permita ejecutar un get categorybyid</td>
+        <td>Crear Endpoint que permita mostrar una categoría en específico</td>
+        <td>3</td>
+        <td>Paolo</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td rowspan="2">TS-07</td>
+        <td>Obtener Promotion</td>
+        <td>TK-12</td>
+        <td>Crear Endpoint que permita ejecutar un get promotions</td>
+        <td>Crear Endpoint que permita mostrar las promociones que han sido por diferentes Owners</td>
+        <td>3</td>
+        <td>Paolo</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <!-- <td>TS-07</td> -->
+        <td>Obtener Promotion</td>
+        <td>TK-13</td>
+        <td>Crear Endpoint que permita ejecutar un get promotionsbyid</td>
+        <td>Crear Endpoint que permita mostrar una promoción en específica</td>
+        <td>3</td>
+        <td>Paolo</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>TS-08</td>
+        <td>Crear Promotion</td>
+        <td>TK-14</td>
+        <td>Crear Endpoint que permita ejecutar un post createpromotion</td>
+        <td>Crear Endpoint que permita crear al Owner una promoción</td>
+        <td>3</td>
+        <td>Paolo</td>
+        <td>Done</td>
+    </tr>
 </table>
 
 ### <span id="5223-development-evidence-for-sprint-review">5.2.2.3. Development Evidence for Sprint Review.</span>
