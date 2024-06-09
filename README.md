@@ -107,6 +107,12 @@ Imforme: <https://github.com/Grupo-4-SW55-SYNTAXSQUAD/Reporte-Per-Ventura>
 
 Landing Page: <https://landing-peruventura.web.app/#works>
 
+TB2:
+
+![alt text](./resources-img/tb2.png)
+
+![alt text](./resources-img/tb2Barras.png)
+
 ## <span style="color:red">Tabla de Contenido</span>
 
 - [**UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS**](#universidad-peruana-de-ciencias-aplicadas)
@@ -4184,8 +4190,11 @@ Para el Sprint 3 se planifico abarcar las mejoras del frontend y la creación de
 ### 5.2.3.7.Software Deployment Evidence for Sprint Review.
 
 
-
 ### 5.2.3.8.Team Collaboration Insights during Sprint.
+
+![alt text](./resources-img/e.png)
+
+![alt text](./resources-img/image-1.png)
 
 ## 5.3. Validation Interviews.
 ### 5.3.1. Diseño de Entrevistas.
@@ -4356,6 +4365,11 @@ Al momento de crear una promoción, el formulario sigue siendo llamado workshop
 
 - **Recomendación:**
 Cambiar todos los textos que se refieran a "workshop" a "promoción" en la interfaz de usuario. Asegurarse de que esta terminología sea consistente en toda la aplicación.
+
+
+## 5.4. Video About-the-Product.
+<img src="./imgs/About-the-Product.png" alt="About-the-Product">
+Enlace: [Video]()
 
 ### Conclusiones
 
