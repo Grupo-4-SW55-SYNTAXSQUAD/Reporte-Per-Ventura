@@ -3336,9 +3336,9 @@ Link para primera versión frontned desplegado: <https://peru-ventura-app.web.ap
 
 ![img.png](resources-img/sprint2-img.png)
 
-### <span id="522-sprint-2">5.2.2. Sprint 2</span>
+### <span id="522-sprint-2">5.2.3. Sprint 3</span>
 
-### <span id="5221-sprint-planning-2">5.2.2.1. Sprint Planning 2.</span>
+### <span id="5221-sprint-planning-2">5.2.3.1. Sprint Planning 3.</span>
 
 <table>
     <tr align="center">
@@ -3397,11 +3397,10 @@ Link para primera versión frontned desplegado: <https://peru-ventura-app.web.ap
     </tr>
 </table>
 
-### <span id="5222-sprint-backlog-2">5.2.2.2. Sprint Backlog 2.</span>
+### <span id="5222-sprint-backlog-2">5.2.3.2. Sprint Backlog 3.</span>
 
-En esta sección se mostrará el objetivo principal del sprint 2
+En esta sección se mostrará el objetivo principal del sprint 3
 
-link: https://trello.com/invite/b/AEWJNjeU/ATTI790e2fb751a1c4d5f5d2495f57b9fe9dFE2326E9/sprint-backlog-peruventura
 
 <table>
     <tr align="center">
@@ -3642,9 +3641,125 @@ link: https://trello.com/invite/b/AEWJNjeU/ATTI790e2fb751a1c4d5f5d2495f57b9fe9dF
         <td>Paolo</td>
         <td>Done</td>
     </tr>
+            <tr>
+        <td rowspan="2">TS-9</td>
+        <td>Obtener BoonkingState </td>
+        <td>TK-17</td>
+        <td>Crear Endpoint que permita ejecutar un get BookingState</td>
+        <td>Crear Endpoint que permita obtener los estados que puede tener una reserva</td>
+        <td>3</td>
+        <td>Bryan</td>
+        <td>Done</td>
+    </tr>
+     <tr>
+        <td>Obtener BoonkingStateById </td>
+        <td>TK-17</td>
+        <td>Crear Endpoint que permita ejecutar un get BookingStatebyid</td>
+        <td>Crear Endpoint que permita obtener un estado por medio de su identificador</td>
+        <td>3</td>
+        <td>Bryan</td>
+        <td>Done</td>
+    </tr>
+        <tr>
+        <td rowspan="2">TS-10</td>
+        <td>Obtener Bookings </td>
+        <td>TK-15</td>
+        <td>Crear Endpoint que permita ejecutar un get Bookings</td>
+        <td>Crear Endpoint que permita mostrar todas las reservas hechas por los turistas</td>
+        <td>3</td>
+        <td>Fabricio</td>
+        <td>Done</td>
+    </tr>
+            <tr>
+        <td>Obtener Bookings</td>
+        <td>TK-16</td>
+        <td>Crear Endpoint que permita ejecutar un get bookingsbyid</td>
+        <td>Crear Endpoint que permita mostrar las reservas hechas por el usuario</td>
+        <td>3</td>
+        <td>Fabricio</td>
+        <td>In Process</td>
+    </tr>
+    </tr>
+        <tr>
+        <td >TS-11</td>
+        <td>Crear Boonking </td>
+        <td>TK-17</td>
+        <td>Crear Endpoint que permita ejecutar un post createbooking</td>
+        <td>Crear Endpoint que permita agregar una reserva hecha por el usuario</td>
+        <td>3</td>
+        <td>Fabricio</td>
+        <td>Done</td>
+    </tr>
+        <tr>
+        <td rowspan="2">TS-12</td>
+        <td>obtener Payment </td>
+        <td>TK-18</td>
+        <td>Crear Endpoint que permita ejecutar un get payments</td>
+        <td>Crear Endpoint que permita mostrar los pagos que han sido realizados o que están en proceso</td>
+        <td>3</td>
+        <td>Lynn</td>
+        <td>Done</td>
+    </tr>
+        <tr>
+        <td>obtener PaymentById </td>
+        <td>TK-19</td>
+        <td>Crear Endpoint que permita ejecutar un get paymentbyid</td>
+        <td>Crear Endpoint que permita mostrar el payment de esa reserva</td>
+        <td>3</td>
+        <td>Lynn</td>
+        <td>Done</td>
+    </tr>
+        <tr>
+        <td>TS-13</td>
+        <td>Crear Payment </td>
+        <td>TK-20</td>
+        <td>Crear Endpoint que permita ejecutar un post createpayment</td>
+        <td>Crear Endpoint que permita mostrar añadir el payment realizado por el usuario</td>
+        <td>3</td>
+        <td>Lynn</td>
+        <td>Done</td>
+    </tr>
+     <tr>
+        <td rowspan="2">TS-14</td>
+        <td>obtener PaymentState </td>
+        <td>TK-21</td>
+        <td>Crear Endpoint que permita ejecutar un get paymentstates</td>
+        <td>Crear Endpoint que permita mostrar todos lo estados disponibles que puede tener un payment</td>
+        <td>3</td>
+        <td>Lynn</td>
+        <td>Done</td>
+    </tr>
+         <tr>
+        <td>obtener PaymentStateById </td>
+        <td>TK-22</td>
+        <td>Crear Endpoint que permita ejecutar un get paymentstatesbypaymentid</td>
+        <td>Crear Endpoint que permita mostrar  un estado de lagún payment</td>
+        <td>3</td>
+        <td>Lynn</td>
+        <td>In process</td>
+    </tr> 
+     <tr>
+        <td rowspan="2">TS-16</td>
+        <td>obtener PaymentType </td>
+        <td>TK-23</td>
+        <td>Crear Endpoint que permita ejecutar un get paymentype</td>
+        <td>Crear Endpoint que permita mostrar todos los tipos de pago que puese hacer el usuario, como Paypal, tarjeta crédito, etc.</td>
+        <td>3</td>
+        <td>Lynn</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>obtener PaymentTypeById </td>
+        <td>TK-24</td>
+        <td>Crear Endpoint que permita ejecutar un get paymentypebyid</td>
+        <td>Crear Endpoint que permita mostrar un solo pago cuando el usaurio haya elegido un tipo de pago</td>
+        <td>3</td>
+        <td>Lynn</td>
+        <td>Done</td>
+    </tr>
 </table>
 
-### <span id="5223-development-evidence-for-sprint-review">5.2.2.3. Development Evidence for Sprint Review.</span>
+### <span id="5223-development-evidence-for-sprint-review">5.2.3.3. Development Evidence for Sprint Review.</span>
 <table>
     <tr>
         <td>Repository</td>
@@ -3717,7 +3832,7 @@ link: https://trello.com/invite/b/AEWJNjeU/ATTI790e2fb751a1c4d5f5d2495f57b9fe9dF
     </tr>
 </table>
 
-### 5.2.2.4.Testing Suite Evidence for Sprint Review.
+### 5.2.3.4.Testing Suite Evidence for Sprint Review.
 
 Unit tests:
 
@@ -3734,7 +3849,24 @@ Se han diseñado y ejecutado pruebas unitarias para las siguientes clases y comp
 
 Se han desarrollado archivos .feature utilizando Gherkin para las siguientes User Stories:
 
-Relacionado a US01:
+Relacionado a US02:
+
+  Feature: Promoción de Talleres
+    Como dueño de un local, 
+    quiero poder promocionar mi taller en la aplicación 
+    para atraer turistas interesados en experiencias auténticas.
+
+    Scenario: Crear perfil para la actividad
+      Given una conexión a internet estable
+      When el dueño del local accede a su cuenta en la aplicación
+      Then el dueño del local puede crear un perfil para su actividad, incluyendo descripción, horarios y precios, etc.
+
+    Scenario: Ver resumen de reservas
+      Given que el dueño del local ha recibido una reserva
+      When el dueño del local accede a su cuenta en la aplicación
+      Then el dueño del local puede ver un resumen de las reservas realizadas
+
+Relacionado a US03:
 
 ```
 Feature: Search and Workshop Booking
@@ -3755,106 +3887,25 @@ When the user selects a date and time for the activity
 Then the application confirms the booking
 ```
 
-Relacionado a US05:
+Relacionado a US03:
+  Feature: Gestión de Reservas para Talleres
+    Como dueño de un local en Perú, quiero poder gestionar las reservas realizadas en mi taller de arte o cocina tradicional a través de la aplicación.
 
-```
-Feature: Workshop Reviews and Ratings Evaluation
+    Scenario: Gestionar reservas
+      Given que el usuario quiere gestionar sus reservas
+      When el dueño del local accede a su cuenta en la aplicación
+      Then el dueño del local puede ver un registro de las reservas realizadas en su taller
+      And el dueño del local puede confirmar o rechazar las reservas según la disponibilidad de su taller
+      And el dueño del local puede comunicarse con los turistas a través de la aplicación para coordinar detalles adicionales
 
-  As a tourist
-  I want to be able to view reviews and ratings from other users about workshops to make 
-  informed decisions
+    Scenario: Notificaciones de reservas rechazadas
+      Given que el dueño del local ha rechazado una reserva
+      When el turista accede a la aplicación
+      Then el turista recibe notificaciones sobre la disponibilidad actualizada del taller
+      And el turista puede buscar y reservar otra actividad disponible en la aplicación
 
-  Scenario 1: View Reviews and Ratings
-    Given the tourist wants to see opinions from other tourists
-    When the user selects a workshop in the application
-    Then the application displays reviews and ratings from other users about the workshop
-    And the user can read detailed comments about other users' experiences
 
-  Scenario 2: Leave a Review and Rating
-    Given the user has participated in a workshop
-    When the user accesses their account in the application
-    Then the user can leave a review and rating about their experience in the workshop
-    And the application displays the user's review and rating along with other reviews
-```
-Relacionado a US10:
 
-```
-Feature: Feedback Reception
-
-  As a workshop owner
-  I want to be able to receive feedback and ratings from tourists who have participated 
-  in my workshop
-  So that I can have feedback
-
-  Scenario 1: Receive Feedback
-    Given the owner wants to receive feedback
-    When the workshop owner accesses their account in the application
-    Then the workshop owner can view comments and ratings left by tourists who have 
-    participated in their workshop
-    And the workshop owner can respond to the comments
-
-  Scenario 2: Notification of Owner's Response
-    Given the workshop owner has responded to a tourist's comment
-    When the tourist accesses the application
-    Then the tourist receives a notification about the owner's response
-```
-Relacionado a US11:
-
-```
-Feature: Local Communities Information for Workshops
-
-  As a tourist
-  I want to be able to access detailed information about local communities 
-  offering workshops
-  So that I can make informed decisions
-
-  Scenario 1: View Information about Local Communities
-    Given the user wants information
-    When the user selects a local community in the application
-    Then the application displays detailed information about the community
-
-  Scenario 2: Engagement with Local Community
-    Given the user has explored information about a local community
-    When the user participates in a workshop from that community
-    Then the application provides the option to make donations or contribute 
-    to the sustainable development of the community
-```
-Relacionado a US16:
-
-```
-Feature: Special Offers and Events Creation and Management
-
-  As a workshop owner
-  I want to be able to create and manage special offers and events in my workshop
-  So that I can attract tourists
-
-  Scenario 1: Create Special Offers and Events
-    Given the owner wants to notify about offers
-    When the workshop owner accesses their account in the application
-    Then the workshop owner can create special offers and events, including 
-    description and dates
-
-  Scenario 2: Highlight Active Offers and Events
-    Given the workshop owner has created a special offer or event
-    When the special offer or event is active
-    Then the application highlights the promotion in relevant areas to attract 
-    the attention of tourists
-```
-Relacionado a US17:
-
-```
-Feature: Access to Workshop Directions
-
-  As a tourist
-  I want to be able to access practical information on how to get to workshops 
-  so I can arrive on time
-
-  Scenario 1: View Workshop Directions
-    Given a stable internet connection
-    When the user selects a workshop in the application
-    Then the application displays detailed information on how to 
-    get to the workshop, including directions
-```
 
 #### Tabla para commits relacionados con el testing
 <table>
@@ -3929,96 +3980,358 @@ Feature: Access to Workshop Directions
     </tr>
 </table>
 
-### 5.2.2.5.Execution Evidence for Sprint Review.
+### 5.2.3.5.Execution Evidence for Sprint Review.
 Para el presente sprint, se desplego la primer versión de la web application completamente funcional, cumpliendo los user stories correspondientes.
 
-![img.png](resources-img/home-web.png)
-![img.png](resources-img/Home-turist.png)
-![img.png](resources-img/destinies.png)
-![img.png](resources-img/activities.png)
-![img.png](resources-img/promociones.png)
-![img.png](resources-img/perfil-web.png)
-![img.png](resources-img/contact-web.png)
+![alt text](resources-img/newlogin.png)
 
-### 5.2.2.6.Services Documentation Evidence for Sprint Review.
-Para el Sprint 2 se planifico abarcar las mejoras de la landing page y la creación del front-end. Para presetar las primeras vistas de nuestro proyecto.
-Ademas de utilizar un fake api para la actividades.
-<table>
+![alt text](resources-img/newregister.png)
+
+
+![alt text](resources-img/image.png)
+
+![alt text](resources-img/image1.png)
+
+![alt text](resources-img/image2.png)
+
+### 5.2.3.6.Services Documentation Evidence for Sprint Review.
+Para el Sprint 3 se planifico abarcar las mejoras del frontend y la creación del back-end.
+<div align="justify">
+	Web Service:
+	<table>
 		<tr>
-			<td>Repository</td>
-			<td>Branch</td>
-			<td>Commit ID</td>
-			<td>Commit message</td>
-			<td>Commit message body</td>
-			<td>Commited on (Date)</td>
-		</tr>
-		<tr>
-			<td>FRONT_END</td>
-			<td>master</td>
-			<td>12ca6f45eef701078f22dfc09822106939fcc3ef</td>
-			<td>git commit feat: create fake api</td>
-			<td>Creámos el fake api</td>
-			<td>03/05/2024</td>
-		</tr>
-		<tr>
-			<td>FRONT_END</td>
-			<td>master</td>
-			<td>aac6b7fa43d909bbc61c582a818cb2eb71c7e46a</td>
-			<td>commit feat:añadí destino y la info del destino</td>
-			<td>Se agregó las vistas de destinos e info.Además se actualizo los router.</td>
-			<td>03/05/2024</td>
-		</tr>
-		<tr>
-			<td>FRONT_END</td>
-			<td>master</td>
-			<td>59d657446f1e8844ec7e7bda5119c7f597281eb1</td>
-			<td>git commit feat: Filtro</td>
-			<td>Se agregó un filtro de destinos</td>
-			<td>03/05/2024</td>
-		</tr>
+        <td>HTTP Method</td>
+        <td>Endpoint</td>
+        <td>Action</td>
+        <td>Summary</td>
+        <td>Parameters</td>
+        <td>Response</td>
+    </tr>
+    <tr>
+        <td>GET</td>
+        <td>/api/v1/activities</td>
+        <td>Get All Activities</td>
+        <td>Gets all Activities</td>
+        <td>Ninguno</td>
+        <td>200 - Activities found</td>
+    </tr>
+    <tr>
+        <td>GET</td>
+        <td>/api/v1/activities/{ActivityId}</td>
+        <td>Get Activity by Id</td>
+        <td>Gets a activity for a given identifier</td>
+        <td>ActivityId (Path)</td>
+        <td>200 - The activity was found</td>
+    </tr>
+    <tr>
+        <td>POST</td>
+        <td>/api/v1/activities</td>
+        <td>Create Activity</td>
+        <td>Creates a activity with a given data</td>
+        <td>createActivityResource (Body)</td>
+        <td>201 - The activity was created</td>
+    </tr>
 	</table>
 
-### 5.2.2.7.Software Deployment Evidence for Sprint Review.
-### Se hace correr el siguiente comando para crear la carpta dist de donde se desplegara nuestro aplicativo: 
+  <table>
+    <tr>
+        <td>HTTP Method</td>
+        <td>Endpoint</td>
+        <td>Action</td>
+        <td>Summary</td>
+        <td>Parameters</td>
+        <td>Response</td>
+    </tr>
+    <tr>
+        <td>GET</td>
+        <td>/api/v1/categories</td>
+        <td>Get All Categories</td>
+        <td>Gets all Categories</td>
+        <td>Ninguno</td>
+        <td>200 - Categories found</td>
+    </tr>
+    <tr>
+        <td>GET</td>
+        <td>/api/v1/categories/{CategoryId}</td>
+        <td>Get Category by Id</td>
+        <td>Gets a category for a given identifier</td>
+        <td>CategoryId (Path)</td>
+        <td>200 - The category was found</td>
+    </tr>
+</table>
 
-![alt text](./resources-img/ComadoDist.png)
+<table>
+    <tr>
+        <td>HTTP Method</td>
+        <td>Endpoint</td>
+        <td>Action</td>
+        <td>Summary</td>
+        <td>Parameters</td>
+        <td>Response</td>
+    </tr>
+    <tr>
+        <td>GET</td>
+        <td>/api/v1/destination-trip</td>
+        <td>Get All Destination Trips</td>
+        <td>Gets all destination trips</td>
+        <td>Ninguno</td>
+        <td>200 - Destination Trips found</td>
+    </tr>
+    <tr>
+        <td>GET</td>
+        <td>/api/v1/destination-trip/{DestinationTripId}</td>
+        <td>Get Destination Trip by Id</td>
+        <td>Gets a destination trip for a given identifier</td>
+        <td>DestinationTripId (Path)</td>
+        <td>200 - The destination trip was found</td>
+    </tr>
+</table>
 
-### Se instala las herramientas necesarias para firebase así como logearnos con nuestro correo:
+<table>
+    <tr>
+        <td>HTTP Method</td>
+        <td>Endpoint</td>
+        <td>Action</td>
+        <td>Summary</td>
+        <td>Parameters</td>
+        <td>Response</td>
+    </tr>
+    <tr>
+        <td>GET</td>
+        <td>/api/v1/promotions</td>
+        <td>Get All Promotions</td>
+        <td>Gets all Promotions</td>
+        <td>Ninguno</td>
+        <td>200 - Promotions found</td>
+    </tr>
+    <tr>
+        <td>GET</td>
+        <td>/api/v1/promotions/{PromotionId}</td>
+        <td>Get Promotion by Id</td>
+        <td>Gets a promotion for a given identifier</td>
+        <td>PromotionId (Path)</td>
+        <td>200 - The promotion was found</td>
+    </tr>
+    <tr>
+        <td>POST</td>
+        <td>/api/v1/promotions</td>
+        <td>Create Promotion</td>
+        <td>Creates a promotion with a given data</td>
+        <td>createPromotionResource (Body)</td>
+        <td>201 - The promotion was created</td>
+    </tr>
+</table>
 
-![alt text](./resources-img/toolsFirebase.png)
+<table>
+    <tr>
+        <td>HTTP Method</td>
+        <td>Endpoint</td>
+        <td>Action</td>
+        <td>Summary</td>
+        <td>Parameters</td>
+        <td>Response</td>
+    </tr>
+    <tr>
+        <td>GET</td>
+        <td>/api/v1/reviews</td>
+        <td>Get All Reviews</td>
+        <td>Gets all Reviews</td>
+        <td>Ninguno</td>
+        <td>200 - Reviews found</td>
+    </tr>
+    <tr>
+        <td>GET</td>
+        <td>/api/v1/reviews/{ReviewId}</td>
+        <td>Get Review by Id</td>
+        <td>Gets a review for a given identifier</td>
+        <td>ReviewId (Path)</td>
+        <td>200 - The review was found</td>
+    </tr>
+    <tr>
+        <td>POST</td>
+        <td>/api/v1/reviews</td>
+        <td>Create Review</td>
+        <td>Creates a review with a given data</td>
+        <td>createReviewResource (Body)</td>
+        <td>201 - The review was created</td>
+    </tr>
+</table>
 
-### Se hace correr el siguiente comando para ir directo al hosting:
+![alt text](./resources-img/Activity1.png)
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
+![alt text](image-3.png)
+![alt text](image-4.png)
+![alt text](image-5.png)
+![alt text](image-6.png)
+![alt text](image-7.png)
+![alt text](image-8.png)
+![alt text](image-9.png)
+![alt text](image-10.png)
+![alt text](image-11.png)
+![alt text](image-12.png)
+![alt text](image-13.png)
+![alt text](image-14.png)
 
-![alt text](./resources-img/hosting1.png)
 
-![alt text](./resources-img/hosting2.png)
-
-![img.png](resources-img/img.png)
+### 5.2.3.7.Software Deployment Evidence for Sprint Review.
 
 
-### Seguido se creara un proyecto con el nombre del producto en la pagina de firebase. donde configuramos y  realizamos el despliegue.
 
-![img_1.png](resources-img/img_1.png)
+### 5.2.3.8.Team Collaboration Insights during Sprint.
+ 
+## 5.3. Validation Interviews.
+### 5.3.1. Diseño de Entrevistas.
+#### Información del Entrevistado
+1.	¿Cuál es tu nombre?
+2.	¿Cuáles son tus apellidos?
+3.	¿Cuál es tu edad?
+4.	¿En qué distrito resides?
+#### Segmento Objetivo #1: Turista
+1.	¿Qué tan fácil o difícil fue para ti encontrar y reservar un destino en nuestra aplicación?
+2.	¿Hubo algún momento en el que no supieras qué hacer a continuación? ¿Cuál fue?
+3.	¿Encontraste toda la información que necesitabas sobre el destino o la actividad antes de hacer la reserva?
+4.	¿Hubo algo que te causara confusión o que consideraras poco claro?
+5.	¿Qué funcionalidades adicionales te gustaría ver en la aplicación que podrían mejorar tu experiencia?
+6.	¿Hay algo que crees que podría ser simplificado o mejorado en la aplicación?
+
+#### Segmento Objetivo #2: Propietario
+
+1.	¿Qué tan fácil o difícil fue para ti registrar tu destino o actividad en nuestra aplicación?
+2.	¿Hubo algún momento en el que no supieras cómo proceder durante el registro?
+3.	¿Fue sencillo para ti agregar y actualizar la información sobre tu destino o actividad?
+4.	¿Hubo algún campo o sección que encontraste confuso o innecesario?
+5.	¿Qué funcionalidades adicionales te gustaría ver en la aplicación que podrían facilitar la gestión de tu destino o actividad?
+6.	¿Hay algo que crees que podría ser simplificado o mejorado en la aplicación?
+
+### 5.3.2. Registro de Entrevistas.
 
 
-### Por ultimo se haría el último comando para deployar la primera versión del frontend:
+#### Segmento 1:
 
-![alt text](./resources-img/deploy.png)
+Entrevistado #1: 
+
+![Estrevista1](./imgs/entrevista_Joaquin.PNG)
+
+Piero Delgado
+
+●	Sexo: Masculino
+
+●	Edad: 20 años
+
+●	Distrito en el que vive: San Borja
+
+●	Nivel socioeconómico: Clase B
+Entrevista:
+
+●	Link: [Click para ver entrevista](https://drive.google.com/file/d/1U7btUAmcuTNKfuTqJ5JtaWzU39rADnzz/view?usp=sharing)
+
+●	Momento en el que inicia: 0:00
+
+●	Duración: 5:20
+
+●	Entrevistador: Rivadeneyra Ramos, Joaquin David
+
+Resumen:
+<p align="justify">
+Piero Delgado, un joven de 20 años residente en San Borja, es un gran lector que utiliza la aplicación BookFlow a diario. Describe su experiencia con la aplicación como excelente, destacando su interfaz intuitiva y la organización eficiente que facilita la navegación. Las recomendaciones de libros que recibe están bien alineadas con sus intereses, lo que le ha permitido explorar nuevos géneros y leer más regularmente. Piero no ha encontrado problemas técnicos y valora altamente la seguridad y privacidad de la aplicación. Satisfecho con la variedad de libros disponibles, considera que la suscripción premium vale la pena por el acceso a contenido exclusivo y eventos especiales. Sugiere mejorar la funcionalidad de búsqueda y agregar más opciones de personalización y contenido interactivo. En general, recomendaría BookFlow a otros lectores por su facilidad de uso y las recomendaciones personalizadas que ofrece.
+</p>
 
 
-link de landing page desplegado: <https://landing-peruventura.web.app/#works>
 
-![img.png](resources-img/imglanding.png)
+#### Segmento 2:
 
-Link para primera versión frontned desplegado: <https://peru-ventura-app.web.app/>
 
-![img.png](resources-img/home-web.png)
 
-### 5.2.2.8.Team Collaboration Insights during Sprint. 
+### 5.3.3. Evaluaciones según heurísticas.
+**CARRERA:** Ingeniería de Software  
+**CURSO:** Desarrollo de Aplicaciones Open Source  
+**SECCIÓN:** SW54  
+**PROFESOR:** Francisco José Caceres  
+**AUDITOR:** SyntaxSquad  
+**CLIENTE(S):** Todos  
+**SITE o APP A EVALUAR:** SyntaxSquad  
 
-![img.png](resources-img/Colaboration-graf.png)
+## TAREAS A EVALUAR:
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
 
-![img.png](resources-img/sprint2-img.png)
+1. Registro de un usuario nuevo
+2. Notifiación de una reserva de actividad
+3. Ordenar por actividades por costo
+4. Añadir una promocion
+
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+1. Reservar una actividad
+2. Personalizar la interfaz de usuario
+
+
+## UX Heuristics & Principles Evaluation
+
+## ESCALA DE SEVERIDAD:
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+| Nivel | Descripción |
+|-------|-------------|
+| 1     | Problema superficial: puede ser fácilmente superado por el usuario u ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2     | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
+| 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+## TABLA RESUMEN:
+
+| # | Problema | Escala de severidad | Heurística/Principio violada(o)                          |
+|---|----------|---------------------|----------------------------------------------------------|
+| 1 | No hay una opción para distinguir a un turista de un dueño | 3 | Match between system and the real world                  |
+| 2 | Las notificaciones de reserva se ven opacas | 1 | Consistency and standards                                  |
+| 3 | No solo debería haber orden por costo de actividad | 2 | Flexibility and efficiency of use                          |
+| 4 | La opción de añadir promociones se sigue llamando workshop | 2 | Match between system and the real world                   |
+
+
+## DESCRIPCIÓN DE PROBLEMAS:
+
+### PROBLEMA #1: No hay una opción para distinguir a un turista de un dueño
+
+- **Severidad:** 3
+- **Heurística violada:** Usability - Match between system and the real world
+- **Problema:**
+   Falta un botón para signar un rol a cada usuario
+
+
+- **Recomendación:**
+ Durante el proceso de registro, incluir un campo desplegable donde el usuario pueda seleccionar su rol (Turista o Dueño).
+
+### PROBLEMA #2: Las notificaciones de reserva se ven opacas
+- **Severidad:** 1
+- **Heurística violada:** Usability -  Consistency and standards
+- **Problema:**
+  Algunas veces las notificaciones se ven opacas
+
+
+- **Recomendación:**
+Asegurarse de que todas las notificaciones tengan un contraste suficiente y sean fácilmente legibles. Utilizar colores y fuentes consistentes con el resto del diseño de la aplicación.
+
+### PROBLEMA #3: No solo debería haber orden por costo de actividad
+- **Severidad:** 2
+- **Heurística violada:** Usability - Ayuda y documentación
+- **Problema:**
+Las actividades deberían también ordenarse por orden alfabético, etc.
+
+
+- **Recomendación:**
+Incluir opciones adicionales para ordenar las actividades, como por orden alfabético, popularidad, calificación, etc.
+
+### PROBLEMA #4: La opción de añadir promociones se sigue llamando workshop
+- **Severidad:** 2
+- **Heurística violada:** Usability - Match between system and the real world
+- **Problema:**
+Al momento de crear una promoción, el formulario sigue siendo llamado workshop
+
+
+- **Recomendación:**
+Cambiar todos los textos que se refieran a "workshop" a "promoción" en la interfaz de usuario. Asegurarse de que esta terminología sea consistente en toda la aplicación.
 
 ### Conclusiones
 
