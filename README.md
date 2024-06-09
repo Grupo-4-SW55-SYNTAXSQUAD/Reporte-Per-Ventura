@@ -654,7 +654,7 @@ El entrevistado, Dennis Castañeda Vilcapoma, de 23 años es un estudiante de In
 
 ### Dueños de local:
 
-Santiago García
+Anthony Tarrillo
 
 ![Entrevista1](./resources-img/entrevistaSantiago.png)
 
@@ -4216,7 +4216,6 @@ Para el Sprint 3 se planifico abarcar las mejoras del frontend y la creación de
 
 #### Segmento 1:
 
-Entrevistado #1: 
 
 
 Piero Delgado
@@ -4243,6 +4242,30 @@ Resumen:
 Alejandro nos comenta como le agrada la idea de nuestra página y comenta que es muy intuitiva para el turista o propietario que la quiera usar pero tiene pequeños problemas que se pueden solucionar para satisfacer todas las necesidades del usuario.
 </p>
 
+
+
+#### Segmento 2:
+
+Anthony Tarrillo
+![Entrevista1](./resources-img/Entrevista_A.png)
+
+● Sexo: Masculino
+
+● Edad: 23 años
+
+● Distrito en el que vive: Lima
+
+● Link: [Click para ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202219186_upc_edu_pe/EVaX6nn23VNNiAwi48RybIcBlEt_iX7l-jc-o0YLTZCPKQ?e=wjuA50&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+● Momento en el que inicia: 0:00
+
+● Duración: 6:20
+
+● Entrevistador: Párraga Gamarra Paolo Gonzalo
+
+Resumen:
+
+El entrevistado, Santiago García, de 23 años ha sido emprendedor por un año con su local que fue abierto gracias a un préstamo. En esta entrevista nos da una opinión sincera sobre el aplicativo y cómo podríamos mejorar tanto en estilos como en funcionalidades.
 
 
 ### 5.3.3. Evaluaciones según heurísticas.
