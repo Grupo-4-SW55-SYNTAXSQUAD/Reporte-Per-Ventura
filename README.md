@@ -3838,19 +3838,20 @@ Unit tests:
 
 Se han diseñado y ejecutado pruebas unitarias para las siguientes clases y comportamientos.
 
-1. contact.component: Vista de comunicación de entre turista y propietario.
-2. home.component:Vista de inicio dl turista.
-3. promotion.component:Vista de todos las promocionas existentes.
-4. turist-profile.component:Vista del perfil del turista.
-5. log-in.component:Vista de inicio de sesion.
+1. workshops.component: Vista de comunicación de entre turista y propietario.
+2. workshops-booking.component:Vista de inicio dl turista.
+3. Payment.component:Vista de todos las promocionas existentes.
+4. Activities.component:Vista del perfil del turista.
+5. seach.component:Vista de inicio de sesion.
 6. register.component: Vista de registro del turista.
+7. notification.component: notificacion.
 
 ***Integration Tests & Acceptance Tests (BDD):***
 
 Se han desarrollado archivos .feature utilizando Gherkin para las siguientes User Stories:
 
 Relacionado a US02:
-
+```
   Feature: Promoción de Talleres
     Como dueño de un local, 
     quiero poder promocionar mi taller en la aplicación 
@@ -3865,7 +3866,7 @@ Relacionado a US02:
       Given que el dueño del local ha recibido una reserva
       When el dueño del local accede a su cuenta en la aplicación
       Then el dueño del local puede ver un resumen de las reservas realizadas
-
+```
 Relacionado a US03:
 
 ```
@@ -3887,22 +3888,104 @@ When the user selects a date and time for the activity
 Then the application confirms the booking
 ```
 
-Relacionado a US03:
-  Feature: Gestión de Reservas para Talleres
-    Como dueño de un local en Perú, quiero poder gestionar las reservas realizadas en mi taller de arte o cocina tradicional a través de la aplicación.
+Relacionado a US07:
+``` 
+Feature: Pago Seguro y Conveniente para Reservas de Talleres
+Como turista, quiero poder pagar de forma segura y conveniente por las reservas de talleres en Perú a través de la aplicación.
 
-    Scenario: Gestionar reservas
-      Given que el usuario quiere gestionar sus reservas
-      When el dueño del local accede a su cuenta en la aplicación
-      Then el dueño del local puede ver un registro de las reservas realizadas en su taller
-      And el dueño del local puede confirmar o rechazar las reservas según la disponibilidad de su taller
-      And el dueño del local puede comunicarse con los turistas a través de la aplicación para coordinar detalles adicionales
+Scenario: Opciones de pago seguras y convenientes
+Given el usuario quiere poder pagar
+When el usuario realiza una reserva en la aplicación
+Then la aplicación ofrece opciones de pago seguras y convenientes, como tarjeta de crédito, PayPal, u otros métodos confiables
 
-    Scenario: Notificaciones de reservas rechazadas
-      Given que el dueño del local ha rechazado una reserva
-      When el turista accede a la aplicación
-      Then el turista recibe notificaciones sobre la disponibilidad actualizada del taller
-      And el turista puede buscar y reservar otra actividad disponible en la aplicación
+Scenario: Solicitar recibos y facturas
+Given el usuario ha completado una reserva
+When el usuario accede a su cuenta en la aplicación
+Then el usuario puede solicitar recibos y facturas para sus pagos
+```
+
+Relacionado a US08:
+``` 
+Feature: Recepción Segura de Pagos por Reservas en Talleres
+  Como dueño de un local, quiero poder recibir pagos de forma segura por las reservas realizadas en mi taller para no tener dudas.
+
+  Scenario: Configurar opciones de pago seguras
+    Given el dueño quiere recibir pagos de forma segura
+    When el dueño del local accede a su cuenta en la aplicación
+    Then el dueño del local puede configurar opciones de pago seguras, como transferencia bancaria o PayPal
+    And el dueño del local recibe notificaciones sobre pagos realizados por las reservas en su taller
+
+  Scenario: Generar informes de ingresos y transacciones
+    Given el dueño del local ha recibido un pago por una reserva
+    When el dueño del local accede a la aplicación
+    Then el dueño del local puede generar informes de ingresos y transacciones para su taller en un período específico
+    And el dueño del local puede descargar estos informes para su contabilidad y registros financieros
+```
+
+
+Relacionado a US09:
+``` 
+Feature: Compartir Experiencias en Talleres de Arte
+  Como turista, quiero poder compartir mis experiencias en los talleres de arte a través de la aplicación para inspirar a otros viajeros.
+
+  Scenario: Compartir experiencia después de completar un taller
+    Given el usuario quiere compartir su experiencia
+    When el usuario completa un taller en la aplicación
+    Then la aplicación ofrece la opción de compartir la experiencia a través de redes sociales u otros medios
+    And el usuario puede agregar fotos, comentarios y calificaciones a su experiencia
+
+  Scenario: Ver experiencias compartidas por otros usuarios
+    Given el usuario ha compartido su experiencia en un taller
+    When otros usuarios acceden a la aplicación
+    Then los demás usuarios pueden ver las publicaciones de experiencias en un feed dedicado a compartir vivencias y recomendaciones
+```
+
+Relacionado a US12:
+``` 
+Feature: Destacar la Contribución de la Comunidad
+Como dueño de un local, quiero poder destacar la contribución de mi comunidad al turismo sostenible en la aplicación para atraer turistas.
+
+Scenario: Agregar información sobre la contribución al turismo sostenible
+Given que el dueño quiere destacar
+When el dueño del local accede a su cuenta en la aplicación
+Then el dueño del local puede agregar información sobre la contribución de su comunidad al turismo sostenible en su perfil
+
+Scenario: Ver información destacada sobre las iniciativas sostenibles
+Given que el dueño del local ha destacado la contribución de su comunidad
+When los turistas acceden a la aplicación
+Then los turistas pueden ver información destacada sobre las iniciativas sostenibles implementadas en el taller y la comunidad
+```
+Relacionado a US14:
+``` 
+Feature: Destacar la Contribución de la Comunidad
+Como dueño de un local, quiero poder destacar la contribución de mi comunidad al turismo sostenible en la aplicación para atraer turistas.
+
+Scenario: Agregar información sobre la contribución al turismo sostenible
+Given que el dueño quiere destacar
+When el dueño del local accede a su cuenta en la aplicación
+Then el dueño del local puede agregar información sobre la contribución de su comunidad al turismo sostenible en su perfil
+
+Scenario: Ver información destacada sobre las iniciativas sostenibles
+Given que el dueño del local ha destacado la contribución de su comunidad
+When los turistas acceden a la aplicación
+Then los turistas pueden ver información destacada sobre las iniciativas sostenibles implementadas en el taller y la comunidad
+```
+
+Relacionado a US15:
+``` 
+Feature: Notificaciones de Ofertas Especiales y Eventos en Talleres
+Como turista, quiero poder recibir notificaciones sobre ofertas especiales y eventos en los talleres a través de la aplicación para estar informado sobre promociones.
+
+Scenario: Recibir notificaciones sobre ofertas especiales y eventos
+Given que el turista quiere recibir notificaciones
+When el usuario activa las notificaciones en la aplicación
+Then la aplicación envía notificaciones sobre ofertas especiales y eventos en talleres cercanos
+
+Scenario: No recibir notificaciones después de desactivarlas
+Given que el usuario ha desactivado las notificaciones
+When el usuario accede a la aplicación
+Then el usuario no podrá recibir más notificaciones
+```
 
 
 
