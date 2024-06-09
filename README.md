@@ -3761,7 +3761,7 @@ En esta sección se mostrará el objetivo principal del sprint 3
 
 ### <span id="5223-development-evidence-for-sprint-review">5.2.3.3. Development Evidence for Sprint Review.</span>
 <table>
-    <tr>
+      <tr>
         <td>Repository</td>
         <td>Branch</td>
         <td>Commit Id</td>
@@ -3770,65 +3770,45 @@ En esta sección se mostrará el objetivo principal del sprint 3
         <td>Commited on (Date)</td>
     </tr>
     <tr>
-        <td>FRONT_END</td>
-        <td>master</td>
-        <td>128dfdfc19cc0197a34e9<br>dc675bd45357ffbd222</td>
-        <td>git commit feat: first commit</td>
-    <td>La primera versión del front <br>end para que todos puedan implementar sus HU</td>
-    <td>03/05/2024<</td>
+        <td>back-end</td>
+        <td>feat/FeedBack-bounded-context</td>
+        <td>d84732a3dd32c148f9a806f3db5adb047bb54114</td>
+        <td>git commit feat: Initial commit</td>
+    <td>La primera versión del back-end </td>
+    <td>30/04/2024<</td>
     </tr>
     <tr>
-    <td>FRONT_END</td>
-    <td>master</td>
-    <td>15a88c869f611c37077<br>24faf9d183c8180eb8917</td>
-    <td>git commit feat: change page</td>
-    <td>Se  fusiona la rama</td>
-    <td>03/05/2024<</td>
+    <td>BACK-END</td>
+    <td>feat/FeedBack-bounded-context</td>
+    <td>9379950cbcfa9ca63d1743028dd61d0fecc3ad4a</td>
+    <td>git commit feat: Añadido bounded context de publishing</td>
+    <td>Se creo el bounded publishing</td>
+    <td>09/06/2024<</td>
     </tr>
     <tr>
-    <td>FRONT_END</td>
-    <td>master</td>
-    <td>4971362adc7bbcf5b18e<br>ac1a99316537f23faf2f</td>
-    <td>git commit feat: Vistas</td>
-    <td>Se creo vistas</td>
-    <td>03/05/2024<</td>
+    <td>BACK-END</td>
+    <td>feat/booking-state-endpoint</td>
+    <td>4971362adc7bbcf5b18<br>eac1a99316537f23faf2f</td>
+    <td>feat: change bounded context</td>
+    <td>Se creo el bounded booking</td>
+    <td>09/06/2024</td>
     </tr>
     <tr>
-    <td>FRONT_END</td>
-    <td>master</td>
-    <td>84ce81815c98f324e97<br>b3d35b3115c764f9e8238</td>
-    <td>Change: 84ce81815c98f324<br>e97b3d35b3115c764f9e8238</td>
+    <td>BACK-END</td>
+    <td>feat/FeedBack-bounded-context</td>
+    <td>d294cfadbd2cab4a2dcbb626efc5a9fea3840e57</td>
+    <td>feat payment endpoint</td>
+    <td>Desarrollo de la funcionalidad de pagos en el endpoint payment</td>
+    <td>09/06/2024<</td>
+    </tr>
+    </tr>
+    <tr>
+    <td>BACK-END</td>
+    <td>feat/payment-method-booking</td>
+    <td>84ce81815c98f324e97b3<br>d35b3115c764f9e8238</td>
+    <td>Change: 84ce81815c98f324e9<br>7b3d35b3115c764f9e8238</td>
     <td>Se realizo las vista de perfil de usuario</td>
-    <td>03/05/2024<</td>
-    </tr>
-    </tr>
-    <tr>
-    <td>FRONT_END</td>
-    <td>master</td>
-    <td>23c9ad016a09a649c20<br>eb14f4c45e48fa6e73e2b</td>
-    <td>Feat: Create view log-in and register</td>
-    <td>Se creo las vistas de login y register </td>
-    <td>03/05/2024<</td>
-    </tr>
-    </tr>
-    <tr>
-    <td>FRONT_END</td>
-    <td>master</td>
-    <td>aac6b7fa43d909bbc61<br>c582a818cb2eb71c7e46a</td>
-    <td>commit feat:añadí destino y la info<br> del destino </td>
-    <td>se añadio un destino y info de destino</td>
-    <td>03/05/2024</td>
-    </tr>
-    </tr>
-    <tr>
-    <td>FRONT_END</td>
-    <td>master</td>
-    <td>12ca6f45eef701078f22<br>dfc09822106939fcc3ef</td>
-    <td>
-    Feat: create api fake</td>
-    <td>Se crea el api fake y se crea las vistas de actividades </td>
-    <td>03/05/2024</td>
-    </tr>
+    <td>09/06/2024<</td>
     </tr>
 </table>
 
@@ -4035,30 +4015,11 @@ Then el usuario no podrá recibir más notificaciones
     </tr>
     <tr>
     <td>BACK-END</td>
-    <td>master</td>
+    <td>feat/payment-method-booking</td>
     <td>84ce81815c98f324e97b3<br>d35b3115c764f9e8238</td>
     <td>Change: 84ce81815c98f324e9<br>7b3d35b3115c764f9e8238</td>
     <td>Se realizo las vista de perfil de usuario</td>
-    <td>03/05/2024<</td>
-    </tr>
-    </tr>
-    <td>BACK-END</td>
-    <td>master</td>
-    <td>aac6b7fa43d909bbc61c5<br>82a818cb2eb71c7e46a</td>
-    <td>commit feat:añadí destino y la info del destino </td>
-    <td>se añadio un destino y info de destino</td>
-    <td>03/05/2024</td>
-    </tr>
-    </tr>
-    <tr>
-    <td>BACK-END</td>
-    <td>master</td>
-    <td>12ca6f45eef701078f22d<br>fc09822106939fcc3ef</td>
-    <td>
-    Feat: create api fake</td>
-    <td>Se crea el api fake y se crea las vistas de actividades </td>
-    <td>03/05/2024</td>
-    </tr>
+    <td>09/06/2024<</td>
     </tr>
 </table>
 
