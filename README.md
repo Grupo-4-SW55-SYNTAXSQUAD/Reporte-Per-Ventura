@@ -3918,31 +3918,40 @@ Relacionado a US03:
         <td>Commited on (Date)</td>
     </tr>
     <tr>
-        <td>FRONT_END</td>
-        <td>master</td>
-        <td>128dfdfc19cc0197a<br>34e9dc675bd45357ffbd222</td>
-        <td>git commit feat: first commit</td>
-    <td>La primera versión del front end para <br>que todos puedan implementar sus HU</td>
-    <td>03/05/2024<</td>
+        <td>back-end</td>
+        <td>feat/FeedBack-bounded-context</td>
+        <td>d84732a3dd32c148f9a806f3db5adb047bb54114</td>
+        <td>git commit feat: Initial commit</td>
+    <td>La primera versión del back-end </td>
+    <td>30/04/2024<</td>
     </tr>
     <tr>
-    <td>FRONT_END</td>
-    <td>master</td>
-    <td>15a88c869f611c3707724<br>faf9d183c8180eb8917</td>
-    <td>git commit feat: change page</td>
-    <td>Se  fusiona la rama</td>
-    <td>03/05/2024<</td>
+    <td>BACK-END</td>
+    <td>feat/FeedBack-bounded-context</td>
+    <td>9379950cbcfa9ca63d1743028dd61d0fecc3ad4a</td>
+    <td>git commit feat: Añadido bounded context de publishing</td>
+    <td>Se creo el bounded publishing</td>
+    <td>09/06/2024<</td>
     </tr>
     <tr>
-    <td>FRONT_END</td>
-    <td>master</td>
+    <td>BACK-END</td>
+    <td>feat/booking-state-endpoint</td>
     <td>4971362adc7bbcf5b18<br>eac1a99316537f23faf2f</td>
-    <td>git commit feat: Vistas</td>
-    <td>Se creo vistas</td>
-    <td>03/05/2024<</td>
+    <td>feat: change bounded context</td>
+    <td>Se creo el bounded booking</td>
+    <td>09/06/2024</td>
     </tr>
     <tr>
-    <td>FRONT_END</td>
+    <td>BACK-END</td>
+    <td>feat/FeedBack-bounded-context</td>
+    <td>d294cfadbd2cab4a2dcbb626efc5a9fea3840e57</td>
+    <td>feat payment endpoint</td>
+    <td>Desarrollo de la funcionalidad de pagos en el endpoint payment</td>
+    <td>09/06/2024<</td>
+    </tr>
+    </tr>
+    <tr>
+    <td>BACK-END</td>
     <td>master</td>
     <td>84ce81815c98f324e97b3<br>d35b3115c764f9e8238</td>
     <td>Change: 84ce81815c98f324e9<br>7b3d35b3115c764f9e8238</td>
@@ -3950,17 +3959,7 @@ Relacionado a US03:
     <td>03/05/2024<</td>
     </tr>
     </tr>
-    <tr>
-    <td>FRONT_END</td>
-    <td>master</td>
-    <td>23c9ad016a09a649c20eb<br>14f4c45e48fa6e73e2b</td>
-    <td>Feat: Create view log-in and register</td>
-    <td>Se creo las vistas de login y register </td>
-    <td>03/05/2024<</td>
-    </tr>
-    </tr>
-    <tr>
-    <td>FRONT_END</td>
+    <td>BACK-END</td>
     <td>master</td>
     <td>aac6b7fa43d909bbc61c5<br>82a818cb2eb71c7e46a</td>
     <td>commit feat:añadí destino y la info del destino </td>
@@ -3969,7 +3968,7 @@ Relacionado a US03:
     </tr>
     </tr>
     <tr>
-    <td>FRONT_END</td>
+    <td>BACK-END</td>
     <td>master</td>
     <td>12ca6f45eef701078f22d<br>fc09822106939fcc3ef</td>
     <td>
@@ -3993,6 +3992,8 @@ Para el presente sprint, se desplego la primer versión de la web application co
 ![alt text](resources-img/image1.png)
 
 ![alt text](resources-img/image2.png)
+
+![Alt text](Images/payment.png)
 
 ### 5.2.3.6.Services Documentation Evidence for Sprint Review.
 Para el Sprint 3 se planifico abarcar las mejoras del frontend y la creación del back-end.
@@ -4173,6 +4174,11 @@ Para el Sprint 3 se planifico abarcar las mejoras del frontend y la creación de
 ![alt text](./Images/image-12.png)
 ![alt text](./Images/image-13.png)
 ![alt text](./Images/image-14.png)
+![alt-text](Images/payment-services1.png)
+![alt-text](Images/payment-services2.png)
+![alt-text](Images/payment-services3.png)
+![alt-text](Images/paymentState-1.png)
+![alt-text](Images/paymentState-2.png)
 
 
 ### 5.2.3.7.Software Deployment Evidence for Sprint Review.
