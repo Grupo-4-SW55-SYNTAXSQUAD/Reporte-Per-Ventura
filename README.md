@@ -4218,35 +4218,30 @@ Para el Sprint 3 se planifico abarcar las mejoras del frontend y la creación de
 
 Entrevistado #1: 
 
-![Estrevista1](./imgs/entrevista_Joaquin.PNG)
 
 Piero Delgado
 
 ●	Sexo: Masculino
 
-●	Edad: 20 años
+●	Edad: 27 años
 
-●	Distrito en el que vive: San Borja
+●	Distrito en el que vive: Chorrillos
 
 ●	Nivel socioeconómico: Clase B
 Entrevista:
 
-●	Link: [Click para ver entrevista](https://drive.google.com/file/d/1U7btUAmcuTNKfuTqJ5JtaWzU39rADnzz/view?usp=sharing)
+●	Link: [Click para ver entrevista](https://youtu.be/71YnW-rVkjU)
 
 ●	Momento en el que inicia: 0:00
 
-●	Duración: 5:20
+●	Duracion: 2:18
 
-●	Entrevistador: Rivadeneyra Ramos, Joaquin David
+●	Entrevistador: Felix Orlando Becerra Tito
 
 Resumen:
 <p align="justify">
-Piero Delgado, un joven de 20 años residente en San Borja, es un gran lector que utiliza la aplicación BookFlow a diario. Describe su experiencia con la aplicación como excelente, destacando su interfaz intuitiva y la organización eficiente que facilita la navegación. Las recomendaciones de libros que recibe están bien alineadas con sus intereses, lo que le ha permitido explorar nuevos géneros y leer más regularmente. Piero no ha encontrado problemas técnicos y valora altamente la seguridad y privacidad de la aplicación. Satisfecho con la variedad de libros disponibles, considera que la suscripción premium vale la pena por el acceso a contenido exclusivo y eventos especiales. Sugiere mejorar la funcionalidad de búsqueda y agregar más opciones de personalización y contenido interactivo. En general, recomendaría BookFlow a otros lectores por su facilidad de uso y las recomendaciones personalizadas que ofrece.
+Alejandro nos comenta como le agrada la idea de nuestra página y comenta que es muy intuitiva para el turista o propietario que la quiera usar pero tiene pequeños problemas que se pueden solucionar para satisfacer todas las necesidades del usuario.
 </p>
-
-
-
-#### Segmento 2:
 
 
 
