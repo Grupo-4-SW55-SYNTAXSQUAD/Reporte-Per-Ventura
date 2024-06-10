@@ -113,6 +113,8 @@ TB2:
 
 ![alt text](./resources-img/tb2Barras.png)
 
+link del  backend: https://github.com/Grupo-4-SW55-SYNTAXSQUAD/BACK-END 
+
 ## <span style="color:red">Tabla de Contenido</span>
 
 - [**UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS**](#universidad-peruana-de-ciencias-aplicadas)
@@ -4236,9 +4238,15 @@ Para el Sprint 3 se planifico abarcar las mejoras del frontend y la creación de
 
 ### 5.2.3.8.Team Collaboration Insights during Sprint.
 
-![alt text](./resources-img/e.png)
+front
+
+![alt text](./resources-img/barras.png)
+
 
 ![alt text](./resources-img/image-1.png)
+
+back
+
 
 ## 5.3. Validation Interviews.
 ### 5.3.1. Diseño de Entrevistas.
@@ -4457,3 +4465,8 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u202219186_upc_edu_pe/EcH1FgML
 Video de exposición TP1: 
 
 https://upcedupe-my.sharepoint.com/:v:/g/personal/u202219186_upc_edu_pe/Ee_zbdobyClAvffByrMjBtYBfs7AJGUbweBWu1FoGAvMww?e=UxgORL&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7fX0%3D
+
+Video de exposición TB2: 
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202219186_upc_edu_pe/Ee_zbdobyClAvffByrMjBtYBfs7AJGUbweBWu1FoGAvMww?e=UxgORL&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7fX0%3D
+
