@@ -86,6 +86,18 @@
     <td>Lynn Jeeferzon Meza Camayo</td>
     <td>Finalización del segundo Sprint</td>
   </tr>
+      <tr>
+    <td>version 3</td>
+    <td>08/06/2024</td>
+    <td>Lynn Jeeferzon Meza Camayo</td>
+    <td>Finalización del Tercer Sprint</td>
+  </tr>
+      <tr>
+    <td>version 4</td>
+    <td>28/06/2024</td>
+    <td>Paolo Gonzalo Párraga Gamarra</td>
+    <td>Finalización del último sprint</td>
+  </tr>
 </table>
 
 ## <span style="color:red">Project Report Collaboration Insights </span>
@@ -4461,19 +4473,19 @@ En esta sección se mostrará el objetivo principal del sprint 4
     </tr>
             <tr>
         <td>BACK-END</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>feat/activity-endpoint-patch</td>
+        <td>ec1289b</td>
+        <td>feat: Activity patch endpoint añadido</td>
+        <td>Se añadió el endpoint para editar cualquier dato de una actividad</td>
+        <td>28/06/2024</td>
     </tr>
             <tr>
         <td>BACK-END</td>
+        <td>feat/activity-endpoint-delete</td>
+        <td>ec1289b</td>
         <td></td>
         <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>28/06/2024</td>
     </tr>
 </table>
 
@@ -4485,17 +4497,176 @@ Se han diseñado y ejecutado pruebas unitarias para las siguientes clases y comp
 
 
 
+1. ProfilePage: Se probaron los métodos DeleteUserById y UpdateUserById.
+
+2. ProfilePage: Se probaron los métodos DeletePromotionById y UpdatePromotionById.
+
+3. ProfilePage: Se probaron los métodos DeleteActivityById y UpdateActivityById.
+
+4. formRegisterComponent: Se probó la validación de email para la creacion de una cuenta
+
+
 ***Integration Tests & Acceptance Tests (BDD):***
 
-Se han desarrollado archivos .feature utilizando Gherkin para las siguientes User Stories:
+Se han desarrollado archivos .feature utilizando Gherkin para las siguientes Techincal Stories:
 
+Relacionado a TS17:
 
+    Feature: Obtener DeleteUserById
+    
+    Como desarrollador del backend de PeruVentura
+    Quiero implmentar un endpoint que maneje la eliminación de una cuenta de usuario
+    Para permitir la gestión de cuentas de forma acutalizada
+    
+    Scenario: Eliminar el usuario por id
+        Given que el usuario quiere eliminar su cuenta
+        When ha dado click en eliminar cuenta
+        Then el id del usuario que elimina la cuenta debe pasarse como parámetro
+        And debería poder eliminar su cuenta exitosamente
+        
+    Scenario: Fallo al eliminar una cuenta
+        Given el usuario 
+        When dió cancelar a la eliminación de su cuenta
+        Then debería poder mantener su cuenta intacta
+
+Relacionado a TS18:
+
+    Feature: Obtener EditUserById
+
+    Como desarrollador del backend de PeruVentura
+    Quiero implementar un endpoint que maneje la actualización de los datos del usuario
+    Para permitir actualizar datos viejos al usuario
+    
+    Scenario: Crear una nueva transacción
+        Given existe un usuario registrado en el sistema
+        When el usuario envía una solicitud PATCH al endpoint /api/users/{userId} con los datos actualizados
+        Then el sistema valida los datos proporcionados
+        And devuelve una respuesta 200 OK 
+        
+    Scenario: Actualización Fallida por Datos Inválidos
+
+        Given existe un usuario registrado en el sistema
+        When el usuario envía una solicitud PATCH al endpoint /api/users/{userId} con los datos actualizados
+        Then el sistema valida los datos proporcionados
+        And detecta que los datos son inválidos (e.g., formato de email incorrecto, campos requeridos faltantes)
+        And Y devuelve una respuesta 400 Bad Request
+
+Relacionado a TS19:
+
+    Feature: Validate Email
+    
+    Como desarrollador del backend de PeruVentura
+    Quiero implementar una validación del correo para que no se ponga el mismo dos veces.
+    Para asegurar que cada cuenta de usuario tenga un correo único
+    
+    Scenario: Creación de cuenta con correo único
+
+        Given que no existe ninguna cuenta con el correo usuario@example.com en el sistema
+        When el usuario envía una solicitud POST al endpoint /api/users con el correo usuario@example.com
+        Then el sistema valida que el correo no está en uso
+        And crea la nueva cuenta de usuario con éxito
+        
+    Scenario: Creación de cuenta con correo duplicado
+
+        Given que ya existe una cuenta con el correo usuario@example.com en el sistema
+        When el usuario envía una solicitud POST al endpoint /api/users con el correo usuario@example.com
+        Then el sistema valida que el correo ya está en uso
+        And rechaza la creación de la nueva cuenta
+
+Relacionado a TS20:
+
+    Feature: Obtener DeletePromotionById
+    
+    Como desarrollador del backend de PeruVentura
+    Quiero implmentar un endpoint que maneje la eliminación de una promoción
+    Para permitir la eliminación de promociones que ya no son necesarias
+    
+    Scenario: Eliminación exitosa de una promoción
+        Given que existe una promoción con el ID 1 en el sistema
+        When el usuario envía una solicitud DELETE al endpoint /api/promotions/1
+        Then el sistema verifica la existencia de la promoción
+        And elimina la promoción de la base de datos
+        
+    Scenario: Eliminación Fallida por Promoción No Encontrada
+        Given que no existe ninguna promoción con el ID 10 en el sistema 
+        When el usuario envía una solicitud DELETE al endpoint /api/promotions/10
+        Then el sistema verifica la existencia de la promoción
+        And no encuentra ninguna promoción con el ID proporcionado
+        And devuelve una respuesta 404 Not Found
+
+Relacionado a TS21:
+
+    Feature: Obtener EditPromotionById
+
+    Como desarrollador del backend de PeruVentura
+    Quiero implementar un endpoint que maneje la actualización de los datos de la promoción
+    Para permitir actualizar datos desactualizados a las promociones
+    
+    Scenario: Actualización exitosa de datos de promoción
+        Givenque existe una promoción con el ID 1 en el sistema
+        When el usuario envía una solicitud PATCH al endpoint /api/promotions/1 con los datos actualizados de la promoción
+        Then el sistema valida los datos proporcionados
+        And actualiza la información de la promoción en la base de datos
+        And  devuelve una respuesta 200 OK
+        
+    Scenario: Actualización fallida por promoción no encontrada
+
+        Given que no existe ninguna promoción con el ID 20 en el sistema
+        When el usuario envía una solicitud PATCH al endpoint /api/promotions/20 con los datos actualizados de la promoción
+        Then el sistema verifica la existencia de la promoción
+        And no encuentra ninguna promoción con el ID proporcionado
+        And devuelve una respuesta 404 Not Found
+
+Relacionado a TS22:
+
+    Feature: Obtener DeleteActivityById
+
+    Como desarrollador del backend de PeruVentura
+    Quiero crear un endpoint que permita eliminar una actividad publicada por medio de su identificador único
+    Para gestionar actividades de manera eficiente
+
+    Scenario: Eliminación Exitosa de una Actividad
+        Given que existe una actividad con el ID 4 en el sistema
+        When el usuario envía una solicitud DELETE al endpoint /api/activities/4
+        Then el sistema verifica la existencia de la actividad
+        And elimina la actividad de la base de datos
+
+    Scenario: Eliminación Fallida por Actividad No Encontrada
+
+        Given que no existe ninguna actividad con el ID 7 en el sistema
+        When que no existe ninguna actividad con el ID 7 en el sistema
+        Then el sistema verifica la existencia de la actividad
+        And no encuentra ninguna actividad con el ID proporcionado
+        And devuelve una respuesta 404 Not Found
+
+Relacionado a TS23:
+
+    Feature: Obtener EditActivityById
+    
+    Como desarrollador del backend de PeruVentura
+    Quiero crear un endpoint que permita editar algún campo de las actividades, ya sea el nombre, descripción, etc. Pueden ser todos o solo un campo
+    Para mantener la información de las actividades actualizada
+
+    Scenario: Actualización Exitosa de Datos de Actividad
+        Given que existe una actividad con el ID 6 en el sistema
+        When el usuario envía una solicitud PATCH al endpoint /api/activity/6 con los datos actualizados de la actividad
+        Then el sistema valida los datos proporcionados
+        And actualiza la información de la actividad en la base de datos
+        And devuelve una respuesta 200 OK 
+
+    Scenario: Actualización Fallida por Actividad No Encontrada
+        Given que no existe ninguna actividad con el ID 9 en el sistema
+        When el usuario envía una solicitud PATCH al endpoint /api/activity/9 con los datos actualizados de la actividad
+        Then el sistema verifica la existencia de la actividad
+        And no encuentra ninguna actividad con el ID proporcionado
+        And devuelve una respuesta 404 Not Found
+  
 
 
 
 #### Tabla para commits relacionados con el testing
 <table>
-   <tr>
+      <tr>
         <td>Repository</td>
         <td>Branch</td>
         <td>Commit Id</td>
@@ -4529,19 +4700,19 @@ Se han desarrollado archivos .feature utilizando Gherkin para las siguientes Use
     </tr>
             <tr>
         <td>BACK-END</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>feat/activity-endpoint-patch</td>
+        <td>ec1289b</td>
+        <td>feat: Activity patch endpoint añadido</td>
+        <td>Se añadió el endpoint para editar cualquier dato de una actividad</td>
+        <td>28/06/2024</td>
     </tr>
             <tr>
         <td>BACK-END</td>
+        <td>feat/activity-endpoint-delete</td>
+        <td>ec1289b</td>
         <td></td>
         <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>28/06/2024</td>
     </tr>
 </table>
 
@@ -4575,7 +4746,22 @@ TS-21:
 
 ![alt text](./sprint-imgs/image-18.png)
 
+TS-22:
+![alt text](./sprint-imgs/image-24.png)
+
+![alt text](./sprint-imgs/image-25.png)
+
+TS-23:
+
+![alt text](./sprint-imgs/image-26.png)
+
+![alt text](./sprint-imgs/image-27.png)
+
 FRONTEND:
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
 
 LANDING PAGE:
 
@@ -4657,7 +4843,9 @@ Para el Sprint 4 se planifico los últimos endpoints del back-end.
 
   </table>
 
+![alt text](./sprint-imgs/image-22.png)
 
+![alt text](./sprint-imgs/image-23.png)
 
 ### 5.2.4.7.Software Deployment Evidence for Sprint Review.
 Para el despliegue de la versión final del backend se usó Azure y para la versión final de la landing page y frontend se usó Netlify.
@@ -4674,6 +4862,10 @@ BACKEND:
 link: https://peruventuraapi.azurewebsites.net/swagger/index.html 
 
 FRONTEND:
+
+![alt text](image-3.png)
+
+link: https://main--peruventuraapp.netlify.app/login
 
 LANDING PAGE:
 
