@@ -4792,6 +4792,20 @@ Geovana Santos
 Resumen:
 El entrevistado, Geovana Santos, de 52 años ha sido una turista y ha explicado que no ha tenido casi ningun problema con la aplicación web, aunque tuvo unos pequeños incovenientes con la sección de promociones, pero le gusto la página.
 
+### Segmento 4:
+
+Carlos Fernandez 
+
+● Sexo: Masculino
+● Edad: 45 años
+● Distrito en el que vive: San Isidro
+
+● Link: https://youtu.be/BF3cL6upMdA
+● Momento en el que inicia: 0:00
+● Duración: 2:24
+
+Resumen:
+El entrevistado, Carlos Fernandez, de 45 años ha sido un propietario en relación al turismo y no ha tenido casi ningun problema con la aplicación web, le pareció eficiente y simple.
 
 ### 5.3.3. Evaluaciones según heurísticas.
 **CARRERA:** Ingeniería de Software  
