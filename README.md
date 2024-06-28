@@ -4717,6 +4717,7 @@ Relacionado a TS23:
 </table>
 
 ### 5.2.4.5.Execution Evidence for Sprint Review.
+
 Para el presente sprint, se desplego la versión final de la web application completamente funcional, cumpliendo los technical stories correspondientes. También se mostrará evidencia del despliegue final de la landing page y frontend.
 
 BACKEND:
@@ -4742,11 +4743,13 @@ TS-20:
 ![alt text](./sprint-imgs/image-19.png)
 
 TS-21:
+
 ![patchPromotion](./sprint-imgs/image.png)
 
 ![alt text](./sprint-imgs/image-18.png)
 
 TS-22:
+
 ![alt text](./sprint-imgs/image-24.png)
 
 ![alt text](./sprint-imgs/image-25.png)
@@ -4826,19 +4829,19 @@ Para el Sprint 4 se planifico los últimos endpoints del back-end.
     </tr>
     		<tr>
         <td>Delete</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>/api/v1/promotions/{Id}</td>
+        <td>Delete Activity By Id</td>
+        <td>Deletes a activity by id</td>
+        <td>Id(path)</td>
+        <td>Activity updated successfully</td>
     </tr>
     		<tr>
         <td>Patch</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>/api/v1/promotions/{Id}</td>
+        <td>Update Activity paramters</td>
+        <td>Update Activity attributes</td>
+        <td>Id(path)</td>
+        <td>Activity updated successfully</td>
     </tr>
 
   </table>
@@ -4846,6 +4849,8 @@ Para el Sprint 4 se planifico los últimos endpoints del back-end.
 ![alt text](./sprint-imgs/image-22.png)
 
 ![alt text](./sprint-imgs/image-23.png)
+
+![alt text](image-4.png)
 
 ### 5.2.4.7.Software Deployment Evidence for Sprint Review.
 Para el despliegue de la versión final del backend se usó Azure y para la versión final de la landing page y frontend se usó Netlify.
@@ -4943,10 +4948,33 @@ Alejandro nos comenta como le agrada la idea de nuestra página y comenta que es
 </p>
 
 
+Geovana Santos
+
+![alt text](image-5.png)
+
+● Sexo: Femenino
+
+● Edad: 52 años
+
+● Distrito en el que vive: Magdalena del Mar
+
+● Link: https://youtu.be/RWKfr1sPSdI
+
+● Momento en el que inicia: 0:00 
+
+● Duración: 3:07
+
+● Entrevistador: David Bryan Rodriguez Santos
+
+Resumen:
+
+El entrevistado, Geovana Santos, de 52 años ha sido una turista y ha explicado que no ha tenido casi ningun problema con la aplicación web, aunque tuvo unos pequeños incovenientes con la sección de promociones, pero le gusto la página.
+
 
 #### Segmento 2:
 
 Anthony Tarrillo
+
 ![Entrevista1](./resources-img/Entrevista_A.png)
 
 ● Sexo: Masculino
@@ -4967,36 +4995,26 @@ Resumen:
 
 El entrevistado, Santiago García, de 23 años ha sido emprendedor por un año con su local que fue abierto gracias a un préstamo. En esta entrevista nos da una opinión sincera sobre el aplicativo y cómo podríamos mejorar tanto en estilos como en funcionalidades.
 
-#### Segmento 3:
 
-Geovana Santos
-
-● Sexo: Femenino
-● Edad: 52 años
-● Distrito en el que vive: Magdalena del Mar
-
-● Link: https://youtu.be/RWKfr1sPSdI
-● Momento en el que inicia: 0:00 
-● Duración: 3:07
-
-● Entrevistador: David Bryan Rodriguez Santos
-
-Resumen:
-El entrevistado, Geovana Santos, de 52 años ha sido una turista y ha explicado que no ha tenido casi ningun problema con la aplicación web, aunque tuvo unos pequeños incovenientes con la sección de promociones, pero le gusto la página.
-
-### Segmento 4:
 
 Carlos Fernandez 
 
+![alt text](image-6.png)
+
 ● Sexo: Masculino
+
 ● Edad: 45 años
+
 ● Distrito en el que vive: San Isidro
 
 ● Link: https://youtu.be/BF3cL6upMdA
+
 ● Momento en el que inicia: 0:00
+
 ● Duración: 2:24
 
 Resumen:
+
 El entrevistado, Carlos Fernandez, de 45 años ha sido un propietario en relación al turismo y no ha tenido casi ningun problema con la aplicación web, le pareció eficiente y simple.
 
 ### 5.3.3. Evaluaciones según heurísticas.
