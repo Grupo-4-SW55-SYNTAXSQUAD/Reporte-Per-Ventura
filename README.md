@@ -4780,11 +4780,15 @@ El entrevistado, Santiago García, de 23 años ha sido emprendedor por un año c
 Geovana Santos
 
 ● Sexo: Femenino
+
 ● Edad: 52 años
+
 ● Distrito en el que vive: Magdalena del Mar
 
 ● Link: https://youtu.be/RWKfr1sPSdI
+
 ● Momento en el que inicia: 0:00 
+
 ● Duración: 3:07
 
 ● Entrevistador: David Bryan Rodriguez Santos
@@ -4797,11 +4801,15 @@ El entrevistado, Geovana Santos, de 52 años ha sido una turista y ha explicado 
 Carlos Fernandez 
 
 ● Sexo: Masculino
+
 ● Edad: 45 años
+
 ● Distrito en el que vive: San Isidro
 
 ● Link: https://youtu.be/BF3cL6upMdA
+
 ● Momento en el que inicia: 0:00
+
 ● Duración: 2:24
 
 Resumen:
