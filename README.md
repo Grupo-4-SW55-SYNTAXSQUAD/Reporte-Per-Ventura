@@ -127,6 +127,19 @@ TB2:
 
 link del  backend: https://github.com/Grupo-4-SW55-SYNTAXSQUAD/BACK-END 
 
+TF:
+
+![alt text](image-7.png)
+
+![alt text](image-8.png)
+
+Frontend: https://main--peruventuraapp.netlify.app/login
+
+Backend: https://peruventuraapi.azurewebsites.net/swagger/index.html 
+
+landing-page: https://peruventura.netlify.app
+
+
 ## <span style="color:red">Tabla de Contenido</span>
 
 - [**UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS**](#universidad-peruana-de-ciencias-aplicadas)
@@ -281,104 +294,176 @@ link del  backend: https://github.com/Grupo-4-SW55-SYNTAXSQUAD/BACK-END
 
 <table>
     <tr>
-        <th>Criterio Especifico</th>
+        <th>Criterio Específico</th>
         <th>Acciones Realizadas</th>
         <th>Conclusiones</th>
     </tr>
     <tr>
         <td>
-            Participa en equipos <br> multidiciplinadoscon eficacia <br>
-            eficiencia y objetividad,<br> en el marco de un proyecto en <br>
-            soluciones de ingeniería<br> de software
+            Participa en equipos <br> multidisciplinados con eficacia, <br>
+            eficiencia y objetividad, <br> en el marco de un proyecto en <br>
+            soluciones de ingeniería <br> de software
         </td>
         <td>
-            Lynn Jeeferzon Meza Camayo <br>
+            Paolo Gonzalo Párraga Gamarra <br>
             <em>TB1</em><br>
-            <em>Se implemento los antecedentes y problematcias, para identificar nuestra propuesta. Creando los Style Guidelines para la implementacion y desarrollo de nuestro aplicativo y       
-            landing page.<br><br>
+            <ul>
+                <li>Se realizó el capítulo 3</li>
+                <li>Se desarrollaron los diagramas de clases y de base de datos</li>
+                <li>Se llevó a cabo el sprint planning 1 y sprint backlog</li>
+                <li>Se desarrollaron las vistas del web application primera versión</li>
+            </ul>
             <em>TP</em><br>
-            <em>Se implemento la vista de log-in y register en el desarrollo del front end</em> <br><br>
-            Paolo Gonzalo Párraga Gamarra<br>
+            <ul>
+                <li>Se implementó la vista de perfil del turista y contacto de manera correcta</li>
+                <li>Desarrollo de los endpoints de promotion, activities, categories, reviews, y destinationTrip</li>
+            </ul>
+            <em>TB2</em><br>
+            <ul>
+                <li>Desarrollo del frontend, mejorando algunos estilos necesarios</li>
+            </ul>
+            <em>TF</em><br>
+            <ul>
+                <li>Desarrollo de los endpoints de User, el endpoint para delete y patch</li>
+            </ul>
+            David Bryan Rodríguez Santos <br>
             <em>TB1</em><br>
-            <em>Se reliazó el capítulo 3, así comolos diagramas <br>de clases y de base de datos y el <br>sprint planning 1 y sprint backlog<br><br>
+            <ul>
+                <li>Se realizó la segunda mitad del capítulo 2 (User Persona, As-Is Scenario Mapping, etc.)</li>
+                <li>Se diseñaron los componentes</li>
+                <li>Se llevaron a cabo el sprint planning 1 y sprint backlog</li>
+                <li>Se desarrollaron las vistas del web application primera versión</li>
+            </ul>
             <em>TP</em><br>
-            <em>Se implemento la vista de perfil del turista y contacto de manera correcta</em>
-            <br><br>
-            David Bryan Rodriguez Santos <br>
+            <ul>
+                <li>Se implementó la vista de contacto y home del web correctamente</li>
+                <li>Desarrollo de los endpoints de bookingState y frontend</li>
+            </ul>
+            <em>TF</em><br>
+            <ul>
+                <li>Desarrollo de los endpoints de Activity, el endpoint para delete y patch</li>
+            </ul>
+            Fabricio Gabriel Iparraguirre Quintero <br>
             <em>TB1</em><br>
-            <em>Se realizó la segunda mitad del capítulo 2 entre estos fueron: User Persona, As-Is Scenario Mapping, etc. El diseño de componentes tambien fue realizado. <br>de clases y de base de datos y el <br>sprint planning 1 y sprint backlog<br><br>
-          <em>TP</em><br>
-          <em>Se implemento la vista de contacto y home del web correctamente</em><br><br>
-          Fabricio Gabriel Iparraguirre Quintero<br>
-          <em> TB1</em> <br>
-          <ul>
-          <li>Analisis Competitivo</li>
-          <li>Estrategias y tácticas frente a competidores.</li>
-          <li> Diseño de entrevistas.</li>
-          <li>Analisis de Entrevistas</li>
-          <li>Web Applications Prototyping</li>
-          <li>SEO Tags and Meta Tags</li>
-          <li>Software Development Environment Configuration</li>
-          <li>Source Code Management.</li>
-          <li>Source Code Style Guide & Conventions.</li>
-          </ul>
-            Felix Orlando Becerra Tito <br>
-            <em>TB1</em>
-            <em>Se realizó los elementos del primer capítulo, ya sea lean ux assumptions o canvas. Así mismo, se realizaron los puntos del apartado 4.2 <br><br>
+            <ul>
+                <li>Análisis competitivo</li>
+                <li>Estrategias y tácticas frente a competidores</li>
+                <li>Diseño de entrevistas</li>
+                <li>Análisis de entrevistas</li>
+                <li>Web Applications Prototyping</li>
+                <li>SEO Tags and Meta Tags</li>
+                <li>Software Development Environment Configuration</li>
+                <li>Source Code Management</li>
+                <li>Source Code Style Guide & Conventions</li>
+                <li>Se desarrollaron las vistas del web application primera versión y la creación de un ApiFake</li>
+            </ul>
             <em>TP</em><br>
-            <em>Se desarrollo las vistas de destinos correctamento como el desarrollo del aprint 2</em><br>
+            <ul>
+                <li>Se desarrollaron las vistas de actividades y el desarrollo de Sprint 2</li>
+                <li>Desarrollo de los endpoints de bookingState y frontend</li>
+            </ul>
+            <em>TF</em><br>
+            <ul>
+                <li>Mejora del frontend en estilos y responsive</li>
+                <li>Reestructuración de contacto</li>
+            </ul>
+            Félix Orlando Becerra Ttito <br>
+            <em>TB1</em><br>
+            <ul>
+                <li>Se realizaron los elementos del primer capítulo (lean ux assumptions, canvas)</li>
+                <li>Se desarrollaron los puntos del apartado 4.2</li>
+                <li>Se desarrollaron las vistas del web application primera versión</li>
+            </ul>
+            <em>TP</em><br>
+            <ul>
+                <li>Se desarrollaron las vistas de destinos correctamente</li>
+                <li>Desarrollo de heurísticas y frontend</li>
+            </ul>
+            <em>TB2</em><br>
+            <ul>
+                <li>Desarrollo del frontend, mejorando algunos estilos necesarios</li>
+            </ul>
+            <em>TF</em><br>
+            <ul>
+                <li>Desarrollo de los endpoints de Promotion, el endpoint para delete y patch</li>
+            </ul>
         </td>
         <td>
-        En conclusión, los elementos usados para la realización del tb1 fueron importantes como los sprint ayudaron a la eficacia del grupo.
+            En conclusión, la colaboración en equipos multidisciplinarios permitió un enfoque integral y eficiente en el desarrollo del proyecto. Cada miembro del equipo contribuyó con sus habilidades específicas, lo que facilitó la implementación de soluciones de ingeniería de software robustas. Los sprints y la planificación detallada ayudaron a mantener el progreso y la coordinación, asegurando que todos los objetivos se cumplieran de manera efectiva.
         </td>
     </tr>
     <tr>
-        <td>Conoce al menos un sector<br>
+        <td>
+            Conoce al menos un sector<br>
             empresarial o dominio de <br>
             aplicación de soluciones de <br>
             software.
         </td>
-       <td>
-            Lynn Jeeferzon Meza Camayo <br>
+        <td>
+            Paolo Gonzalo Párraga Gamarra <br>
             <em>TB1</em><br>
-            <em>Se implemento los antecedentes y problematcias, para identificar nuestra propuesta. Creando los Style Guidelines para la implementacion y desarrollo de nuestro aplicativo y       
-            landing page.<br><br>
+            <ul>
+                <li>Se realizó el capítulo 3</li>
+                <li>Se desarrollaron los diagramas de clases y de base de datos</li>
+                <li>Se llevó a cabo el sprint planning 1 y sprint backlog</li>
+                <li>Se desarrollaron las vistas del web application primera versión</li>
+            </ul>
             <em>TP2</em><br>
-            <em>Se implemento las vistas de register y login. Ademas de impletar la parte de spritn 2.</em>
-            Paolo Gonzalo Párraga Gamarra<br>
+            <ul>
+                <li>Se implementaron las vistas de perfil y promociones</li>
+                <li>Desarrollo de los endpoints de promotion, activities, categories, reviews, y destinationTrip</li>
+            </ul>
+            David Bryan Rodríguez Santos <br>
             <em>TB1</em><br>
-            <em>Se reliazó el capítulo 3, así comolos diagramas <br>de clases y de base de datos y el <br>sprint planning 1 y sprint backlog<br><br>
+            <ul>
+                <li>Se realizó la segunda mitad del capítulo 2 (User Persona, As-Is Scenario Mapping, etc.)</li>
+                <li>Se diseñaron los componentes</li>
+                <li>Se llevaron a cabo el sprint planning 1 y sprint backlog</li>
+                <li>Se desarrollaron las vistas del web application primera versión</li>
+            </ul>
             <em>TP</em><br>
-            <em>Se realizo las vistas de perfil profile y promociones . ademas, se desarrollo el spritn 2 con para una desarrollo perfecto. </em>
-            David Bryan Rodriguez Santos <br>
-            <em>TB1</em>
-            <em>Se realizó la segunda mitad del capítulo 2 entre estos fueron: User Persona, As-Is Scenario Mapping, etc. El diseño de componentes tambien fue realizado. <br>de clases y de base de datos y el <br>sprint planning 1 y sprint backlog<br><br>
-          Fabricio Gabriel Iparraguirre Quintero<br>
-          <em> TB1</em>
-          <ul>
-          <li>Analisis Competitivo</li>
-          <li>Estrategias y tácticas frente a competidores.</li>
-          <li> Diseño de entrevistas.</li>
-          <li>Analisis de Entrevistas</li>
-          <li>Web Applications Prototyping</li>
-          <li>SEO Tags and Meta Tags</li>
-          <li>Software Development Environment Configuration</li>
-          <li>Source Code Management.</li>
-          <li>Source Code Style Guide & Conventions.</li>
-          </ul><br>
-          <em>TP</em><br>
-          <em>Se desarrollo las vistas de actividaes e info. ademas, del desarrollo del sprint 2</em>
-          <em>TP</em><br>
-          <em>Se desarrollo las vistas de actividades y el desarrollo de Sprint 2</em>
-                      Felix Orlando Becerra Tito <br>
-            <em>TB1</em>
-            <em>Se realizó los elementos del primer capítulo, ya sea lean ux assumptions o canvas. Así mismo, se realizaron los puntos del apartado 4.2 <br><br>
+            <ul>
+                <li>Se implementaron las vistas de contacto y home del web correctamente</li>
+                <li>Desarrollo de los endpoints de bookingState y frontend</li>
+            </ul>
+            Fabricio Gabriel Iparraguirre Quintero <br>
+            <em>TB1</em><br>
+            <ul>
+                <li>Análisis competitivo</li>
+                <li>Estrategias y tácticas frente a competidores</li>
+                <li>Diseño de entrevistas</li>
+                <li>Análisis de entrevistas</li>
+                <li>Web Applications Prototyping</li>
+                <li>SEO Tags and Meta Tags</li>
+                <li>Software Development Environment Configuration</li>
+                <li>Source Code Management</li>
+                <li>Source Code Style Guide & Conventions</li>
+                <li>Se desarrollaron las vistas del web application primera versión y la creación de un ApiFake</li>
+            </ul>
             <em>TP</em><br>
-            <em>Se realizo las vistas de destinos y filtrado de destinos. Ademas, de la implementacion del sprint 2</em>
+            <ul>
+                <li>Se desarrollaron las vistas de actividades y el desarrollo de Sprint 2</li>
+                <li>Desarrollo de los endpoints de bookingState y frontend</li>
+            </ul>
+            Félix Orlando Becerra Ttito <br>
+            <em>TB1</em><br>
+            <ul>
+                <li>Se realizaron los elementos del primer capítulo (lean ux assumptions, canvas)</li>
+                <li>Se desarrollaron los puntos del apartado 4.2</li>
+                <li>Se desarrollaron las vistas del web application primera versión</li>
+            </ul>
+            <em>TP</em><br>
+            <ul>
+                <li>Se desarrollaron las vistas de destinos correctamente</li>
+                <li>Desarrollo de heurísticas y frontend</li>
+            </ul>
         </td>
-        <td>En conclusión, lo realizado a lo largo del trabajo fue algo crucial para conocer del sector empresairal al que apuntabamos y así aplicar soluciones de software efectivas.</td>
+        <td>
+            En conclusión, las actividades realizadas permitieron una comprensión profunda del sector empresarial al que estábamos apuntando. Esto facilitó la aplicación de soluciones de software efectivas y adaptadas a las necesidades específicas del dominio. La combinación de análisis competitivo, diseño de entrevistas y desarrollo de prototipos contribuyó significativamente a la creación de un producto final que cumple con los estándares del sector y las expectativas de los usuarios.
+        </td>
     </tr>
 </table>
+
 
 # <span id="capítulo-introducción" style="color:red">Capítulo I: Introducción</span>
 
