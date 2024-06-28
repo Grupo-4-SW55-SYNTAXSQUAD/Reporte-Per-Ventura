@@ -4453,19 +4453,11 @@ En esta sección se mostrará el objetivo principal del sprint 4
     </tr>
         <tr>
         <td>BACK-END</td>
+        <td>feature/delete-patch-promotions</td>
+        <td>edd0245</td>
+        <td>feat: Promotion patch y delete endpoints añadidos</td>
         <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-            <tr>
-        <td>BACK-END</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>28/06/2024</td>
     </tr>
             <tr>
         <td>BACK-END</td>
@@ -4503,7 +4495,7 @@ Se han desarrollado archivos .feature utilizando Gherkin para las siguientes Use
 
 #### Tabla para commits relacionados con el testing
 <table>
-      <tr>
+   <tr>
         <td>Repository</td>
         <td>Branch</td>
         <td>Commit Id</td>
@@ -4527,21 +4519,13 @@ Se han desarrollado archivos .feature utilizando Gherkin para las siguientes Use
         <td>Se añadió el endpoint para eliminar un usuario</td>
         <td>26/06/2024</td>
     </tr>
-            <tr>
+        <tr>
         <td>BACK-END</td>
+        <td>feature/delete-patch-promotions</td>
+        <td>edd0245</td>
+        <td>feat: Promotion patch y delete endpoints añadidos</td>
         <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-            <tr>
-        <td>BACK-END</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>28/06/2024</td>
     </tr>
             <tr>
         <td>BACK-END</td>
@@ -4576,6 +4560,21 @@ TS-18:
 
 ![alt text](./sprint-imgs/image-12.png)
 
+TS-19:
+
+![alt text](./sprint-imgs/image-20.png)
+
+![alt text](./sprint-imgs/image-21.png)
+
+TS-20:
+
+![alt text](./sprint-imgs/image-19.png)
+
+TS-21:
+![patchPromotion](./sprint-imgs/image.png)
+
+![alt text](./sprint-imgs/image-18.png)
+
 FRONTEND:
 
 LANDING PAGE:
@@ -4593,7 +4592,9 @@ LANDING PAGE:
 ![alt text](./sprint-imgs/image-17.png)
 
 ### 5.2.4.6.Services Documentation Evidence for Sprint Review.
-Para el Sprint 3 se planifico abarcar las mejoras del frontend y la creación del back-end.
+
+Para el Sprint 4 se planifico los últimos endpoints del back-end.
+
 <div align="justify">
 	Web Service:
 	<table>
@@ -4623,19 +4624,19 @@ Para el Sprint 3 se planifico abarcar las mejoras del frontend y la creación de
     </tr>
     		<tr>
         <td>Delete</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>/api/v1/promotions/{promotionId}</td>
+        <td>Delete Promotion By Id</td>
+        <td>Deletes a promotion by id</td>
+        <td>promotionId(path)</td>
+        <td>Promotion updated successfully</td>
     </tr>
     		<tr>
         <td>Patch</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>/api/v1/promotions/{promotionId}</td>
+        <td>Update Promotion paramters</td>
+        <td>Update Promotion attributes</td>
+        <td>promotionId(path)</td>
+        <td>Promotion updated successfully</td>
     </tr>
     		<tr>
         <td>Delete</td>
