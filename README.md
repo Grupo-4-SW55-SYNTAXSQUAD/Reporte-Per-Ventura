@@ -4248,6 +4248,452 @@ front
 back
 
 
+### <span id="522-sprint-2">5.2.4. Sprint 4</span>
+
+### <span id="5221-sprint-planning-2">5.2.4.1. Sprint Planning 4.</span>
+
+<table>
+    <tr align="center">
+        <td><strong>Sprint #</strong></td>
+        <td><strong>Sprint 4</strong></td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center"><strong>Sprint Planning Background</strong></td>
+    </tr>
+    <tr align="center">
+        <td>Date</td>
+        <td>21/06/2024</td>
+    </tr>
+    <tr align="center">
+        <td>Time</td>
+        <td>10:00 PM</td>
+    </tr>
+    <tr align="center">
+        <td>Location</td>
+        <td>Discord</td>
+    </tr>
+    <tr align="center">
+        <td>Prepared by</td>
+        <td>Paolo Gonzalo Párraga Gamarra</td>
+    </tr>
+    <tr align="center">
+        <td>Attendess (to planning meeting)</td>
+        <td><br>
+        David Bryan Rodriguez Santos - U202212236<br>
+        Paolo Gonzalo Párraga Gamarra - U202219186<br>
+        Fabricio Gabriel Iparraguirre Quintero - U202113930<br>
+        Felix Orlando Becerra Ttito - U20211B387</td>
+    </tr>
+    <tr align="center">
+        <td>Sprint 4 Review Summary</td>
+        <td>Se completaron las tareas asignadas para terminar el backend. Del mismo modo, se conectó tanto backend como el frontend, así como agregar un botón call to action a la landing page junto a una mejora de estilos y responsive</td>
+    </tr>
+    <tr align="center">
+        <td>Sprint 3 Retrospective Summary</td>
+        <td>El equipo acordó mejorar las observaciones con respecto al despliegue del frontend y mejora del responsive, así como agregar los videos faltantes del sprint 3</td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center"><strong>Sprint Goal & User Stories</strong></td>
+    </tr>
+    <tr align="center">
+        <td>Sprint 4 Goal</td>
+        <td>El objetivo primordial para este sprint es desplegar la versión final del backend como del frontend</td>
+    </tr>
+    <tr align="center">
+        <td>Sprint 4 Velocity</td>
+        <td>2 semanas</td>
+    </tr>
+    <tr align="center">
+        <td>Sum of Story Point</td>
+        <td>33</td>
+    </tr>
+</table>
+
+### <span id="5222-sprint-backlog-2">5.2.4.2. Sprint Backlog 4.</span>
+
+En esta sección se mostrará el objetivo principal del sprint 4
+
+
+<table>
+    <tr align="center">
+        <td colspan="2"><strong>Sprint #</strong></td>
+        <td colspan="6"><strong>Sprint 4</strong></td>
+    </tr>
+    <tr align="center">
+        <td colspan="2"><strong>User Story</strong></td>
+        <td colspan="6"><strong>Work-Item / Task</strong></td>
+    </tr>
+    <tr align="center">
+        <td><strong>Id</strong></td>
+        <td><strong>Title</strong></td>
+        <td><strong>Id</strong></td>
+        <td><strong>Title</strong></td>
+        <td><strong>Description</strong></td>
+        <td><strong>Estimation (Hours)</strong></td>
+        <td><strong>Assigned to</strong></td>
+        <td><strong>Status (To do / In process / To review / Done)</strong></td>
+    </tr>
+    <tr align="center">
+        <td>TS-17</td>
+        <td>Obtener DeleteUserById</td>
+        <td>TK-25</td>
+        <td>Crear un endpoint de usuario que permita ejecutar un DeleteUserById</td>
+        <td>Crear endpoint que permita eliminar un usuario por medio de su identificador único</td>
+        <td>4</td>
+        <td>Paolo</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>TS-18</td>
+        <td>Obtener EditUserById</td>
+        <td>TK-26</td>
+        <td>Crear un endpoint de usuario que permita ejecutar un EditUserById</td>
+        <td>Crear endpoint que permita editar algún campo del perfil de usuario, ya sea el nombre, correo,etc. Pueden ser todos o solo un campo</td>
+        <td>4</td>
+        <td>Paolo</td>
+        <td>Done</td>
+    </tr>
+        <tr align="center">
+        <td>TS-19</td>
+        <td>Validate Email</td>
+        <td>TK-27</td>
+        <td>Crear una validación en la creación de un usuario</td>
+        <td>Validar el correo para que cuandos se cree un nuevo perfil de usuario, el correo no se repita y salga error en caso de que se ingrese un mismo correo</td>
+        <td>1</td>
+        <td>Paolo</td>
+        <td>Done</td>
+    </tr>
+        <tr align="center">
+        <td>TS-20</td>
+        <td>Obtener DeletePromotionById</td>
+        <td>TK-28</td>
+        <td>Crear un endpoint de promotion que permita ejecutar un DeletePromotionById</td>
+        <td>Crear endpoint que permita al dueño del local eliminar una promoción por medio de su identificador único</td>
+        <td>4</td>
+        <td>Bryan</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center" >
+        <td >TS-21</td>
+        <td>Obtener EditPromotionById</td>
+        <td>TK-29</td>
+        <td>Crear un endpoint de promotion que permita ejecutar un EditPromotionById</td>
+        <td>Crear endpoint que permita editar algún campo de una promoción publicada por el usuario, ya sea el nombre, descripción,etc. Pueden ser todos o solo un campo</td>
+        <td>4</td>
+        <td>Bryan</td>
+        <td>Done</td>
+    </tr>
+        <tr align="center">
+        <td>TS-22</td>
+        <td>Obtener DeleteActivityById</td>
+        <td>TK-30</td>
+        <td>Crear un endpoint de activity que permita ejecutar un DeleteActivityById</td>
+        <td>Crear endpoint que permita eliminar una actividad publicada por medio de su identificador único</td>
+        <td>4</td>
+        <td>Felix</td>
+        <td>Done</td>
+    </tr>
+    <tr align="center">
+        <td>TS-23</td>
+        <td>Obtener EditActivityById</td>
+        <td>TK-31</td>
+        <td>Crear un endpoint de activity que permita ejecutar un EditActivityById</td>
+        <td>Crear endpoint que permita editar algún campo de las actividades, ya sea el nombre, descripcion,etc. Pueden ser todos o solo un campo</td>
+        <td>4</td>
+        <td>Felix</td>
+        <td>Done</td>
+    </tr>
+        <tr align="center">
+        <td>TS-24</td>
+        <td>Estilos</td>
+        <td>TK-32</td>
+        <td>Mejorar estilos del front</td>
+        <td>Hacer responsive el front, así como mejorar los estilos</td>
+        <td>4</td>
+        <td>Fabricio</td>
+        <td>Done</td>
+    </tr>
+        <tr align="center">
+        <td>TS-25</td>
+        <td>Reestructurar</td>
+        <td>TK-33</td>
+        <td>Rehacer la pestaña de contactos</td>
+        <td>Rehacer contactos para mejorar los estilos de este</td>
+        <td>4</td>
+        <td>Fabricio</td>
+        <td>Done</td>
+    </tr>
+</table>
+
+### <span id="5223-development-evidence-for-sprint-review">5.2.4.3. Development Evidence for Sprint Review.</span>
+<table>
+      <tr>
+        <td>Repository</td>
+        <td>Branch</td>
+        <td>Commit Id</td>
+        <td>Commit Message</td>
+        <td>Commit Message Body</td>
+        <td>Commited on (Date)</td>
+    </tr>
+    <tr>
+        <td>BACK-END</td>
+        <td>feat/user-endpoint-patch</td>
+        <td>caf0d4d</td>
+        <td>feat: User patch endpoint añadido</td>
+        <td>Se añadió el endpoint para editar cualquier dato de un usuario</td>
+        <td>26/06/2024</td>
+    </tr>
+    <tr>
+        <td>BACK-END</td>
+        <td>feat/user-endpoint-delete</td>
+        <td>63cb621</td>
+        <td>feat: User delete endpoint añadido</td>
+        <td>Se añadió el endpoint para eliminar un usuario</td>
+        <td>26/06/2024</td>
+    </tr>
+        <tr>
+        <td>BACK-END</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+            <tr>
+        <td>BACK-END</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+            <tr>
+        <td>BACK-END</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+            <tr>
+        <td>BACK-END</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+
+### 5.2.4.4.Testing Suite Evidence for Sprint Review.
+
+Unit tests:
+
+Se han diseñado y ejecutado pruebas unitarias para las siguientes clases y comportamientos.
+
+
+
+***Integration Tests & Acceptance Tests (BDD):***
+
+Se han desarrollado archivos .feature utilizando Gherkin para las siguientes User Stories:
+
+
+
+
+
+#### Tabla para commits relacionados con el testing
+<table>
+      <tr>
+        <td>Repository</td>
+        <td>Branch</td>
+        <td>Commit Id</td>
+        <td>Commit Message</td>
+        <td>Commit Message Body</td>
+        <td>Commited on (Date)</td>
+    </tr>
+    <tr>
+        <td>BACK-END</td>
+        <td>feat/user-endpoint-patch</td>
+        <td>caf0d4d</td>
+        <td>feat: User patch endpoint añadido</td>
+        <td>Se añadió el endpoint para editar cualquier dato de un usuario</td>
+        <td>26/06/2024</td>
+    </tr>
+    <tr>
+        <td>BACK-END</td>
+        <td>feat/user-endpoint-delete</td>
+        <td>63cb621</td>
+        <td>feat: User delete endpoint añadido</td>
+        <td>Se añadió el endpoint para eliminar un usuario</td>
+        <td>26/06/2024</td>
+    </tr>
+            <tr>
+        <td>BACK-END</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+            <tr>
+        <td>BACK-END</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+            <tr>
+        <td>BACK-END</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+            <tr>
+        <td>BACK-END</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+
+### 5.2.4.5.Execution Evidence for Sprint Review.
+Para el presente sprint, se desplego la versión final de la web application completamente funcional, cumpliendo los technical stories correspondientes. También se mostrará evidencia del despliegue final de la landing page y frontend.
+
+BACKEND:
+
+TS-17
+
+![alt text](./sprint-imgs/image-10.png)
+
+TS-18:
+
+![alt text](./sprint-imgs/image-11.png)
+
+![alt text](./sprint-imgs/image-12.png)
+
+FRONTEND:
+
+LANDING PAGE:
+
+![alt text](./sprint-imgs/image-6.png)
+
+![alt text](./sprint-imgs/image-13.png)
+
+![alt text](./sprint-imgs/image-14.png)
+
+![alt text](./sprint-imgs/image-15.png)
+
+![alt text](./sprint-imgs/image-16.png)
+
+![alt text](./sprint-imgs/image-17.png)
+
+### 5.2.4.6.Services Documentation Evidence for Sprint Review.
+Para el Sprint 3 se planifico abarcar las mejoras del frontend y la creación del back-end.
+<div align="justify">
+	Web Service:
+	<table>
+		<tr>
+        <td>HTTP Method</td>
+        <td>Endpoint</td>
+        <td>Action</td>
+        <td>Summary</td>
+        <td>Parameters</td>
+        <td>Response</td>
+    </tr>
+    		<tr>
+        <td>Delete</td>
+        <td>/api/v1/user/{userId}</td>
+        <td>Delete User By Id</td>
+        <td>Deletes a User by id</td>
+        <td>UserId(path)</td>
+        <td>User deleted</td>
+    </tr>
+    		<tr>
+        <td>Patch</td>
+        <td>/api/v1/user/{userId}</td>
+        <td>Update User paramters</td>
+        <td>Update User attributes</td>
+        <td>UserId(path)</td>
+        <td>User updated successfully</td>
+    </tr>
+    		<tr>
+        <td>Delete</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    		<tr>
+        <td>Patch</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    		<tr>
+        <td>Delete</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    		<tr>
+        <td>Patch</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+
+  </table>
+
+
+
+### 5.2.4.7.Software Deployment Evidence for Sprint Review.
+Para el despliegue de la versión final del backend se usó Azure y para la versión final de la landing page y frontend se usó Netlify.
+
+
+BACKEND:
+
+![alt text](./sprint-imgs/image-1.png)
+
+![alt text](./sprint-imgs/image-2.png)
+
+![alt text](./sprint-imgs/image-3.png)
+
+link: https://peruventuraapi.azurewebsites.net/swagger/index.html 
+
+FRONTEND:
+
+LANDING PAGE:
+
+![alt text](./sprint-imgs/image-4.png)
+
+![alt text](./sprint-imgs/image-5.png)
+
+![alt text](./sprint-imgs/image-6.png)
+
+link: https://main--peruventura.netlify.app 
+
+### 5.2.4.8.Team Collaboration Insights during Sprint.
+
+![alt text](./sprint-imgs/image-7.png)
+
+![alt text](./sprint-imgs/image-8.png)
+
+Gitflow: 
+
+![alt text](./sprint-imgs/image-9.png)
+
 ## 5.3. Validation Interviews.
 ### 5.3.1. Diseño de Entrevistas.
 #### Información del Entrevistado
@@ -4420,8 +4866,10 @@ Cambiar todos los textos que se refieran a "workshop" a "promoción" en la inter
 
 
 ## 5.4. Video About-the-Product.
-<img src="./imgs/About-the-Product.png" alt="About-the-Product">
-Enlace: [Video]()
+
+<img src="./resources-img/about-the-product.png" alt="About-the-Product">
+
+Enlace:  [Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202219186_upc_edu_pe/EcOC0qpfd-BFuyJzrmRa7twBdr_OXXl9HK0B6TY3KTUrCg?e=OIm6jm&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6Mi45Nn19)
 
 ### Conclusiones
 
