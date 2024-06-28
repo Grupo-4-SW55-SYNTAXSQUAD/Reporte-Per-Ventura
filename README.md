@@ -4995,7 +4995,28 @@ Resumen:
 
 El entrevistado, Santiago García, de 23 años ha sido emprendedor por un año con su local que fue abierto gracias a un préstamo. En esta entrevista nos da una opinión sincera sobre el aplicativo y cómo podríamos mejorar tanto en estilos como en funcionalidades.
 
+#### Segmento 3:
 
+Geovana Santos
+
+● Sexo: Femenino
+
+● Edad: 52 años
+
+● Distrito en el que vive: Magdalena del Mar
+
+● Link: https://youtu.be/RWKfr1sPSdI
+
+● Momento en el que inicia: 0:00 
+
+● Duración: 3:07
+
+● Entrevistador: David Bryan Rodriguez Santos
+
+Resumen:
+El entrevistado, Geovana Santos, de 52 años ha sido una turista y ha explicado que no ha tenido casi ningun problema con la aplicación web, aunque tuvo unos pequeños incovenientes con la sección de promociones, pero le gusto la página.
+
+### Segmento 4:
 
 Carlos Fernandez 
 
